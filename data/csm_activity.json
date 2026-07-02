@@ -1,0 +1,2531 @@
+[
+  {
+    "company_id": "apiary",
+    "date": "2025-11-01",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Customer requested implementation guidance for CI Visibility workflows."
+  },
+  {
+    "company_id": "apiary",
+    "date": "2025-11-08",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Onboarding session focused on agent configuration and dashboard setup."
+  },
+  {
+    "company_id": "apiary",
+    "date": "2025-11-15",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Light check-in following extended period of low engagement."
+  },
+  {
+    "company_id": "apiary",
+    "date": "2025-11-22",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Walked through best practices for tagging and host grouping."
+  },
+  {
+    "company_id": "apiary",
+    "date": "2025-12-01",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Follow-up outreach sent after limited platform adoption during pilot period."
+  },
+  {
+    "company_id": "apiary",
+    "date": "2025-12-11",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Onboarding session focused on agent configuration and dashboard setup."
+  },
+  {
+    "company_id": "apiary",
+    "date": "2026-02-19",
+    "activity_type": "support_escalation",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Onboarding session focused on agent configuration and dashboard setup."
+  },
+  {
+    "company_id": "apiary",
+    "date": "2026-03-27",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Follow-up outreach sent after limited platform adoption during pilot period."
+  },
+  {
+    "company_id": "apiary",
+    "date": "2026-04-06",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Introductory meeting with new executive sponsor to review observability roadmap and renewal goals."
+  },
+  {
+    "company_id": "bereal",
+    "date": "2025-11-01",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Customer flagged inconsistent dashboard performance and delayed alert delivery."
+  },
+  {
+    "company_id": "bereal",
+    "date": "2025-12-26",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "end_user",
+    "sentiment": "yellow",
+    "notes": "Reactive follow-up after critical alert failure during deployment window."
+  },
+  {
+    "company_id": "bereal",
+    "date": "2026-02-07",
+    "activity_type": "slack_message",
+    "initiated_by": "customer",
+    "contact": "end_user",
+    "sentiment": "red",
+    "notes": "No response to previous outreach attempts from champion."
+  },
+  {
+    "company_id": "carta",
+    "date": "2025-11-01",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "unknown",
+    "sentiment": "yellow",
+    "notes": "Customer flagged inconsistent dashboard performance and delayed alert delivery."
+  },
+  {
+    "company_id": "carta",
+    "date": "2025-12-26",
+    "activity_type": "email",
+    "initiated_by": "customer",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Support escalation opened following complaints about log ingestion latency."
+  },
+  {
+    "company_id": "carta",
+    "date": "2026-02-19",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "unknown",
+    "sentiment": "red",
+    "notes": "Customer flagged inconsistent dashboard performance and delayed alert delivery."
+  },
+  {
+    "company_id": "carta",
+    "date": "2026-02-27",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "end_user",
+    "sentiment": "yellow",
+    "notes": "Support escalation opened following complaints about log ingestion latency."
+  },
+  {
+    "company_id": "clerk",
+    "date": "2025-11-01",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "executive_sponsor",
+    "sentiment": "yellow",
+    "notes": "Reviewed dashboard usage patterns ahead of new environment rollout."
+  },
+  {
+    "company_id": "clerk",
+    "date": "2025-11-15",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Reviewed dashboard usage patterns ahead of new environment rollout."
+  },
+  {
+    "company_id": "clerk",
+    "date": "2025-12-01",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "yellow",
+    "notes": "Discussed infrastructure scaling plans tied to upcoming product launch."
+  },
+  {
+    "company_id": "clerk",
+    "date": "2025-12-16",
+    "activity_type": "support_escalation",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Reviewed dashboard usage patterns ahead of new environment rollout."
+  },
+  {
+    "company_id": "clerk",
+    "date": "2025-12-31",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Customer shared positive feedback on observability coverage and deployment visibility."
+  },
+  {
+    "company_id": "clerk",
+    "date": "2026-01-25",
+    "activity_type": "email",
+    "initiated_by": "customer",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Reviewed dashboard usage patterns ahead of new environment rollout."
+  },
+  {
+    "company_id": "clerk",
+    "date": "2026-02-19",
+    "activity_type": "support_escalation",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Reviewed dashboard usage patterns ahead of new environment rollout."
+  },
+  {
+    "company_id": "clerk",
+    "date": "2026-02-23",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Reviewed dashboard usage patterns ahead of new environment rollout."
+  },
+  {
+    "company_id": "cohere",
+    "date": "2025-11-26",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "end_user",
+    "sentiment": "yellow",
+    "notes": "Recent project spike increased infrastructure monitoring activity significantly."
+  },
+  {
+    "company_id": "cohere",
+    "date": "2025-11-27",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Discussed upcoming model release and associated infrastructure load expectations."
+  },
+  {
+    "company_id": "cohere",
+    "date": "2025-12-05",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Recent project spike increased infrastructure monitoring activity significantly."
+  },
+  {
+    "company_id": "cohere",
+    "date": "2026-01-20",
+    "activity_type": "support_escalation",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "red",
+    "notes": "Discussed upcoming model release and associated infrastructure load expectations."
+  },
+  {
+    "company_id": "cohere",
+    "date": "2026-01-28",
+    "activity_type": "slack_message",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Customer usage patterns fluctuating due to shifting research workloads."
+  },
+  {
+    "company_id": "cohere",
+    "date": "2026-02-18",
+    "activity_type": "support_escalation",
+    "initiated_by": "csm",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Executive sponsor mentioned experimentation cycles driving unpredictable utilization."
+  },
+  {
+    "company_id": "cohere",
+    "date": "2026-03-19",
+    "activity_type": "qbr",
+    "initiated_by": "customer",
+    "contact": "end_user",
+    "sentiment": "red",
+    "notes": "Customer usage patterns fluctuating due to shifting research workloads."
+  },
+  {
+    "company_id": "cohere",
+    "date": "2026-04-08",
+    "activity_type": "email",
+    "initiated_by": "customer",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Champion noted reorg may shift platform ownership in coming quarter."
+  },
+  {
+    "company_id": "convoy",
+    "date": "2025-11-01",
+    "activity_type": "email",
+    "initiated_by": "customer",
+    "contact": "end_user",
+    "sentiment": "yellow",
+    "notes": "Reactive follow-up after critical alert failure during deployment window."
+  },
+  {
+    "company_id": "convoy",
+    "date": "2025-12-26",
+    "activity_type": "qbr",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Support escalation opened following complaints about log ingestion latency."
+  },
+  {
+    "company_id": "convoy",
+    "date": "2026-02-03",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "red",
+    "notes": "No response to previous outreach attempts from champion."
+  },
+  {
+    "company_id": "descript",
+    "date": "2025-11-01",
+    "activity_type": "support_escalation",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Champion outlined increased monitoring needs as headcount grows."
+  },
+  {
+    "company_id": "descript",
+    "date": "2025-11-15",
+    "activity_type": "email",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Renewal planning conversation suggested possible expansion into additional teams."
+  },
+  {
+    "company_id": "descript",
+    "date": "2025-12-01",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Renewal planning conversation suggested possible expansion into additional teams."
+  },
+  {
+    "company_id": "descript",
+    "date": "2025-12-16",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "executive_sponsor",
+    "sentiment": "yellow",
+    "notes": "Customer shared positive feedback on observability coverage and deployment visibility."
+  },
+  {
+    "company_id": "descript",
+    "date": "2025-12-31",
+    "activity_type": "support_escalation",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Champion outlined increased monitoring needs as headcount grows."
+  },
+  {
+    "company_id": "descript",
+    "date": "2026-01-25",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Renewal planning conversation suggested possible expansion into additional teams."
+  },
+  {
+    "company_id": "descript",
+    "date": "2026-02-19",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Customer shared positive feedback on observability coverage and deployment visibility."
+  },
+  {
+    "company_id": "descript",
+    "date": "2026-03-11",
+    "activity_type": "slack_message",
+    "initiated_by": "customer",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Champion outlined increased monitoring needs as headcount grows."
+  },
+  {
+    "company_id": "descript",
+    "date": "2026-03-17",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Customer shared positive feedback on observability coverage and deployment visibility."
+  },
+  {
+    "company_id": "fast",
+    "date": "2025-11-01",
+    "activity_type": "qbr",
+    "initiated_by": "customer",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Customer flagged inconsistent dashboard performance and delayed alert delivery."
+  },
+  {
+    "company_id": "fast",
+    "date": "2025-12-26",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Reactive follow-up after critical alert failure during deployment window."
+  },
+  {
+    "company_id": "fast",
+    "date": "2026-02-17",
+    "activity_type": "qbr",
+    "initiated_by": "customer",
+    "contact": "unknown",
+    "sentiment": "red",
+    "notes": "Support escalation opened following complaints about log ingestion latency."
+  },
+  {
+    "company_id": "fastly",
+    "date": "2025-11-01",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Routine check-in confirmed current observability coverage remains stable."
+  },
+  {
+    "company_id": "fastly",
+    "date": "2025-11-29",
+    "activity_type": "qbr",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Champion shared roadmap updates for internal infrastructure modernization."
+  },
+  {
+    "company_id": "fastly",
+    "date": "2025-12-27",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Champion shared roadmap updates for internal infrastructure modernization."
+  },
+  {
+    "company_id": "fastly",
+    "date": "2026-01-24",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "executive_sponsor",
+    "sentiment": "yellow",
+    "notes": "Quarterly business review completed with positive feedback on uptime visibility."
+  },
+  {
+    "company_id": "fastly",
+    "date": "2026-02-21",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Quarterly business review completed with positive feedback on uptime visibility."
+  },
+  {
+    "company_id": "fastly",
+    "date": "2026-03-21",
+    "activity_type": "slack_message",
+    "initiated_by": "customer",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Reviewed monthly usage report; no material changes flagged."
+  },
+  {
+    "company_id": "fastly",
+    "date": "2026-04-05",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "executive_sponsor",
+    "sentiment": "yellow",
+    "notes": "Reviewed monthly usage report; no material changes flagged."
+  },
+  {
+    "company_id": "grafana-labs",
+    "date": "2025-11-01",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Reviewed monthly usage report; no material changes flagged."
+  },
+  {
+    "company_id": "grafana-labs",
+    "date": "2025-11-29",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Champion shared roadmap updates for internal infrastructure modernization."
+  },
+  {
+    "company_id": "grafana-labs",
+    "date": "2025-12-27",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Champion shared roadmap updates for internal infrastructure modernization."
+  },
+  {
+    "company_id": "grafana-labs",
+    "date": "2026-01-24",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "end_user",
+    "sentiment": "yellow",
+    "notes": "Reviewed monthly usage report; no material changes flagged."
+  },
+  {
+    "company_id": "grafana-labs",
+    "date": "2026-02-21",
+    "activity_type": "qbr",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Quarterly business review completed with positive feedback on uptime visibility."
+  },
+  {
+    "company_id": "grafana-labs",
+    "date": "2026-03-21",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Reviewed monthly usage report; no material changes flagged."
+  },
+  {
+    "company_id": "grafana-labs",
+    "date": "2026-04-15",
+    "activity_type": "support_escalation",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Reviewed monthly usage report; no material changes flagged."
+  },
+  {
+    "company_id": "hashicorp",
+    "date": "2025-11-01",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Champion shared roadmap updates for internal infrastructure modernization."
+  },
+  {
+    "company_id": "hashicorp",
+    "date": "2025-11-29",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Reviewed monthly usage report; no material changes flagged."
+  },
+  {
+    "company_id": "hashicorp",
+    "date": "2025-12-27",
+    "activity_type": "slack_message",
+    "initiated_by": "customer",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Routine check-in confirmed current observability coverage remains stable."
+  },
+  {
+    "company_id": "hashicorp",
+    "date": "2026-01-24",
+    "activity_type": "support_escalation",
+    "initiated_by": "csm",
+    "contact": "unknown",
+    "sentiment": "yellow",
+    "notes": "Reviewed monthly usage report; no material changes flagged."
+  },
+  {
+    "company_id": "hashicorp",
+    "date": "2026-02-21",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Champion shared roadmap updates for internal infrastructure modernization."
+  },
+  {
+    "company_id": "hashicorp",
+    "date": "2026-03-21",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "executive_sponsor",
+    "sentiment": "yellow",
+    "notes": "Champion shared roadmap updates for internal infrastructure modernization."
+  },
+  {
+    "company_id": "hashicorp",
+    "date": "2026-04-17",
+    "activity_type": "slack_message",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Routine check-in confirmed current observability coverage remains stable."
+  },
+  {
+    "company_id": "hugging-face",
+    "date": "2025-11-11",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "red",
+    "notes": "Recent project spike increased infrastructure monitoring activity significantly."
+  },
+  {
+    "company_id": "hugging-face",
+    "date": "2026-01-05",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "executive_sponsor",
+    "sentiment": "yellow",
+    "notes": "Champion noted reorg may shift platform ownership in coming quarter."
+  },
+  {
+    "company_id": "hugging-face",
+    "date": "2026-02-22",
+    "activity_type": "qbr",
+    "initiated_by": "customer",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Champion noted reorg may shift platform ownership in coming quarter."
+  },
+  {
+    "company_id": "hugging-face",
+    "date": "2026-03-07",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Executive sponsor mentioned experimentation cycles driving unpredictable utilization."
+  },
+  {
+    "company_id": "hugging-face",
+    "date": "2026-03-09",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Recent project spike increased infrastructure monitoring activity significantly."
+  },
+  {
+    "company_id": "hugging-face",
+    "date": "2026-04-01",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "red",
+    "notes": "Discussed upcoming model release and associated infrastructure load expectations."
+  },
+  {
+    "company_id": "hugging-face",
+    "date": "2026-04-06",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Introductory meeting with new executive sponsor to review observability roadmap and renewal goals."
+  },
+  {
+    "company_id": "inngest",
+    "date": "2025-11-01",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Follow-up outreach sent after limited platform adoption during pilot period."
+  },
+  {
+    "company_id": "inngest",
+    "date": "2025-11-08",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Follow-up outreach sent after limited platform adoption during pilot period."
+  },
+  {
+    "company_id": "inngest",
+    "date": "2025-11-15",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Customer requested implementation guidance for CI Visibility workflows."
+  },
+  {
+    "company_id": "inngest",
+    "date": "2025-11-22",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Light check-in following extended period of low engagement."
+  },
+  {
+    "company_id": "inngest",
+    "date": "2025-12-01",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Onboarding session focused on agent configuration and dashboard setup."
+  },
+  {
+    "company_id": "inngest",
+    "date": "2025-12-11",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Light check-in following extended period of low engagement."
+  },
+  {
+    "company_id": "inngest",
+    "date": "2026-02-19",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "yellow",
+    "notes": "Light check-in following extended period of low engagement."
+  },
+  {
+    "company_id": "inngest",
+    "date": "2026-03-31",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Light check-in following extended period of low engagement."
+  },
+  {
+    "company_id": "launchdarkly",
+    "date": "2025-11-01",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Champion shared roadmap updates for internal infrastructure modernization."
+  },
+  {
+    "company_id": "launchdarkly",
+    "date": "2025-11-29",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Quarterly business review completed with positive feedback on uptime visibility."
+  },
+  {
+    "company_id": "launchdarkly",
+    "date": "2025-12-27",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Reviewed monthly usage report; no material changes flagged."
+  },
+  {
+    "company_id": "launchdarkly",
+    "date": "2026-01-24",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "end_user",
+    "sentiment": "yellow",
+    "notes": "Discussed minor configuration optimizations during regular sync."
+  },
+  {
+    "company_id": "launchdarkly",
+    "date": "2026-02-21",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Champion shared roadmap updates for internal infrastructure modernization."
+  },
+  {
+    "company_id": "launchdarkly",
+    "date": "2026-03-21",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Discussed minor configuration optimizations during regular sync."
+  },
+  {
+    "company_id": "launchdarkly",
+    "date": "2026-04-09",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Discussed minor configuration optimizations during regular sync."
+  },
+  {
+    "company_id": "linear",
+    "date": "2025-11-01",
+    "activity_type": "email",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Discussed infrastructure scaling plans tied to upcoming product launch."
+  },
+  {
+    "company_id": "linear",
+    "date": "2025-11-15",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Discussed infrastructure scaling plans tied to upcoming product launch."
+  },
+  {
+    "company_id": "linear",
+    "date": "2025-12-01",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Renewal planning conversation suggested possible expansion into additional teams."
+  },
+  {
+    "company_id": "linear",
+    "date": "2025-12-16",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Renewal planning conversation suggested possible expansion into additional teams."
+  },
+  {
+    "company_id": "linear",
+    "date": "2025-12-31",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Customer shared positive feedback on observability coverage and deployment visibility."
+  },
+  {
+    "company_id": "linear",
+    "date": "2026-01-25",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Champion outlined increased monitoring needs as headcount grows."
+  },
+  {
+    "company_id": "linear",
+    "date": "2026-02-19",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Customer shared positive feedback on observability coverage and deployment visibility."
+  },
+  {
+    "company_id": "linear",
+    "date": "2026-03-10",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Discussed infrastructure scaling plans tied to upcoming product launch."
+  },
+  {
+    "company_id": "mistral",
+    "date": "2025-12-28",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "red",
+    "notes": "Customer usage patterns fluctuating due to shifting research workloads."
+  },
+  {
+    "company_id": "mistral",
+    "date": "2026-01-25",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "end_user",
+    "sentiment": "red",
+    "notes": "Recent project spike increased infrastructure monitoring activity significantly."
+  },
+  {
+    "company_id": "mistral",
+    "date": "2026-02-27",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Recent project spike increased infrastructure monitoring activity significantly."
+  },
+  {
+    "company_id": "mistral",
+    "date": "2026-03-19",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "red",
+    "notes": "Discussed upcoming model release and associated infrastructure load expectations."
+  },
+  {
+    "company_id": "mistral",
+    "date": "2026-03-23",
+    "activity_type": "qbr",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "red",
+    "notes": "Executive sponsor mentioned experimentation cycles driving unpredictable utilization."
+  },
+  {
+    "company_id": "mistral",
+    "date": "2026-03-26",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "red",
+    "notes": "Customer usage patterns fluctuating due to shifting research workloads."
+  },
+  {
+    "company_id": "mistral",
+    "date": "2026-04-17",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "unknown",
+    "sentiment": "yellow",
+    "notes": "Champion noted reorg may shift platform ownership in coming quarter."
+  },
+  {
+    "company_id": "netlify",
+    "date": "2025-11-01",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "executive_sponsor",
+    "sentiment": "yellow",
+    "notes": "Quarterly business review completed with positive feedback on uptime visibility."
+  },
+  {
+    "company_id": "netlify",
+    "date": "2025-11-29",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Reviewed monthly usage report; no material changes flagged."
+  },
+  {
+    "company_id": "netlify",
+    "date": "2025-12-27",
+    "activity_type": "qbr",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Discussed minor configuration optimizations during regular sync."
+  },
+  {
+    "company_id": "netlify",
+    "date": "2026-01-24",
+    "activity_type": "slack_message",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Reviewed monthly usage report; no material changes flagged."
+  },
+  {
+    "company_id": "netlify",
+    "date": "2026-02-21",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Discussed minor configuration optimizations during regular sync."
+  },
+  {
+    "company_id": "netlify",
+    "date": "2026-03-21",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Discussed minor configuration optimizations during regular sync."
+  },
+  {
+    "company_id": "netlify",
+    "date": "2026-04-04",
+    "activity_type": "qbr",
+    "initiated_by": "customer",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Routine check-in confirmed current observability coverage remains stable."
+  },
+  {
+    "company_id": "novu",
+    "date": "2025-11-01",
+    "activity_type": "support_escalation",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Walked through best practices for tagging and host grouping."
+  },
+  {
+    "company_id": "novu",
+    "date": "2025-11-08",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Follow-up outreach sent after limited platform adoption during pilot period."
+  },
+  {
+    "company_id": "novu",
+    "date": "2025-11-15",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Light check-in following extended period of low engagement."
+  },
+  {
+    "company_id": "novu",
+    "date": "2025-11-22",
+    "activity_type": "support_escalation",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Follow-up outreach sent after limited platform adoption during pilot period."
+  },
+  {
+    "company_id": "novu",
+    "date": "2025-12-01",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Customer requested implementation guidance for CI Visibility workflows."
+  },
+  {
+    "company_id": "novu",
+    "date": "2025-12-11",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Walked through best practices for tagging and host grouping."
+  },
+  {
+    "company_id": "novu",
+    "date": "2026-02-19",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "executive_sponsor",
+    "sentiment": "yellow",
+    "notes": "Walked through best practices for tagging and host grouping."
+  },
+  {
+    "company_id": "novu",
+    "date": "2026-04-06",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Onboarding session focused on agent configuration and dashboard setup."
+  },
+  {
+    "company_id": "olive-ai",
+    "date": "2025-11-01",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "end_user",
+    "sentiment": "yellow",
+    "notes": "Support escalation opened following complaints about log ingestion latency."
+  },
+  {
+    "company_id": "olive-ai",
+    "date": "2025-12-26",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "No response to previous outreach attempts from champion."
+  },
+  {
+    "company_id": "olive-ai",
+    "date": "2026-02-19",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "red",
+    "notes": "Reactive follow-up after critical alert failure during deployment window."
+  },
+  {
+    "company_id": "olive-ai",
+    "date": "2026-02-28",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "executive_sponsor",
+    "sentiment": "red",
+    "notes": "Support escalation opened following complaints about log ingestion latency."
+  },
+  {
+    "company_id": "pagerduty",
+    "date": "2025-11-01",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Discussed minor configuration optimizations during regular sync."
+  },
+  {
+    "company_id": "pagerduty",
+    "date": "2025-11-29",
+    "activity_type": "slack_message",
+    "initiated_by": "customer",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Routine check-in confirmed current observability coverage remains stable."
+  },
+  {
+    "company_id": "pagerduty",
+    "date": "2025-12-27",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Reviewed monthly usage report; no material changes flagged."
+  },
+  {
+    "company_id": "pagerduty",
+    "date": "2026-01-24",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Discussed minor configuration optimizations during regular sync."
+  },
+  {
+    "company_id": "pagerduty",
+    "date": "2026-02-21",
+    "activity_type": "email",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Quarterly business review completed with positive feedback on uptime visibility."
+  },
+  {
+    "company_id": "pagerduty",
+    "date": "2026-03-21",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Champion shared roadmap updates for internal infrastructure modernization."
+  },
+  {
+    "company_id": "pagerduty",
+    "date": "2026-04-18",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "unknown",
+    "sentiment": "green",
+    "notes": "Routine check-in confirmed current observability coverage remains stable."
+  },
+  {
+    "company_id": "pagerduty",
+    "date": "2026-04-20",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Discussed minor configuration optimizations during regular sync."
+  },
+  {
+    "company_id": "permitio",
+    "date": "2025-11-01",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Onboarding session focused on agent configuration and dashboard setup."
+  },
+  {
+    "company_id": "permitio",
+    "date": "2025-11-08",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Walked through best practices for tagging and host grouping."
+  },
+  {
+    "company_id": "permitio",
+    "date": "2025-11-15",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Onboarding session focused on agent configuration and dashboard setup."
+  },
+  {
+    "company_id": "permitio",
+    "date": "2025-11-22",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Customer requested implementation guidance for CI Visibility workflows."
+  },
+  {
+    "company_id": "permitio",
+    "date": "2025-12-01",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Customer requested implementation guidance for CI Visibility workflows."
+  },
+  {
+    "company_id": "permitio",
+    "date": "2025-12-11",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Light check-in following extended period of low engagement."
+  },
+  {
+    "company_id": "permitio",
+    "date": "2026-02-19",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "executive_sponsor",
+    "sentiment": "yellow",
+    "notes": "Walked through best practices for tagging and host grouping."
+  },
+  {
+    "company_id": "permitio",
+    "date": "2026-03-31",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Light check-in following extended period of low engagement."
+  },
+  {
+    "company_id": "plastiq",
+    "date": "2025-11-01",
+    "activity_type": "email",
+    "initiated_by": "customer",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Customer expressed frustration with feature gaps and roadmap timing."
+  },
+  {
+    "company_id": "plastiq",
+    "date": "2025-12-26",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Reactive follow-up after critical alert failure during deployment window."
+  },
+  {
+    "company_id": "plastiq",
+    "date": "2026-02-10",
+    "activity_type": "email",
+    "initiated_by": "customer",
+    "contact": "end_user",
+    "sentiment": "red",
+    "notes": "Support escalation opened following complaints about log ingestion latency."
+  },
+  {
+    "company_id": "replit",
+    "date": "2025-11-02",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "red",
+    "notes": "Champion noted reorg may shift platform ownership in coming quarter."
+  },
+  {
+    "company_id": "replit",
+    "date": "2025-11-13",
+    "activity_type": "slack_message",
+    "initiated_by": "customer",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Discussed upcoming model release and associated infrastructure load expectations."
+  },
+  {
+    "company_id": "replit",
+    "date": "2025-12-01",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Executive sponsor mentioned experimentation cycles driving unpredictable utilization."
+  },
+  {
+    "company_id": "replit",
+    "date": "2025-12-30",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "executive_sponsor",
+    "sentiment": "yellow",
+    "notes": "Champion noted reorg may shift platform ownership in coming quarter."
+  },
+  {
+    "company_id": "replit",
+    "date": "2026-02-17",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Champion noted reorg may shift platform ownership in coming quarter."
+  },
+  {
+    "company_id": "replit",
+    "date": "2026-03-14",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "executive_sponsor",
+    "sentiment": "yellow",
+    "notes": "Champion noted reorg may shift platform ownership in coming quarter."
+  },
+  {
+    "company_id": "replit",
+    "date": "2026-03-18",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "red",
+    "notes": "Executive sponsor mentioned experimentation cycles driving unpredictable utilization."
+  },
+  {
+    "company_id": "replit",
+    "date": "2026-04-26",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Discussed upcoming model release and associated infrastructure load expectations."
+  },
+  {
+    "company_id": "resend",
+    "date": "2025-11-01",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "unknown",
+    "sentiment": "green",
+    "notes": "Walked through best practices for tagging and host grouping."
+  },
+  {
+    "company_id": "resend",
+    "date": "2025-11-08",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "unknown",
+    "sentiment": "green",
+    "notes": "Follow-up outreach sent after limited platform adoption during pilot period."
+  },
+  {
+    "company_id": "resend",
+    "date": "2025-11-15",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Walked through best practices for tagging and host grouping."
+  },
+  {
+    "company_id": "resend",
+    "date": "2025-11-22",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Customer requested implementation guidance for CI Visibility workflows."
+  },
+  {
+    "company_id": "resend",
+    "date": "2025-12-01",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Customer requested implementation guidance for CI Visibility workflows."
+  },
+  {
+    "company_id": "resend",
+    "date": "2025-12-11",
+    "activity_type": "support_escalation",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Onboarding session focused on agent configuration and dashboard setup."
+  },
+  {
+    "company_id": "resend",
+    "date": "2026-02-19",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Follow-up outreach sent after limited platform adoption during pilot period."
+  },
+  {
+    "company_id": "resend",
+    "date": "2026-04-04",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Follow-up outreach sent after limited platform adoption during pilot period."
+  },
+  {
+    "company_id": "retool",
+    "date": "2025-11-01",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "executive_sponsor",
+    "sentiment": "yellow",
+    "notes": "Champion outlined increased monitoring needs as headcount grows."
+  },
+  {
+    "company_id": "retool",
+    "date": "2025-11-15",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "executive_sponsor",
+    "sentiment": "yellow",
+    "notes": "Champion outlined increased monitoring needs as headcount grows."
+  },
+  {
+    "company_id": "retool",
+    "date": "2025-12-01",
+    "activity_type": "support_escalation",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "yellow",
+    "notes": "Discussed infrastructure scaling plans tied to upcoming product launch."
+  },
+  {
+    "company_id": "retool",
+    "date": "2025-12-16",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Champion outlined increased monitoring needs as headcount grows."
+  },
+  {
+    "company_id": "retool",
+    "date": "2025-12-31",
+    "activity_type": "email",
+    "initiated_by": "customer",
+    "contact": "end_user",
+    "sentiment": "yellow",
+    "notes": "Discussed infrastructure scaling plans tied to upcoming product launch."
+  },
+  {
+    "company_id": "retool",
+    "date": "2026-01-25",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Discussed infrastructure scaling plans tied to upcoming product launch."
+  },
+  {
+    "company_id": "retool",
+    "date": "2026-02-16",
+    "activity_type": "email",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Discussed infrastructure scaling plans tied to upcoming product launch."
+  },
+  {
+    "company_id": "rippling",
+    "date": "2025-11-01",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "executive_sponsor",
+    "sentiment": "yellow",
+    "notes": "Champion outlined increased monitoring needs as headcount grows."
+  },
+  {
+    "company_id": "rippling",
+    "date": "2025-11-15",
+    "activity_type": "qbr",
+    "initiated_by": "customer",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Customer shared positive feedback on observability coverage and deployment visibility."
+  },
+  {
+    "company_id": "rippling",
+    "date": "2025-12-01",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Customer shared positive feedback on observability coverage and deployment visibility."
+  },
+  {
+    "company_id": "rippling",
+    "date": "2025-12-16",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Discussed infrastructure scaling plans tied to upcoming product launch."
+  },
+  {
+    "company_id": "rippling",
+    "date": "2025-12-31",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Champion outlined increased monitoring needs as headcount grows."
+  },
+  {
+    "company_id": "rippling",
+    "date": "2026-01-25",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Discussed infrastructure scaling plans tied to upcoming product launch."
+  },
+  {
+    "company_id": "rippling",
+    "date": "2026-02-19",
+    "activity_type": "support_escalation",
+    "initiated_by": "csm",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Renewal planning conversation suggested possible expansion into additional teams."
+  },
+  {
+    "company_id": "rippling",
+    "date": "2026-03-11",
+    "activity_type": "support_escalation",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "yellow",
+    "notes": "Discussed infrastructure scaling plans tied to upcoming product launch."
+  },
+  {
+    "company_id": "rippling",
+    "date": "2026-04-16",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Introductory meeting with new executive sponsor to review observability roadmap and renewal goals."
+  },
+  {
+    "company_id": "rollbar",
+    "date": "2025-11-01",
+    "activity_type": "email",
+    "initiated_by": "customer",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Discussed minor configuration optimizations during regular sync."
+  },
+  {
+    "company_id": "rollbar",
+    "date": "2025-11-29",
+    "activity_type": "support_escalation",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Discussed minor configuration optimizations during regular sync."
+  },
+  {
+    "company_id": "rollbar",
+    "date": "2025-12-27",
+    "activity_type": "qbr",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Routine check-in confirmed current observability coverage remains stable."
+  },
+  {
+    "company_id": "rollbar",
+    "date": "2026-01-24",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "unknown",
+    "sentiment": "yellow",
+    "notes": "Routine check-in confirmed current observability coverage remains stable."
+  },
+  {
+    "company_id": "rollbar",
+    "date": "2026-02-21",
+    "activity_type": "slack_message",
+    "initiated_by": "customer",
+    "contact": "unknown",
+    "sentiment": "green",
+    "notes": "Quarterly business review completed with positive feedback on uptime visibility."
+  },
+  {
+    "company_id": "rollbar",
+    "date": "2026-03-21",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Discussed minor configuration optimizations during regular sync."
+  },
+  {
+    "company_id": "rollbar",
+    "date": "2026-04-18",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Quarterly business review completed with positive feedback on uptime visibility."
+  },
+  {
+    "company_id": "rollbar",
+    "date": "2026-04-20",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Routine check-in confirmed current observability coverage remains stable."
+  },
+  {
+    "company_id": "rollbar",
+    "date": "2026-04-23",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Introductory meeting with new executive sponsor to review observability roadmap and renewal goals."
+  },
+  {
+    "company_id": "runway-ml",
+    "date": "2025-11-22",
+    "activity_type": "email",
+    "initiated_by": "customer",
+    "contact": "end_user",
+    "sentiment": "red",
+    "notes": "Champion noted reorg may shift platform ownership in coming quarter."
+  },
+  {
+    "company_id": "runway-ml",
+    "date": "2026-01-10",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "red",
+    "notes": "Discussed upcoming model release and associated infrastructure load expectations."
+  },
+  {
+    "company_id": "runway-ml",
+    "date": "2026-01-22",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "executive_sponsor",
+    "sentiment": "red",
+    "notes": "Discussed upcoming model release and associated infrastructure load expectations."
+  },
+  {
+    "company_id": "runway-ml",
+    "date": "2026-01-31",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Discussed upcoming model release and associated infrastructure load expectations."
+  },
+  {
+    "company_id": "runway-ml",
+    "date": "2026-02-18",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Customer usage patterns fluctuating due to shifting research workloads."
+  },
+  {
+    "company_id": "runway-ml",
+    "date": "2026-03-04",
+    "activity_type": "support_escalation",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Champion noted reorg may shift platform ownership in coming quarter."
+  },
+  {
+    "company_id": "runway-ml",
+    "date": "2026-03-24",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Executive sponsor mentioned experimentation cycles driving unpredictable utilization."
+  },
+  {
+    "company_id": "runway-ml",
+    "date": "2026-04-07",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Discussed upcoming model release and associated infrastructure load expectations."
+  },
+  {
+    "company_id": "sentry",
+    "date": "2025-11-01",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Discussed minor configuration optimizations during regular sync."
+  },
+  {
+    "company_id": "sentry",
+    "date": "2025-11-29",
+    "activity_type": "slack_message",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Routine check-in confirmed current observability coverage remains stable."
+  },
+  {
+    "company_id": "sentry",
+    "date": "2025-12-27",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Routine check-in confirmed current observability coverage remains stable."
+  },
+  {
+    "company_id": "sentry",
+    "date": "2026-01-24",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Routine check-in confirmed current observability coverage remains stable."
+  },
+  {
+    "company_id": "sentry",
+    "date": "2026-02-21",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Champion shared roadmap updates for internal infrastructure modernization."
+  },
+  {
+    "company_id": "sentry",
+    "date": "2026-03-21",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Reviewed monthly usage report; no material changes flagged."
+  },
+  {
+    "company_id": "sentry",
+    "date": "2026-04-16",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Reviewed monthly usage report; no material changes flagged."
+  },
+  {
+    "company_id": "snyk",
+    "date": "2025-11-01",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Discussed minor configuration optimizations during regular sync."
+  },
+  {
+    "company_id": "snyk",
+    "date": "2025-11-29",
+    "activity_type": "email",
+    "initiated_by": "customer",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Quarterly business review completed with positive feedback on uptime visibility."
+  },
+  {
+    "company_id": "snyk",
+    "date": "2025-12-27",
+    "activity_type": "slack_message",
+    "initiated_by": "customer",
+    "contact": "end_user",
+    "sentiment": "yellow",
+    "notes": "Reviewed monthly usage report; no material changes flagged."
+  },
+  {
+    "company_id": "snyk",
+    "date": "2026-01-24",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Discussed minor configuration optimizations during regular sync."
+  },
+  {
+    "company_id": "snyk",
+    "date": "2026-02-21",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Champion shared roadmap updates for internal infrastructure modernization."
+  },
+  {
+    "company_id": "snyk",
+    "date": "2026-03-21",
+    "activity_type": "email",
+    "initiated_by": "customer",
+    "contact": "unknown",
+    "sentiment": "green",
+    "notes": "Champion shared roadmap updates for internal infrastructure modernization."
+  },
+  {
+    "company_id": "snyk",
+    "date": "2026-04-18",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Reviewed monthly usage report; no material changes flagged."
+  },
+  {
+    "company_id": "snyk",
+    "date": "2026-04-19",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Reviewed monthly usage report; no material changes flagged."
+  },
+  {
+    "company_id": "statuspage",
+    "date": "2025-11-01",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Routine check-in confirmed current observability coverage remains stable."
+  },
+  {
+    "company_id": "statuspage",
+    "date": "2025-11-29",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Quarterly business review completed with positive feedback on uptime visibility."
+  },
+  {
+    "company_id": "statuspage",
+    "date": "2025-12-27",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Quarterly business review completed with positive feedback on uptime visibility."
+  },
+  {
+    "company_id": "statuspage",
+    "date": "2026-01-24",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Routine check-in confirmed current observability coverage remains stable."
+  },
+  {
+    "company_id": "statuspage",
+    "date": "2026-02-21",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "end_user",
+    "sentiment": "yellow",
+    "notes": "Discussed minor configuration optimizations during regular sync."
+  },
+  {
+    "company_id": "statuspage",
+    "date": "2026-03-21",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "unknown",
+    "sentiment": "green",
+    "notes": "Discussed minor configuration optimizations during regular sync."
+  },
+  {
+    "company_id": "statuspage",
+    "date": "2026-04-16",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Quarterly business review completed with positive feedback on uptime visibility."
+  },
+  {
+    "company_id": "stytch",
+    "date": "2025-11-01",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Customer requested implementation guidance for CI Visibility workflows."
+  },
+  {
+    "company_id": "stytch",
+    "date": "2025-11-08",
+    "activity_type": "support_escalation",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Customer requested implementation guidance for CI Visibility workflows."
+  },
+  {
+    "company_id": "stytch",
+    "date": "2025-11-15",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Walked through best practices for tagging and host grouping."
+  },
+  {
+    "company_id": "stytch",
+    "date": "2025-11-22",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Walked through best practices for tagging and host grouping."
+  },
+  {
+    "company_id": "stytch",
+    "date": "2025-12-01",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Light check-in following extended period of low engagement."
+  },
+  {
+    "company_id": "stytch",
+    "date": "2025-12-11",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Walked through best practices for tagging and host grouping."
+  },
+  {
+    "company_id": "stytch",
+    "date": "2026-02-19",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "yellow",
+    "notes": "Walked through best practices for tagging and host grouping."
+  },
+  {
+    "company_id": "stytch",
+    "date": "2026-03-18",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "yellow",
+    "notes": "Walked through best practices for tagging and host grouping."
+  },
+  {
+    "company_id": "supabase",
+    "date": "2025-11-01",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Renewal planning conversation suggested possible expansion into additional teams."
+  },
+  {
+    "company_id": "supabase",
+    "date": "2025-11-15",
+    "activity_type": "email",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Reviewed dashboard usage patterns ahead of new environment rollout."
+  },
+  {
+    "company_id": "supabase",
+    "date": "2025-12-01",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Discussed infrastructure scaling plans tied to upcoming product launch."
+  },
+  {
+    "company_id": "supabase",
+    "date": "2025-12-16",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "executive_sponsor",
+    "sentiment": "yellow",
+    "notes": "Customer shared positive feedback on observability coverage and deployment visibility."
+  },
+  {
+    "company_id": "supabase",
+    "date": "2025-12-31",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Customer shared positive feedback on observability coverage and deployment visibility."
+  },
+  {
+    "company_id": "supabase",
+    "date": "2026-01-25",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "executive_sponsor",
+    "sentiment": "yellow",
+    "notes": "Champion outlined increased monitoring needs as headcount grows."
+  },
+  {
+    "company_id": "supabase",
+    "date": "2026-02-19",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Discussed infrastructure scaling plans tied to upcoming product launch."
+  },
+  {
+    "company_id": "supabase",
+    "date": "2026-02-24",
+    "activity_type": "qbr",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Reviewed dashboard usage patterns ahead of new environment rollout."
+  },
+  {
+    "company_id": "together-ai",
+    "date": "2025-11-23",
+    "activity_type": "email",
+    "initiated_by": "customer",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Champion noted reorg may shift platform ownership in coming quarter."
+  },
+  {
+    "company_id": "together-ai",
+    "date": "2025-12-04",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Champion noted reorg may shift platform ownership in coming quarter."
+  },
+  {
+    "company_id": "together-ai",
+    "date": "2025-12-22",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Executive sponsor mentioned experimentation cycles driving unpredictable utilization."
+  },
+  {
+    "company_id": "together-ai",
+    "date": "2025-12-23",
+    "activity_type": "support_escalation",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Customer usage patterns fluctuating due to shifting research workloads."
+  },
+  {
+    "company_id": "together-ai",
+    "date": "2026-01-18",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "red",
+    "notes": "Champion noted reorg may shift platform ownership in coming quarter."
+  },
+  {
+    "company_id": "together-ai",
+    "date": "2026-03-06",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "executive_sponsor",
+    "sentiment": "yellow",
+    "notes": "Executive sponsor mentioned experimentation cycles driving unpredictable utilization."
+  },
+  {
+    "company_id": "together-ai",
+    "date": "2026-04-20",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "red",
+    "notes": "Customer usage patterns fluctuating due to shifting research workloads."
+  },
+  {
+    "company_id": "triggerdev",
+    "date": "2025-11-01",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Onboarding session focused on agent configuration and dashboard setup."
+  },
+  {
+    "company_id": "triggerdev",
+    "date": "2025-11-08",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Walked through best practices for tagging and host grouping."
+  },
+  {
+    "company_id": "triggerdev",
+    "date": "2025-11-15",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "unknown",
+    "sentiment": "green",
+    "notes": "Light check-in following extended period of low engagement."
+  },
+  {
+    "company_id": "triggerdev",
+    "date": "2025-11-22",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "unknown",
+    "sentiment": "green",
+    "notes": "Light check-in following extended period of low engagement."
+  },
+  {
+    "company_id": "triggerdev",
+    "date": "2025-12-01",
+    "activity_type": "support_escalation",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Walked through best practices for tagging and host grouping."
+  },
+  {
+    "company_id": "triggerdev",
+    "date": "2025-12-11",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Walked through best practices for tagging and host grouping."
+  },
+  {
+    "company_id": "triggerdev",
+    "date": "2026-02-19",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "yellow",
+    "notes": "Onboarding session focused on agent configuration and dashboard setup."
+  },
+  {
+    "company_id": "triggerdev",
+    "date": "2026-03-20",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "executive_sponsor",
+    "sentiment": "yellow",
+    "notes": "Walked through best practices for tagging and host grouping."
+  },
+  {
+    "company_id": "turso",
+    "date": "2025-11-01",
+    "activity_type": "email",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Customer shared positive feedback on observability coverage and deployment visibility."
+  },
+  {
+    "company_id": "turso",
+    "date": "2025-11-15",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Renewal planning conversation suggested possible expansion into additional teams."
+  },
+  {
+    "company_id": "turso",
+    "date": "2025-12-01",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Discussed infrastructure scaling plans tied to upcoming product launch."
+  },
+  {
+    "company_id": "turso",
+    "date": "2025-12-16",
+    "activity_type": "support_escalation",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Renewal planning conversation suggested possible expansion into additional teams."
+  },
+  {
+    "company_id": "turso",
+    "date": "2025-12-31",
+    "activity_type": "qbr",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Reviewed dashboard usage patterns ahead of new environment rollout."
+  },
+  {
+    "company_id": "turso",
+    "date": "2026-01-25",
+    "activity_type": "qbr",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Champion outlined increased monitoring needs as headcount grows."
+  },
+  {
+    "company_id": "turso",
+    "date": "2026-02-19",
+    "activity_type": "email",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Reviewed dashboard usage patterns ahead of new environment rollout."
+  },
+  {
+    "company_id": "veev",
+    "date": "2025-11-01",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "unknown",
+    "sentiment": "green",
+    "notes": "Customer expressed frustration with feature gaps and roadmap timing."
+  },
+  {
+    "company_id": "veev",
+    "date": "2025-12-26",
+    "activity_type": "qbr",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Reactive follow-up after critical alert failure during deployment window."
+  },
+  {
+    "company_id": "veev",
+    "date": "2026-02-19",
+    "activity_type": "qbr",
+    "initiated_by": "customer",
+    "contact": "end_user",
+    "sentiment": "red",
+    "notes": "Customer flagged inconsistent dashboard performance and delayed alert delivery."
+  },
+  {
+    "company_id": "veev",
+    "date": "2026-02-26",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "unknown",
+    "sentiment": "red",
+    "notes": "Reactive follow-up after critical alert failure during deployment window."
+  },
+  {
+    "company_id": "vercel",
+    "date": "2025-11-01",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Discussed infrastructure scaling plans tied to upcoming product launch."
+  },
+  {
+    "company_id": "vercel",
+    "date": "2025-11-15",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Customer shared positive feedback on observability coverage and deployment visibility."
+  },
+  {
+    "company_id": "vercel",
+    "date": "2025-12-01",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Discussed infrastructure scaling plans tied to upcoming product launch."
+  },
+  {
+    "company_id": "vercel",
+    "date": "2025-12-16",
+    "activity_type": "support_escalation",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Reviewed dashboard usage patterns ahead of new environment rollout."
+  },
+  {
+    "company_id": "vercel",
+    "date": "2025-12-31",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Champion outlined increased monitoring needs as headcount grows."
+  },
+  {
+    "company_id": "vercel",
+    "date": "2026-01-25",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Champion outlined increased monitoring needs as headcount grows."
+  },
+  {
+    "company_id": "vercel",
+    "date": "2026-02-19",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Discussed infrastructure scaling plans tied to upcoming product launch."
+  },
+  {
+    "company_id": "vercel",
+    "date": "2026-03-11",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "executive_sponsor",
+    "sentiment": "yellow",
+    "notes": "Customer shared positive feedback on observability coverage and deployment visibility."
+  },
+  {
+    "company_id": "vercel",
+    "date": "2026-03-17",
+    "activity_type": "support_escalation",
+    "initiated_by": "csm",
+    "contact": "executive_sponsor",
+    "sentiment": "green",
+    "notes": "Discussed infrastructure scaling plans tied to upcoming product launch."
+  },
+  {
+    "company_id": "weights-biases",
+    "date": "2025-11-17",
+    "activity_type": "email",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "red",
+    "notes": "Discussed upcoming model release and associated infrastructure load expectations."
+  },
+  {
+    "company_id": "weights-biases",
+    "date": "2025-11-22",
+    "activity_type": "email",
+    "initiated_by": "customer",
+    "contact": "end_user",
+    "sentiment": "red",
+    "notes": "Customer usage patterns fluctuating due to shifting research workloads."
+  },
+  {
+    "company_id": "weights-biases",
+    "date": "2026-01-05",
+    "activity_type": "call",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Discussed upcoming model release and associated infrastructure load expectations."
+  },
+  {
+    "company_id": "weights-biases",
+    "date": "2026-01-11",
+    "activity_type": "email",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Executive sponsor mentioned experimentation cycles driving unpredictable utilization."
+  },
+  {
+    "company_id": "weights-biases",
+    "date": "2026-02-06",
+    "activity_type": "slack_message",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "yellow",
+    "notes": "Recent project spike increased infrastructure monitoring activity significantly."
+  },
+  {
+    "company_id": "weights-biases",
+    "date": "2026-02-07",
+    "activity_type": "slack_message",
+    "initiated_by": "customer",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Discussed upcoming model release and associated infrastructure load expectations."
+  },
+  {
+    "company_id": "weights-biases",
+    "date": "2026-03-21",
+    "activity_type": "slack_message",
+    "initiated_by": "customer",
+    "contact": "end_user",
+    "sentiment": "yellow",
+    "notes": "Customer usage patterns fluctuating due to shifting research workloads."
+  },
+  {
+    "company_id": "weights-biases",
+    "date": "2026-04-16",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Executive sponsor mentioned experimentation cycles driving unpredictable utilization."
+  },
+  {
+    "company_id": "zuplo",
+    "date": "2025-11-01",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Walked through best practices for tagging and host grouping."
+  },
+  {
+    "company_id": "zuplo",
+    "date": "2025-11-08",
+    "activity_type": "qbr",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Walked through best practices for tagging and host grouping."
+  },
+  {
+    "company_id": "zuplo",
+    "date": "2025-11-15",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Walked through best practices for tagging and host grouping."
+  },
+  {
+    "company_id": "zuplo",
+    "date": "2025-11-22",
+    "activity_type": "support_escalation",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Follow-up outreach sent after limited platform adoption during pilot period."
+  },
+  {
+    "company_id": "zuplo",
+    "date": "2025-12-01",
+    "activity_type": "slack_message",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "green",
+    "notes": "Follow-up outreach sent after limited platform adoption during pilot period."
+  },
+  {
+    "company_id": "zuplo",
+    "date": "2025-12-11",
+    "activity_type": "email",
+    "initiated_by": "csm",
+    "contact": "champion",
+    "sentiment": "green",
+    "notes": "Customer requested implementation guidance for CI Visibility workflows."
+  },
+  {
+    "company_id": "zuplo",
+    "date": "2026-02-19",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "yellow",
+    "notes": "Customer requested implementation guidance for CI Visibility workflows."
+  },
+  {
+    "company_id": "zuplo",
+    "date": "2026-03-19",
+    "activity_type": "call",
+    "initiated_by": "csm",
+    "contact": "end_user",
+    "sentiment": "yellow",
+    "notes": "Light check-in following extended period of low engagement."
+  }
+]

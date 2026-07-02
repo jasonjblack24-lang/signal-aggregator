@@ -1,0 +1,776 @@
+[
+  {
+    "company_id": "vercel",
+    "name": "Vercel",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Vercel&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Vercel Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Vercel",
+        "label": "Vercel Hacker News"
+      },
+      {
+        "type": "company_blog",
+        "url": "https://vercel.com/feeds/changelog.xml",
+        "query": null,
+        "label": "Vercel Blog"
+      }
+    ]
+  },
+  {
+    "company_id": "linear",
+    "name": "Linear",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Linear&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Linear Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Linear",
+        "label": "Linear Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "rippling",
+    "name": "Rippling",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Rippling&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Rippling Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Rippling",
+        "label": "Rippling Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "retool",
+    "name": "Retool",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Retool&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Retool Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Retool",
+        "label": "Retool Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "supabase",
+    "name": "Supabase",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Supabase&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Supabase Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Supabase",
+        "label": "Supabase Hacker News"
+      },
+      {
+        "type": "company_blog",
+        "url": "https://supabase.com/blog/rss.xml",
+        "query": null,
+        "label": "Supabase Blog"
+      }
+    ]
+  },
+  {
+    "company_id": "clerk",
+    "name": "Clerk",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Clerk&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Clerk Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Clerk",
+        "label": "Clerk Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "turso",
+    "name": "Turso",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Turso&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Turso Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Turso",
+        "label": "Turso Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "descript",
+    "name": "Descript",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Descript&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Descript Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Descript",
+        "label": "Descript Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "carta",
+    "name": "Carta",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Carta&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Carta Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Carta",
+        "label": "Carta Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "fast",
+    "name": "Fast",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Fast&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Fast Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Fast",
+        "label": "Fast Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "convoy",
+    "name": "Convoy",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Convoy&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Convoy Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Convoy",
+        "label": "Convoy Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "olive-ai",
+    "name": "Olive AI",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Olive+AI&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Olive AI Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Olive AI",
+        "label": "Olive AI Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "veev",
+    "name": "Veev",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Veev&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Veev Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Veev",
+        "label": "Veev Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "plastiq",
+    "name": "Plastiq",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Plastiq&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Plastiq Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Plastiq",
+        "label": "Plastiq Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "bereal",
+    "name": "BeReal",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=BeReal&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "BeReal Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "BeReal",
+        "label": "BeReal Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "resend",
+    "name": "Resend",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Resend&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Resend Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Resend",
+        "label": "Resend Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "triggerdev",
+    "name": "Trigger.dev",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Trigger.dev&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Trigger.dev Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Trigger.dev",
+        "label": "Trigger.dev Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "inngest",
+    "name": "Inngest",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Inngest&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Inngest Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Inngest",
+        "label": "Inngest Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "novu",
+    "name": "Novu",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Novu&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Novu Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Novu",
+        "label": "Novu Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "apiary",
+    "name": "Apiary",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Apiary&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Apiary Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Apiary",
+        "label": "Apiary Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "zuplo",
+    "name": "Zuplo",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Zuplo&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Zuplo Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Zuplo",
+        "label": "Zuplo Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "stytch",
+    "name": "Stytch",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Stytch&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Stytch Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Stytch",
+        "label": "Stytch Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "permitio",
+    "name": "Permit.io",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Permit.io&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Permit.io Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Permit.io",
+        "label": "Permit.io Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "snyk",
+    "name": "Snyk",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Snyk&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Snyk Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Snyk",
+        "label": "Snyk Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "launchdarkly",
+    "name": "LaunchDarkly",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=LaunchDarkly&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "LaunchDarkly Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "LaunchDarkly",
+        "label": "LaunchDarkly Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "grafana-labs",
+    "name": "Grafana Labs",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Grafana+Labs&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Grafana Labs Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Grafana Labs",
+        "label": "Grafana Labs Hacker News"
+      },
+      {
+        "type": "company_blog",
+        "url": "https://grafana.com/blog/news.xml",
+        "query": null,
+        "label": "Grafana Labs Blog"
+      }
+    ]
+  },
+  {
+    "company_id": "hashicorp",
+    "name": "Hashicorp",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Hashicorp&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Hashicorp Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Hashicorp",
+        "label": "Hashicorp Hacker News"
+      },
+      {
+        "type": "company_blog",
+        "url": "https://www.hashicorp.com/blog/feed.xml",
+        "query": null,
+        "label": "Hashicorp Blog"
+      }
+    ]
+  },
+  {
+    "company_id": "pagerduty",
+    "name": "PagerDuty",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=PagerDuty&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "PagerDuty Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "PagerDuty",
+        "label": "PagerDuty Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "statuspage",
+    "name": "Statuspage",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Statuspage&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Statuspage Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Statuspage",
+        "label": "Statuspage Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "rollbar",
+    "name": "Rollbar",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Rollbar&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Rollbar Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Rollbar",
+        "label": "Rollbar Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "sentry",
+    "name": "Sentry",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Sentry&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Sentry Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Sentry",
+        "label": "Sentry Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "netlify",
+    "name": "Netlify",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Netlify&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Netlify Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Netlify",
+        "label": "Netlify Hacker News"
+      },
+      {
+        "type": "company_blog",
+        "url": "https://www.netlify.com/blog/rss/",
+        "query": null,
+        "label": "Netlify Blog"
+      }
+    ]
+  },
+  {
+    "company_id": "fastly",
+    "name": "Fastly",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Fastly&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Fastly Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Fastly",
+        "label": "Fastly Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "replit",
+    "name": "Replit",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Replit&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Replit Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Replit",
+        "label": "Replit Hacker News"
+      },
+      {
+        "type": "company_blog",
+        "url": "https://blog.replit.com/rss.xml",
+        "query": null,
+        "label": "Replit Blog"
+      }
+    ]
+  },
+  {
+    "company_id": "hugging-face",
+    "name": "Hugging Face",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Hugging+Face&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Hugging Face Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Hugging Face",
+        "label": "Hugging Face Hacker News"
+      },
+      {
+        "type": "company_blog",
+        "url": "https://huggingface.co/blog/feed.xml",
+        "query": null,
+        "label": "Hugging Face Blog"
+      }
+    ]
+  },
+  {
+    "company_id": "weights-biases",
+    "name": "Weights & Biases",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Weights+&+Biases&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Weights & Biases Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Weights & Biases",
+        "label": "Weights & Biases Hacker News"
+      },
+      {
+        "type": "company_blog",
+        "url": "https://wandb.ai/site/rss.xml",
+        "query": null,
+        "label": "Weights & Biases Blog"
+      }
+    ]
+  },
+  {
+    "company_id": "runway-ml",
+    "name": "Runway ML",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Runway+ML&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Runway ML Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Runway ML",
+        "label": "Runway ML Hacker News"
+      },
+      {
+        "type": "company_blog",
+        "url": "https://research.runwayml.com/rss.xml",
+        "query": null,
+        "label": "Runway ML Blog"
+      }
+    ]
+  },
+  {
+    "company_id": "cohere",
+    "name": "Cohere",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Cohere&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Cohere Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Cohere",
+        "label": "Cohere Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "mistral",
+    "name": "Mistral",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Mistral&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Mistral Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Mistral",
+        "label": "Mistral Hacker News"
+      }
+    ]
+  },
+  {
+    "company_id": "together-ai",
+    "name": "Together AI",
+    "sources": [
+      {
+        "type": "google_news",
+        "url": "https://news.google.com/rss/search?q=Together+AI&hl=en-US&gl=US&ceid=US:en",
+        "query": null,
+        "label": "Together AI Google News"
+      },
+      {
+        "type": "hacker_news",
+        "url": "https://hn.algolia.com/api/v1/search",
+        "query": "Together AI",
+        "label": "Together AI Hacker News"
+      }
+    ]
+  }
+]

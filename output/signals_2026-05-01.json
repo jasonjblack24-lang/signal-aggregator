@@ -1,0 +1,3155 @@
+[
+  {
+    "company_id": "apiary",
+    "name": "Apiary",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.37,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.03,
+        "crossed_baseline": false
+      },
+      "Logs": {
+        "current_rate": 0.38,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.02,
+        "crossed_baseline": false
+      },
+      "RUM": {
+        "current_rate": 0.35,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.01,
+        "crossed_baseline": false
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 25,
+      "last_touch_sentiment": "green",
+      "sentiment_trajectory": "mixed",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "executive_sponsor",
+        "champion",
+        "champion",
+        "champion",
+        "end_user"
+      ],
+      "initiated_by_recent": "csm",
+      "touches_last_60d": 2,
+      "touches_last_90d": 3
+    },
+    "support": {
+      "tickets_last_30d": 0,
+      "tickets_last_60d": 3,
+      "tickets_last_90d": 4,
+      "severity_trend": "stable_low",
+      "category_concentration": null,
+      "open_count": 3
+    },
+    "external": {
+      "signal_count_90d": 12,
+      "notable_signals": [],
+      "signal_themes": []
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs",
+        "RUM"
+      ],
+      "renewal_days_out": 115,
+      "contract_age_days": 127,
+      "feature_breadth_avg": 2.7,
+      "arr": 659364
+    },
+    "anomalies": [
+      "Manifest note: New executive sponsor engagement introduced within the last 30 days."
+    ]
+  },
+  {
+    "company_id": "bereal",
+    "name": "BeReal",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.35,
+        "trend_90d": "declining",
+        "trend_30d": "volatile",
+        "delta_pct": -0.56,
+        "crossed_baseline": false
+      },
+      "Logs": {
+        "current_rate": 0.42,
+        "trend_90d": "declining",
+        "trend_30d": "declining",
+        "delta_pct": -0.48,
+        "crossed_baseline": false
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 83,
+      "last_touch_sentiment": "red",
+      "sentiment_trajectory": "drifting_red",
+      "champion_active": false,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "end_user",
+        "end_user",
+        "champion"
+      ],
+      "initiated_by_recent": "customer",
+      "touches_last_60d": 0,
+      "touches_last_90d": 1
+    },
+    "support": {
+      "tickets_last_30d": 8,
+      "tickets_last_60d": 13,
+      "tickets_last_90d": 13,
+      "severity_trend": "escalating",
+      "category_concentration": null,
+      "open_count": 4
+    },
+    "external": {
+      "signal_count_90d": 16,
+      "notable_signals": [
+        {
+          "date": "2026-04-24",
+          "headline": "Instagram Launches Instants App With Disappearing Photos to Rival Snapchat, BeReal - Gadgets 360",
+          "source": "news.google.com",
+          "theme": "product_launch"
+        }
+      ],
+      "signal_themes": [
+        "product_launch"
+      ]
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs"
+      ],
+      "renewal_days_out": 111,
+      "contract_age_days": 360,
+      "feature_breadth_avg": 4,
+      "arr": 788011
+    },
+    "anomalies": [
+      "Declining Logs utilization with inactive champion",
+      "Support severity escalating with minimal recent CSM engagement",
+      "External growth signal present (product_launch) without corresponding usage movement",
+      "Customer sentiment trending negative across recent interactions"
+    ]
+  },
+  {
+    "company_id": "carta",
+    "name": "Carta",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.4,
+        "trend_90d": "declining",
+        "trend_30d": "declining",
+        "delta_pct": -0.52,
+        "crossed_baseline": false
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 63,
+      "last_touch_sentiment": "yellow",
+      "sentiment_trajectory": "drifting_red",
+      "champion_active": false,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "end_user",
+        "unknown",
+        "executive_sponsor",
+        "unknown"
+      ],
+      "initiated_by_recent": "customer",
+      "touches_last_60d": 0,
+      "touches_last_90d": 2
+    },
+    "support": {
+      "tickets_last_30d": 2,
+      "tickets_last_60d": 9,
+      "tickets_last_90d": 12,
+      "severity_trend": "stable_high",
+      "category_concentration": null,
+      "open_count": 3
+    },
+    "external": {
+      "signal_count_90d": 15,
+      "notable_signals": [],
+      "signal_themes": []
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure"
+      ],
+      "renewal_days_out": 88,
+      "contract_age_days": 373,
+      "feature_breadth_avg": 4,
+      "arr": 206882
+    },
+    "anomalies": [
+      "Declining Infrastructure utilization with inactive champion",
+      "Renewal within 88 days with active risk signal",
+      "Customer sentiment trending negative across recent interactions"
+    ]
+  },
+  {
+    "company_id": "clerk",
+    "name": "Clerk",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 1.3,
+        "trend_90d": "increasing",
+        "trend_30d": "stable",
+        "delta_pct": 0.32,
+        "crossed_baseline": true
+      },
+      "Logs": {
+        "current_rate": 1.3,
+        "trend_90d": "increasing",
+        "trend_30d": "stable",
+        "delta_pct": 0.33,
+        "crossed_baseline": true
+      },
+      "RUM": {
+        "current_rate": 1.32,
+        "trend_90d": "increasing",
+        "trend_30d": "stable",
+        "delta_pct": 0.34,
+        "crossed_baseline": true
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 67,
+      "last_touch_sentiment": "yellow",
+      "sentiment_trajectory": "mixed",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "champion",
+        "champion",
+        "executive_sponsor",
+        "end_user",
+        "champion"
+      ],
+      "initiated_by_recent": "csm",
+      "touches_last_60d": 0,
+      "touches_last_90d": 2
+    },
+    "support": {
+      "tickets_last_30d": 0,
+      "tickets_last_60d": 0,
+      "tickets_last_90d": 1,
+      "severity_trend": "none",
+      "category_concentration": null,
+      "open_count": 1
+    },
+    "external": {
+      "signal_count_90d": 16,
+      "notable_signals": [
+        {
+          "date": "2026-05-11",
+          "headline": "Orleans council appoints interim clerk, calls for special election; state vows to fight - WWLTV.com",
+          "source": "news.google.com",
+          "theme": "leadership_change"
+        },
+        {
+          "date": "2026-02-22",
+          "headline": "Postmortem: Clerk System Outage",
+          "source": "Hacker News",
+          "theme": "outage"
+        },
+        {
+          "date": "2026-02-21",
+          "headline": "Clerk System Outage Postmortem \u2013 19th Feb 2026",
+          "source": "Hacker News",
+          "theme": "outage"
+        },
+        {
+          "date": "2026-02-21",
+          "headline": "Postmortem: Clerk System Outage (February 19, 2026)",
+          "source": "Hacker News",
+          "theme": "outage"
+        }
+      ],
+      "signal_themes": [
+        "leadership_change",
+        "outage"
+      ]
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs",
+        "RUM"
+      ],
+      "renewal_days_out": 80,
+      "contract_age_days": 565,
+      "feature_breadth_avg": 7,
+      "arr": 387757
+    },
+    "anomalies": [
+      "Sustained growth of 32% in Infrastructure over last 30 days while CSM gap exceeds 67 days",
+      "Sustained growth of 33% in Logs over last 30 days while CSM gap exceeds 67 days",
+      "Sustained growth of 34% in RUM over last 30 days while CSM gap exceeds 67 days",
+      "Manifest note: One product exhibits unusually stable utilization despite overall volatility."
+    ]
+  },
+  {
+    "company_id": "cohere",
+    "name": "Cohere",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.66,
+        "trend_90d": "stable",
+        "trend_30d": "increasing",
+        "delta_pct": -0.06,
+        "crossed_baseline": true
+      },
+      "Logs": {
+        "current_rate": 0.94,
+        "trend_90d": "declining",
+        "trend_30d": "increasing",
+        "delta_pct": -0.13,
+        "crossed_baseline": true
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 23,
+      "last_touch_sentiment": "green",
+      "sentiment_trajectory": "drifting_red",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "executive_sponsor",
+        "end_user",
+        "executive_sponsor",
+        "champion",
+        "champion"
+      ],
+      "initiated_by_recent": "customer",
+      "touches_last_60d": 2,
+      "touches_last_90d": 3
+    },
+    "support": {
+      "tickets_last_30d": 1,
+      "tickets_last_60d": 5,
+      "tickets_last_90d": 7,
+      "severity_trend": "stable_high",
+      "category_concentration": null,
+      "open_count": 4
+    },
+    "external": {
+      "signal_count_90d": 15,
+      "notable_signals": [
+        {
+          "date": "2026-04-24",
+          "headline": "Cohere valued at around $20B in Aleph Alpha deal - Axios",
+          "source": "news.google.com",
+          "theme": "funding"
+        },
+        {
+          "date": "2026-04-24",
+          "headline": "Cohere to acquire German AI company Aleph Alpha as it looks to expand in Europe - CNBC",
+          "source": "news.google.com",
+          "theme": "acquisition"
+        },
+        {
+          "date": "2026-04-24",
+          "headline": "Cohere and Aleph Alpha Merger",
+          "source": "Hacker News",
+          "theme": "acquisition"
+        }
+      ],
+      "signal_themes": [
+        "funding",
+        "acquisition"
+      ]
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs"
+      ],
+      "renewal_days_out": 68,
+      "contract_age_days": 499,
+      "feature_breadth_avg": 4.5,
+      "arr": 529186
+    },
+    "anomalies": [
+      "Customer sentiment trending negative across recent interactions"
+    ]
+  },
+  {
+    "company_id": "convoy",
+    "name": "Convoy",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.41,
+        "trend_90d": "declining",
+        "trend_30d": "declining",
+        "delta_pct": -0.5,
+        "crossed_baseline": false
+      },
+      "Logs": {
+        "current_rate": 0.38,
+        "trend_90d": "declining",
+        "trend_30d": "increasing",
+        "delta_pct": -0.56,
+        "crossed_baseline": true
+      },
+      "RUM": {
+        "current_rate": 0.32,
+        "trend_90d": "declining",
+        "trend_30d": "volatile",
+        "delta_pct": -0.62,
+        "crossed_baseline": false
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 87,
+      "last_touch_sentiment": "red",
+      "sentiment_trajectory": "drifting_red",
+      "champion_active": false,
+      "executive_sponsor_active": false,
+      "recent_contact_mix": [
+        "champion",
+        "champion",
+        "end_user"
+      ],
+      "initiated_by_recent": "customer",
+      "touches_last_60d": 0,
+      "touches_last_90d": 1
+    },
+    "support": {
+      "tickets_last_30d": 6,
+      "tickets_last_60d": 11,
+      "tickets_last_90d": 11,
+      "severity_trend": "escalating",
+      "category_concentration": null,
+      "open_count": 6
+    },
+    "external": {
+      "signal_count_90d": 15,
+      "notable_signals": [],
+      "signal_themes": []
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs",
+        "RUM"
+      ],
+      "renewal_days_out": 146,
+      "contract_age_days": 513,
+      "feature_breadth_avg": 4,
+      "arr": 569710
+    },
+    "anomalies": [
+      "Declining Infrastructure utilization with inactive champion",
+      "Support severity escalating with minimal recent CSM engagement",
+      "Customer sentiment trending negative across recent interactions"
+    ]
+  },
+  {
+    "company_id": "descript",
+    "name": "Descript",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 1.2,
+        "trend_90d": "increasing",
+        "trend_30d": "stable",
+        "delta_pct": 0.24,
+        "crossed_baseline": true
+      },
+      "Logs": {
+        "current_rate": 1.19,
+        "trend_90d": "increasing",
+        "trend_30d": "stable",
+        "delta_pct": 0.23,
+        "crossed_baseline": true
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 45,
+      "last_touch_sentiment": "green",
+      "sentiment_trajectory": "stable_green",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "champion",
+        "executive_sponsor",
+        "champion",
+        "end_user",
+        "champion"
+      ],
+      "initiated_by_recent": "csm",
+      "touches_last_60d": 2,
+      "touches_last_90d": 3
+    },
+    "support": {
+      "tickets_last_30d": 0,
+      "tickets_last_60d": 1,
+      "tickets_last_90d": 2,
+      "severity_trend": "stable_low",
+      "category_concentration": "performance",
+      "open_count": 0
+    },
+    "external": {
+      "signal_count_90d": 15,
+      "notable_signals": [],
+      "signal_themes": []
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs"
+      ],
+      "renewal_days_out": 81,
+      "contract_age_days": 682,
+      "feature_breadth_avg": 8,
+      "arr": 578369
+    },
+    "anomalies": [
+      "Sustained growth of 24% in Infrastructure over last 30 days while CSM gap exceeds 45 days",
+      "Sustained growth of 23% in Logs over last 30 days while CSM gap exceeds 45 days",
+      "Manifest note: One product exhibits unusually stable utilization despite overall volatility."
+    ]
+  },
+  {
+    "company_id": "fast",
+    "name": "Fast",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.37,
+        "trend_90d": "declining",
+        "trend_30d": "declining",
+        "delta_pct": -0.54,
+        "crossed_baseline": false
+      },
+      "Logs": {
+        "current_rate": 0.3,
+        "trend_90d": "declining",
+        "trend_30d": "declining",
+        "delta_pct": -0.64,
+        "crossed_baseline": false
+      },
+      "RUM": {
+        "current_rate": 0.32,
+        "trend_90d": "declining",
+        "trend_30d": "declining",
+        "delta_pct": -0.61,
+        "crossed_baseline": false
+      },
+      "CI Visibility": {
+        "current_rate": 0.34,
+        "trend_90d": "declining",
+        "trend_30d": "declining",
+        "delta_pct": -0.58,
+        "crossed_baseline": false
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 73,
+      "last_touch_sentiment": "red",
+      "sentiment_trajectory": "drifting_red",
+      "champion_active": false,
+      "executive_sponsor_active": false,
+      "recent_contact_mix": [
+        "unknown",
+        "executive_sponsor",
+        "executive_sponsor"
+      ],
+      "initiated_by_recent": "customer",
+      "touches_last_60d": 0,
+      "touches_last_90d": 1
+    },
+    "support": {
+      "tickets_last_30d": 2,
+      "tickets_last_60d": 8,
+      "tickets_last_90d": 9,
+      "severity_trend": "stable_high",
+      "category_concentration": null,
+      "open_count": 0
+    },
+    "external": {
+      "signal_count_90d": 16,
+      "notable_signals": [],
+      "signal_themes": []
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs",
+        "RUM",
+        "CI Visibility"
+      ],
+      "renewal_days_out": 125,
+      "contract_age_days": 518,
+      "feature_breadth_avg": 5.5,
+      "arr": 426479
+    },
+    "anomalies": [
+      "Declining Infrastructure utilization with inactive champion",
+      "Declining Logs utilization with inactive champion",
+      "Declining RUM utilization with inactive champion",
+      "Declining CI Visibility utilization with inactive champion",
+      "Customer sentiment trending negative across recent interactions",
+      "Manifest note: One product shows unusually high feature breadth for the account profile."
+    ]
+  },
+  {
+    "company_id": "fastly",
+    "name": "Fastly",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.76,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.04,
+        "crossed_baseline": true
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 26,
+      "last_touch_sentiment": "yellow",
+      "sentiment_trajectory": "mixed",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "executive_sponsor",
+        "executive_sponsor",
+        "champion",
+        "executive_sponsor",
+        "champion"
+      ],
+      "initiated_by_recent": "customer",
+      "touches_last_60d": 2,
+      "touches_last_90d": 3
+    },
+    "support": {
+      "tickets_last_30d": 1,
+      "tickets_last_60d": 4,
+      "tickets_last_90d": 5,
+      "severity_trend": "stable_low",
+      "category_concentration": null,
+      "open_count": 2
+    },
+    "external": {
+      "signal_count_90d": 16,
+      "notable_signals": [
+        {
+          "date": "2026-05-12",
+          "headline": "Fastly's Q1 Revenues Rise 20%: Can Growth Stay Near Record Highs? - Zacks Investment Research",
+          "source": "news.google.com",
+          "theme": "funding"
+        },
+        {
+          "date": "2026-05-11",
+          "headline": "[SCHEDULE 13G/A] Fastly, Inc. Amended Passive Investment Disclosure - Stock Titan",
+          "source": "news.google.com",
+          "theme": "funding"
+        },
+        {
+          "date": "2026-05-06",
+          "headline": "Fastly Announces Record First Quarter 2026 Financial Results - Business Wire",
+          "source": "news.google.com",
+          "theme": "product_launch"
+        }
+      ],
+      "signal_themes": [
+        "funding",
+        "product_launch"
+      ]
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure"
+      ],
+      "renewal_days_out": 70,
+      "contract_age_days": 147,
+      "feature_breadth_avg": 5,
+      "arr": 671807
+    },
+    "anomalies": [
+      "External growth signal present (funding) without corresponding usage movement"
+    ]
+  },
+  {
+    "company_id": "grafana-labs",
+    "name": "Grafana Labs",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.74,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.01,
+        "crossed_baseline": false
+      },
+      "Logs": {
+        "current_rate": 0.74,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.01,
+        "crossed_baseline": false
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 16,
+      "last_touch_sentiment": "green",
+      "sentiment_trajectory": "stable_yellow",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "end_user",
+        "end_user",
+        "champion",
+        "end_user",
+        "champion"
+      ],
+      "initiated_by_recent": "customer",
+      "touches_last_60d": 2,
+      "touches_last_90d": 3
+    },
+    "support": {
+      "tickets_last_30d": 1,
+      "tickets_last_60d": 2,
+      "tickets_last_90d": 3,
+      "severity_trend": "stable_low",
+      "category_concentration": null,
+      "open_count": 2
+    },
+    "external": {
+      "signal_count_90d": 20,
+      "notable_signals": [
+        {
+          "date": "2026-04-29",
+          "headline": "OmniOps Partners With Grafana Labs to Launch AI Monitoring Platform - CairoScene",
+          "source": "news.google.com",
+          "theme": "partnership"
+        },
+        {
+          "date": "2026-04-28",
+          "headline": "OmniOps partners with Grafana Labs to deliver sovereign observability in Saudi Arabia - Wamda",
+          "source": "news.google.com",
+          "theme": "partnership"
+        },
+        {
+          "date": "2026-04-21",
+          "headline": "Grafana Labs Launches Grafana 13 at GrafanaCON 2026, Makes Open Observability Easier to Run at Scale - HPCwire",
+          "source": "news.google.com",
+          "theme": "product_launch"
+        },
+        {
+          "date": "2026-04-21",
+          "headline": "Grafana Labs acquires Logline to accelerate needle-in-the-haystack log queries",
+          "source": "Hacker News",
+          "theme": "acquisition"
+        }
+      ],
+      "signal_themes": [
+        "partnership",
+        "product_launch",
+        "acquisition"
+      ]
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs"
+      ],
+      "renewal_days_out": 96,
+      "contract_age_days": 206,
+      "feature_breadth_avg": 5,
+      "arr": 770855
+    },
+    "anomalies": [
+      "External growth signal present (product_launch) without corresponding usage movement"
+    ]
+  },
+  {
+    "company_id": "hashicorp",
+    "name": "Hashicorp",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.74,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": -0.02,
+        "crossed_baseline": false
+      },
+      "Logs": {
+        "current_rate": 0.76,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.02,
+        "crossed_baseline": true
+      },
+      "RUM": {
+        "current_rate": 0.75,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.02,
+        "crossed_baseline": false
+      },
+      "CI Visibility": {
+        "current_rate": 0.74,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": -0.0,
+        "crossed_baseline": false
+      },
+      "Security": {
+        "current_rate": 0.77,
+        "trend_90d": "increasing",
+        "trend_30d": "stable",
+        "delta_pct": 0.11,
+        "crossed_baseline": false
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 14,
+      "last_touch_sentiment": "green",
+      "sentiment_trajectory": "mixed",
+      "champion_active": false,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "champion",
+        "executive_sponsor",
+        "champion",
+        "unknown",
+        "end_user"
+      ],
+      "initiated_by_recent": "customer",
+      "touches_last_60d": 2,
+      "touches_last_90d": 3
+    },
+    "support": {
+      "tickets_last_30d": 0,
+      "tickets_last_60d": 1,
+      "tickets_last_90d": 2,
+      "severity_trend": "stable_low",
+      "category_concentration": "feature_request",
+      "open_count": 3
+    },
+    "external": {
+      "signal_count_90d": 23,
+      "notable_signals": [
+        {
+          "date": "2026-03-31",
+          "headline": "Tech Moves: C-suite exec leaves Microsoft for Alaska Airlines; Amazon leaders depart; HashiCorp CTO resigns - GeekWire",
+          "source": "news.google.com",
+          "theme": "leadership_change"
+        },
+        {
+          "date": "2026-03-31",
+          "headline": "HashiCorp co-founder and CTO Armon Dadgar steps down to 'pause and recharge' - SDxCentral",
+          "source": "news.google.com",
+          "theme": "leadership_change"
+        },
+        {
+          "date": "2026-03-18",
+          "headline": "Vercel Appoints Mitchell Hashimoto, Co-Founder of HashiCorp and Creator of Terraform, to Board of Directors - Business Wire",
+          "source": "news.google.com",
+          "theme": "leadership_change"
+        }
+      ],
+      "signal_themes": [
+        "leadership_change"
+      ]
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs",
+        "RUM",
+        "CI Visibility",
+        "Security"
+      ],
+      "renewal_days_out": 118,
+      "contract_age_days": 194,
+      "feature_breadth_avg": 5.8,
+      "arr": 720967
+    },
+    "anomalies": [
+      "Manifest note: Champion marked inactive despite otherwise positive usage indicators."
+    ]
+  },
+  {
+    "company_id": "hugging-face",
+    "name": "Hugging Face",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.99,
+        "trend_90d": "increasing",
+        "trend_30d": "increasing",
+        "delta_pct": 0.44,
+        "crossed_baseline": true
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 25,
+      "last_touch_sentiment": "green",
+      "sentiment_trajectory": "stable_green",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "executive_sponsor",
+        "champion",
+        "champion",
+        "champion",
+        "executive_sponsor"
+      ],
+      "initiated_by_recent": "customer",
+      "touches_last_60d": 4,
+      "touches_last_90d": 5
+    },
+    "support": {
+      "tickets_last_30d": 2,
+      "tickets_last_60d": 5,
+      "tickets_last_90d": 8,
+      "severity_trend": "stable_high",
+      "category_concentration": null,
+      "open_count": 5
+    },
+    "external": {
+      "signal_count_90d": 24,
+      "notable_signals": [
+        {
+          "date": "2026-05-07",
+          "headline": "Hugging Face launches agentic toolkit for Reachy Mini - The Robot Report",
+          "source": "news.google.com",
+          "theme": "product_launch"
+        },
+        {
+          "date": "2026-05-06",
+          "headline": "The app store for robots has arrived: Hugging Face launches open-source Reachy Mini App Store with 200+ apps - Venturebeat",
+          "source": "news.google.com",
+          "theme": "product_launch"
+        }
+      ],
+      "signal_themes": [
+        "product_launch"
+      ]
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure"
+      ],
+      "renewal_days_out": 159,
+      "contract_age_days": 190,
+      "feature_breadth_avg": 3,
+      "arr": 761725
+    },
+    "anomalies": [
+      "Manifest note: New executive sponsor engagement introduced within the last 30 days."
+    ]
+  },
+  {
+    "company_id": "inngest",
+    "name": "Inngest",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.41,
+        "trend_90d": "increasing",
+        "trend_30d": "declining",
+        "delta_pct": 0.13,
+        "crossed_baseline": true
+      },
+      "Logs": {
+        "current_rate": 0.38,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.02,
+        "crossed_baseline": false
+      },
+      "CI Visibility": {
+        "current_rate": 0.36,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.05,
+        "crossed_baseline": false
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 31,
+      "last_touch_sentiment": "yellow",
+      "sentiment_trajectory": "mixed",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "champion",
+        "end_user",
+        "champion",
+        "champion",
+        "champion"
+      ],
+      "initiated_by_recent": "csm",
+      "touches_last_60d": 1,
+      "touches_last_90d": 2
+    },
+    "support": {
+      "tickets_last_30d": 0,
+      "tickets_last_60d": 0,
+      "tickets_last_90d": 1,
+      "severity_trend": "none",
+      "category_concentration": null,
+      "open_count": 0
+    },
+    "external": {
+      "signal_count_90d": 9,
+      "notable_signals": [],
+      "signal_themes": []
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs",
+        "CI Visibility"
+      ],
+      "renewal_days_out": 137,
+      "contract_age_days": 162,
+      "feature_breadth_avg": 3.7,
+      "arr": 365577
+    },
+    "anomalies": [
+      "Manifest note: Anomalous usage spike that does not align with the account baseline."
+    ]
+  },
+  {
+    "company_id": "launchdarkly",
+    "name": "LaunchDarkly",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.76,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": -0.01,
+        "crossed_baseline": true
+      },
+      "Logs": {
+        "current_rate": 0.75,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.02,
+        "crossed_baseline": true
+      },
+      "RUM": {
+        "current_rate": 0.74,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": -0.04,
+        "crossed_baseline": false
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 22,
+      "last_touch_sentiment": "green",
+      "sentiment_trajectory": "stable_green",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "champion",
+        "end_user",
+        "end_user",
+        "end_user",
+        "end_user"
+      ],
+      "initiated_by_recent": "csm",
+      "touches_last_60d": 2,
+      "touches_last_90d": 3
+    },
+    "support": {
+      "tickets_last_30d": 4,
+      "tickets_last_60d": 4,
+      "tickets_last_90d": 6,
+      "severity_trend": "stable_low",
+      "category_concentration": null,
+      "open_count": 1
+    },
+    "external": {
+      "signal_count_90d": 2,
+      "notable_signals": [
+        {
+          "date": "2026-04-15",
+          "headline": "LaunchDarkly - 2026 Funding Rounds & List of Investors - Tracxn",
+          "source": "news.google.com",
+          "theme": "funding"
+        }
+      ],
+      "signal_themes": [
+        "funding"
+      ]
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs",
+        "RUM"
+      ],
+      "renewal_days_out": 111,
+      "contract_age_days": 428,
+      "feature_breadth_avg": 5.7,
+      "arr": 676750
+    },
+    "anomalies": [
+      "External growth signal present (funding) without corresponding usage movement",
+      "Manifest note: One product exhibits unusually stable utilization despite overall volatility."
+    ]
+  },
+  {
+    "company_id": "linear",
+    "name": "Linear",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 1.28,
+        "trend_90d": "increasing",
+        "trend_30d": "stable",
+        "delta_pct": 0.32,
+        "crossed_baseline": true
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 52,
+      "last_touch_sentiment": "green",
+      "sentiment_trajectory": "stable_green",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "end_user",
+        "champion",
+        "champion",
+        "champion",
+        "champion"
+      ],
+      "initiated_by_recent": "csm",
+      "touches_last_60d": 1,
+      "touches_last_90d": 2
+    },
+    "support": {
+      "tickets_last_30d": 0,
+      "tickets_last_60d": 2,
+      "tickets_last_90d": 4,
+      "severity_trend": "stable_low",
+      "category_concentration": "configuration",
+      "open_count": 3
+    },
+    "external": {
+      "signal_count_90d": 16,
+      "notable_signals": [],
+      "signal_themes": []
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure"
+      ],
+      "renewal_days_out": 80,
+      "contract_age_days": 493,
+      "feature_breadth_avg": 8,
+      "arr": 555435
+    },
+    "anomalies": [
+      "Sustained growth of 32% in Infrastructure over last 30 days while CSM gap exceeds 52 days"
+    ]
+  },
+  {
+    "company_id": "mistral",
+    "name": "Mistral",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.85,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.02,
+        "crossed_baseline": true
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 14,
+      "last_touch_sentiment": "yellow",
+      "sentiment_trajectory": "drifting_red",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "unknown",
+        "champion",
+        "champion",
+        "champion",
+        "champion"
+      ],
+      "initiated_by_recent": "customer",
+      "touches_last_60d": 4,
+      "touches_last_90d": 5
+    },
+    "support": {
+      "tickets_last_30d": 1,
+      "tickets_last_60d": 7,
+      "tickets_last_90d": 7,
+      "severity_trend": "stable_high",
+      "category_concentration": null,
+      "open_count": 4
+    },
+    "external": {
+      "signal_count_90d": 16,
+      "notable_signals": [
+        {
+          "date": "2026-05-11",
+          "headline": "Ondas (ONDS) Announces Completion of Merger with Mistral Inc. - Yahoo Finance",
+          "source": "news.google.com",
+          "theme": "acquisition"
+        },
+        {
+          "date": "2026-05-08",
+          "headline": "ASML to invest $1.5B in Mistral at over $11B valuation",
+          "source": "Hacker News",
+          "theme": "funding"
+        },
+        {
+          "date": "2026-04-29",
+          "headline": "Mistral AI Introduces Workflows for Orchestrating Enterprise AI Processes - infoq.com",
+          "source": "news.google.com",
+          "theme": "product_launch"
+        },
+        {
+          "date": "2026-03-30",
+          "headline": "Mistral raises $830M to build Nvidia-powered AI centres in Europe",
+          "source": "Hacker News",
+          "theme": "funding"
+        }
+      ],
+      "signal_themes": [
+        "acquisition",
+        "funding",
+        "product_launch"
+      ]
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure"
+      ],
+      "renewal_days_out": 138,
+      "contract_age_days": 396,
+      "feature_breadth_avg": 6,
+      "arr": 627091
+    },
+    "anomalies": [
+      "External growth signal present (funding) without corresponding usage movement",
+      "Customer sentiment trending negative across recent interactions"
+    ]
+  },
+  {
+    "company_id": "netlify",
+    "name": "Netlify",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.75,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.03,
+        "crossed_baseline": false
+      },
+      "Logs": {
+        "current_rate": 0.75,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.02,
+        "crossed_baseline": false
+      },
+      "CI Visibility": {
+        "current_rate": 0.74,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": -0.02,
+        "crossed_baseline": false
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 27,
+      "last_touch_sentiment": "green",
+      "sentiment_trajectory": "stable_green",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "end_user",
+        "champion",
+        "champion",
+        "champion",
+        "champion"
+      ],
+      "initiated_by_recent": "customer",
+      "touches_last_60d": 2,
+      "touches_last_90d": 3
+    },
+    "support": {
+      "tickets_last_30d": 2,
+      "tickets_last_60d": 4,
+      "tickets_last_90d": 5,
+      "severity_trend": "stable_low",
+      "category_concentration": null,
+      "open_count": 3
+    },
+    "external": {
+      "signal_count_90d": 15,
+      "notable_signals": [
+        {
+          "date": "2026-04-03",
+          "headline": "Netlify - 2026 Funding Rounds & List of Investors - Tracxn",
+          "source": "news.google.com",
+          "theme": "funding"
+        }
+      ],
+      "signal_themes": [
+        "funding"
+      ]
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs",
+        "CI Visibility"
+      ],
+      "renewal_days_out": 122,
+      "contract_age_days": 566,
+      "feature_breadth_avg": 6.7,
+      "arr": 366193
+    },
+    "anomalies": [
+      "External growth signal present (funding) without corresponding usage movement"
+    ]
+  },
+  {
+    "company_id": "novu",
+    "name": "Novu",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.38,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.03,
+        "crossed_baseline": false
+      },
+      "Logs": {
+        "current_rate": 0.37,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.02,
+        "crossed_baseline": false
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 25,
+      "last_touch_sentiment": "yellow",
+      "sentiment_trajectory": "mixed",
+      "champion_active": true,
+      "executive_sponsor_active": false,
+      "recent_contact_mix": [
+        "champion",
+        "executive_sponsor",
+        "executive_sponsor",
+        "champion",
+        "end_user"
+      ],
+      "initiated_by_recent": "csm",
+      "touches_last_60d": 1,
+      "touches_last_90d": 2
+    },
+    "support": {
+      "tickets_last_30d": 0,
+      "tickets_last_60d": 0,
+      "tickets_last_90d": 3,
+      "severity_trend": "none",
+      "category_concentration": null,
+      "open_count": 2
+    },
+    "external": {
+      "signal_count_90d": 16,
+      "notable_signals": [
+        {
+          "date": "2026-05-06",
+          "headline": "NOVU: Strong profit growth and margin expansion achieved through efficiency and platform investments - TradingView",
+          "source": "news.google.com",
+          "theme": "funding"
+        }
+      ],
+      "signal_themes": [
+        "funding"
+      ]
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs"
+      ],
+      "renewal_days_out": 93,
+      "contract_age_days": 253,
+      "feature_breadth_avg": 4,
+      "arr": 217174
+    },
+    "anomalies": [
+      "External growth signal present (funding) without corresponding usage movement"
+    ]
+  },
+  {
+    "company_id": "olive-ai",
+    "name": "Olive AI",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.49,
+        "trend_90d": "declining",
+        "trend_30d": "declining",
+        "delta_pct": -0.42,
+        "crossed_baseline": false
+      },
+      "Logs": {
+        "current_rate": 0.49,
+        "trend_90d": "declining",
+        "trend_30d": "volatile",
+        "delta_pct": -0.42,
+        "crossed_baseline": false
+      },
+      "CI Visibility": {
+        "current_rate": 0.41,
+        "trend_90d": "declining",
+        "trend_30d": "volatile",
+        "delta_pct": -0.51,
+        "crossed_baseline": false
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 62,
+      "last_touch_sentiment": "red",
+      "sentiment_trajectory": "drifting_red",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "executive_sponsor",
+        "champion",
+        "end_user",
+        "end_user"
+      ],
+      "initiated_by_recent": "customer",
+      "touches_last_60d": 0,
+      "touches_last_90d": 2
+    },
+    "support": {
+      "tickets_last_30d": 5,
+      "tickets_last_60d": 12,
+      "tickets_last_90d": 13,
+      "severity_trend": "stable_high",
+      "category_concentration": null,
+      "open_count": 4
+    },
+    "external": {
+      "signal_count_90d": 15,
+      "notable_signals": [],
+      "signal_themes": []
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs",
+        "CI Visibility"
+      ],
+      "renewal_days_out": 163,
+      "contract_age_days": 573,
+      "feature_breadth_avg": 4.3,
+      "arr": 159046
+    },
+    "anomalies": [
+      "Customer sentiment trending negative across recent interactions"
+    ]
+  },
+  {
+    "company_id": "pagerduty",
+    "name": "PagerDuty",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.73,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.0,
+        "crossed_baseline": false
+      },
+      "Logs": {
+        "current_rate": 0.76,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.03,
+        "crossed_baseline": false
+      },
+      "RUM": {
+        "current_rate": 0.75,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.02,
+        "crossed_baseline": false
+      },
+      "CI Visibility": {
+        "current_rate": 0.75,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.02,
+        "crossed_baseline": false
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 11,
+      "last_touch_sentiment": "yellow",
+      "sentiment_trajectory": "mixed",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "champion",
+        "unknown",
+        "end_user",
+        "champion",
+        "executive_sponsor"
+      ],
+      "initiated_by_recent": "csm",
+      "touches_last_60d": 3,
+      "touches_last_90d": 4
+    },
+    "support": {
+      "tickets_last_30d": 0,
+      "tickets_last_60d": 1,
+      "tickets_last_90d": 1,
+      "severity_trend": "stable_low",
+      "category_concentration": "bug",
+      "open_count": 1
+    },
+    "external": {
+      "signal_count_90d": 16,
+      "notable_signals": [
+        {
+          "date": "2026-05-12",
+          "headline": "PagerDuty Appoints John DiLullo As Chief Executive Officer As Jennifer Tejada Transitions To Executive Chair - Pulse 2.0",
+          "source": "news.google.com",
+          "theme": "leadership_change"
+        },
+        {
+          "date": "2026-05-12",
+          "headline": "PagerDuty Appoints John DiLullo as CEO",
+          "source": "Hacker News",
+          "theme": "leadership_change"
+        },
+        {
+          "date": "2026-05-11",
+          "headline": "PagerDuty Appoints John DiLullo as Chief Executive Officer - Business Wire",
+          "source": "news.google.com",
+          "theme": "leadership_change"
+        },
+        {
+          "date": "2026-05-11",
+          "headline": "Pagerduty Appoints John Dilullo As Chief Executive Officer - TradingView",
+          "source": "news.google.com",
+          "theme": "leadership_change"
+        }
+      ],
+      "signal_themes": [
+        "leadership_change"
+      ]
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs",
+        "RUM",
+        "CI Visibility"
+      ],
+      "renewal_days_out": 118,
+      "contract_age_days": 244,
+      "feature_breadth_avg": 6.5,
+      "arr": 341303
+    },
+    "anomalies": []
+  },
+  {
+    "company_id": "permitio",
+    "name": "Permit.io",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.34,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": -0.01,
+        "crossed_baseline": false
+      },
+      "Logs": {
+        "current_rate": 0.36,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.07,
+        "crossed_baseline": false
+      },
+      "RUM": {
+        "current_rate": 0.35,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": -0.03,
+        "crossed_baseline": false
+      },
+      "CI Visibility": {
+        "current_rate": 0.37,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.02,
+        "crossed_baseline": false
+      },
+      "Security": {
+        "current_rate": 0.38,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.07,
+        "crossed_baseline": false
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 31,
+      "last_touch_sentiment": "yellow",
+      "sentiment_trajectory": "mixed",
+      "champion_active": true,
+      "executive_sponsor_active": false,
+      "recent_contact_mix": [
+        "champion",
+        "executive_sponsor",
+        "end_user",
+        "champion",
+        "champion"
+      ],
+      "initiated_by_recent": "csm",
+      "touches_last_60d": 1,
+      "touches_last_90d": 2
+    },
+    "support": {
+      "tickets_last_30d": 0,
+      "tickets_last_60d": 0,
+      "tickets_last_90d": 0,
+      "severity_trend": "none",
+      "category_concentration": null,
+      "open_count": 1
+    },
+    "external": {
+      "signal_count_90d": 11,
+      "notable_signals": [
+        {
+          "date": "2026-04-13",
+          "headline": "Report: Kazakhstan raises Kazakh language bar for residency permits to B2, Russians say - Meduza",
+          "source": "news.google.com",
+          "theme": "funding"
+        }
+      ],
+      "signal_themes": [
+        "funding"
+      ]
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs",
+        "RUM",
+        "CI Visibility",
+        "Security"
+      ],
+      "renewal_days_out": 136,
+      "contract_age_days": 117,
+      "feature_breadth_avg": 4,
+      "arr": 120115
+    },
+    "anomalies": [
+      "External growth signal present (funding) without corresponding usage movement",
+      "Manifest note: One product shows unusually high feature breadth for the account profile."
+    ]
+  },
+  {
+    "company_id": "plastiq",
+    "name": "Plastiq",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.31,
+        "trend_90d": "declining",
+        "trend_30d": "declining",
+        "delta_pct": -0.62,
+        "crossed_baseline": false
+      },
+      "Logs": {
+        "current_rate": 0.34,
+        "trend_90d": "declining",
+        "trend_30d": "volatile",
+        "delta_pct": -0.58,
+        "crossed_baseline": false
+      },
+      "RUM": {
+        "current_rate": 0.39,
+        "trend_90d": "declining",
+        "trend_30d": "declining",
+        "delta_pct": -0.55,
+        "crossed_baseline": false
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 80,
+      "last_touch_sentiment": "red",
+      "sentiment_trajectory": "drifting_red",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "end_user",
+        "champion",
+        "executive_sponsor"
+      ],
+      "initiated_by_recent": "customer",
+      "touches_last_60d": 0,
+      "touches_last_90d": 1
+    },
+    "support": {
+      "tickets_last_30d": 4,
+      "tickets_last_60d": 9,
+      "tickets_last_90d": 10,
+      "severity_trend": "stable_high",
+      "category_concentration": null,
+      "open_count": 2
+    },
+    "external": {
+      "signal_count_90d": 12,
+      "notable_signals": [],
+      "signal_themes": []
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs",
+        "RUM"
+      ],
+      "renewal_days_out": 155,
+      "contract_age_days": 182,
+      "feature_breadth_avg": 4.7,
+      "arr": 648532
+    },
+    "anomalies": [
+      "Customer sentiment trending negative across recent interactions"
+    ]
+  },
+  {
+    "company_id": "replit",
+    "name": "Replit",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.82,
+        "trend_90d": "declining",
+        "trend_30d": "declining",
+        "delta_pct": -0.24,
+        "crossed_baseline": true
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 5,
+      "last_touch_sentiment": "yellow",
+      "sentiment_trajectory": "drifting_red",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "champion",
+        "end_user",
+        "executive_sponsor",
+        "champion",
+        "executive_sponsor"
+      ],
+      "initiated_by_recent": "csm",
+      "touches_last_60d": 3,
+      "touches_last_90d": 4
+    },
+    "support": {
+      "tickets_last_30d": 1,
+      "tickets_last_60d": 3,
+      "tickets_last_90d": 3,
+      "severity_trend": "stable_high",
+      "category_concentration": "outage",
+      "open_count": 1
+    },
+    "external": {
+      "signal_count_90d": 16,
+      "notable_signals": [
+        {
+          "date": "2026-05-12",
+          "headline": "Replit Announces vibecon, its First Creative Conference where Code meets Culture in New York, June 17-18 - Morningstar",
+          "source": "news.google.com",
+          "theme": "product_launch"
+        },
+        {
+          "date": "2026-05-12",
+          "headline": "Replit Launches Vibecon, Its First AI-Driven Creative Conference in New York - TipRanks",
+          "source": "news.google.com",
+          "theme": "product_launch"
+        },
+        {
+          "date": "2026-03-11",
+          "headline": "Replit raises $400M at a $9B valuation",
+          "source": "Hacker News",
+          "theme": "funding"
+        },
+        {
+          "date": "2026-03-11",
+          "headline": "Replit raises $400M at $9B valuation",
+          "source": "Hacker News",
+          "theme": "funding"
+        }
+      ],
+      "signal_themes": [
+        "product_launch",
+        "funding"
+      ]
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure"
+      ],
+      "renewal_days_out": 157,
+      "contract_age_days": 465,
+      "feature_breadth_avg": 5,
+      "arr": 422722
+    },
+    "anomalies": [
+      "External growth signal present (product_launch) without corresponding usage movement",
+      "Customer sentiment trending negative across recent interactions"
+    ]
+  },
+  {
+    "company_id": "resend",
+    "name": "Resend",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.36,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.0,
+        "crossed_baseline": false
+      },
+      "Logs": {
+        "current_rate": 0.37,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.05,
+        "crossed_baseline": false
+      },
+      "RUM": {
+        "current_rate": 0.38,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.06,
+        "crossed_baseline": false
+      },
+      "CI Visibility": {
+        "current_rate": 0.37,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.06,
+        "crossed_baseline": false
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 27,
+      "last_touch_sentiment": "yellow",
+      "sentiment_trajectory": "mixed",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "champion",
+        "champion",
+        "champion",
+        "champion",
+        "champion"
+      ],
+      "initiated_by_recent": "csm",
+      "touches_last_60d": 1,
+      "touches_last_90d": 2
+    },
+    "support": {
+      "tickets_last_30d": 1,
+      "tickets_last_60d": 2,
+      "tickets_last_90d": 3,
+      "severity_trend": "stable_low",
+      "category_concentration": "feature_request",
+      "open_count": 2
+    },
+    "external": {
+      "signal_count_90d": 16,
+      "notable_signals": [
+        {
+          "date": "2026-05-04",
+          "headline": "Resend overtook SendGrid+Mailgun+Postmark+Mailjet combined on indie launches",
+          "source": "Hacker News",
+          "theme": "product_launch"
+        }
+      ],
+      "signal_themes": [
+        "product_launch"
+      ]
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs",
+        "RUM",
+        "CI Visibility"
+      ],
+      "renewal_days_out": 145,
+      "contract_age_days": 123,
+      "feature_breadth_avg": 2.8,
+      "arr": 495011
+    },
+    "anomalies": [
+      "External growth signal present (product_launch) without corresponding usage movement"
+    ]
+  },
+  {
+    "company_id": "retool",
+    "name": "Retool",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 1.22,
+        "trend_90d": "increasing",
+        "trend_30d": "stable",
+        "delta_pct": 0.26,
+        "crossed_baseline": true
+      },
+      "Logs": {
+        "current_rate": 1.22,
+        "trend_90d": "increasing",
+        "trend_30d": "stable",
+        "delta_pct": 0.27,
+        "crossed_baseline": true
+      },
+      "RUM": {
+        "current_rate": 1.23,
+        "trend_90d": "increasing",
+        "trend_30d": "increasing",
+        "delta_pct": 0.27,
+        "crossed_baseline": true
+      },
+      "CI Visibility": {
+        "current_rate": 1.2,
+        "trend_90d": "increasing",
+        "trend_30d": "stable",
+        "delta_pct": 0.24,
+        "crossed_baseline": true
+      },
+      "Security": {
+        "current_rate": 1.23,
+        "trend_90d": "increasing",
+        "trend_30d": "stable",
+        "delta_pct": 0.25,
+        "crossed_baseline": true
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 74,
+      "last_touch_sentiment": "green",
+      "sentiment_trajectory": "mixed",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "champion",
+        "end_user",
+        "end_user",
+        "champion",
+        "end_user"
+      ],
+      "initiated_by_recent": "csm",
+      "touches_last_60d": 0,
+      "touches_last_90d": 1
+    },
+    "support": {
+      "tickets_last_30d": 1,
+      "tickets_last_60d": 1,
+      "tickets_last_90d": 3,
+      "severity_trend": "stable_low",
+      "category_concentration": "performance",
+      "open_count": 3
+    },
+    "external": {
+      "signal_count_90d": 16,
+      "notable_signals": [
+        {
+          "date": "2026-05-11",
+          "headline": "Ford\u2019s Oakville, Ont., retool nears completion, as investment in Super Duty climbs to nearly $5B - Automotive News",
+          "source": "news.google.com",
+          "theme": "funding"
+        }
+      ],
+      "signal_themes": [
+        "funding"
+      ]
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs",
+        "RUM",
+        "CI Visibility",
+        "Security"
+      ],
+      "renewal_days_out": 143,
+      "contract_age_days": 337,
+      "feature_breadth_avg": 8,
+      "arr": 409963
+    },
+    "anomalies": [
+      "Sustained growth of 26% in Infrastructure over last 30 days while CSM gap exceeds 74 days",
+      "Sustained growth of 27% in Logs over last 30 days while CSM gap exceeds 74 days",
+      "Sustained growth of 27% in RUM over last 30 days while CSM gap exceeds 74 days",
+      "Sustained growth of 24% in CI Visibility over last 30 days while CSM gap exceeds 74 days",
+      "Sustained growth of 25% in Security over last 30 days while CSM gap exceeds 74 days"
+    ]
+  },
+  {
+    "company_id": "rippling",
+    "name": "Rippling",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 1.29,
+        "trend_90d": "increasing",
+        "trend_30d": "stable",
+        "delta_pct": 0.31,
+        "crossed_baseline": true
+      },
+      "Logs": {
+        "current_rate": 1.29,
+        "trend_90d": "increasing",
+        "trend_30d": "stable",
+        "delta_pct": 0.31,
+        "crossed_baseline": true
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 15,
+      "last_touch_sentiment": "green",
+      "sentiment_trajectory": "mixed",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "executive_sponsor",
+        "end_user",
+        "executive_sponsor",
+        "champion",
+        "champion"
+      ],
+      "initiated_by_recent": "csm",
+      "touches_last_60d": 2,
+      "touches_last_90d": 3
+    },
+    "support": {
+      "tickets_last_30d": 1,
+      "tickets_last_60d": 1,
+      "tickets_last_90d": 4,
+      "severity_trend": "stable_low",
+      "category_concentration": "performance",
+      "open_count": 2
+    },
+    "external": {
+      "signal_count_90d": 16,
+      "notable_signals": [
+        {
+          "date": "2026-04-28",
+          "headline": "Rippling launches Vanta/Delve competitor",
+          "source": "Hacker News",
+          "theme": "product_launch"
+        },
+        {
+          "date": "2026-04-14",
+          "headline": "Rippling Revenue 2026: $1B ARR, $16.8B Valuation - GetLatka",
+          "source": "news.google.com",
+          "theme": "funding"
+        }
+      ],
+      "signal_themes": [
+        "product_launch",
+        "funding"
+      ]
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs"
+      ],
+      "renewal_days_out": 178,
+      "contract_age_days": 396,
+      "feature_breadth_avg": 7,
+      "arr": 477887
+    },
+    "anomalies": [
+      "External growth signal present (product_launch) without corresponding usage movement",
+      "Manifest note: New executive sponsor engagement introduced within the last 30 days."
+    ]
+  },
+  {
+    "company_id": "rollbar",
+    "name": "Rollbar",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.76,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.03,
+        "crossed_baseline": true
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 8,
+      "last_touch_sentiment": "green",
+      "sentiment_trajectory": "stable_green",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "executive_sponsor",
+        "end_user",
+        "champion",
+        "end_user",
+        "unknown"
+      ],
+      "initiated_by_recent": "csm",
+      "touches_last_60d": 4,
+      "touches_last_90d": 5
+    },
+    "support": {
+      "tickets_last_30d": 2,
+      "tickets_last_60d": 2,
+      "tickets_last_90d": 3,
+      "severity_trend": "stable_low",
+      "category_concentration": null,
+      "open_count": 0
+    },
+    "external": {
+      "signal_count_90d": 13,
+      "notable_signals": [],
+      "signal_themes": []
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure"
+      ],
+      "renewal_days_out": 70,
+      "contract_age_days": 673,
+      "feature_breadth_avg": 5,
+      "arr": 415239
+    },
+    "anomalies": [
+      "Manifest note: New executive sponsor engagement introduced within the last 30 days."
+    ]
+  },
+  {
+    "company_id": "runway-ml",
+    "name": "Runway ML",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.98,
+        "trend_90d": "increasing",
+        "trend_30d": "increasing",
+        "delta_pct": 0.84,
+        "crossed_baseline": true
+      },
+      "Logs": {
+        "current_rate": 0.91,
+        "trend_90d": "increasing",
+        "trend_30d": "increasing",
+        "delta_pct": 0.45,
+        "crossed_baseline": true
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 24,
+      "last_touch_sentiment": "yellow",
+      "sentiment_trajectory": "stable_green",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "champion",
+        "champion",
+        "champion",
+        "champion",
+        "champion"
+      ],
+      "initiated_by_recent": "csm",
+      "touches_last_60d": 3,
+      "touches_last_90d": 5
+    },
+    "support": {
+      "tickets_last_30d": 0,
+      "tickets_last_60d": 2,
+      "tickets_last_90d": 2,
+      "severity_trend": "stable_low",
+      "category_concentration": null,
+      "open_count": 1
+    },
+    "external": {
+      "signal_count_90d": 13,
+      "notable_signals": [],
+      "signal_themes": []
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs"
+      ],
+      "renewal_days_out": 180,
+      "contract_age_days": 526,
+      "feature_breadth_avg": 7.5,
+      "arr": 473537
+    },
+    "anomalies": [
+      "Growth across multiple products: Infrastructure, Logs"
+    ]
+  },
+  {
+    "company_id": "sentry",
+    "name": "Sentry",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.74,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": -0.01,
+        "crossed_baseline": false
+      },
+      "Logs": {
+        "current_rate": 0.73,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": -0.01,
+        "crossed_baseline": false
+      },
+      "RUM": {
+        "current_rate": 0.76,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.05,
+        "crossed_baseline": true
+      },
+      "CI Visibility": {
+        "current_rate": 0.75,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.02,
+        "crossed_baseline": false
+      },
+      "Security": {
+        "current_rate": 0.76,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.03,
+        "crossed_baseline": false
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 15,
+      "last_touch_sentiment": "green",
+      "sentiment_trajectory": "stable_green",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "executive_sponsor",
+        "champion",
+        "champion",
+        "champion",
+        "champion"
+      ],
+      "initiated_by_recent": "csm",
+      "touches_last_60d": 2,
+      "touches_last_90d": 3
+    },
+    "support": {
+      "tickets_last_30d": 3,
+      "tickets_last_60d": 3,
+      "tickets_last_90d": 3,
+      "severity_trend": "stable_low",
+      "category_concentration": null,
+      "open_count": 1
+    },
+    "external": {
+      "signal_count_90d": 16,
+      "notable_signals": [],
+      "signal_themes": []
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs",
+        "RUM",
+        "CI Visibility",
+        "Security"
+      ],
+      "renewal_days_out": 67,
+      "contract_age_days": 545,
+      "feature_breadth_avg": 6,
+      "arr": 568557
+    },
+    "anomalies": []
+  },
+  {
+    "company_id": "snyk",
+    "name": "Snyk",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.74,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.03,
+        "crossed_baseline": false
+      },
+      "Logs": {
+        "current_rate": 0.73,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": -0.0,
+        "crossed_baseline": false
+      },
+      "CI Visibility": {
+        "current_rate": 0.75,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": -0.01,
+        "crossed_baseline": false
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 12,
+      "last_touch_sentiment": "green",
+      "sentiment_trajectory": "stable_green",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "executive_sponsor",
+        "executive_sponsor",
+        "unknown",
+        "executive_sponsor",
+        "champion"
+      ],
+      "initiated_by_recent": "csm",
+      "touches_last_60d": 3,
+      "touches_last_90d": 4
+    },
+    "support": {
+      "tickets_last_30d": 3,
+      "tickets_last_60d": 3,
+      "tickets_last_90d": 4,
+      "severity_trend": "stable_low",
+      "category_concentration": null,
+      "open_count": 0
+    },
+    "external": {
+      "signal_count_90d": 16,
+      "notable_signals": [
+        {
+          "date": "2026-05-08",
+          "headline": "May 8, 2026: AI updates from the past week - Coder Agents Launch, Snyk-Claude partnership, Opsera-Cursor partnership, and more - SD Times",
+          "source": "news.google.com",
+          "theme": "partnership"
+        }
+      ],
+      "signal_themes": [
+        "partnership"
+      ]
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs",
+        "CI Visibility"
+      ],
+      "renewal_days_out": 152,
+      "contract_age_days": 247,
+      "feature_breadth_avg": 6.3,
+      "arr": 409164
+    },
+    "anomalies": []
+  },
+  {
+    "company_id": "statuspage",
+    "name": "Statuspage",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.76,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.02,
+        "crossed_baseline": false
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 15,
+      "last_touch_sentiment": "green",
+      "sentiment_trajectory": "stable_green",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "end_user",
+        "unknown",
+        "end_user",
+        "champion",
+        "champion"
+      ],
+      "initiated_by_recent": "customer",
+      "touches_last_60d": 2,
+      "touches_last_90d": 3
+    },
+    "support": {
+      "tickets_last_30d": 2,
+      "tickets_last_60d": 3,
+      "tickets_last_90d": 4,
+      "severity_trend": "stable_low",
+      "category_concentration": null,
+      "open_count": 0
+    },
+    "external": {
+      "signal_count_90d": 15,
+      "notable_signals": [
+        {
+          "date": "2026-04-15",
+          "headline": "Anthropic products are operational after brief outage, status page says - CNBC",
+          "source": "news.google.com",
+          "theme": "outage"
+        },
+        {
+          "date": "2026-03-02",
+          "headline": "Claude outage continuing to impact users, according to status page - KRON4",
+          "source": "news.google.com",
+          "theme": "outage"
+        },
+        {
+          "date": "2026-03-02",
+          "headline": "Claude outage: What \u2018HTTP 500 and 529 error\u2019 messages mean and update on company's status page - The Times of India",
+          "source": "news.google.com",
+          "theme": "outage"
+        }
+      ],
+      "signal_themes": [
+        "outage"
+      ]
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure"
+      ],
+      "renewal_days_out": 158,
+      "contract_age_days": 403,
+      "feature_breadth_avg": 6,
+      "arr": 748636
+    },
+    "anomalies": []
+  },
+  {
+    "company_id": "stytch",
+    "name": "Stytch",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.37,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.03,
+        "crossed_baseline": false
+      },
+      "Logs": {
+        "current_rate": 0.37,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": -0.0,
+        "crossed_baseline": false
+      },
+      "RUM": {
+        "current_rate": 0.36,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.01,
+        "crossed_baseline": false
+      },
+      "CI Visibility": {
+        "current_rate": 0.37,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": -0.01,
+        "crossed_baseline": false
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 44,
+      "last_touch_sentiment": "yellow",
+      "sentiment_trajectory": "mixed",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "end_user",
+        "end_user",
+        "champion",
+        "champion",
+        "champion"
+      ],
+      "initiated_by_recent": "csm",
+      "touches_last_60d": 1,
+      "touches_last_90d": 2
+    },
+    "support": {
+      "tickets_last_30d": 0,
+      "tickets_last_60d": 1,
+      "tickets_last_90d": 3,
+      "severity_trend": "stable_low",
+      "category_concentration": "configuration",
+      "open_count": 3
+    },
+    "external": {
+      "signal_count_90d": 8,
+      "notable_signals": [],
+      "signal_themes": []
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs",
+        "RUM",
+        "CI Visibility"
+      ],
+      "renewal_days_out": 144,
+      "contract_age_days": 96,
+      "feature_breadth_avg": 3,
+      "arr": 313752
+    },
+    "anomalies": []
+  },
+  {
+    "company_id": "supabase",
+    "name": "Supabase",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 1.2,
+        "trend_90d": "increasing",
+        "trend_30d": "stable",
+        "delta_pct": 0.24,
+        "crossed_baseline": true
+      },
+      "Logs": {
+        "current_rate": 1.21,
+        "trend_90d": "increasing",
+        "trend_30d": "stable",
+        "delta_pct": 0.26,
+        "crossed_baseline": true
+      },
+      "CI Visibility": {
+        "current_rate": 1.21,
+        "trend_90d": "increasing",
+        "trend_30d": "stable",
+        "delta_pct": 0.25,
+        "crossed_baseline": true
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 66,
+      "last_touch_sentiment": "yellow",
+      "sentiment_trajectory": "stable_yellow",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "champion",
+        "champion",
+        "executive_sponsor",
+        "champion",
+        "executive_sponsor"
+      ],
+      "initiated_by_recent": "csm",
+      "touches_last_60d": 0,
+      "touches_last_90d": 2
+    },
+    "support": {
+      "tickets_last_30d": 1,
+      "tickets_last_60d": 1,
+      "tickets_last_90d": 3,
+      "severity_trend": "stable_low",
+      "category_concentration": "performance",
+      "open_count": 0
+    },
+    "external": {
+      "signal_count_90d": 16,
+      "notable_signals": [
+        {
+          "date": "2026-04-04",
+          "headline": "Supabase eyes $10b valuation in new funding talks - Tech in Asia",
+          "source": "news.google.com",
+          "theme": "funding"
+        },
+        {
+          "date": "2026-04-02",
+          "headline": "Database Startup Supabase in Talks to Double Valuation to $10 Billion - The Information",
+          "source": "news.google.com",
+          "theme": "funding"
+        }
+      ],
+      "signal_themes": [
+        "funding"
+      ]
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs",
+        "CI Visibility"
+      ],
+      "renewal_days_out": 161,
+      "contract_age_days": 283,
+      "feature_breadth_avg": 9,
+      "arr": 240265
+    },
+    "anomalies": [
+      "Sustained growth of 24% in Infrastructure over last 30 days while CSM gap exceeds 66 days",
+      "Sustained growth of 26% in Logs over last 30 days while CSM gap exceeds 66 days",
+      "Sustained growth of 25% in CI Visibility over last 30 days while CSM gap exceeds 66 days",
+      "External growth signal present (funding) without corresponding usage movement"
+    ]
+  },
+  {
+    "company_id": "together-ai",
+    "name": "Together AI",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.68,
+        "trend_90d": "declining",
+        "trend_30d": "declining",
+        "delta_pct": -0.31,
+        "crossed_baseline": true
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 11,
+      "last_touch_sentiment": "red",
+      "sentiment_trajectory": "drifting_red",
+      "champion_active": false,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "champion",
+        "executive_sponsor",
+        "champion",
+        "champion",
+        "champion"
+      ],
+      "initiated_by_recent": "csm",
+      "touches_last_60d": 2,
+      "touches_last_90d": 2
+    },
+    "support": {
+      "tickets_last_30d": 0,
+      "tickets_last_60d": 4,
+      "tickets_last_90d": 5,
+      "severity_trend": "stable_high",
+      "category_concentration": null,
+      "open_count": 2
+    },
+    "external": {
+      "signal_count_90d": 16,
+      "notable_signals": [
+        {
+          "date": "2026-05-12",
+          "headline": "AI Med Consult and MedShark Digital Announce Strategic Partnership to Help Practices Capture More Patients and Accelerate Growth - Business Wire",
+          "source": "news.google.com",
+          "theme": "partnership"
+        }
+      ],
+      "signal_themes": [
+        "partnership"
+      ]
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure"
+      ],
+      "renewal_days_out": 132,
+      "contract_age_days": 595,
+      "feature_breadth_avg": 5,
+      "arr": 335709
+    },
+    "anomalies": [
+      "Declining Infrastructure utilization with inactive champion",
+      "Customer sentiment trending negative across recent interactions",
+      "Manifest note: Champion marked inactive despite otherwise positive usage indicators."
+    ]
+  },
+  {
+    "company_id": "triggerdev",
+    "name": "Trigger.dev",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.36,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.05,
+        "crossed_baseline": false
+      },
+      "Logs": {
+        "current_rate": 0.36,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.06,
+        "crossed_baseline": false
+      },
+      "RUM": {
+        "current_rate": 0.37,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.04,
+        "crossed_baseline": false
+      },
+      "CI Visibility": {
+        "current_rate": 0.36,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": -0.02,
+        "crossed_baseline": false
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 42,
+      "last_touch_sentiment": "yellow",
+      "sentiment_trajectory": "mixed",
+      "champion_active": true,
+      "executive_sponsor_active": false,
+      "recent_contact_mix": [
+        "executive_sponsor",
+        "end_user",
+        "end_user",
+        "champion",
+        "unknown"
+      ],
+      "initiated_by_recent": "csm",
+      "touches_last_60d": 1,
+      "touches_last_90d": 2
+    },
+    "support": {
+      "tickets_last_30d": 0,
+      "tickets_last_60d": 1,
+      "tickets_last_90d": 1,
+      "severity_trend": "stable_low",
+      "category_concentration": "feature_request",
+      "open_count": 1
+    },
+    "external": {
+      "signal_count_90d": 16,
+      "notable_signals": [],
+      "signal_themes": []
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs",
+        "RUM",
+        "CI Visibility"
+      ],
+      "renewal_days_out": 96,
+      "contract_age_days": 184,
+      "feature_breadth_avg": 3.8,
+      "arr": 336150
+    },
+    "anomalies": [
+      "Manifest note: One product exhibits unusually stable utilization despite overall volatility."
+    ]
+  },
+  {
+    "company_id": "turso",
+    "name": "Turso",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 1.3,
+        "trend_90d": "increasing",
+        "trend_30d": "stable",
+        "delta_pct": 0.33,
+        "crossed_baseline": true
+      },
+      "Logs": {
+        "current_rate": 1.3,
+        "trend_90d": "increasing",
+        "trend_30d": "stable",
+        "delta_pct": 0.32,
+        "crossed_baseline": true
+      },
+      "CI Visibility": {
+        "current_rate": 1.29,
+        "trend_90d": "increasing",
+        "trend_30d": "increasing",
+        "delta_pct": 0.34,
+        "crossed_baseline": true
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 71,
+      "last_touch_sentiment": "green",
+      "sentiment_trajectory": "stable_green",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "champion",
+        "champion",
+        "champion",
+        "end_user",
+        "champion"
+      ],
+      "initiated_by_recent": "customer",
+      "touches_last_60d": 0,
+      "touches_last_90d": 1
+    },
+    "support": {
+      "tickets_last_30d": 0,
+      "tickets_last_60d": 3,
+      "tickets_last_90d": 3,
+      "severity_trend": "stable_low",
+      "category_concentration": null,
+      "open_count": 1
+    },
+    "external": {
+      "signal_count_90d": 12,
+      "notable_signals": [],
+      "signal_themes": []
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs",
+        "CI Visibility"
+      ],
+      "renewal_days_out": 74,
+      "contract_age_days": 139,
+      "feature_breadth_avg": 6.3,
+      "arr": 592340
+    },
+    "anomalies": [
+      "Sustained growth of 33% in Infrastructure over last 30 days while CSM gap exceeds 71 days",
+      "Sustained growth of 32% in Logs over last 30 days while CSM gap exceeds 71 days",
+      "Sustained growth of 34% in CI Visibility over last 30 days while CSM gap exceeds 71 days"
+    ]
+  },
+  {
+    "company_id": "veev",
+    "name": "Veev",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.43,
+        "trend_90d": "declining",
+        "trend_30d": "declining",
+        "delta_pct": -0.48,
+        "crossed_baseline": false
+      },
+      "Logs": {
+        "current_rate": 0.42,
+        "trend_90d": "declining",
+        "trend_30d": "declining",
+        "delta_pct": -0.5,
+        "crossed_baseline": false
+      },
+      "RUM": {
+        "current_rate": 0.4,
+        "trend_90d": "declining",
+        "trend_30d": "declining",
+        "delta_pct": -0.53,
+        "crossed_baseline": false
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 64,
+      "last_touch_sentiment": "red",
+      "sentiment_trajectory": "drifting_red",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "unknown",
+        "end_user",
+        "champion",
+        "unknown"
+      ],
+      "initiated_by_recent": "customer",
+      "touches_last_60d": 0,
+      "touches_last_90d": 2
+    },
+    "support": {
+      "tickets_last_30d": 5,
+      "tickets_last_60d": 10,
+      "tickets_last_90d": 11,
+      "severity_trend": "stable_high",
+      "category_concentration": null,
+      "open_count": 2
+    },
+    "external": {
+      "signal_count_90d": 16,
+      "notable_signals": [
+        {
+          "date": "2026-05-06",
+          "headline": "Why Veev\u2019s latest CEO exit raises questions about prefab scale - HousingWire",
+          "source": "news.google.com",
+          "theme": "funding"
+        }
+      ],
+      "signal_themes": [
+        "funding"
+      ]
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs",
+        "RUM"
+      ],
+      "renewal_days_out": 60,
+      "contract_age_days": 508,
+      "feature_breadth_avg": 4.3,
+      "arr": 252634
+    },
+    "anomalies": [
+      "External growth signal present (funding) without corresponding usage movement",
+      "Renewal within 60 days with active risk signal",
+      "Customer sentiment trending negative across recent interactions"
+    ]
+  },
+  {
+    "company_id": "vercel",
+    "name": "Vercel",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 1.19,
+        "trend_90d": "increasing",
+        "trend_30d": "stable",
+        "delta_pct": 0.23,
+        "crossed_baseline": true
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 45,
+      "last_touch_sentiment": "green",
+      "sentiment_trajectory": "stable_green",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "executive_sponsor",
+        "executive_sponsor",
+        "end_user",
+        "champion",
+        "executive_sponsor"
+      ],
+      "initiated_by_recent": "csm",
+      "touches_last_60d": 2,
+      "touches_last_90d": 3
+    },
+    "support": {
+      "tickets_last_30d": 1,
+      "tickets_last_60d": 1,
+      "tickets_last_90d": 2,
+      "severity_trend": "stable_low",
+      "category_concentration": "bug",
+      "open_count": 1
+    },
+    "external": {
+      "signal_count_90d": 16,
+      "notable_signals": [
+        {
+          "date": "2026-04-19",
+          "headline": "Vercel April 2026 security incident",
+          "source": "Hacker News",
+          "theme": "outage"
+        }
+      ],
+      "signal_themes": [
+        "outage"
+      ]
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure"
+      ],
+      "renewal_days_out": 150,
+      "contract_age_days": 316,
+      "feature_breadth_avg": 6,
+      "arr": 459201
+    },
+    "anomalies": [
+      "Sustained growth of 23% in Infrastructure over last 30 days while CSM gap exceeds 45 days"
+    ]
+  },
+  {
+    "company_id": "weights-biases",
+    "name": "Weights & Biases",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.59,
+        "trend_90d": "declining",
+        "trend_30d": "stable",
+        "delta_pct": -0.13,
+        "crossed_baseline": false
+      },
+      "Logs": {
+        "current_rate": 0.76,
+        "trend_90d": "declining",
+        "trend_30d": "increasing",
+        "delta_pct": -0.15,
+        "crossed_baseline": true
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 15,
+      "last_touch_sentiment": "green",
+      "sentiment_trajectory": "mixed",
+      "champion_active": true,
+      "executive_sponsor_active": true,
+      "recent_contact_mix": [
+        "end_user",
+        "end_user",
+        "champion",
+        "champion",
+        "champion"
+      ],
+      "initiated_by_recent": "customer",
+      "touches_last_60d": 2,
+      "touches_last_90d": 4
+    },
+    "support": {
+      "tickets_last_30d": 1,
+      "tickets_last_60d": 5,
+      "tickets_last_90d": 6,
+      "severity_trend": "stable_high",
+      "category_concentration": null,
+      "open_count": 7
+    },
+    "external": {
+      "signal_count_90d": 16,
+      "notable_signals": [],
+      "signal_themes": []
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs"
+      ],
+      "renewal_days_out": 149,
+      "contract_age_days": 596,
+      "feature_breadth_avg": 5.5,
+      "arr": 308552
+    },
+    "anomalies": []
+  },
+  {
+    "company_id": "zuplo",
+    "name": "Zuplo",
+    "as_of_date": "2026-05-01",
+    "utilization": {
+      "Infrastructure": {
+        "current_rate": 0.36,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.02,
+        "crossed_baseline": false
+      },
+      "Logs": {
+        "current_rate": 0.37,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.02,
+        "crossed_baseline": false
+      },
+      "RUM": {
+        "current_rate": 0.37,
+        "trend_90d": "stable",
+        "trend_30d": "stable",
+        "delta_pct": 0.03,
+        "crossed_baseline": false
+      }
+    },
+    "engagement": {
+      "csm_gap_days": 43,
+      "last_touch_sentiment": "yellow",
+      "sentiment_trajectory": "mixed",
+      "champion_active": false,
+      "executive_sponsor_active": false,
+      "recent_contact_mix": [
+        "end_user",
+        "end_user",
+        "champion",
+        "end_user",
+        "champion"
+      ],
+      "initiated_by_recent": "csm",
+      "touches_last_60d": 1,
+      "touches_last_90d": 2
+    },
+    "support": {
+      "tickets_last_30d": 0,
+      "tickets_last_60d": 2,
+      "tickets_last_90d": 2,
+      "severity_trend": "stable_low",
+      "category_concentration": null,
+      "open_count": 4
+    },
+    "external": {
+      "signal_count_90d": 9,
+      "notable_signals": [
+        {
+          "date": "2026-02-13",
+          "headline": "AccuWeather Partners With Akamai to Bring a Better Developer Experience to Weather - AccuWeather",
+          "source": "news.google.com",
+          "theme": "partnership"
+        }
+      ],
+      "signal_themes": [
+        "partnership"
+      ]
+    },
+    "account_context": {
+      "products_contracted": [
+        "Infrastructure",
+        "Logs",
+        "RUM"
+      ],
+      "renewal_days_out": 82,
+      "contract_age_days": 96,
+      "feature_breadth_avg": 3,
+      "arr": 512322
+    },
+    "anomalies": [
+      "Manifest note: Champion marked inactive despite otherwise positive usage indicators."
+    ]
+  }
+]

@@ -1,0 +1,1407 @@
+[
+  {
+    "company_id": "vercel",
+    "name": "Vercel",
+    "industry": "Developer Platform",
+    "employee_count": 1182,
+    "arr": 459201,
+    "contract_start_date": "2025-06-19",
+    "renewal_date": "2026-09-28",
+    "products_contracted": [
+      "Infrastructure"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 3947
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 6
+    },
+    "champion_name": "Quinn Patel",
+    "champion_title": "Staff Platform Engineer",
+    "champion_active": true,
+    "executive_sponsor_name": "Jamie Nguyen",
+    "executive_sponsor_title": "SVP Infrastructure",
+    "executive_sponsor_active": true,
+    "health_score": 97
+  },
+  {
+    "company_id": "linear",
+    "name": "Linear",
+    "industry": "Project Management",
+    "employee_count": 191,
+    "arr": 555435,
+    "contract_start_date": "2024-12-24",
+    "renewal_date": "2026-07-20",
+    "products_contracted": [
+      "Infrastructure"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 2991
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 8
+    },
+    "champion_name": "Parker Patel",
+    "champion_title": "Head of Reliability",
+    "champion_active": true,
+    "executive_sponsor_name": "Riley Bennett",
+    "executive_sponsor_title": "CTO",
+    "executive_sponsor_active": true,
+    "health_score": 100
+  },
+  {
+    "company_id": "rippling",
+    "name": "Rippling",
+    "industry": "HR Tech",
+    "employee_count": 3093,
+    "arr": 477887,
+    "contract_start_date": "2025-03-31",
+    "renewal_date": "2026-10-26",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 72097
+      },
+      "logs": {
+        "log_volume_gb": 225665
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 8,
+      "logs": 6
+    },
+    "champion_name": "Drew Sullivan",
+    "champion_title": "Engineering Manager",
+    "champion_active": true,
+    "executive_sponsor_name": "Taylor Foster",
+    "executive_sponsor_title": "VP Platform",
+    "executive_sponsor_active": true,
+    "health_score": 97
+  },
+  {
+    "company_id": "retool",
+    "name": "Retool",
+    "industry": "Developer Tools",
+    "employee_count": 1197,
+    "arr": 409963,
+    "contract_start_date": "2025-05-29",
+    "renewal_date": "2026-09-21",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs",
+      "RUM",
+      "CI Visibility",
+      "Security"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 25065
+      },
+      "logs": {
+        "log_volume_gb": 156376
+      },
+      "rum": {
+        "rum_sessions": 46193762
+      },
+      "ci_visibility": {
+        "pipelines_analyzed": 112673
+      },
+      "security": {
+        "security_signals": 52237
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 7,
+      "logs": 7,
+      "rum": 8,
+      "ci_visibility": 9,
+      "security": 9
+    },
+    "champion_name": "Jamie Chen",
+    "champion_title": "Head of Reliability",
+    "champion_active": true,
+    "executive_sponsor_name": "Elliot Patel",
+    "executive_sponsor_title": "VP of Engineering",
+    "executive_sponsor_active": true,
+    "health_score": 100
+  },
+  {
+    "company_id": "supabase",
+    "name": "Supabase",
+    "industry": "Database Platform",
+    "employee_count": 148,
+    "arr": 240265,
+    "contract_start_date": "2025-07-22",
+    "renewal_date": "2026-10-09",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs",
+      "CI Visibility"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 2632
+      },
+      "logs": {
+        "log_volume_gb": 29071
+      },
+      "ci_visibility": {
+        "pipelines_analyzed": 6235
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 9,
+      "logs": 9,
+      "ci_visibility": 9
+    },
+    "champion_name": "Parker Morris",
+    "champion_title": "Observability Lead",
+    "champion_active": true,
+    "executive_sponsor_name": "Morgan Hayes",
+    "executive_sponsor_title": "Chief Architect",
+    "executive_sponsor_active": true,
+    "health_score": 100
+  },
+  {
+    "company_id": "clerk",
+    "name": "Clerk",
+    "industry": "Authentication",
+    "employee_count": 148,
+    "arr": 387757,
+    "contract_start_date": "2024-10-13",
+    "renewal_date": "2026-07-20",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs",
+      "RUM"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 2823
+      },
+      "logs": {
+        "log_volume_gb": 304
+      },
+      "rum": {
+        "rum_sessions": 3284811
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 7,
+      "logs": 6,
+      "rum": 8
+    },
+    "champion_name": "Skyler Brooks",
+    "champion_title": "Staff Platform Engineer",
+    "champion_active": true,
+    "executive_sponsor_name": "Riley Diaz",
+    "executive_sponsor_title": "VP of Engineering",
+    "executive_sponsor_active": true,
+    "health_score": 100
+  },
+  {
+    "company_id": "turso",
+    "name": "Turso",
+    "industry": "Database Infrastructure",
+    "employee_count": 91,
+    "arr": 592340,
+    "contract_start_date": "2025-12-13",
+    "renewal_date": "2026-07-14",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs",
+      "CI Visibility"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 1536
+      },
+      "logs": {
+        "log_volume_gb": 10176
+      },
+      "ci_visibility": {
+        "pipelines_analyzed": 15742
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 6,
+      "logs": 7,
+      "ci_visibility": 6
+    },
+    "champion_name": "Elliot Patel",
+    "champion_title": "Staff Platform Engineer",
+    "champion_active": true,
+    "executive_sponsor_name": "Logan Chen",
+    "executive_sponsor_title": "CTO",
+    "executive_sponsor_active": true,
+    "health_score": 96
+  },
+  {
+    "company_id": "descript",
+    "name": "Descript",
+    "industry": "Media Software",
+    "employee_count": 288,
+    "arr": 578369,
+    "contract_start_date": "2024-06-18",
+    "renewal_date": "2026-07-21",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 3268
+      },
+      "logs": {
+        "log_volume_gb": 50083
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 9,
+      "logs": 7
+    },
+    "champion_name": "Quinn Sullivan",
+    "champion_title": "Observability Lead",
+    "champion_active": true,
+    "executive_sponsor_name": "Cameron Ward",
+    "executive_sponsor_title": "VP Platform",
+    "executive_sponsor_active": true,
+    "health_score": 100
+  },
+  {
+    "company_id": "carta",
+    "name": "Carta",
+    "industry": "Fintech",
+    "employee_count": 3049,
+    "arr": 206882,
+    "contract_start_date": "2025-04-23",
+    "renewal_date": "2026-07-28",
+    "products_contracted": [
+      "Infrastructure"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 9512
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 4
+    },
+    "champion_name": "Avery Patel",
+    "champion_title": "Observability Lead",
+    "champion_active": false,
+    "executive_sponsor_name": "Jordan Bennett",
+    "executive_sponsor_title": "VP of Engineering",
+    "executive_sponsor_active": true,
+    "health_score": 31
+  },
+  {
+    "company_id": "fast",
+    "name": "Fast",
+    "industry": "Payments",
+    "employee_count": 54,
+    "arr": 426479,
+    "contract_start_date": "2024-11-29",
+    "renewal_date": "2026-09-03",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs",
+      "RUM",
+      "CI Visibility"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 1024
+      },
+      "logs": {
+        "log_volume_gb": 9225
+      },
+      "rum": {
+        "rum_sessions": 4081951
+      },
+      "ci_visibility": {
+        "pipelines_analyzed": 14090
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 5,
+      "logs": 3,
+      "rum": 5,
+      "ci_visibility": 9
+    },
+    "champion_name": "Morgan Nguyen",
+    "champion_title": "Observability Lead",
+    "champion_active": false,
+    "executive_sponsor_name": "Rowan Brooks",
+    "executive_sponsor_title": "SVP Infrastructure",
+    "executive_sponsor_active": false,
+    "health_score": 32
+  },
+  {
+    "company_id": "convoy",
+    "name": "Convoy",
+    "industry": "Logistics Tech",
+    "employee_count": 225,
+    "arr": 569710,
+    "contract_start_date": "2024-12-04",
+    "renewal_date": "2026-09-24",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs",
+      "RUM"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 1019
+      },
+      "logs": {
+        "log_volume_gb": 4693
+      },
+      "rum": {
+        "rum_sessions": 7621722
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 5,
+      "logs": 4,
+      "rum": 3
+    },
+    "champion_name": "Skyler Reed",
+    "champion_title": "Senior DevOps Engineer",
+    "champion_active": false,
+    "executive_sponsor_name": "Parker Ward",
+    "executive_sponsor_title": "CTO",
+    "executive_sponsor_active": false,
+    "health_score": 32
+  },
+  {
+    "company_id": "olive-ai",
+    "name": "Olive AI",
+    "industry": "Healthcare AI",
+    "employee_count": 1195,
+    "arr": 159046,
+    "contract_start_date": "2024-10-05",
+    "renewal_date": "2026-10-11",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs",
+      "CI Visibility"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 27532
+      },
+      "logs": {
+        "log_volume_gb": 39530
+      },
+      "ci_visibility": {
+        "pipelines_analyzed": 40211
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 5,
+      "logs": 5,
+      "ci_visibility": 3
+    },
+    "champion_name": "Riley Reed",
+    "champion_title": "Director of Infrastructure",
+    "champion_active": true,
+    "executive_sponsor_name": "Elliot Foster",
+    "executive_sponsor_title": "SVP Infrastructure",
+    "executive_sponsor_active": true,
+    "health_score": 42
+  },
+  {
+    "company_id": "veev",
+    "name": "Veev",
+    "industry": "Construction Tech",
+    "employee_count": 360,
+    "arr": 252634,
+    "contract_start_date": "2024-12-09",
+    "renewal_date": "2026-06-30",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs",
+      "RUM"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 5936
+      },
+      "logs": {
+        "log_volume_gb": 31644
+      },
+      "rum": {
+        "rum_sessions": 13776789
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 4,
+      "logs": 4,
+      "rum": 5
+    },
+    "champion_name": "Elliot Chen",
+    "champion_title": "Senior DevOps Engineer",
+    "champion_active": true,
+    "executive_sponsor_name": "Quinn Foster",
+    "executive_sponsor_title": "VP of Engineering",
+    "executive_sponsor_active": true,
+    "health_score": 47
+  },
+  {
+    "company_id": "plastiq",
+    "name": "Plastiq",
+    "industry": "Payments",
+    "employee_count": 268,
+    "arr": 648532,
+    "contract_start_date": "2025-10-31",
+    "renewal_date": "2026-10-03",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs",
+      "RUM"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 3575
+      },
+      "logs": {
+        "log_volume_gb": 5287
+      },
+      "rum": {
+        "rum_sessions": 1154072
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 5,
+      "logs": 4,
+      "rum": 5
+    },
+    "champion_name": "Sam Patel",
+    "champion_title": "Staff Platform Engineer",
+    "champion_active": true,
+    "executive_sponsor_name": "Riley Patel",
+    "executive_sponsor_title": "VP Platform",
+    "executive_sponsor_active": true,
+    "health_score": 40
+  },
+  {
+    "company_id": "bereal",
+    "name": "BeReal",
+    "industry": "Consumer Social",
+    "employee_count": 137,
+    "arr": 788011,
+    "contract_start_date": "2025-05-06",
+    "renewal_date": "2026-08-20",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 741
+      },
+      "logs": {
+        "log_volume_gb": 25710
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 3,
+      "logs": 5
+    },
+    "champion_name": "Sam Campbell",
+    "champion_title": "Engineering Manager",
+    "champion_active": false,
+    "executive_sponsor_name": "Casey Campbell",
+    "executive_sponsor_title": "CTO",
+    "executive_sponsor_active": true,
+    "health_score": 34
+  },
+  {
+    "company_id": "resend",
+    "name": "Resend",
+    "industry": "Developer Email Infrastructure",
+    "employee_count": 83,
+    "arr": 495011,
+    "contract_start_date": "2025-12-29",
+    "renewal_date": "2026-09-23",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs",
+      "RUM",
+      "CI Visibility"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 1278
+      },
+      "logs": {
+        "log_volume_gb": 15082
+      },
+      "rum": {
+        "rum_sessions": 2662286
+      },
+      "ci_visibility": {
+        "pipelines_analyzed": 49324
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 2,
+      "logs": 2,
+      "rum": 3,
+      "ci_visibility": 4
+    },
+    "champion_name": "Taylor Foster",
+    "champion_title": "Head of Reliability",
+    "champion_active": true,
+    "executive_sponsor_name": "Parker Chen",
+    "executive_sponsor_title": "Chief Architect",
+    "executive_sponsor_active": true,
+    "health_score": 49
+  },
+  {
+    "company_id": "triggerdev",
+    "name": "Trigger.dev",
+    "industry": "Developer Platform",
+    "employee_count": 58,
+    "arr": 336150,
+    "contract_start_date": "2025-10-29",
+    "renewal_date": "2026-08-05",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs",
+      "RUM",
+      "CI Visibility"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 696
+      },
+      "logs": {
+        "log_volume_gb": 14458
+      },
+      "rum": {
+        "rum_sessions": 4566842
+      },
+      "ci_visibility": {
+        "pipelines_analyzed": 46157
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 3,
+      "logs": 4,
+      "rum": 4,
+      "ci_visibility": 4
+    },
+    "champion_name": "Morgan Chen",
+    "champion_title": "Engineering Manager",
+    "champion_active": true,
+    "executive_sponsor_name": "Morgan Nguyen",
+    "executive_sponsor_title": "VP Platform",
+    "executive_sponsor_active": false,
+    "health_score": 52
+  },
+  {
+    "company_id": "inngest",
+    "name": "Inngest",
+    "industry": "Developer Infrastructure",
+    "employee_count": 69,
+    "arr": 365577,
+    "contract_start_date": "2025-11-20",
+    "renewal_date": "2026-09-15",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs",
+      "CI Visibility"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 912
+      },
+      "logs": {
+        "log_volume_gb": 11335
+      },
+      "ci_visibility": {
+        "pipelines_analyzed": 13392
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 4,
+      "logs": 4,
+      "ci_visibility": 3
+    },
+    "champion_name": "Taylor Reed",
+    "champion_title": "Staff Platform Engineer",
+    "champion_active": true,
+    "executive_sponsor_name": "Parker Kline",
+    "executive_sponsor_title": "VP of Engineering",
+    "executive_sponsor_active": true,
+    "health_score": 51
+  },
+  {
+    "company_id": "novu",
+    "name": "Novu",
+    "industry": "Notification Infrastructure",
+    "employee_count": 205,
+    "arr": 217174,
+    "contract_start_date": "2025-08-21",
+    "renewal_date": "2026-08-02",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 1457
+      },
+      "logs": {
+        "log_volume_gb": 29884
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 4,
+      "logs": 4
+    },
+    "champion_name": "Morgan Patel",
+    "champion_title": "Observability Lead",
+    "champion_active": true,
+    "executive_sponsor_name": "Skyler Kline",
+    "executive_sponsor_title": "Chief Architect",
+    "executive_sponsor_active": false,
+    "health_score": 49
+  },
+  {
+    "company_id": "apiary",
+    "name": "Apiary",
+    "industry": "API Platform",
+    "employee_count": 269,
+    "arr": 659364,
+    "contract_start_date": "2025-12-25",
+    "renewal_date": "2026-08-24",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs",
+      "RUM"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 1538
+      },
+      "logs": {
+        "log_volume_gb": 3954
+      },
+      "rum": {
+        "rum_sessions": 6982858
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 3,
+      "logs": 2,
+      "rum": 3
+    },
+    "champion_name": "Cameron Reed",
+    "champion_title": "Head of Reliability",
+    "champion_active": true,
+    "executive_sponsor_name": "Skyler Bennett",
+    "executive_sponsor_title": "CTO",
+    "executive_sponsor_active": true,
+    "health_score": 49
+  },
+  {
+    "company_id": "zuplo",
+    "name": "Zuplo",
+    "industry": "API Gateway",
+    "employee_count": 72,
+    "arr": 512322,
+    "contract_start_date": "2026-01-25",
+    "renewal_date": "2026-07-22",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs",
+      "RUM"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 1410
+      },
+      "logs": {
+        "log_volume_gb": 13591
+      },
+      "rum": {
+        "rum_sessions": 2091777
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 3,
+      "logs": 2,
+      "rum": 4
+    },
+    "champion_name": "Jamie Foster",
+    "champion_title": "Staff Platform Engineer",
+    "champion_active": false,
+    "executive_sponsor_name": "Alex Brooks",
+    "executive_sponsor_title": "Chief Architect",
+    "executive_sponsor_active": false,
+    "health_score": 43
+  },
+  {
+    "company_id": "stytch",
+    "name": "Stytch",
+    "industry": "Authentication",
+    "employee_count": 178,
+    "arr": 313752,
+    "contract_start_date": "2026-01-25",
+    "renewal_date": "2026-09-22",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs",
+      "RUM",
+      "CI Visibility"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 1496
+      },
+      "logs": {
+        "log_volume_gb": 23417
+      },
+      "rum": {
+        "rum_sessions": 4919314
+      },
+      "ci_visibility": {
+        "pipelines_analyzed": 32588
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 2,
+      "logs": 3,
+      "rum": 3,
+      "ci_visibility": 4
+    },
+    "champion_name": "Drew Morris",
+    "champion_title": "Director of Platform Engineering",
+    "champion_active": true,
+    "executive_sponsor_name": "Parker Rivera",
+    "executive_sponsor_title": "VP Platform",
+    "executive_sponsor_active": true,
+    "health_score": 57
+  },
+  {
+    "company_id": "permitio",
+    "name": "Permit.io",
+    "industry": "Authorization Platform",
+    "employee_count": 83,
+    "arr": 120115,
+    "contract_start_date": "2026-01-04",
+    "renewal_date": "2026-09-14",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs",
+      "RUM",
+      "CI Visibility",
+      "Security"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 1829
+      },
+      "logs": {
+        "log_volume_gb": 11427
+      },
+      "rum": {
+        "rum_sessions": 2641316
+      },
+      "ci_visibility": {
+        "pipelines_analyzed": 28649
+      },
+      "security": {
+        "security_signals": 9957
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 9,
+      "logs": 2,
+      "rum": 3,
+      "ci_visibility": 4,
+      "security": 2
+    },
+    "champion_name": "Logan Foster",
+    "champion_title": "Engineering Manager",
+    "champion_active": true,
+    "executive_sponsor_name": "Rowan Patel",
+    "executive_sponsor_title": "Chief Architect",
+    "executive_sponsor_active": false,
+    "health_score": 57
+  },
+  {
+    "company_id": "snyk",
+    "name": "Snyk",
+    "industry": "Security",
+    "employee_count": 3752,
+    "arr": 409164,
+    "contract_start_date": "2025-08-27",
+    "renewal_date": "2026-09-30",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs",
+      "CI Visibility"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 48025
+      },
+      "logs": {
+        "log_volume_gb": 627221
+      },
+      "ci_visibility": {
+        "pipelines_analyzed": 762368
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 7,
+      "logs": 6,
+      "ci_visibility": 6
+    },
+    "champion_name": "Quinn Chen",
+    "champion_title": "Senior DevOps Engineer",
+    "champion_active": true,
+    "executive_sponsor_name": "Rowan Sullivan",
+    "executive_sponsor_title": "CTO",
+    "executive_sponsor_active": true,
+    "health_score": 89
+  },
+  {
+    "company_id": "launchdarkly",
+    "name": "LaunchDarkly",
+    "industry": "Feature Management",
+    "employee_count": 3721,
+    "arr": 676750,
+    "contract_start_date": "2025-02-27",
+    "renewal_date": "2026-08-20",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs",
+      "RUM"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 85359
+      },
+      "logs": {
+        "log_volume_gb": 4204
+      },
+      "rum": {
+        "rum_sessions": 95223627
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 6,
+      "logs": 5,
+      "rum": 6
+    },
+    "champion_name": "Alex Ward",
+    "champion_title": "Director of Infrastructure",
+    "champion_active": true,
+    "executive_sponsor_name": "Casey Diaz",
+    "executive_sponsor_title": "SVP Infrastructure",
+    "executive_sponsor_active": true,
+    "health_score": 86
+  },
+  {
+    "company_id": "grafana-labs",
+    "name": "Grafana Labs",
+    "industry": "Observability",
+    "employee_count": 1895,
+    "arr": 770855,
+    "contract_start_date": "2025-10-07",
+    "renewal_date": "2026-08-05",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 40950
+      },
+      "logs": {
+        "log_volume_gb": 210022
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 5,
+      "logs": 5
+    },
+    "champion_name": "Jamie Foster",
+    "champion_title": "Senior DevOps Engineer",
+    "champion_active": true,
+    "executive_sponsor_name": "Avery Kline",
+    "executive_sponsor_title": "CTO",
+    "executive_sponsor_active": true,
+    "health_score": 83
+  },
+  {
+    "company_id": "hashicorp",
+    "name": "Hashicorp",
+    "industry": "Infrastructure Software",
+    "employee_count": 3146,
+    "arr": 720967,
+    "contract_start_date": "2025-10-19",
+    "renewal_date": "2026-08-27",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs",
+      "RUM",
+      "CI Visibility",
+      "Security"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 54960
+      },
+      "logs": {
+        "log_volume_gb": 596575
+      },
+      "rum": {
+        "rum_sessions": 51627118
+      },
+      "ci_visibility": {
+        "pipelines_analyzed": 1482615
+      },
+      "security": {
+        "security_signals": 198701
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 6,
+      "logs": 6,
+      "rum": 5,
+      "ci_visibility": 5,
+      "security": 7
+    },
+    "champion_name": "Rowan Bennett",
+    "champion_title": "Senior DevOps Engineer",
+    "champion_active": false,
+    "executive_sponsor_name": "Sam Ward",
+    "executive_sponsor_title": "VP of Engineering",
+    "executive_sponsor_active": true,
+    "health_score": 72
+  },
+  {
+    "company_id": "pagerduty",
+    "name": "PagerDuty",
+    "industry": "Incident Management",
+    "employee_count": 3483,
+    "arr": 341303,
+    "contract_start_date": "2025-08-30",
+    "renewal_date": "2026-08-27",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs",
+      "RUM",
+      "CI Visibility"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 20758
+      },
+      "logs": {
+        "log_volume_gb": 533769
+      },
+      "rum": {
+        "rum_sessions": 155531867
+      },
+      "ci_visibility": {
+        "pipelines_analyzed": 1277529
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 7,
+      "logs": 6,
+      "rum": 6,
+      "ci_visibility": 7
+    },
+    "champion_name": "Rowan Ward",
+    "champion_title": "Senior DevOps Engineer",
+    "champion_active": true,
+    "executive_sponsor_name": "Elliot Ward",
+    "executive_sponsor_title": "Chief Architect",
+    "executive_sponsor_active": true,
+    "health_score": 91
+  },
+  {
+    "company_id": "statuspage",
+    "name": "Statuspage",
+    "industry": "Status Monitoring",
+    "employee_count": 183,
+    "arr": 748636,
+    "contract_start_date": "2025-03-24",
+    "renewal_date": "2026-10-06",
+    "products_contracted": [
+      "Infrastructure"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 3998
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 6
+    },
+    "champion_name": "Parker Ward",
+    "champion_title": "Director of Platform Engineering",
+    "champion_active": true,
+    "executive_sponsor_name": "Quinn Bennett",
+    "executive_sponsor_title": "Chief Architect",
+    "executive_sponsor_active": true,
+    "health_score": 85
+  },
+  {
+    "company_id": "rollbar",
+    "name": "Rollbar",
+    "industry": "Error Monitoring",
+    "employee_count": 205,
+    "arr": 415239,
+    "contract_start_date": "2024-06-27",
+    "renewal_date": "2026-07-10",
+    "products_contracted": [
+      "Infrastructure"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 1262
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 5
+    },
+    "champion_name": "Skyler Foster",
+    "champion_title": "Director of Platform Engineering",
+    "champion_active": true,
+    "executive_sponsor_name": "Rowan Reed",
+    "executive_sponsor_title": "Chief Architect",
+    "executive_sponsor_active": true,
+    "health_score": 85
+  },
+  {
+    "company_id": "sentry",
+    "name": "Sentry",
+    "industry": "Application Monitoring",
+    "employee_count": 3422,
+    "arr": 568557,
+    "contract_start_date": "2024-11-02",
+    "renewal_date": "2026-07-07",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs",
+      "RUM",
+      "CI Visibility",
+      "Security"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 30695
+      },
+      "logs": {
+        "log_volume_gb": 474528
+      },
+      "rum": {
+        "rum_sessions": 112144688
+      },
+      "ci_visibility": {
+        "pipelines_analyzed": 1311584
+      },
+      "security": {
+        "security_signals": 11805
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 7,
+      "logs": 6,
+      "rum": 6,
+      "ci_visibility": 5,
+      "security": 6
+    },
+    "champion_name": "Blake Reed",
+    "champion_title": "Head of Reliability",
+    "champion_active": true,
+    "executive_sponsor_name": "Logan Bennett",
+    "executive_sponsor_title": "SVP Infrastructure",
+    "executive_sponsor_active": true,
+    "health_score": 86
+  },
+  {
+    "company_id": "netlify",
+    "name": "Netlify",
+    "industry": "Developer Platform",
+    "employee_count": 524,
+    "arr": 366193,
+    "contract_start_date": "2024-10-12",
+    "renewal_date": "2026-08-31",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs",
+      "CI Visibility"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 880
+      },
+      "logs": {
+        "log_volume_gb": 67292
+      },
+      "ci_visibility": {
+        "pipelines_analyzed": 115688
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 7,
+      "logs": 7,
+      "ci_visibility": 6
+    },
+    "champion_name": "Alex Chen",
+    "champion_title": "Head of Reliability",
+    "champion_active": true,
+    "executive_sponsor_name": "Logan Morris",
+    "executive_sponsor_title": "SVP Infrastructure",
+    "executive_sponsor_active": true,
+    "health_score": 86
+  },
+  {
+    "company_id": "fastly",
+    "name": "Fastly",
+    "industry": "CDN",
+    "employee_count": 3624,
+    "arr": 671807,
+    "contract_start_date": "2025-12-05",
+    "renewal_date": "2026-07-10",
+    "products_contracted": [
+      "Infrastructure"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 65413
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 5
+    },
+    "champion_name": "Riley Kline",
+    "champion_title": "Engineering Manager",
+    "champion_active": true,
+    "executive_sponsor_name": "Blake Campbell",
+    "executive_sponsor_title": "CTO",
+    "executive_sponsor_active": true,
+    "health_score": 86
+  },
+  {
+    "company_id": "replit",
+    "name": "Replit",
+    "industry": "AI Coding",
+    "employee_count": 765,
+    "arr": 422722,
+    "contract_start_date": "2025-01-21",
+    "renewal_date": "2026-10-05",
+    "products_contracted": [
+      "Infrastructure"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 12255
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 5
+    },
+    "champion_name": "Parker Patel",
+    "champion_title": "Director of Infrastructure",
+    "champion_active": true,
+    "executive_sponsor_name": "Avery Kline",
+    "executive_sponsor_title": "Chief Architect",
+    "executive_sponsor_active": true,
+    "health_score": 73
+  },
+  {
+    "company_id": "hugging-face",
+    "name": "Hugging Face",
+    "industry": "AI/ML",
+    "employee_count": 2118,
+    "arr": 761725,
+    "contract_start_date": "2025-10-23",
+    "renewal_date": "2026-10-07",
+    "products_contracted": [
+      "Infrastructure"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 4532
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 3
+    },
+    "champion_name": "Avery Chen",
+    "champion_title": "Senior DevOps Engineer",
+    "champion_active": true,
+    "executive_sponsor_name": "Skyler Price",
+    "executive_sponsor_title": "VP of Engineering",
+    "executive_sponsor_active": true,
+    "health_score": 64
+  },
+  {
+    "company_id": "weights-biases",
+    "name": "Weights & Biases",
+    "industry": "ML Tooling",
+    "employee_count": 877,
+    "arr": 308552,
+    "contract_start_date": "2024-09-12",
+    "renewal_date": "2026-09-27",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 9638
+      },
+      "logs": {
+        "log_volume_gb": 106879
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 4,
+      "logs": 7
+    },
+    "champion_name": "Riley Turner",
+    "champion_title": "Director of Platform Engineering",
+    "champion_active": true,
+    "executive_sponsor_name": "Avery Turner",
+    "executive_sponsor_title": "VP Platform",
+    "executive_sponsor_active": true,
+    "health_score": 69
+  },
+  {
+    "company_id": "runway-ml",
+    "name": "Runway ML",
+    "industry": "Generative AI",
+    "employee_count": 993,
+    "arr": 473537,
+    "contract_start_date": "2024-11-21",
+    "renewal_date": "2026-10-28",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 8559
+      },
+      "logs": {
+        "log_volume_gb": 25718
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 7,
+      "logs": 8
+    },
+    "champion_name": "Morgan Turner",
+    "champion_title": "Staff Platform Engineer",
+    "champion_active": true,
+    "executive_sponsor_name": "Morgan Kline",
+    "executive_sponsor_title": "Chief Architect",
+    "executive_sponsor_active": true,
+    "health_score": 77
+  },
+  {
+    "company_id": "cohere",
+    "name": "Cohere",
+    "industry": "LLM Platform",
+    "employee_count": 845,
+    "arr": 529186,
+    "contract_start_date": "2024-12-18",
+    "renewal_date": "2026-07-08",
+    "products_contracted": [
+      "Infrastructure",
+      "Logs"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 17930
+      },
+      "logs": {
+        "log_volume_gb": 95324
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 3,
+      "logs": 6
+    },
+    "champion_name": "Morgan Reed",
+    "champion_title": "Engineering Manager",
+    "champion_active": true,
+    "executive_sponsor_name": "Alex Chen",
+    "executive_sponsor_title": "SVP Infrastructure",
+    "executive_sponsor_active": true,
+    "health_score": 72
+  },
+  {
+    "company_id": "mistral",
+    "name": "Mistral",
+    "industry": "AI Models",
+    "employee_count": 165,
+    "arr": 627091,
+    "contract_start_date": "2025-03-31",
+    "renewal_date": "2026-09-16",
+    "products_contracted": [
+      "Infrastructure"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 3719
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 6
+    },
+    "champion_name": "Rowan Hayes",
+    "champion_title": "Engineering Manager",
+    "champion_active": true,
+    "executive_sponsor_name": "Jamie Patel",
+    "executive_sponsor_title": "Chief Architect",
+    "executive_sponsor_active": true,
+    "health_score": 77
+  },
+  {
+    "company_id": "together-ai",
+    "name": "Together AI",
+    "industry": "AI Infrastructure",
+    "employee_count": 761,
+    "arr": 335709,
+    "contract_start_date": "2024-09-13",
+    "renewal_date": "2026-09-10",
+    "products_contracted": [
+      "Infrastructure"
+    ],
+    "contracted_usage": {
+      "infrastructure": {
+        "hosts_monitored": 12191
+      }
+    },
+    "feature_breadth_score": {
+      "infrastructure": 5
+    },
+    "champion_name": "Drew Rivera",
+    "champion_title": "Director of Infrastructure",
+    "champion_active": false,
+    "executive_sponsor_name": "Casey Brooks",
+    "executive_sponsor_title": "Chief Architect",
+    "executive_sponsor_active": true,
+    "health_score": 64
+  }
+]

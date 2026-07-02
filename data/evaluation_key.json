@@ -1,0 +1,282 @@
+[
+  {
+    "company_id": "vercel",
+    "name": "Vercel",
+    "pattern": "A",
+    "pattern_label": "Expansion Ready",
+    "signal_contradiction": null
+  },
+  {
+    "company_id": "linear",
+    "name": "Linear",
+    "pattern": "A",
+    "pattern_label": "Expansion Ready",
+    "signal_contradiction": null
+  },
+  {
+    "company_id": "rippling",
+    "name": "Rippling",
+    "pattern": "A",
+    "pattern_label": "Expansion Ready",
+    "signal_contradiction": "New executive sponsor engagement introduced within the last 30 days."
+  },
+  {
+    "company_id": "retool",
+    "name": "Retool",
+    "pattern": "A",
+    "pattern_label": "Expansion Ready",
+    "signal_contradiction": null
+  },
+  {
+    "company_id": "supabase",
+    "name": "Supabase",
+    "pattern": "A",
+    "pattern_label": "Expansion Ready",
+    "signal_contradiction": null
+  },
+  {
+    "company_id": "clerk",
+    "name": "Clerk",
+    "pattern": "A",
+    "pattern_label": "Expansion Ready",
+    "signal_contradiction": "One product exhibits unusually stable utilization despite overall volatility."
+  },
+  {
+    "company_id": "turso",
+    "name": "Turso",
+    "pattern": "A",
+    "pattern_label": "Expansion Ready",
+    "signal_contradiction": null
+  },
+  {
+    "company_id": "descript",
+    "name": "Descript",
+    "pattern": "A",
+    "pattern_label": "Expansion Ready",
+    "signal_contradiction": "One product exhibits unusually stable utilization despite overall volatility."
+  },
+  {
+    "company_id": "carta",
+    "name": "Carta",
+    "pattern": "B",
+    "pattern_label": "Silent Churn Risk",
+    "signal_contradiction": null
+  },
+  {
+    "company_id": "fast",
+    "name": "Fast",
+    "pattern": "B",
+    "pattern_label": "Silent Churn Risk",
+    "signal_contradiction": "One product shows unusually high feature breadth for the account profile."
+  },
+  {
+    "company_id": "convoy",
+    "name": "Convoy",
+    "pattern": "B",
+    "pattern_label": "Silent Churn Risk",
+    "signal_contradiction": null
+  },
+  {
+    "company_id": "olive-ai",
+    "name": "Olive AI",
+    "pattern": "B",
+    "pattern_label": "Silent Churn Risk",
+    "signal_contradiction": null
+  },
+  {
+    "company_id": "veev",
+    "name": "Veev",
+    "pattern": "B",
+    "pattern_label": "Silent Churn Risk",
+    "signal_contradiction": null
+  },
+  {
+    "company_id": "plastiq",
+    "name": "Plastiq",
+    "pattern": "B",
+    "pattern_label": "Silent Churn Risk",
+    "signal_contradiction": null
+  },
+  {
+    "company_id": "bereal",
+    "name": "BeReal",
+    "pattern": "B",
+    "pattern_label": "Silent Churn Risk",
+    "signal_contradiction": null
+  },
+  {
+    "company_id": "resend",
+    "name": "Resend",
+    "pattern": "C",
+    "pattern_label": "Stalled Adoption",
+    "signal_contradiction": null
+  },
+  {
+    "company_id": "triggerdev",
+    "name": "Trigger.dev",
+    "pattern": "C",
+    "pattern_label": "Stalled Adoption",
+    "signal_contradiction": "One product exhibits unusually stable utilization despite overall volatility."
+  },
+  {
+    "company_id": "inngest",
+    "name": "Inngest",
+    "pattern": "C",
+    "pattern_label": "Stalled Adoption",
+    "signal_contradiction": "Anomalous usage spike that does not align with the account baseline."
+  },
+  {
+    "company_id": "novu",
+    "name": "Novu",
+    "pattern": "C",
+    "pattern_label": "Stalled Adoption",
+    "signal_contradiction": null
+  },
+  {
+    "company_id": "apiary",
+    "name": "Apiary",
+    "pattern": "C",
+    "pattern_label": "Stalled Adoption",
+    "signal_contradiction": "New executive sponsor engagement introduced within the last 30 days."
+  },
+  {
+    "company_id": "zuplo",
+    "name": "Zuplo",
+    "pattern": "C",
+    "pattern_label": "Stalled Adoption",
+    "signal_contradiction": "Champion marked inactive despite otherwise positive usage indicators."
+  },
+  {
+    "company_id": "stytch",
+    "name": "Stytch",
+    "pattern": "C",
+    "pattern_label": "Stalled Adoption",
+    "signal_contradiction": null
+  },
+  {
+    "company_id": "permitio",
+    "name": "Permit.io",
+    "pattern": "C",
+    "pattern_label": "Stalled Adoption",
+    "signal_contradiction": "One product shows unusually high feature breadth for the account profile."
+  },
+  {
+    "company_id": "snyk",
+    "name": "Snyk",
+    "pattern": "D",
+    "pattern_label": "Healthy and Stable",
+    "signal_contradiction": null
+  },
+  {
+    "company_id": "launchdarkly",
+    "name": "LaunchDarkly",
+    "pattern": "D",
+    "pattern_label": "Healthy and Stable",
+    "signal_contradiction": "One product exhibits unusually stable utilization despite overall volatility."
+  },
+  {
+    "company_id": "grafana-labs",
+    "name": "Grafana Labs",
+    "pattern": "D",
+    "pattern_label": "Healthy and Stable",
+    "signal_contradiction": null
+  },
+  {
+    "company_id": "hashicorp",
+    "name": "Hashicorp",
+    "pattern": "D",
+    "pattern_label": "Healthy and Stable",
+    "signal_contradiction": "Champion marked inactive despite otherwise positive usage indicators."
+  },
+  {
+    "company_id": "pagerduty",
+    "name": "PagerDuty",
+    "pattern": "D",
+    "pattern_label": "Healthy and Stable",
+    "signal_contradiction": null
+  },
+  {
+    "company_id": "statuspage",
+    "name": "Statuspage",
+    "pattern": "D",
+    "pattern_label": "Healthy and Stable",
+    "signal_contradiction": null
+  },
+  {
+    "company_id": "rollbar",
+    "name": "Rollbar",
+    "pattern": "D",
+    "pattern_label": "Healthy and Stable",
+    "signal_contradiction": "New executive sponsor engagement introduced within the last 30 days."
+  },
+  {
+    "company_id": "sentry",
+    "name": "Sentry",
+    "pattern": "D",
+    "pattern_label": "Healthy and Stable",
+    "signal_contradiction": null
+  },
+  {
+    "company_id": "netlify",
+    "name": "Netlify",
+    "pattern": "D",
+    "pattern_label": "Healthy and Stable",
+    "signal_contradiction": null
+  },
+  {
+    "company_id": "fastly",
+    "name": "Fastly",
+    "pattern": "D",
+    "pattern_label": "Healthy and Stable",
+    "signal_contradiction": null
+  },
+  {
+    "company_id": "replit",
+    "name": "Replit",
+    "pattern": "E",
+    "pattern_label": "Volatile / Ambiguous",
+    "signal_contradiction": null
+  },
+  {
+    "company_id": "hugging-face",
+    "name": "Hugging Face",
+    "pattern": "E",
+    "pattern_label": "Volatile / Ambiguous",
+    "signal_contradiction": "New executive sponsor engagement introduced within the last 30 days."
+  },
+  {
+    "company_id": "weights-biases",
+    "name": "Weights & Biases",
+    "pattern": "E",
+    "pattern_label": "Volatile / Ambiguous",
+    "signal_contradiction": null
+  },
+  {
+    "company_id": "runway-ml",
+    "name": "Runway ML",
+    "pattern": "E",
+    "pattern_label": "Volatile / Ambiguous",
+    "signal_contradiction": null
+  },
+  {
+    "company_id": "cohere",
+    "name": "Cohere",
+    "pattern": "E",
+    "pattern_label": "Volatile / Ambiguous",
+    "signal_contradiction": null
+  },
+  {
+    "company_id": "mistral",
+    "name": "Mistral",
+    "pattern": "E",
+    "pattern_label": "Volatile / Ambiguous",
+    "signal_contradiction": null
+  },
+  {
+    "company_id": "together-ai",
+    "name": "Together AI",
+    "pattern": "E",
+    "pattern_label": "Volatile / Ambiguous",
+    "signal_contradiction": "Champion marked inactive despite otherwise positive usage indicators."
+  }
+]

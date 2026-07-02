@@ -1,0 +1,9 @@
+Hey — wanted to flag Apiary for you. The expansion playbook didn't fire, and I think that's the right call, but there's something underneath the numbers worth your attention.
+
+The utilization story is the reason expansion stayed quiet: Infrastructure at 37%, Logs at 38%, RUM at 35%, all stable, none of them anywhere near the 115% baseline trigger. Feature breadth is sitting at 2.7, which is thin for an account paying $659K. They're four months into the contract and using roughly a third of what they bought across all three products. That isn't an expansion profile — that's an adoption gap, and pitching them more right now would be exactly the "friend who only calls when they want something" move the playbook warns against.
+
+What's interesting is the anomaly note: a new executive sponsor was introduced in the last 30 days, and the recent contact mix shows exec sponsor plus three champion touches plus an end user. That's a meaningful shift in who's paying attention. Sentiment is green but trajectory is mixed, the CSM gap is 25 days, and the last touch was CSM-initiated rather than customer-pulled. Three open support tickets, none severe, but they're sitting there.
+
+My read: the new exec sponsor is the signal that matters, not utilization. Someone senior just showed up, and you have 115 days to renewal on an account that's underusing the platform. That's a value-realization conversation, not an expansion conversation. I'd reach out to the champion this week, ask for a working session with the new sponsor framed around what they're trying to get out of the investment, and use it to diagnose why adoption stalled at a third. Close the three open tickets before that meeting.
+
+If adoption moves over the next 60 days, expansion becomes a real conversation before renewal. If it doesn't, you'll at least know what you're defending in Q3.
