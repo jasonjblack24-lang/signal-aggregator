@@ -16,7 +16,6 @@ Outputs (written to ./data):
     product_usage.json
     csm_activity.json
     support_tickets.json
-    rss_sources.json
     data_manifest.json    (agent-safe observational data)
     evaluation_key.json   (pattern labels for eval harness only)
 """
@@ -49,46 +48,46 @@ PATTERNS = {
 }
 
 COMPANIES = {
-    "A": ["Vercel", "Linear", "Rippling", "Retool", "Supabase", "Clerk", "Turso", "Descript"],
-    "B": ["Carta", "Fast", "Convoy", "Olive AI", "Veev", "Plastiq", "BeReal"],
-    "C": ["Resend", "Trigger.dev", "Inngest", "Novu", "Apiary", "Zuplo", "Stytch", "Permit.io"],
-    "D": ["Snyk", "LaunchDarkly", "Grafana Labs", "Hashicorp", "PagerDuty", "Statuspage",
-          "Rollbar", "Sentry", "Netlify", "Fastly"],
-    "E": ["Replit", "Hugging Face", "Weights & Biases", "Runway ML", "Cohere", "Mistral", "Together AI"],
+    "A": ["Deploova", "Trackwell", "Peoplora", "Craftbench", "Baseriver", "Authara", "Cavora", "Mediark"],
+    "B": ["Equira", "Payglint", "Haulcrest", "Medolia", "Buildveo", "Plendo", "Realmly"],
+    "C": ["Postglow", "Jobwright", "Queuely", "Notifera", "Endpointly", "Gatewly", "Identara", "Grantly"],
+    "D": ["Vulnara", "Flagpost", "Panelith", "Provisor", "Alertcrest", "Statusly",
+          "Errorly", "Traceon", "Siteglow", "Edgewave"],
+    "E": ["Codenest", "Modelyard", "Metricforge", "Framecraft", "Lexira", "Novalm", "Clustira"],
 }
 
 INDUSTRIES = {
-    "Vercel": "Developer Platform", "Linear": "Project Management", "Rippling": "HR Tech",
-    "Retool": "Developer Tools", "Supabase": "Database Platform", "Clerk": "Authentication",
-    "Turso": "Database Infrastructure", "Descript": "Media Software", "Carta": "Fintech",
-    "Fast": "Payments", "Convoy": "Logistics Tech", "Olive AI": "Healthcare AI",
-    "Veev": "Construction Tech", "Plastiq": "Payments", "BeReal": "Consumer Social",
-    "Resend": "Developer Email Infrastructure", "Trigger.dev": "Developer Platform",
-    "Inngest": "Developer Infrastructure", "Novu": "Notification Infrastructure",
-    "Apiary": "API Platform", "Zuplo": "API Gateway", "Stytch": "Authentication",
-    "Permit.io": "Authorization Platform", "Snyk": "Security", "LaunchDarkly": "Feature Management",
-    "Grafana Labs": "Observability", "Hashicorp": "Infrastructure Software",
-    "PagerDuty": "Incident Management", "Statuspage": "Status Monitoring",
-    "Rollbar": "Error Monitoring", "Sentry": "Application Monitoring",
-    "Netlify": "Developer Platform", "Fastly": "CDN", "Replit": "AI Coding",
-    "Hugging Face": "AI/ML", "Weights & Biases": "ML Tooling", "Runway ML": "Generative AI",
-    "Cohere": "LLM Platform", "Mistral": "AI Models", "Together AI": "AI Infrastructure",
+    "Deploova": "Developer Platform", "Trackwell": "Project Management", "Peoplora": "HR Tech",
+    "Craftbench": "Developer Tools", "Baseriver": "Database Platform", "Authara": "Authentication",
+    "Cavora": "Database Infrastructure", "Mediark": "Media Software", "Equira": "Fintech",
+    "Payglint": "Payments", "Haulcrest": "Logistics Tech", "Medolia": "Healthcare AI",
+    "Buildveo": "Construction Tech", "Plendo": "Payments", "Realmly": "Consumer Social",
+    "Postglow": "Developer Email Infrastructure", "Jobwright": "Developer Platform",
+    "Queuely": "Developer Infrastructure", "Notifera": "Notification Infrastructure",
+    "Endpointly": "API Platform", "Gatewly": "API Gateway", "Identara": "Authentication",
+    "Grantly": "Authorization Platform", "Vulnara": "Security", "Flagpost": "Feature Management",
+    "Panelith": "Observability", "Provisor": "Infrastructure Software",
+    "Alertcrest": "Incident Management", "Statusly": "Status Monitoring",
+    "Errorly": "Error Monitoring", "Traceon": "Application Monitoring",
+    "Siteglow": "Developer Platform", "Edgewave": "CDN", "Codenest": "AI Coding",
+    "Modelyard": "AI/ML", "Metricforge": "ML Tooling", "Framecraft": "Generative AI",
+    "Lexira": "LLM Platform", "Novalm": "AI Models", "Clustira": "AI Infrastructure",
 }
 
 EMPLOYEE_RANGES = {"tiny": (50, 120), "small": (120, 300), "mid": (300, 1200), "large": (1200, 4000)}
 
 COMPANY_SIZE_HINTS = {
-    "Vercel": "mid", "Linear": "small", "Rippling": "large", "Retool": "mid",
-    "Supabase": "small", "Clerk": "small", "Turso": "tiny", "Descript": "small",
-    "Carta": "large", "Fast": "tiny", "Convoy": "small", "Olive AI": "mid",
-    "Veev": "mid", "Plastiq": "small", "BeReal": "small",
-    "Resend": "tiny", "Trigger.dev": "tiny", "Inngest": "tiny", "Novu": "small",
-    "Apiary": "small", "Zuplo": "tiny", "Stytch": "small", "Permit.io": "tiny",
-    "Snyk": "large", "LaunchDarkly": "large", "Grafana Labs": "large",
-    "Hashicorp": "large", "PagerDuty": "large", "Statuspage": "small",
-    "Rollbar": "small", "Sentry": "large", "Netlify": "mid", "Fastly": "large",
-    "Replit": "mid", "Hugging Face": "large", "Weights & Biases": "mid",
-    "Runway ML": "mid", "Cohere": "mid", "Mistral": "small", "Together AI": "mid",
+    "Deploova": "mid", "Trackwell": "small", "Peoplora": "large", "Craftbench": "mid",
+    "Baseriver": "small", "Authara": "small", "Cavora": "tiny", "Mediark": "small",
+    "Equira": "large", "Payglint": "tiny", "Haulcrest": "small", "Medolia": "mid",
+    "Buildveo": "mid", "Plendo": "small", "Realmly": "small",
+    "Postglow": "tiny", "Jobwright": "tiny", "Queuely": "tiny", "Notifera": "small",
+    "Endpointly": "small", "Gatewly": "tiny", "Identara": "small", "Grantly": "tiny",
+    "Vulnara": "large", "Flagpost": "large", "Panelith": "large",
+    "Provisor": "large", "Alertcrest": "large", "Statusly": "small",
+    "Errorly": "small", "Traceon": "large", "Siteglow": "mid", "Edgewave": "large",
+    "Codenest": "mid", "Modelyard": "large", "Metricforge": "mid",
+    "Framecraft": "mid", "Lexira": "mid", "Novalm": "small", "Clustira": "mid",
 }
 
 FIRST_NAMES = ["Avery", "Jordan", "Taylor", "Morgan", "Skyler", "Riley", "Casey", "Jamie",
@@ -109,18 +108,6 @@ PRODUCT_DISTRIBUTION = [
     (["Infrastructure", "Logs", "RUM", "CI Visibility"], 5),
     (["Infrastructure", "Logs", "RUM", "CI Visibility", "Security"], 4),
 ]
-
-BLOG_FEEDS = {
-    "Vercel": "https://vercel.com/feeds/changelog.xml",
-    "Supabase": "https://supabase.com/blog/rss.xml",
-    "Grafana Labs": "https://grafana.com/blog/news.xml",
-    "Hashicorp": "https://www.hashicorp.com/blog/feed.xml",
-    "Netlify": "https://www.netlify.com/blog/rss/",
-    "Replit": "https://blog.replit.com/rss.xml",
-    "Hugging Face": "https://huggingface.co/blog/feed.xml",
-    "Weights & Biases": "https://wandb.ai/site/rss.xml",
-    "Runway ML": "https://research.runwayml.com/rss.xml",
-}
 
 
 def slugify(name):
@@ -204,7 +191,7 @@ def create_company_objects(today):
 
         if pattern == "C":
             contract_start = today - timedelta(days=random.randint(90, 260))
-        elif name in ["Fast", "Convoy"]:
+        elif name in ["Payglint", "Haulcrest"]:
             contract_start = today - timedelta(days=random.randint(500, 650))
         else:
             contract_start = today - timedelta(days=random.randint(120, 700))
@@ -552,29 +539,6 @@ def generate_support_tickets(companies, manifest_map):
     return tickets
 
 
-def generate_rss_sources(companies):
-    sources = []
-    for company in companies:
-        name = company["name"]
-        company_id = company["company_id"]
-        entry = {
-            "company_id": company_id, "name": name,
-            "sources": [
-                {"type": "google_news",
-                 "url": f"https://news.google.com/rss/search?q={name.replace(' ', '+')}&hl=en-US&gl=US&ceid=US:en",
-                 "query": None, "label": f"{name} Google News"},
-                {"type": "hacker_news", "url": "https://hn.algolia.com/api/v1/search",
-                 "query": name, "label": f"{name} Hacker News"},
-            ],
-        }
-        if name in BLOG_FEEDS:
-            entry["sources"].append({
-                "type": "company_blog", "url": BLOG_FEEDS[name],
-                "query": None, "label": f"{name} Blog"})
-        sources.append(entry)
-    return sources
-
-
 def build_support_ticket_trend(pattern):
     return {
         "A": "Ticket volume low and stable, predominantly low-severity requests.",
@@ -652,15 +616,13 @@ def main():
     usage_records, utilization_summary, usage_snapshots = generate_usage_records(companies, manifest_map)
     csm_activity, gap_days = generate_csm_activity(companies, manifest_map, today)
     support_tickets = generate_support_tickets(companies, manifest_map)
-    rss_sources = generate_rss_sources(companies)
     manifest, eval_key = generate_manifest_and_key(
         companies, manifest_map, utilization_summary, usage_snapshots, gap_days, today)
 
     outputs = {
         "companies.json": companies, "product_usage.json": usage_records,
         "csm_activity.json": csm_activity, "support_tickets.json": support_tickets,
-        "rss_sources.json": rss_sources, "data_manifest.json": manifest,
-        "evaluation_key.json": eval_key,
+        "data_manifest.json": manifest, "evaluation_key.json": eval_key,
     }
 
     for filename, data in outputs.items():

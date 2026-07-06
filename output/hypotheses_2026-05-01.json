@@ -3,436 +3,340 @@
   "playbook": "expansion-ready",
   "hypotheses": [
     {
-      "company_id": "turso",
-      "name": "Turso",
-      "verdict": "fire",
-      "confidence": "high",
-      "rank": 1,
-      "activating_signal": "Sustained utilization above contracted baseline across all 3 contracted products (Infrastructure 1.30x, Logs 1.30x, CI Visibility 1.29x; +32-34% over 90d, all crossed baseline)",
-      "correlating_signals": {
-        "strong": [
-          "Multi-product growth: all 3 contracted products trending increasing with delta_pct >0.30",
-          "CSM gap of 71 days while utilization is materially over baseline — expansion is happening without you",
-          "Renewal proximity: 74 days out, inside the <90d window where expansion conversations land naturally"
-        ],
-        "soft": [
-          "Champion active and executive sponsor active",
-          "Last touch sentiment green, sentiment_trajectory stable_green",
-          "crossed_baseline true on every contracted product",
-          "feature_breadth_avg 6.3 — they use the products deeply"
-        ]
-      },
-      "external_context": "No external signals in the 90-day window (signal_count_90d=0).",
-      "hypothesis": "Turso has quietly grown 32-34% over baseline on every contracted product while you've been out of touch for 71 days. With renewal 74 days out, this is a textbook baseline true-up: walk in with a value-led observation (\"we noticed your usage across Infrastructure, Logs, and CI Visibility is roughly 30% over what we sized the contract for\") and use the renewal as the natural forcing function. Discover whether this growth is driven by a new workload, team expansion, or a specific product launch — that detail shapes whether the right motion is a same-product true-up or adding adjacent products (RUM, Security) that they don't currently contract.",
-      "suggested_entry_point": "champion",
-      "renewal_window": "74 days out — renewal proximity makes this an executive-sponsor-in-the-loop conversation, but champion remains the entry point",
-      "reasoning": "Three independent strong correlating signals (multi-product growth, CSM gap, renewal proximity) plus a fully clean engagement and sentiment picture. Stable_green sentiment with the champion active and a 71-day CSM gap is the cleanest possible expansion setup — the customer is doing the work for you. No disqualifiers (support stable_low, no escalation, no sentiment drift). The only watch-out is that the 30-day trend has flattened to stable, which suggests the growth has plateaued at the new level rather than continuing to accelerate — that's actually good for a true-up conversation because it means the new baseline is real, not transient."
+      "company_id": "alertcrest",
+      "name": "Alertcrest",
+      "verdict": "no_hypothesis",
+      "reasoning": "No activating signal. All four products sit at 0.73-0.76 with stable 30- and 90-day trends and near-zero deltas - steady mid-range utilization, nothing above the >1.15 baseline and no dormant-product activation. Healthy but not expansion-ready; the playbook exists to flag reasons to do more, and there is none here."
     },
     {
-      "company_id": "clerk",
-      "name": "Clerk",
+      "company_id": "authara",
+      "name": "Authara",
       "verdict": "fire",
-      "confidence": "high",
-      "rank": 2,
-      "activating_signal": "Sustained utilization above contracted baseline across all 3 contracted products (Infrastructure 1.30x, Logs 1.30x, RUM 1.32x; +32-34% over 90d, all crossed baseline)",
+      "confidence": "medium",
+      "rank": 5,
+      "activating_signal": "Sustained utilization above baseline on all three contracted products (Infrastructure 1.30, Logs 1.30, RUM 1.32), all increasing and crossed baseline (~32-34% above prior period).",
       "correlating_signals": {
         "strong": [
-          "Multi-product growth: all 3 contracted products trending increasing with delta_pct >0.30",
-          "CSM gap of 67 days while utilization is well over baseline",
-          "Renewal proximity: 80 days out, inside the <90d window"
+          "Sustained growth across multiple contracted products simultaneously (3/3 contracted products)."
         ],
-        "soft": [
-          "Champion active",
-          "crossed_baseline true on every contracted product",
-          "feature_breadth_avg 7 — strong product depth"
-        ]
+        "soft": []
       },
       "external_context": "No external signals in the 90-day window.",
-      "hypothesis": "Clerk is 30% over baseline on all three contracted products with a 67-day CSM gap and renewal inside 90 days. This is a baseline true-up tied directly to renewal: lead with a value observation on the multi-product growth, confirm intent, and right-size the contract at renewal. Last touch sentiment was yellow with mixed trajectory, which means the conversation needs a careful frame — start with discovery on what changed in the last 60 days that drove the growth, not with a commercial ask.",
+      "hypothesis": "Authara is ~30% over capacity on all three products with a renewal only 80 days out - strong expansion mechanics. The catch is the relationship: a 67-day CSM gap, only two touches in 90 days, a yellow last touch, and a 'mixed' sentiment trajectory. The growth story is real and the renewal is close, but the CSM should re-establish contact and read the room before leading with an expansion ask, because the account has been running hot in relative silence.",
       "suggested_entry_point": "champion",
-      "renewal_window": "80 days out — renewal proximity puts this on a critical-path timeline; loop executive sponsor in once champion confirms the growth is intentional",
-      "reasoning": "Three strong correlating signals (multi-product, CSM gap, renewal proximity) put this clearly in fire/high territory. The one tension is the yellow last-touch sentiment with mixed trajectory — not a disqualifier (not drifting_red), but it means the CSM should not lead with the commercial frame. Open with discovery. Also worth noting: 30-day trend is stable across all products, so the growth happened earlier in the window and has settled — argues for a confident true-up rather than a wait-and-see."
+      "renewal_window": "80 days out",
+      "reasoning": "Activating signal and the strong multi-product growth correlator are both clearly met, so this fires. I hold confidence to medium rather than high because engagement quality is thin: sentiment_trajectory 'mixed', last touch yellow, 67-day gap. This is not a disqualifier - D1 needs current_rate > 1.5 (Authara peaks at 1.32) AND touches_last_90d == 0 (it has 2), so D1 does not fire, and it is not drifting_red - but the soft yellow signals argue for a relationship-first, expansion-second sequence. Ranks fifth: it leads the medium tier on both close renewal (80d) and strong overage magnitude (~1.3). Champion has been active; use as entry point but re-warm first."
     },
     {
-      "company_id": "linear",
-      "name": "Linear",
+      "company_id": "baseriver",
+      "name": "Baseriver",
+      "verdict": "fire",
+      "confidence": "medium",
+      "rank": 6,
+      "activating_signal": "Sustained utilization above baseline on all three contracted products (Infrastructure 1.20, Logs 1.21, CI Visibility 1.21), all increasing and crossed baseline (~24-26% above prior period).",
+      "correlating_signals": {
+        "strong": [
+          "Sustained growth across multiple contracted products simultaneously (3/3 contracted products)."
+        ],
+        "soft": []
+      },
+      "external_context": "No external signals in the 90-day window.",
+      "hypothesis": "Baseriver is ~25% over capacity across all three products, with a champion and exec sponsor both active in the recent contact mix. The growth is broad and the stakeholder bench is strong, but sentiment sits at stable_yellow and the CSM has not touched the account in 66 days. The expansion case is sound; the CSM should reconnect and confirm the driver before framing the right-size conversation. Renewal is comfortably out (161 days), so there is room to do this properly.",
+      "suggested_entry_point": "champion",
+      "renewal_window": "161 days out",
+      "reasoning": "Multi-product growth over 1.15 satisfies the strong correlator - fires. Confidence medium: sentiment_trajectory is stable_yellow (not deteriorating, but not a green light) and there is a 66-day CSM gap with only two touches in 90 days. No disqualifier (max 1.21 < 1.5; severity stable_low; not drifting_red). Ranks below Authara within the medium tier because its renewal is much further out (161 vs 80 days) despite comparable growth. Both champion and exec sponsor are active and heavily represented in the contact mix; champion is the natural first entry point."
+    },
+    {
+      "company_id": "buildveo",
+      "name": "Buildveo",
+      "verdict": "no_hypothesis",
+      "reasoning": "Disqualified. Utilization is declining hard across all products (Infrastructure 0.43/-48%, Logs 0.42/-50%, RUM 0.40/-53%), sentiment_trajectory is drifting_red (D4 fires -> no_hypothesis), last touch red, renewal only 60 days out with an active risk signal, and support is elevated (5 tickets/30d). This is a churn-risk account, the opposite of expansion. Route to retention."
+    },
+    {
+      "company_id": "cavora",
+      "name": "Cavora",
       "verdict": "fire",
       "confidence": "high",
       "rank": 3,
-      "activating_signal": "Infrastructure at 1.28x, trend_90d increasing, +32% delta, crossed baseline",
+      "activating_signal": "Sustained utilization above baseline on all three contracted products (Infrastructure 1.30, Logs 1.30, CI Visibility 1.29), all increasing and crossed baseline (~32-34% above prior period).",
       "correlating_signals": {
         "strong": [
-          "CSM gap of 52 days while utilization is 28% over baseline",
-          "Renewal proximity: 80 days out, inside the <90d window"
+          "Sustained growth across multiple contracted products simultaneously (3/3 contracted products)."
         ],
         "soft": [
-          "Champion active, stable_green sentiment trajectory, green last touch",
-          "crossed_baseline true",
-          "feature_breadth_avg 8 — they're using Infrastructure deeply",
-          "Recent CSM-initiated touch"
+          "Most recent contact was customer-initiated with green sentiment - the account is reaching toward the CSM, not the reverse."
         ]
       },
       "external_context": "No external signals in the 90-day window.",
-      "hypothesis": "Linear has a single-product contract (Infrastructure only) that's running 28% over baseline with healthy, stable_green engagement. Two strong corollaries: 52-day CSM gap and renewal inside 90 days. The single-product profile combined with feature_breadth_avg 8 suggests this is a customer ready for a conversation about both (a) right-sizing Infrastructure and (b) introducing adjacent products (Logs, RUM, CI Visibility) that they currently don't contract. Discovery question: are there teams adjacent to the core Infrastructure use case who would benefit from observability they don't have today?",
+      "hypothesis": "Cavora is ~30% over capacity across all three products, sentiment is solidly green, and the customer initiated the most recent contact. Healthy relationship plus broad overage plus a renewal only 74 days out makes this a time-sensitive, high-quality expansion conversation. The next touch should tie the growth to a right-sized renewal while the customer is already leaning in.",
       "suggested_entry_point": "champion",
-      "renewal_window": "80 days out — frame as renewal-prep discovery, not commercial",
-      "reasoning": "Clean fire. Two strong correlating signals, multiple soft signals reinforcing, sentiment is stable_green which is the gold standard. The single-product contract is actually an asset here — it creates a clear new-product introduction motion alongside the baseline true-up. No disqualifiers."
+      "renewal_window": "74 days out",
+      "reasoning": "Activating signal met across all three products, satisfying the strong multi-product growth correlator. sentiment_trajectory is stable_green and the recent contact was customer-initiated, which is the healthiest possible backdrop for an expansion ask. High confidence. Ranks third among the high-tier fires because renewal proximity (74d) beats Craftbench/Peoplora but the growth magnitude is comparable; I placed the two broadest-portfolio accounts ahead, then Cavora on the strength of imminent renewal. The only soft caution is a 71-day CSM gap with a single touch in 90 days - usage grew during silence, again the right moment to re-engage. No disqualifier (max 1.30 < 1.5; severity stable_low; green sentiment)."
     },
     {
-      "company_id": "descript",
-      "name": "Descript",
+      "company_id": "clustira",
+      "name": "Clustira",
+      "verdict": "no_hypothesis",
+      "reasoning": "Disqualified. Single product declining (Infrastructure 0.68/-31%), champion inactive, sentiment_trajectory drifting_red (D4 -> no_hypothesis), support stable_high with 2 open. No activating signal and an active risk pattern. Route to retention, not expansion."
+    },
+    {
+      "company_id": "codenest",
+      "name": "Codenest",
+      "verdict": "no_hypothesis",
+      "reasoning": "No activating signal. Single product (Infrastructure 0.82) below baseline and declining (-24%). sentiment_trajectory is drifting_red (D4 would disqualify regardless), support stable_high/outage. Nothing suggesting expansion; watch as a health/risk item instead."
+    },
+    {
+      "company_id": "craftbench",
+      "name": "Craftbench",
+      "verdict": "fire",
+      "confidence": "high",
+      "rank": 1,
+      "activating_signal": "Sustained utilization above contracted baseline on all five contracted products (Infrastructure 1.22, Logs 1.22, RUM 1.23, CI Visibility 1.20, Security 1.23), all trending increasing over 90 days and crossed baseline.",
+      "correlating_signals": {
+        "strong": [
+          "Sustained growth across multiple contracted products simultaneously - in fact across the entire contracted portfolio (5/5 products), each 24-27% above the prior period."
+        ],
+        "soft": []
+      },
+      "external_context": "No external signals in the 90-day window.",
+      "hypothesis": "Craftbench has grown into and past its committed capacity on every single product it owns, uniformly, over the last quarter. This is the strongest, broadest overage pattern in the book: it is not one team spiking one product, it is the whole account consuming more of everything. The likely driver is a platform-wide rollout or a step-change in the workloads they are observing with us. The next conversation should be about right-sizing the whole contract to match reality and getting ahead of the renewal, framed as partnership rather than a true-up bill.",
+      "suggested_entry_point": "champion",
+      "renewal_window": "143 days out",
+      "reasoning": "Activating signal is unambiguous: every product is over 1.15 and increasing. That satisfies the strong correlating signal 'sustained growth across multiple contracted products simultaneously' by itself, so the hypothesis fires cleanly. Last touch sentiment is green and no disqualifier applies (max rate 1.23, well under the 1.5 misconfiguration flag; severity stable_low; not drifting_red). The one tension is a 74-day CSM gap and a 'mixed' sentiment_trajectory with only one touch in 90 days - the relationship has gone quiet while usage climbed, which is exactly the moment the playbook says to show up. Breadth and consistency of the growth is why I rank this first. Champion is the most consistently present stakeholder in the recent contact mix and is the natural entry point."
+    },
+    {
+      "company_id": "deploova",
+      "name": "Deploova",
+      "verdict": "recheck",
+      "reasoning": "Activating signal present: Infrastructure at 1.19, increasing and crossed baseline (~23% over). But it is a single-product account, so the strongest available correlator - 'sustained growth across multiple contracted products simultaneously' - cannot apply, and the playbook's other strong correlators (new users onboarding, director/VP engagement, cross-functional contacts, dormant adjacent product activity, sustained login increase) all rely on signals not present or not available in this dataset. Available soft correlators are thin: support is a single bug ticket at stable_low, not clearly 'informational with quick resolution and positive sentiment,' and there is no external event. Per the decision tree, activating signal + no qualifying correlating signal routes to recheck. Relationship is healthy (stable_green, 45-day gap, exec-heavy contact mix), so this is a promising watch. Recheck the internal usage anomaly in 3 days per the playbook usage-anomaly window; if a second product stirs, a new-user signal appears, or the overage sustains and deepens, it should fire."
+    },
+    {
+      "company_id": "edgewave",
+      "name": "Edgewave",
+      "verdict": "no_hypothesis",
+      "reasoning": "No activating signal. Infrastructure at 0.76, stable/stable, delta +4% - it 'crossed_baseline' as a flag but current rate is well below the >1.15 activating threshold and flat. Renewal 70 days out and support somewhat active (yellow, 4 tickets/60d) argue for a check-in, but not an expansion hypothesis."
+    },
+    {
+      "company_id": "endpointly",
+      "name": "Endpointly",
+      "verdict": "no_hypothesis",
+      "reasoning": "No activating signal. All three products at 0.35-0.38, flat, well below baseline. The only note is a new exec sponsor within 30 days, but with utilization this low and flat there is no internal movement for that engagement to corroborate - no expansion story. Possible low-adoption/enablement conversation instead."
+    },
+    {
+      "company_id": "equira",
+      "name": "Equira",
+      "verdict": "no_hypothesis",
+      "reasoning": "Disqualified. Single product declining sharply (Infrastructure 0.40/-52%), champion inactive, sentiment_trajectory drifting_red (D4 -> no_hypothesis), renewal 88 days with active risk signal, support stable_high (9 tickets/60d). Clear churn risk. Route to retention."
+    },
+    {
+      "company_id": "errorly",
+      "name": "Errorly",
+      "verdict": "no_hypothesis",
+      "reasoning": "No activating signal. Single product (Infrastructure 0.76) flat, below baseline. Relationship is healthy (green, 8-day gap) and a new exec sponsor engaged in 30 days, but there is no usage movement above baseline for that to corroborate - no expansion driver. Good account to nurture; nothing to fire on."
+    },
+    {
+      "company_id": "flagpost",
+      "name": "Flagpost",
+      "verdict": "no_hypothesis",
+      "reasoning": "No activating signal. Infrastructure/Logs/RUM all ~0.74-0.76, flat with roughly zero deltas. Healthy, green, engaged - but steady mid-utilization is not an expansion trigger. Nothing above baseline and no dormant-product activation."
+    },
+    {
+      "company_id": "framecraft",
+      "name": "Framecraft",
+      "verdict": "recheck",
+      "reasoning": "Steep, sustained, multi-product growth (Infrastructure 0.98 at +84%, Logs 0.91 at +45%, both increasing over 30 and 90 days and crossed baseline) - the system flagged 'Growth across multiple products.' But neither product has yet crossed the >1.15 activating threshold; utilization is climbing toward baseline, not sustained above it. Honestly, this does not yet clear the activating bar the playbook defines, so I will not fire. It is, however, the clearest 'about to become expansion-ready' account in the book: relationship is strong (24-day gap, 5 touches in 90 days, champion-saturated contact mix, stable_green). Recheck in 3 days (usage-anomaly window); if either product crosses 1.15 while the trajectory holds, this becomes a high-confidence fire."
+    },
+    {
+      "company_id": "gatewly",
+      "name": "Gatewly",
+      "verdict": "no_hypothesis",
+      "reasoning": "No activating signal. All three products at 0.36-0.37, flat, far below baseline. Champion and exec sponsor both inactive. This is a low-adoption/at-risk profile, not expansion; consider enablement or a health review."
+    },
+    {
+      "company_id": "grantly",
+      "name": "Grantly",
+      "verdict": "no_hypothesis",
+      "reasoning": "No activating signal. All five products at 0.34-0.38, flat, well below baseline; exec sponsor inactive. Broad low utilization across a wide product set points to an adoption gap, not expansion readiness."
+    },
+    {
+      "company_id": "haulcrest",
+      "name": "Haulcrest",
+      "verdict": "no_hypothesis",
+      "reasoning": "Disqualified. Utilization declining across all products, champion and exec both inactive, sentiment drifting_red, and support severity_trend is escalating (D3 fires -> no_hypothesis; D4 also applies). Renewal 146 days but this is an active-fire retention situation, not expansion."
+    },
+    {
+      "company_id": "identara",
+      "name": "Identara",
+      "verdict": "no_hypothesis",
+      "reasoning": "No activating signal. All four products at 0.36-0.37, flat, below baseline. No anomalies. Steady low-to-mid utilization with no upward movement - no expansion trigger."
+    },
+    {
+      "company_id": "jobwright",
+      "name": "Jobwright",
+      "verdict": "no_hypothesis",
+      "reasoning": "No activating signal. All four products at ~0.36-0.37, flat, below baseline; exec sponsor inactive. No usage above baseline and no dormant-product activation. Nothing to fire on."
+    },
+    {
+      "company_id": "lexira",
+      "name": "Lexira",
+      "verdict": "no_hypothesis",
+      "reasoning": "No activating signal, and a risk flag. Logs at 0.94 and Infrastructure 0.66 are below baseline; 90-day trends are declining even though 30-day ticked up, and both deltas are negative. More importantly sentiment_trajectory is drifting_red (D4 would disqualify) with support stable_high (5 tickets/60d, 4 open). This reads as a wobble to watch, not an expansion opportunity."
+    },
+    {
+      "company_id": "mediark",
+      "name": "Mediark",
       "verdict": "fire",
       "confidence": "high",
       "rank": 4,
-      "activating_signal": "Sustained utilization above contracted baseline on both contracted products (Infrastructure 1.20x, Logs 1.19x; +23-24% over 90d, both crossed baseline)",
+      "activating_signal": "Sustained utilization above baseline on both contracted products (Infrastructure 1.20, Logs 1.19), both increasing and crossed baseline (~23-24% above prior period).",
       "correlating_signals": {
         "strong": [
-          "Multi-product growth: both contracted products increasing with delta_pct >0.20",
-          "CSM gap of 45 days while utilization is over baseline (right at the playbook threshold)",
-          "Renewal proximity: 81 days out, inside the <90d window"
+          "Sustained growth across both contracted products simultaneously."
         ],
-        "soft": [
-          "Champion active, stable_green sentiment trajectory, green last touch",
-          "Recent CSM-initiated touch",
-          "feature_breadth_avg 8",
-          "crossed_baseline true on both products"
-        ]
+        "soft": []
       },
       "external_context": "No external signals in the 90-day window.",
-      "hypothesis": "Descript is running ~20% over baseline on both contracted products with the cleanest possible engagement profile: champion active, stable_green sentiment, CSM-initiated touches. With renewal 81 days out, the expansion play is a straightforward baseline true-up. Given feature_breadth_avg 8 and only two products contracted, there's also a credible new-product introduction motion (RUM, CI Visibility) — discover whether the growth is concentrated in specific use cases that would benefit from adjacent products.",
+      "hypothesis": "Mediark is ~20% over committed capacity on both products, sentiment is stable green, and renewal is 81 days out. This is a clean, well-timed expansion-at-renewal conversation: consistent overage on everything they own, a warm relationship, and a renewal close enough to anchor the discussion around right-sizing.",
       "suggested_entry_point": "champion",
       "renewal_window": "81 days out",
-      "reasoning": "Strong fire across the board. The 45-day CSM gap sits exactly at the playbook threshold — I'm counting it as strong because the spirit of the signal (expansion happening without you while still in a healthy window) clearly applies. Three strong corollaries, no disqualifiers, sentiment is stable_green. The activating signal is slightly less dramatic than Turso/Clerk (1.20x vs 1.30x), which is why it ranks below despite identical confidence."
+      "reasoning": "Both contracted products are over 1.15 and increasing, meeting the strong multi-product growth correlator. sentiment_trajectory stable_green, last touch green, CSM gap a moderate 45 days with recent touches - a healthy account. High confidence. Ranks fourth: renewal at 81 days is close, but the overage magnitude (~1.2) is more modest than Cavora's ~1.3, so it sits just behind. No disqualifier (max 1.20 < 1.5; severity stable_low). Champion appears repeatedly in the recent contact mix and is the entry point."
     },
     {
-      "company_id": "retool",
-      "name": "Retool",
+      "company_id": "medolia",
+      "name": "Medolia",
+      "verdict": "no_hypothesis",
+      "reasoning": "Disqualified. All products declining (Infrastructure/Logs 0.49, CI Visibility 0.41, deltas -42% to -51%), sentiment_trajectory drifting_red (D4 -> no_hypothesis), support stable_high (12 tickets/60d, 4 open). Churn-risk profile. Route to retention."
+    },
+    {
+      "company_id": "metricforge",
+      "name": "Metricforge",
+      "verdict": "no_hypothesis",
+      "reasoning": "No activating signal. Infrastructure 0.59 and Logs 0.76 are below baseline with negative deltas and declining 90-day trends. Support is stable_high with 7 open tickets. No usage above baseline; if anything a support/health watch, not expansion."
+    },
+    {
+      "company_id": "modelyard",
+      "name": "Modelyard",
+      "verdict": "recheck",
+      "reasoning": "Two potential activating signals, both just short of the bar. (1) Infrastructure at 0.99, increasing at +44% - strong single-product growth, but still below the >1.15 activating threshold, so not yet 'sustained usage above baseline.' (2) A new executive sponsor engaged within the last 30 days (manifest note), with the most recent contact customer-initiated - a genuine engagement signal, but on a single-product account with no second product or new-user data to corroborate. Net: at most an activating signal with a single soft correlator, which the decision tree routes to recheck. A caution to note: support severity_trend is stable_high with 5 open tickets, so some of the 'engagement' may be support-driven rather than expansion intent. Recheck when the new sponsor's intent is clearer or Infrastructure crosses baseline."
+    },
+    {
+      "company_id": "notifera",
+      "name": "Notifera",
+      "verdict": "no_hypothesis",
+      "reasoning": "No activating signal. Both products at ~0.37-0.38, flat, well below baseline; exec sponsor inactive. No upward movement, no dormant-product activation. Nothing to fire on."
+    },
+    {
+      "company_id": "novalm",
+      "name": "Novalm",
+      "verdict": "no_hypothesis",
+      "reasoning": "No activating signal, plus a risk flag. Single product (Infrastructure 0.85) flat and below baseline. sentiment_trajectory is drifting_red (D4 would disqualify) with support stable_high (7 tickets/60d, 4 open) and customer-initiated contact. This is a health/risk watch, not expansion."
+    },
+    {
+      "company_id": "panelith",
+      "name": "Panelith",
+      "verdict": "no_hypothesis",
+      "reasoning": "No activating signal. Infrastructure and Logs both at 0.74, flat, below baseline. sentiment_trajectory stable_yellow. Steady mid-utilization with no upward movement - no expansion trigger."
+    },
+    {
+      "company_id": "payglint",
+      "name": "Payglint",
+      "verdict": "no_hypothesis",
+      "reasoning": "Disqualified. All four products declining steeply (0.30-0.37, deltas -54% to -64%), champion and exec both inactive, sentiment_trajectory drifting_red (D4 -> no_hypothesis), support stable_high. Textbook churn risk. Route to retention."
+    },
+    {
+      "company_id": "peoplora",
+      "name": "Peoplora",
       "verdict": "fire",
       "confidence": "high",
-      "rank": 5,
-      "activating_signal": "Sustained utilization above contracted baseline across all 5 contracted products (Infrastructure 1.22x, Logs 1.22x, RUM 1.23x, CI Visibility 1.20x, Security 1.23x; +24-27% over 90d, all crossed baseline)",
+      "rank": 2,
+      "activating_signal": "Sustained utilization above baseline on both contracted products (Infrastructure 1.29, Logs 1.29), both increasing over 90 days and crossed baseline (~31% above prior period).",
       "correlating_signals": {
         "strong": [
-          "Multi-product growth: all 5 contracted products increasing with delta_pct >0.20",
-          "CSM gap of 74 days while utilization is materially over baseline across the entire portfolio"
+          "Sustained growth across multiple contracted products simultaneously (both contracted products at ~1.29, in lockstep)."
         ],
         "soft": [
-          "Champion active, green last touch (though trajectory mixed)",
-          "crossed_baseline true on every product",
-          "feature_breadth_avg 8 — deep usage across the suite"
+          "New executive sponsor engagement introduced within the last 30 days (manifest note), indicating fresh senior attention on the account."
         ]
       },
       "external_context": "No external signals in the 90-day window.",
-      "hypothesis": "Retool is over baseline on every single one of their 5 contracted products by 20-27%, with a 74-day CSM gap. This is the broadest growth pattern in the portfolio — a uniform lift across the entire product suite suggests organic scale (more workloads, more teams, more events) rather than a single team's spike. The motion is a portfolio true-up. With renewal 143 days out, there's runway for a non-pressured discovery conversation. Open with: \"We noticed your usage is up 20-27% across all five products simultaneously — what's changed on your side?\" The uniformity of the lift is itself the most interesting data point.",
-      "suggested_entry_point": "champion",
-      "renewal_window": "143 days out — comfortable runway, no renewal pressure",
-      "reasoning": "Two strong correlating signals plus the unusual pattern of uniform multi-product growth across a 5-product contract. Confidence is high because the breadth of growth makes misconfiguration unlikely (all 5 products would have to misconfigure in parallel). Mixed sentiment trajectory is a minor watch-out but last touch was green and champion is active, so not a blocker. Ranks below Descript despite a richer activating signal because renewal is further out — playbook ranking rules prioritize renewal proximity within a confidence tier."
-    },
-    {
-      "company_id": "supabase",
-      "name": "Supabase",
-      "verdict": "fire",
-      "confidence": "high",
-      "rank": 6,
-      "activating_signal": "Sustained utilization above contracted baseline across all 3 contracted products (Infrastructure 1.20x, Logs 1.21x, CI Visibility 1.21x; +24-26% over 90d, all crossed baseline)",
-      "correlating_signals": {
-        "strong": [
-          "Multi-product growth: all 3 contracted products increasing with delta_pct >0.20",
-          "CSM gap of 66 days while utilization is over baseline across the portfolio"
-        ],
-        "soft": [
-          "Champion active, executive sponsor active",
-          "crossed_baseline true on every contracted product",
-          "feature_breadth_avg 9 — the deepest product usage in the entire portfolio"
-        ]
-      },
-      "external_context": "No external signals in the 90-day window.",
-      "hypothesis": "Supabase is running 24-26% over baseline on all three contracted products with a 66-day CSM gap. The standout signal is feature_breadth_avg 9 — they use the product more deeply than any other account in the book. Combined with healthy engagement (champion + sponsor both active) this is a customer that has clearly self-selected into the platform. The motion is a baseline true-up plus potential new-product introduction (RUM, Security) given the deep breadth across existing products. With renewal 161 days out, treat this as discovery now, ask later.",
-      "suggested_entry_point": "champion",
-      "renewal_window": "161 days out — plenty of runway",
-      "reasoning": "Two strong correlating signals and the strongest feature_breadth signal in the portfolio. The yellow last-touch sentiment with stable_yellow trajectory is a minor friction point — not a disqualifier, but it tells me to lead with discovery rather than a commercial frame. The 30-day trend is stable across all three products, so growth has consolidated at the new level."
-    },
-    {
-      "company_id": "vercel",
-      "name": "Vercel",
-      "verdict": "fire",
-      "confidence": "medium",
-      "rank": 7,
-      "activating_signal": "Infrastructure at 1.19x, trend_90d increasing, +23% delta, crossed baseline",
-      "correlating_signals": {
-        "strong": [
-          "CSM gap of 45 days while utilization is 19% over baseline (at the playbook threshold)"
-        ],
-        "soft": [
-          "Champion active, stable_green sentiment trajectory, green last touch",
-          "crossed_baseline true",
-          "Recent CSM-initiated touch",
-          "feature_breadth_avg 6"
-        ]
-      },
-      "external_context": "No external signals in the 90-day window.",
-      "hypothesis": "Vercel has a single-product Infrastructure contract running 19% over baseline with a CSM gap right at the playbook threshold. Engagement is clean (stable_green, champion active, CSM-led recent touch). Single-product contract plus feature_breadth_avg 6 means there's a credible new-product introduction motion alongside the baseline true-up. Discovery angle: 23% growth over 90 days is meaningful but not explosive — confirm whether this represents a step-change (new workload onboarded) or a steady drift, because that shapes whether the right ask is a one-time true-up or a higher new baseline.",
-      "suggested_entry_point": "champion",
-      "renewal_window": "150 days out — comfortable runway, no urgency",
-      "reasoning": "Only one strong correlating signal (CSM gap at the threshold), but multiple supporting soft signals and the cleanest sentiment in the book make this worth firing at medium confidence. The activating signal is the weakest of the fires (1.19x, single product), so I'm not staking high confidence on it, but the pattern is right and the engagement is healthy. The recent contact mix is heavy on executive_sponsor (3 of 5) which is unusual — note this for the CSM as it may indicate the champion is becoming less load-bearing."
-    },
-    {
-      "company_id": "hugging-face",
-      "name": "Hugging Face",
-      "verdict": "fire",
-      "confidence": "medium",
-      "rank": 8,
-      "activating_signal": "Infrastructure at 0.99x with trend_90d AND trend_30d both increasing, +44% delta over 90d, crossed baseline. About to cross the contract line.",
-      "correlating_signals": {
-        "strong": [],
-        "soft": [
-          "Champion active, executive sponsor active, stable_green sentiment trajectory",
-          "5 touches in 90 days — high engagement cadence",
-          "crossed_baseline true",
-          "Manifest note: new executive sponsor engagement within the last 30 days"
-        ]
-      },
-      "external_context": "No external signals in the 90-day window.",
-      "hypothesis": "Hugging Face is the cleanest \"about to cross\" account in the book: single-product Infrastructure contract sitting at 0.99x with both 90d and 30d trends increasing and a +44% delta. They will be over contract within weeks if the trajectory holds. Engagement is unusually strong (5 touches/90d, new exec sponsor introduced in last 30 days, stable_green sentiment). The hypothesis is a proactive heads-up motion: get in front of the cross with a value-framed conversation now, before the over-contract status becomes the topic. Single-product profile also opens new-product introduction (Logs is the obvious adjacent given their workload).",
+      "hypothesis": "Peoplora is running ~30% over committed capacity on both products it owns and a new executive sponsor has just entered the picture. The combination of broad overage plus a fresh senior stakeholder is the textbook setup for a proactive expansion/renewal conversation: usage justifies the ask, and there is a new senior person to build the business case with. The next conversation should surface the growth story to the new exec and frame a right-sized renewal.",
       "suggested_entry_point": "executive_sponsor",
-      "renewal_window": "159 days out — comfortable runway",
-      "reasoning": "No strong correlating signals (CSM gap is 25d, not a gap), but the activating signal is exceptionally strong — both trend dimensions increasing simultaneously plus a +44% delta is the strongest pure growth signal in the portfolio. Multiple soft signals (champion, sponsor, new sponsor introduced, high touch cadence) compensate. The new executive sponsor anomaly is the reason I'm routing through exec sponsor rather than champion — there's a relationship to activate. Medium confidence because I don't have a strong corollary to anchor on, but the activating signal alone is hard to ignore."
+      "renewal_window": "178 days out",
+      "reasoning": "Activating signal is met on both products (>1.15, increasing). Multi-product simultaneous growth is a strong correlating signal, and the newly-active executive sponsor is a supporting soft signal. CSM gap is only 15 days and sentiment green, so the relationship is warm - high confidence. The renewal is comparatively distant (178 days), which is the reason it ranks below Craftbench on high-tier proximity, but with a new exec sponsor the timing to start the story is now. Note sentiment_trajectory is 'mixed' rather than clearly positive, a minor tension, but last touch is green and there is no disqualifying pattern (max rate 1.29 under 1.5; severity stable_low). Entry via the newly-engaged executive sponsor."
     },
     {
-      "company_id": "rippling",
-      "name": "Rippling",
-      "verdict": "fire",
-      "confidence": "medium",
-      "rank": 9,
-      "activating_signal": "Sustained utilization above contracted baseline on both contracted products (Infrastructure 1.29x, Logs 1.29x; +31% over 90d, both crossed baseline)",
-      "correlating_signals": {
-        "strong": [
-          "Multi-product growth: both contracted products increasing with delta_pct >0.30"
-        ],
-        "soft": [
-          "Champion active, executive sponsor active, green last touch",
-          "crossed_baseline true on both products",
-          "feature_breadth_avg 7",
-          "Manifest note: new executive sponsor engagement within the last 30 days",
-          "Recent CSM-initiated touch"
-        ]
-      },
-      "external_context": "No external signals in the 90-day window.",
-      "hypothesis": "Rippling is 29% over baseline on both Infrastructure and Logs with healthy engagement and a newly-introduced exec sponsor. The new sponsor anomaly is the angle: a fresh executive contact is the natural time to reframe the relationship around growth (\"we'd love to make sure the contract reflects how you're actually using us\"). Motion is a baseline true-up. With renewal 178 days out there's no pressure, so use the time for a multi-stakeholder discovery process.",
-      "suggested_entry_point": "executive_sponsor",
-      "renewal_window": "178 days out — long runway, treat as strategic relationship-building",
-      "reasoning": "One strong correlating signal (multi-product growth), but the CSM gap is only 15 days so the \"expansion without you\" angle doesn't apply. Compensating: very strong soft signal stack including the new exec sponsor. Medium confidence because only one strong corollary and renewal is far out. Routing through exec sponsor because the manifest flags a fresh exec relationship — capitalize on it."
-    },
-    {
-      "company_id": "runway-ml",
-      "name": "Runway ML",
-      "verdict": "fire",
-      "confidence": "medium",
-      "rank": 10,
-      "activating_signal": "Strong growth on both contracted products: Infrastructure 0.98x (increasing on both 90d and 30d, +84% delta!), Logs 0.91x (increasing on both, +45% delta). Both crossed baseline.",
-      "correlating_signals": {
-        "strong": [
-          "Multi-product growth: both contracted products increasing with delta_pct well over 0.30"
-        ],
-        "soft": [
-          "Champion active, executive sponsor active, stable_green sentiment trajectory",
-          "5 touches in 90 days — high engagement cadence",
-          "crossed_baseline true on both products",
-          "feature_breadth_avg 7.5"
-        ]
-      },
-      "external_context": "No external signals in the 90-day window.",
-      "hypothesis": "Runway ML is the most dramatic growth story in the portfolio: Infrastructure at +84% and Logs at +45% over 90 days, with both 30-day and 90-day trends still increasing. They are about to cross contract on Infrastructure and growing into Logs at a fast clip. The motion is a proactive heads-up: the conversation needs to happen now, not when they cross. With CSM gap only 24 days and 5 recent touches, the relationship is warm — use the next scheduled touch to introduce the topic naturally. New-product introduction (RUM, CI Visibility) is plausible given feature_breadth_avg 7.5 and the obvious workload scaling.",
-      "suggested_entry_point": "champion",
-      "renewal_window": "180 days out — long runway, but the growth trajectory may force the conversation earlier than renewal",
-      "reasoning": "One strong correlating signal (multi-product growth) plus an exceptionally strong activating signal (+84% is the largest delta in the portfolio). No CSM gap because the team is already actively engaged. Yellow last-touch sentiment is a minor friction but trajectory is stable_green, so I'm not concerned. Medium rather than high because (a) only one strong corollary, (b) renewal is 180 days out so no forcing function, (c) the conversation needs care to avoid sounding extractive given how recent the last touch was. But the growth signal is too strong to leave as a recheck."
-    },
-    {
-      "company_id": "apiary",
-      "name": "Apiary",
+      "company_id": "plendo",
+      "name": "Plendo",
       "verdict": "no_hypothesis",
-      "reasoning": "No activating signal. All three contracted products stable at ~0.37x of baseline with delta_pct <5%. Healthy engagement (champion + new exec sponsor active, green touch) but nothing to expand against — they're using roughly a third of what they contracted for. This is a possible contract-review conversation, not an expansion play."
+      "reasoning": "Disqualified. All three products declining (0.31-0.39, deltas -55% to -62%), sentiment_trajectory drifting_red (D4 -> no_hypothesis), support stable_high (9 tickets/60d), 80-day CSM gap. Churn-risk profile, not expansion."
     },
     {
-      "company_id": "bereal",
-      "name": "BeReal",
+      "company_id": "postglow",
+      "name": "Postglow",
       "verdict": "no_hypothesis",
-      "reasoning": "Multiple disqualifying patterns fire: D3 (severity_trend = escalating, 8 tickets in last 30d) and D4 (sentiment_trajectory = drifting_red, last touch red, champion inactive). Utilization is also declining (-48% to -56%). This is firmly a Silent Churn Risk / firefighting account, not expansion-ready."
+      "reasoning": "No activating signal. All four products at ~0.36-0.38, flat, below baseline. feature_breadth low (2.8). No upward usage movement; an adoption conversation at most, not expansion."
     },
     {
-      "company_id": "carta",
-      "name": "Carta",
+      "company_id": "provisor",
+      "name": "Provisor",
       "verdict": "no_hypothesis",
-      "reasoning": "D4 disqualifier fires (sentiment_trajectory = drifting_red, champion inactive). Infrastructure declining -52%, renewal 88 days out with active risk signal. Route to renewal-risk play, not expansion."
+      "reasoning": "No activating signal. No product is above the >1.15 baseline - Security is the only riser at 0.77 (+11%) and still below baseline. Champion is marked inactive (manifest note) despite otherwise positive indicators, which undercuts any expansion push. Contact is customer-initiated and sentiment green, so it is a healthy account worth a relationship touch, but there is no usage-based expansion trigger to fire on."
     },
     {
-      "company_id": "cohere",
-      "name": "Cohere",
-      "verdict": "no_hypothesis",
-      "reasoning": "D4 disqualifier fires (sentiment_trajectory = drifting_red despite green last touch). Logs at 0.94x with 30d trend increasing would otherwise be an interesting recheck candidate, but the sentiment drift plus stable_high support severity and renewal 68 days out makes any expansion ask tone-deaf. Route to relationship-repair instead."
+      "company_id": "queuely",
+      "name": "Queuely",
+      "verdict": "recheck",
+      "reasoning": "The only activating signal is an anomaly: 'Anomalous usage spike that does not align with the account baseline,' with Infrastructure crossed_baseline true but at just 0.41 (trend_90d increasing, trend_30d already declining). This is the playbook's one-day/usage-spike case, which calls for an immediate check and a recheck if inconclusive. Absolute usage is far below baseline across all products (0.36-0.41), there is no human corroboration, sentiment is only yellow/mixed, and support is quiet - so there is no expansion story here yet. Per the playbook, a usage spike with no human signal after recheck routes to monitor as potential misconfiguration. Recheck in 3 days; absent any human signal, treat as misconfiguration/health rather than expansion."
     },
     {
-      "company_id": "convoy",
-      "name": "Convoy",
+      "company_id": "realmly",
+      "name": "Realmly",
       "verdict": "no_hypothesis",
-      "reasoning": "D3 + D4 both fire (severity_trend = escalating with 6 tickets/30d, sentiment_trajectory = drifting_red, both champion and exec sponsor inactive). All products declining sharply. Active churn risk, not expansion."
+      "reasoning": "Disqualified. Both products declining (Infrastructure 0.35/-56%, Logs 0.42/-48%), champion inactive, sentiment_trajectory drifting_red (D4 -> no_hypothesis) and support severity_trend escalating (D3 also fires), 8 tickets in 30 days, 83-day CSM gap. Active churn risk. Route to retention urgently."
     },
     {
-      "company_id": "fast",
-      "name": "Fast",
+      "company_id": "siteglow",
+      "name": "Siteglow",
       "verdict": "no_hypothesis",
-      "reasoning": "D4 disqualifier (drifting_red, red last touch, champion and exec sponsor both inactive). All four contracted products declining 54-64%. Account is in serious trouble, not an expansion candidate."
+      "reasoning": "No activating signal. All three products at ~0.74-0.75, flat, below baseline. Healthy and green, but steady mid-utilization is not an expansion trigger."
     },
     {
-      "company_id": "fastly",
-      "name": "Fastly",
+      "company_id": "statusly",
+      "name": "Statusly",
       "verdict": "no_hypothesis",
-      "reasoning": "No activating signal. Infrastructure stable at 0.76x with delta of only 4% over 90d. crossed_baseline is flagged true but current rate is well below 1.0 and trend is stable — that flag appears to be noise here. Healthy engagement but nothing to expand against."
+      "reasoning": "No activating signal. Single product (Infrastructure 0.76) flat, below baseline. Healthy, green, engaged - a good account, but nothing above baseline and no dormant-product activation to fire on."
     },
     {
-      "company_id": "grafana-labs",
-      "name": "Grafana Labs",
+      "company_id": "traceon",
+      "name": "Traceon",
       "verdict": "no_hypothesis",
-      "reasoning": "No activating signal. Both contracted products stable at 0.74x with delta ~1%. No growth trajectory to surface."
+      "reasoning": "No activating signal. All five products at ~0.73-0.76, flat, below baseline (RUM 'crossed_baseline' flag but only 0.76 and stable). Healthy, green, engaged, but uniformly mid-range utilization with no upward movement is not expansion-ready. Renewal 67 days out warrants a standard renewal touch, not an expansion hypothesis."
     },
     {
-      "company_id": "hashicorp",
-      "name": "Hashicorp",
-      "verdict": "no_hypothesis",
-      "reasoning": "Closest to activating: Security at 0.77x with trend_90d increasing and +11% delta. But this falls short of all three activating thresholds: current_rate is not >1.0, current_rate + increasing requires >=0.85, and delta_pct must exceed 0.20. Other four products are flat. Champion is marked inactive (anomaly flag) despite otherwise stable signals. Not enough to fire."
+      "company_id": "trackwell",
+      "name": "Trackwell",
+      "verdict": "recheck",
+      "reasoning": "Activating signal present: Infrastructure at 1.28, increasing and crossed baseline (~32% over). Like Deploova, it is a single-product account, so multi-product growth cannot corroborate, and the other strong correlators depend on unavailable signals (new users, VP engagement, cross-functional, login trends). No qualifying soft correlator either - support is stable_low/configuration and there is no external event. Decision tree: activating + no correlating signal -> recheck (3-day usage-anomaly window). The account is otherwise healthy (stable_green, 52-day gap), and 32% single-product overage against an 80-day renewal is genuinely interesting - if the overage holds or a second product moves on recheck, promote to fire."
     },
     {
-      "company_id": "inngest",
-      "name": "Inngest",
+      "company_id": "vulnara",
+      "name": "Vulnara",
       "verdict": "no_hypothesis",
-      "reasoning": "Infrastructure flagged crossed_baseline=true but current rate is only 0.41x and 30d trend is actually declining despite 90d increasing — that flag looks anomalous (manifest notes \"anomalous usage spike that does not align with the account baseline\"). No activating threshold met: current_rate not >1.0, not >=0.85, delta_pct only 0.13. Nothing to act on."
-    },
-    {
-      "company_id": "launchdarkly",
-      "name": "LaunchDarkly",
-      "verdict": "no_hypothesis",
-      "reasoning": "No activating signal. All three contracted products stable at ~0.75x with negligible delta. Healthy stable_green account, routine cadence — exactly the profile that should NOT be touched with an expansion play."
-    },
-    {
-      "company_id": "mistral",
-      "name": "Mistral",
-      "verdict": "no_hypothesis",
-      "reasoning": "D4 disqualifier (sentiment_trajectory = drifting_red, yellow last touch, support stable_high). Infrastructure at 0.85x is borderline on activating signal B but the trend is stable, not increasing, so it doesn't actually activate. Route to sentiment-recovery, not expansion."
-    },
-    {
-      "company_id": "netlify",
-      "name": "Netlify",
-      "verdict": "no_hypothesis",
-      "reasoning": "No activating signal. All three contracted products stable at ~0.75x. Healthy stable_green account with active champion and exec sponsor — perfect to leave alone."
-    },
-    {
-      "company_id": "novu",
-      "name": "Novu",
-      "verdict": "no_hypothesis",
-      "reasoning": "No activating signal. Both products stable at ~0.38x. Low utilization with healthy engagement — possible adoption play, not expansion."
-    },
-    {
-      "company_id": "olive-ai",
-      "name": "Olive AI",
-      "verdict": "no_hypothesis",
-      "reasoning": "D4 disqualifier (sentiment_trajectory = drifting_red, red last touch, 5 tickets/30d, all three products declining 42-51%). Active risk account."
-    },
-    {
-      "company_id": "pagerduty",
-      "name": "PagerDuty",
-      "verdict": "no_hypothesis",
-      "reasoning": "No activating signal. All four contracted products stable at ~0.75x with delta ~0-3%. Routine account."
-    },
-    {
-      "company_id": "permitio",
-      "name": "Permit.io",
-      "verdict": "no_hypothesis",
-      "reasoning": "No activating signal. All five contracted products flat at ~0.35x. Low utilization across the portfolio — adoption concern, not expansion. ARR is also the smallest in the book ($120K), suggesting an SMB profile that hasn't grown into the contract."
-    },
-    {
-      "company_id": "plastiq",
-      "name": "Plastiq",
-      "verdict": "no_hypothesis",
-      "reasoning": "D4 disqualifier (drifting_red, red last touch, 80-day CSM gap, all three products declining 55-62%). 4 tickets/30d at stable_high severity. Active risk."
-    },
-    {
-      "company_id": "replit",
-      "name": "Replit",
-      "verdict": "no_hypothesis",
-      "reasoning": "D4 disqualifier (sentiment_trajectory = drifting_red, support category_concentration = outage). Infrastructure at 0.82x but declining -24%. CSM is engaged (5-day gap, 4 touches/90d) which is good for relationship repair but rules out expansion framing."
-    },
-    {
-      "company_id": "resend",
-      "name": "Resend",
-      "verdict": "no_hypothesis",
-      "reasoning": "No activating signal. All four contracted products stable at ~0.37x with delta <6%. Low utilization despite active champion and 5 champion-led recent contacts — possible adoption opportunity, not expansion."
-    },
-    {
-      "company_id": "rollbar",
-      "name": "Rollbar",
-      "verdict": "no_hypothesis",
-      "reasoning": "No activating signal. Infrastructure stable at 0.76x with 3% delta. crossed_baseline flag appears noisy. Healthy stable_green account with new exec sponsor introduced — relationship is in great shape but there's no growth to surface."
-    },
-    {
-      "company_id": "sentry",
-      "name": "Sentry",
-      "verdict": "no_hypothesis",
-      "reasoning": "Healthy stable account. No activating signal. All five products stable at 0.73-0.76x with no growth trend. Stable_green sentiment, 15-day CSM gap, routine engagement cadence. Exactly the kind of account where forcing an expansion conversation would damage the relationship."
-    },
-    {
-      "company_id": "snyk",
-      "name": "Snyk",
-      "verdict": "no_hypothesis",
-      "reasoning": "No activating signal. All three contracted products stable at ~0.74x. Stable_green sentiment, routine engagement. Healthy steady-state account."
-    },
-    {
-      "company_id": "statuspage",
-      "name": "Statuspage",
-      "verdict": "no_hypothesis",
-      "reasoning": "No activating signal. Infrastructure stable at 0.76x with 2% delta. Healthy stable_green account, routine cadence."
-    },
-    {
-      "company_id": "stytch",
-      "name": "Stytch",
-      "verdict": "no_hypothesis",
-      "reasoning": "No activating signal. All four contracted products flat at ~0.37x. Low utilization with mixed sentiment — adoption concern, not expansion."
-    },
-    {
-      "company_id": "together-ai",
-      "name": "Together AI",
-      "verdict": "no_hypothesis",
-      "reasoning": "D4 disqualifier (sentiment_trajectory = drifting_red, red last touch, champion inactive). Infrastructure declining -31%. Active risk."
-    },
-    {
-      "company_id": "triggerdev",
-      "name": "Trigger.dev",
-      "verdict": "no_hypothesis",
-      "reasoning": "No activating signal. All four contracted products flat at ~0.36x. Low utilization."
-    },
-    {
-      "company_id": "veev",
-      "name": "Veev",
-      "verdict": "no_hypothesis",
-      "reasoning": "D4 disqualifier (drifting_red, red last touch, all three products declining 48-53%, renewal 60 days out flagged as active risk). Imminent churn-risk conversation, not expansion."
-    },
-    {
-      "company_id": "weights-biases",
-      "name": "Weights & Biases",
-      "verdict": "no_hypothesis",
-      "reasoning": "No activating signal. Both products declining over 90d (Infrastructure -13%, Logs -15%). Logs 30d trend ticking back up to 0.76x is mildly interesting but well short of any activating threshold. Support at stable_high with 7 open tickets is a watch-out. Not expansion-ready."
-    },
-    {
-      "company_id": "zuplo",
-      "name": "Zuplo",
-      "verdict": "no_hypothesis",
-      "reasoning": "No activating signal. All three contracted products flat at ~0.37x. Both champion and exec sponsor marked inactive — relationship concern, not expansion opportunity."
+      "reasoning": "No activating signal. All three products at ~0.73-0.75, flat, below baseline. Healthy and green, but steady mid-utilization with no upward movement - no expansion trigger."
     }
   ],
   "summary": {
     "total_accounts": 40,
-    "hypotheses_fired": 10,
-    "rechecks_scheduled": 0,
-    "no_hypothesis": 30,
-    "top_ranked": ["turso", "clerk", "linear", "descript", "retool", "supabase", "vercel", "hugging-face", "rippling", "runway-ml"]
+    "hypotheses_fired": 6,
+    "rechecks_scheduled": 5,
+    "no_hypothesis": 29,
+    "top_ranked": [
+      "craftbench",
+      "peoplora",
+      "cavora",
+      "mediark",
+      "authara",
+      "baseriver"
+    ]
   }
 }

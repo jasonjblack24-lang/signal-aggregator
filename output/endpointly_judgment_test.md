@@ -1,4 +1,4 @@
-Hey — wanted to flag Apiary for you. The expansion playbook didn't fire, and I think that's the right call, but there's something underneath the numbers worth your attention.
+Hey — wanted to flag Endpointly for you. The expansion playbook didn't fire, and I think that's the right call, but there's something underneath the numbers worth your attention.
 
 The utilization story is the reason expansion stayed quiet: Infrastructure at 37%, Logs at 38%, RUM at 35%, all stable, none of them anywhere near the 115% baseline trigger. Feature breadth is sitting at 2.7, which is thin for an account paying $659K. They're four months into the contract and using roughly a third of what they bought across all three products. That isn't an expansion profile — that's an adoption gap, and pitching them more right now would be exactly the "friend who only calls when they want something" move the playbook warns against.
 

@@ -1,7 +1,7 @@
 [
   {
-    "company_id": "vercel",
-    "name": "Vercel",
+    "company_id": "deploova",
+    "name": "Deploova",
     "industry": "Developer Platform",
     "employee_count": 1182,
     "arr": 459201,
@@ -27,8 +27,8 @@
     "health_score": 97
   },
   {
-    "company_id": "linear",
-    "name": "Linear",
+    "company_id": "trackwell",
+    "name": "Trackwell",
     "industry": "Project Management",
     "employee_count": 191,
     "arr": 555435,
@@ -54,8 +54,8 @@
     "health_score": 100
   },
   {
-    "company_id": "rippling",
-    "name": "Rippling",
+    "company_id": "peoplora",
+    "name": "Peoplora",
     "industry": "HR Tech",
     "employee_count": 3093,
     "arr": 477887,
@@ -86,8 +86,8 @@
     "health_score": 97
   },
   {
-    "company_id": "retool",
-    "name": "Retool",
+    "company_id": "craftbench",
+    "name": "Craftbench",
     "industry": "Developer Tools",
     "employee_count": 1197,
     "arr": 409963,
@@ -133,8 +133,8 @@
     "health_score": 100
   },
   {
-    "company_id": "supabase",
-    "name": "Supabase",
+    "company_id": "baseriver",
+    "name": "Baseriver",
     "industry": "Database Platform",
     "employee_count": 148,
     "arr": 240265,
@@ -170,8 +170,8 @@
     "health_score": 100
   },
   {
-    "company_id": "clerk",
-    "name": "Clerk",
+    "company_id": "authara",
+    "name": "Authara",
     "industry": "Authentication",
     "employee_count": 148,
     "arr": 387757,
@@ -207,8 +207,8 @@
     "health_score": 100
   },
   {
-    "company_id": "turso",
-    "name": "Turso",
+    "company_id": "cavora",
+    "name": "Cavora",
     "industry": "Database Infrastructure",
     "employee_count": 91,
     "arr": 592340,
@@ -244,8 +244,8 @@
     "health_score": 96
   },
   {
-    "company_id": "descript",
-    "name": "Descript",
+    "company_id": "mediark",
+    "name": "Mediark",
     "industry": "Media Software",
     "employee_count": 288,
     "arr": 578369,
@@ -276,8 +276,8 @@
     "health_score": 100
   },
   {
-    "company_id": "carta",
-    "name": "Carta",
+    "company_id": "equira",
+    "name": "Equira",
     "industry": "Fintech",
     "employee_count": 3049,
     "arr": 206882,
@@ -303,12 +303,12 @@
     "health_score": 31
   },
   {
-    "company_id": "fast",
-    "name": "Fast",
+    "company_id": "payglint",
+    "name": "Payglint",
     "industry": "Payments",
     "employee_count": 54,
     "arr": 426479,
-    "contract_start_date": "2024-11-29",
+    "contract_start_date": "2025-10-21",
     "renewal_date": "2026-09-03",
     "products_contracted": [
       "Infrastructure",
@@ -345,12 +345,12 @@
     "health_score": 32
   },
   {
-    "company_id": "convoy",
-    "name": "Convoy",
+    "company_id": "haulcrest",
+    "name": "Haulcrest",
     "industry": "Logistics Tech",
     "employee_count": 225,
     "arr": 569710,
-    "contract_start_date": "2024-12-04",
+    "contract_start_date": "2025-11-07",
     "renewal_date": "2026-09-24",
     "products_contracted": [
       "Infrastructure",
@@ -382,8 +382,8 @@
     "health_score": 32
   },
   {
-    "company_id": "olive-ai",
-    "name": "Olive AI",
+    "company_id": "medolia",
+    "name": "Medolia",
     "industry": "Healthcare AI",
     "employee_count": 1195,
     "arr": 159046,
@@ -419,8 +419,8 @@
     "health_score": 42
   },
   {
-    "company_id": "veev",
-    "name": "Veev",
+    "company_id": "buildveo",
+    "name": "Buildveo",
     "industry": "Construction Tech",
     "employee_count": 360,
     "arr": 252634,
@@ -456,8 +456,8 @@
     "health_score": 47
   },
   {
-    "company_id": "plastiq",
-    "name": "Plastiq",
+    "company_id": "plendo",
+    "name": "Plendo",
     "industry": "Payments",
     "employee_count": 268,
     "arr": 648532,
@@ -493,8 +493,8 @@
     "health_score": 40
   },
   {
-    "company_id": "bereal",
-    "name": "BeReal",
+    "company_id": "realmly",
+    "name": "Realmly",
     "industry": "Consumer Social",
     "employee_count": 137,
     "arr": 788011,
@@ -525,8 +525,8 @@
     "health_score": 34
   },
   {
-    "company_id": "resend",
-    "name": "Resend",
+    "company_id": "postglow",
+    "name": "Postglow",
     "industry": "Developer Email Infrastructure",
     "employee_count": 83,
     "arr": 495011,
@@ -567,8 +567,8 @@
     "health_score": 49
   },
   {
-    "company_id": "triggerdev",
-    "name": "Trigger.dev",
+    "company_id": "jobwright",
+    "name": "Jobwright",
     "industry": "Developer Platform",
     "employee_count": 58,
     "arr": 336150,
@@ -609,8 +609,8 @@
     "health_score": 52
   },
   {
-    "company_id": "inngest",
-    "name": "Inngest",
+    "company_id": "queuely",
+    "name": "Queuely",
     "industry": "Developer Infrastructure",
     "employee_count": 69,
     "arr": 365577,
@@ -646,8 +646,8 @@
     "health_score": 51
   },
   {
-    "company_id": "novu",
-    "name": "Novu",
+    "company_id": "notifera",
+    "name": "Notifera",
     "industry": "Notification Infrastructure",
     "employee_count": 205,
     "arr": 217174,
@@ -678,8 +678,8 @@
     "health_score": 49
   },
   {
-    "company_id": "apiary",
-    "name": "Apiary",
+    "company_id": "endpointly",
+    "name": "Endpointly",
     "industry": "API Platform",
     "employee_count": 269,
     "arr": 659364,
@@ -715,8 +715,8 @@
     "health_score": 49
   },
   {
-    "company_id": "zuplo",
-    "name": "Zuplo",
+    "company_id": "gatewly",
+    "name": "Gatewly",
     "industry": "API Gateway",
     "employee_count": 72,
     "arr": 512322,
@@ -752,8 +752,8 @@
     "health_score": 43
   },
   {
-    "company_id": "stytch",
-    "name": "Stytch",
+    "company_id": "identara",
+    "name": "Identara",
     "industry": "Authentication",
     "employee_count": 178,
     "arr": 313752,
@@ -794,8 +794,8 @@
     "health_score": 57
   },
   {
-    "company_id": "permitio",
-    "name": "Permit.io",
+    "company_id": "grantly",
+    "name": "Grantly",
     "industry": "Authorization Platform",
     "employee_count": 83,
     "arr": 120115,
@@ -841,8 +841,8 @@
     "health_score": 57
   },
   {
-    "company_id": "snyk",
-    "name": "Snyk",
+    "company_id": "vulnara",
+    "name": "Vulnara",
     "industry": "Security",
     "employee_count": 3752,
     "arr": 409164,
@@ -878,8 +878,8 @@
     "health_score": 89
   },
   {
-    "company_id": "launchdarkly",
-    "name": "LaunchDarkly",
+    "company_id": "flagpost",
+    "name": "Flagpost",
     "industry": "Feature Management",
     "employee_count": 3721,
     "arr": 676750,
@@ -915,8 +915,8 @@
     "health_score": 86
   },
   {
-    "company_id": "grafana-labs",
-    "name": "Grafana Labs",
+    "company_id": "panelith",
+    "name": "Panelith",
     "industry": "Observability",
     "employee_count": 1895,
     "arr": 770855,
@@ -947,8 +947,8 @@
     "health_score": 83
   },
   {
-    "company_id": "hashicorp",
-    "name": "Hashicorp",
+    "company_id": "provisor",
+    "name": "Provisor",
     "industry": "Infrastructure Software",
     "employee_count": 3146,
     "arr": 720967,
@@ -994,8 +994,8 @@
     "health_score": 72
   },
   {
-    "company_id": "pagerduty",
-    "name": "PagerDuty",
+    "company_id": "alertcrest",
+    "name": "Alertcrest",
     "industry": "Incident Management",
     "employee_count": 3483,
     "arr": 341303,
@@ -1036,8 +1036,8 @@
     "health_score": 91
   },
   {
-    "company_id": "statuspage",
-    "name": "Statuspage",
+    "company_id": "statusly",
+    "name": "Statusly",
     "industry": "Status Monitoring",
     "employee_count": 183,
     "arr": 748636,
@@ -1063,8 +1063,8 @@
     "health_score": 85
   },
   {
-    "company_id": "rollbar",
-    "name": "Rollbar",
+    "company_id": "errorly",
+    "name": "Errorly",
     "industry": "Error Monitoring",
     "employee_count": 205,
     "arr": 415239,
@@ -1090,8 +1090,8 @@
     "health_score": 85
   },
   {
-    "company_id": "sentry",
-    "name": "Sentry",
+    "company_id": "traceon",
+    "name": "Traceon",
     "industry": "Application Monitoring",
     "employee_count": 3422,
     "arr": 568557,
@@ -1137,8 +1137,8 @@
     "health_score": 86
   },
   {
-    "company_id": "netlify",
-    "name": "Netlify",
+    "company_id": "siteglow",
+    "name": "Siteglow",
     "industry": "Developer Platform",
     "employee_count": 524,
     "arr": 366193,
@@ -1174,8 +1174,8 @@
     "health_score": 86
   },
   {
-    "company_id": "fastly",
-    "name": "Fastly",
+    "company_id": "edgewave",
+    "name": "Edgewave",
     "industry": "CDN",
     "employee_count": 3624,
     "arr": 671807,
@@ -1201,8 +1201,8 @@
     "health_score": 86
   },
   {
-    "company_id": "replit",
-    "name": "Replit",
+    "company_id": "codenest",
+    "name": "Codenest",
     "industry": "AI Coding",
     "employee_count": 765,
     "arr": 422722,
@@ -1228,8 +1228,8 @@
     "health_score": 73
   },
   {
-    "company_id": "hugging-face",
-    "name": "Hugging Face",
+    "company_id": "modelyard",
+    "name": "Modelyard",
     "industry": "AI/ML",
     "employee_count": 2118,
     "arr": 761725,
@@ -1255,8 +1255,8 @@
     "health_score": 64
   },
   {
-    "company_id": "weights-biases",
-    "name": "Weights & Biases",
+    "company_id": "metricforge",
+    "name": "Metricforge",
     "industry": "ML Tooling",
     "employee_count": 877,
     "arr": 308552,
@@ -1287,8 +1287,8 @@
     "health_score": 69
   },
   {
-    "company_id": "runway-ml",
-    "name": "Runway ML",
+    "company_id": "framecraft",
+    "name": "Framecraft",
     "industry": "Generative AI",
     "employee_count": 993,
     "arr": 473537,
@@ -1319,8 +1319,8 @@
     "health_score": 77
   },
   {
-    "company_id": "cohere",
-    "name": "Cohere",
+    "company_id": "lexira",
+    "name": "Lexira",
     "industry": "LLM Platform",
     "employee_count": 845,
     "arr": 529186,
@@ -1351,8 +1351,8 @@
     "health_score": 72
   },
   {
-    "company_id": "mistral",
-    "name": "Mistral",
+    "company_id": "novalm",
+    "name": "Novalm",
     "industry": "AI Models",
     "employee_count": 165,
     "arr": 627091,
@@ -1378,8 +1378,8 @@
     "health_score": 77
   },
   {
-    "company_id": "together-ai",
-    "name": "Together AI",
+    "company_id": "clustira",
+    "name": "Clustira",
     "industry": "AI Infrastructure",
     "employee_count": 761,
     "arr": 335709,

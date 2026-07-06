@@ -1,8 +1,8 @@
 [
   {
-    "company_id": "vercel",
-    "name": "Vercel",
-    "embedded_story": "Vercel: Infrastructure moved from 81% to 119% of baseline. Last meaningful CSM touch occurred 45 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "deploova",
+    "name": "Deploova",
+    "embedded_story": "Deploova: Infrastructure moved from 81% to 119% of baseline. Last meaningful CSM touch occurred 45 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": null,
     "csm_gap_days": 45,
     "champion_active": true,
@@ -17,9 +17,9 @@
     "support_ticket_trend": "Ticket volume low and stable, predominantly low-severity requests."
   },
   {
-    "company_id": "linear",
-    "name": "Linear",
-    "embedded_story": "Linear: Infrastructure moved from 80% to 128% of baseline. Last meaningful CSM touch occurred 52 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "trackwell",
+    "name": "Trackwell",
+    "embedded_story": "Trackwell: Infrastructure moved from 80% to 128% of baseline. Last meaningful CSM touch occurred 52 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": null,
     "csm_gap_days": 52,
     "champion_active": true,
@@ -34,9 +34,9 @@
     "support_ticket_trend": "Ticket volume low and stable, predominantly low-severity requests."
   },
   {
-    "company_id": "rippling",
-    "name": "Rippling",
-    "embedded_story": "Rippling: Infrastructure moved from 81% to 129% of baseline; Logs moved from 82% to 129% of baseline. Last meaningful CSM touch occurred 51 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "peoplora",
+    "name": "Peoplora",
+    "embedded_story": "Peoplora: Infrastructure moved from 81% to 129% of baseline; Logs moved from 82% to 129% of baseline. Last meaningful CSM touch occurred 51 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": "New executive sponsor engagement introduced within the last 30 days.",
     "csm_gap_days": 51,
     "champion_active": true,
@@ -53,9 +53,9 @@
     "support_ticket_trend": "Ticket volume low and stable, predominantly low-severity requests."
   },
   {
-    "company_id": "retool",
-    "name": "Retool",
-    "embedded_story": "Retool: Infrastructure moved from 82% to 122% of baseline; Logs moved from 83% to 122% of baseline; RUM moved from 82% to 123% of baseline. Last meaningful CSM touch occurred 74 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "craftbench",
+    "name": "Craftbench",
+    "embedded_story": "Craftbench: Infrastructure moved from 82% to 122% of baseline; Logs moved from 83% to 122% of baseline; RUM moved from 82% to 123% of baseline. Last meaningful CSM touch occurred 74 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": null,
     "csm_gap_days": 74,
     "champion_active": true,
@@ -78,9 +78,9 @@
     "support_ticket_trend": "Ticket volume low and stable, predominantly low-severity requests."
   },
   {
-    "company_id": "supabase",
-    "name": "Supabase",
-    "embedded_story": "Supabase: Infrastructure moved from 84% to 120% of baseline; Logs moved from 83% to 121% of baseline; CI Visibility moved from 81% to 121% of baseline. Last meaningful CSM touch occurred 66 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "baseriver",
+    "name": "Baseriver",
+    "embedded_story": "Baseriver: Infrastructure moved from 84% to 120% of baseline; Logs moved from 83% to 121% of baseline; CI Visibility moved from 81% to 121% of baseline. Last meaningful CSM touch occurred 66 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": null,
     "csm_gap_days": 66,
     "champion_active": true,
@@ -99,9 +99,9 @@
     "support_ticket_trend": "Ticket volume low and stable, predominantly low-severity requests."
   },
   {
-    "company_id": "clerk",
-    "name": "Clerk",
-    "embedded_story": "Clerk: Infrastructure moved from 82% to 130% of baseline; Logs moved from 84% to 130% of baseline; RUM moved from 80% to 132% of baseline. Last meaningful CSM touch occurred 67 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "authara",
+    "name": "Authara",
+    "embedded_story": "Authara: Infrastructure moved from 82% to 130% of baseline; Logs moved from 84% to 130% of baseline; RUM moved from 80% to 132% of baseline. Last meaningful CSM touch occurred 67 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": "One product exhibits unusually stable utilization despite overall volatility.",
     "csm_gap_days": 67,
     "champion_active": true,
@@ -120,9 +120,9 @@
     "support_ticket_trend": "Ticket volume low and stable, predominantly low-severity requests."
   },
   {
-    "company_id": "turso",
-    "name": "Turso",
-    "embedded_story": "Turso: Infrastructure moved from 82% to 130% of baseline; Logs moved from 80% to 130% of baseline; CI Visibility moved from 80% to 129% of baseline. Last meaningful CSM touch occurred 71 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "cavora",
+    "name": "Cavora",
+    "embedded_story": "Cavora: Infrastructure moved from 82% to 130% of baseline; Logs moved from 80% to 130% of baseline; CI Visibility moved from 80% to 129% of baseline. Last meaningful CSM touch occurred 71 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": null,
     "csm_gap_days": 71,
     "champion_active": true,
@@ -141,9 +141,9 @@
     "support_ticket_trend": "Ticket volume low and stable, predominantly low-severity requests."
   },
   {
-    "company_id": "descript",
-    "name": "Descript",
-    "embedded_story": "Descript: Infrastructure moved from 81% to 120% of baseline; Logs moved from 82% to 119% of baseline. Last meaningful CSM touch occurred 45 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "mediark",
+    "name": "Mediark",
+    "embedded_story": "Mediark: Infrastructure moved from 81% to 120% of baseline; Logs moved from 82% to 119% of baseline. Last meaningful CSM touch occurred 45 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": "One product exhibits unusually stable utilization despite overall volatility.",
     "csm_gap_days": 45,
     "champion_active": true,
@@ -160,9 +160,9 @@
     "support_ticket_trend": "Ticket volume low and stable, predominantly low-severity requests."
   },
   {
-    "company_id": "carta",
-    "name": "Carta",
-    "embedded_story": "Carta: Infrastructure moved from 92% to 40% of baseline. Last meaningful CSM touch occurred 63 days ago. Champion currently inactive. Executive sponsor currently active.",
+    "company_id": "equira",
+    "name": "Equira",
+    "embedded_story": "Equira: Infrastructure moved from 92% to 40% of baseline. Last meaningful CSM touch occurred 63 days ago. Champion currently inactive. Executive sponsor currently active.",
     "signal_contradiction": null,
     "csm_gap_days": 63,
     "champion_active": false,
@@ -177,9 +177,9 @@
     "support_ticket_trend": "Ticket volume increasing over the last 60 days with elevated severity."
   },
   {
-    "company_id": "fast",
-    "name": "Fast",
-    "embedded_story": "Fast: Infrastructure moved from 92% to 37% of baseline; Logs moved from 94% to 30% of baseline; RUM moved from 92% to 32% of baseline. Last meaningful CSM touch occurred 73 days ago. Champion currently inactive. Executive sponsor currently inactive.",
+    "company_id": "payglint",
+    "name": "Payglint",
+    "embedded_story": "Payglint: Infrastructure moved from 92% to 37% of baseline; Logs moved from 94% to 30% of baseline; RUM moved from 92% to 32% of baseline. Last meaningful CSM touch occurred 73 days ago. Champion currently inactive. Executive sponsor currently inactive.",
     "signal_contradiction": "One product shows unusually high feature breadth for the account profile.",
     "csm_gap_days": 73,
     "champion_active": false,
@@ -200,9 +200,9 @@
     "support_ticket_trend": "Ticket volume increasing over the last 60 days with elevated severity."
   },
   {
-    "company_id": "convoy",
-    "name": "Convoy",
-    "embedded_story": "Convoy: Infrastructure moved from 92% to 41% of baseline; Logs moved from 93% to 38% of baseline; RUM moved from 91% to 32% of baseline. Last meaningful CSM touch occurred 87 days ago. Champion currently inactive. Executive sponsor currently inactive.",
+    "company_id": "haulcrest",
+    "name": "Haulcrest",
+    "embedded_story": "Haulcrest: Infrastructure moved from 92% to 41% of baseline; Logs moved from 93% to 38% of baseline; RUM moved from 91% to 32% of baseline. Last meaningful CSM touch occurred 87 days ago. Champion currently inactive. Executive sponsor currently inactive.",
     "signal_contradiction": null,
     "csm_gap_days": 87,
     "champion_active": false,
@@ -221,9 +221,9 @@
     "support_ticket_trend": "Ticket volume increasing over the last 60 days with elevated severity."
   },
   {
-    "company_id": "olive-ai",
-    "name": "Olive AI",
-    "embedded_story": "Olive AI: Infrastructure moved from 90% to 49% of baseline; Logs moved from 91% to 49% of baseline; CI Visibility moved from 92% to 41% of baseline. Last meaningful CSM touch occurred 62 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "medolia",
+    "name": "Medolia",
+    "embedded_story": "Medolia: Infrastructure moved from 90% to 49% of baseline; Logs moved from 91% to 49% of baseline; CI Visibility moved from 92% to 41% of baseline. Last meaningful CSM touch occurred 62 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": null,
     "csm_gap_days": 62,
     "champion_active": true,
@@ -242,9 +242,9 @@
     "support_ticket_trend": "Ticket volume increasing over the last 60 days with elevated severity."
   },
   {
-    "company_id": "veev",
-    "name": "Veev",
-    "embedded_story": "Veev: Infrastructure moved from 92% to 43% of baseline; Logs moved from 93% to 42% of baseline; RUM moved from 91% to 40% of baseline. Last meaningful CSM touch occurred 64 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "buildveo",
+    "name": "Buildveo",
+    "embedded_story": "Buildveo: Infrastructure moved from 92% to 43% of baseline; Logs moved from 93% to 42% of baseline; RUM moved from 91% to 40% of baseline. Last meaningful CSM touch occurred 64 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": null,
     "csm_gap_days": 64,
     "champion_active": true,
@@ -263,9 +263,9 @@
     "support_ticket_trend": "Ticket volume increasing over the last 60 days with elevated severity."
   },
   {
-    "company_id": "plastiq",
-    "name": "Plastiq",
-    "embedded_story": "Plastiq: Infrastructure moved from 93% to 31% of baseline; Logs moved from 91% to 34% of baseline; RUM moved from 92% to 39% of baseline. Last meaningful CSM touch occurred 80 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "plendo",
+    "name": "Plendo",
+    "embedded_story": "Plendo: Infrastructure moved from 93% to 31% of baseline; Logs moved from 91% to 34% of baseline; RUM moved from 92% to 39% of baseline. Last meaningful CSM touch occurred 80 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": null,
     "csm_gap_days": 80,
     "champion_active": true,
@@ -284,9 +284,9 @@
     "support_ticket_trend": "Ticket volume increasing over the last 60 days with elevated severity."
   },
   {
-    "company_id": "bereal",
-    "name": "BeReal",
-    "embedded_story": "BeReal: Infrastructure moved from 91% to 35% of baseline; Logs moved from 93% to 42% of baseline. Last meaningful CSM touch occurred 83 days ago. Champion currently inactive. Executive sponsor currently active.",
+    "company_id": "realmly",
+    "name": "Realmly",
+    "embedded_story": "Realmly: Infrastructure moved from 91% to 35% of baseline; Logs moved from 93% to 42% of baseline. Last meaningful CSM touch occurred 83 days ago. Champion currently inactive. Executive sponsor currently active.",
     "signal_contradiction": null,
     "csm_gap_days": 83,
     "champion_active": false,
@@ -303,9 +303,9 @@
     "support_ticket_trend": "Ticket volume increasing over the last 60 days with elevated severity."
   },
   {
-    "company_id": "resend",
-    "name": "Resend",
-    "embedded_story": "Resend: Infrastructure moved from 22% to 36% of baseline; Logs moved from 22% to 37% of baseline; RUM moved from 23% to 38% of baseline. Last meaningful CSM touch occurred 27 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "postglow",
+    "name": "Postglow",
+    "embedded_story": "Postglow: Infrastructure moved from 22% to 36% of baseline; Logs moved from 22% to 37% of baseline; RUM moved from 23% to 38% of baseline. Last meaningful CSM touch occurred 27 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": null,
     "csm_gap_days": 27,
     "champion_active": true,
@@ -326,9 +326,9 @@
     "support_ticket_trend": "Ticket volume concentrated around onboarding and configuration friction."
   },
   {
-    "company_id": "triggerdev",
-    "name": "Trigger.dev",
-    "embedded_story": "Trigger.dev: Infrastructure moved from 22% to 36% of baseline; Logs moved from 22% to 36% of baseline; RUM moved from 22% to 37% of baseline. Last meaningful CSM touch occurred 42 days ago. Champion currently active. Executive sponsor currently inactive.",
+    "company_id": "jobwright",
+    "name": "Jobwright",
+    "embedded_story": "Jobwright: Infrastructure moved from 22% to 36% of baseline; Logs moved from 22% to 36% of baseline; RUM moved from 22% to 37% of baseline. Last meaningful CSM touch occurred 42 days ago. Champion currently active. Executive sponsor currently inactive.",
     "signal_contradiction": "One product exhibits unusually stable utilization despite overall volatility.",
     "csm_gap_days": 42,
     "champion_active": true,
@@ -349,9 +349,9 @@
     "support_ticket_trend": "Ticket volume concentrated around onboarding and configuration friction."
   },
   {
-    "company_id": "inngest",
-    "name": "Inngest",
-    "embedded_story": "Inngest: Infrastructure moved from 22% to 41% of baseline; Logs moved from 22% to 38% of baseline; CI Visibility moved from 22% to 36% of baseline. Last meaningful CSM touch occurred 31 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "queuely",
+    "name": "Queuely",
+    "embedded_story": "Queuely: Infrastructure moved from 22% to 41% of baseline; Logs moved from 22% to 38% of baseline; CI Visibility moved from 22% to 36% of baseline. Last meaningful CSM touch occurred 31 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": "Anomalous usage spike that does not align with the account baseline.",
     "csm_gap_days": 31,
     "champion_active": true,
@@ -370,9 +370,9 @@
     "support_ticket_trend": "Ticket volume concentrated around onboarding and configuration friction."
   },
   {
-    "company_id": "novu",
-    "name": "Novu",
-    "embedded_story": "Novu: Infrastructure moved from 22% to 38% of baseline; Logs moved from 22% to 37% of baseline. Last meaningful CSM touch occurred 25 days ago. Champion currently active. Executive sponsor currently inactive.",
+    "company_id": "notifera",
+    "name": "Notifera",
+    "embedded_story": "Notifera: Infrastructure moved from 22% to 38% of baseline; Logs moved from 22% to 37% of baseline. Last meaningful CSM touch occurred 25 days ago. Champion currently active. Executive sponsor currently inactive.",
     "signal_contradiction": null,
     "csm_gap_days": 25,
     "champion_active": true,
@@ -389,9 +389,9 @@
     "support_ticket_trend": "Ticket volume concentrated around onboarding and configuration friction."
   },
   {
-    "company_id": "apiary",
-    "name": "Apiary",
-    "embedded_story": "Apiary: Infrastructure moved from 22% to 37% of baseline; Logs moved from 22% to 38% of baseline; RUM moved from 22% to 35% of baseline. Last meaningful CSM touch occurred 35 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "endpointly",
+    "name": "Endpointly",
+    "embedded_story": "Endpointly: Infrastructure moved from 22% to 37% of baseline; Logs moved from 22% to 38% of baseline; RUM moved from 22% to 35% of baseline. Last meaningful CSM touch occurred 35 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": "New executive sponsor engagement introduced within the last 30 days.",
     "csm_gap_days": 35,
     "champion_active": true,
@@ -410,9 +410,9 @@
     "support_ticket_trend": "Ticket volume concentrated around onboarding and configuration friction."
   },
   {
-    "company_id": "zuplo",
-    "name": "Zuplo",
-    "embedded_story": "Zuplo: Infrastructure moved from 22% to 36% of baseline; Logs moved from 22% to 37% of baseline; RUM moved from 22% to 37% of baseline. Last meaningful CSM touch occurred 43 days ago. Champion currently inactive. Executive sponsor currently inactive.",
+    "company_id": "gatewly",
+    "name": "Gatewly",
+    "embedded_story": "Gatewly: Infrastructure moved from 22% to 36% of baseline; Logs moved from 22% to 37% of baseline; RUM moved from 22% to 37% of baseline. Last meaningful CSM touch occurred 43 days ago. Champion currently inactive. Executive sponsor currently inactive.",
     "signal_contradiction": "Champion marked inactive despite otherwise positive usage indicators.",
     "csm_gap_days": 43,
     "champion_active": false,
@@ -431,9 +431,9 @@
     "support_ticket_trend": "Ticket volume concentrated around onboarding and configuration friction."
   },
   {
-    "company_id": "stytch",
-    "name": "Stytch",
-    "embedded_story": "Stytch: Infrastructure moved from 22% to 37% of baseline; Logs moved from 22% to 37% of baseline; RUM moved from 22% to 36% of baseline. Last meaningful CSM touch occurred 44 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "identara",
+    "name": "Identara",
+    "embedded_story": "Identara: Infrastructure moved from 22% to 37% of baseline; Logs moved from 22% to 37% of baseline; RUM moved from 22% to 36% of baseline. Last meaningful CSM touch occurred 44 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": null,
     "csm_gap_days": 44,
     "champion_active": true,
@@ -454,9 +454,9 @@
     "support_ticket_trend": "Ticket volume concentrated around onboarding and configuration friction."
   },
   {
-    "company_id": "permitio",
-    "name": "Permit.io",
-    "embedded_story": "Permit.io: Infrastructure moved from 22% to 34% of baseline; Logs moved from 22% to 36% of baseline; RUM moved from 22% to 35% of baseline. Last meaningful CSM touch occurred 31 days ago. Champion currently active. Executive sponsor currently inactive.",
+    "company_id": "grantly",
+    "name": "Grantly",
+    "embedded_story": "Grantly: Infrastructure moved from 22% to 34% of baseline; Logs moved from 22% to 36% of baseline; RUM moved from 22% to 35% of baseline. Last meaningful CSM touch occurred 31 days ago. Champion currently active. Executive sponsor currently inactive.",
     "signal_contradiction": "One product shows unusually high feature breadth for the account profile.",
     "csm_gap_days": 31,
     "champion_active": true,
@@ -479,9 +479,9 @@
     "support_ticket_trend": "Ticket volume concentrated around onboarding and configuration friction."
   },
   {
-    "company_id": "snyk",
-    "name": "Snyk",
-    "embedded_story": "Snyk: Infrastructure moved from 72% to 74% of baseline; Logs moved from 72% to 73% of baseline; CI Visibility moved from 73% to 75% of baseline. Last meaningful CSM touch occurred 12 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "vulnara",
+    "name": "Vulnara",
+    "embedded_story": "Vulnara: Infrastructure moved from 72% to 74% of baseline; Logs moved from 72% to 73% of baseline; CI Visibility moved from 73% to 75% of baseline. Last meaningful CSM touch occurred 12 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": null,
     "csm_gap_days": 12,
     "champion_active": true,
@@ -500,9 +500,9 @@
     "support_ticket_trend": "Ticket volume routine and operationally stable."
   },
   {
-    "company_id": "launchdarkly",
-    "name": "LaunchDarkly",
-    "embedded_story": "LaunchDarkly: Infrastructure moved from 73% to 76% of baseline; Logs moved from 74% to 75% of baseline; RUM moved from 72% to 74% of baseline. Last meaningful CSM touch occurred 22 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "flagpost",
+    "name": "Flagpost",
+    "embedded_story": "Flagpost: Infrastructure moved from 73% to 76% of baseline; Logs moved from 74% to 75% of baseline; RUM moved from 72% to 74% of baseline. Last meaningful CSM touch occurred 22 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": "One product exhibits unusually stable utilization despite overall volatility.",
     "csm_gap_days": 22,
     "champion_active": true,
@@ -521,9 +521,9 @@
     "support_ticket_trend": "Ticket volume routine and operationally stable."
   },
   {
-    "company_id": "grafana-labs",
-    "name": "Grafana Labs",
-    "embedded_story": "Grafana Labs: Infrastructure moved from 71% to 74% of baseline; Logs moved from 73% to 74% of baseline. Last meaningful CSM touch occurred 16 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "panelith",
+    "name": "Panelith",
+    "embedded_story": "Panelith: Infrastructure moved from 71% to 74% of baseline; Logs moved from 73% to 74% of baseline. Last meaningful CSM touch occurred 16 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": null,
     "csm_gap_days": 16,
     "champion_active": true,
@@ -540,9 +540,9 @@
     "support_ticket_trend": "Ticket volume routine and operationally stable."
   },
   {
-    "company_id": "hashicorp",
-    "name": "Hashicorp",
-    "embedded_story": "Hashicorp: Infrastructure moved from 75% to 74% of baseline; Logs moved from 72% to 76% of baseline; RUM moved from 73% to 75% of baseline. Last meaningful CSM touch occurred 14 days ago. Champion currently inactive. Executive sponsor currently active.",
+    "company_id": "provisor",
+    "name": "Provisor",
+    "embedded_story": "Provisor: Infrastructure moved from 75% to 74% of baseline; Logs moved from 72% to 76% of baseline; RUM moved from 73% to 75% of baseline. Last meaningful CSM touch occurred 14 days ago. Champion currently inactive. Executive sponsor currently active.",
     "signal_contradiction": "Champion marked inactive despite otherwise positive usage indicators.",
     "csm_gap_days": 14,
     "champion_active": false,
@@ -565,9 +565,9 @@
     "support_ticket_trend": "Ticket volume routine and operationally stable."
   },
   {
-    "company_id": "pagerduty",
-    "name": "PagerDuty",
-    "embedded_story": "PagerDuty: Infrastructure moved from 73% to 73% of baseline; Logs moved from 74% to 76% of baseline; RUM moved from 75% to 75% of baseline. Last meaningful CSM touch occurred 11 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "alertcrest",
+    "name": "Alertcrest",
+    "embedded_story": "Alertcrest: Infrastructure moved from 73% to 73% of baseline; Logs moved from 74% to 76% of baseline; RUM moved from 75% to 75% of baseline. Last meaningful CSM touch occurred 11 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": null,
     "csm_gap_days": 11,
     "champion_active": true,
@@ -588,9 +588,9 @@
     "support_ticket_trend": "Ticket volume routine and operationally stable."
   },
   {
-    "company_id": "statuspage",
-    "name": "Statuspage",
-    "embedded_story": "Statuspage: Infrastructure moved from 75% to 76% of baseline. Last meaningful CSM touch occurred 15 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "statusly",
+    "name": "Statusly",
+    "embedded_story": "Statusly: Infrastructure moved from 75% to 76% of baseline. Last meaningful CSM touch occurred 15 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": null,
     "csm_gap_days": 15,
     "champion_active": true,
@@ -605,9 +605,9 @@
     "support_ticket_trend": "Ticket volume routine and operationally stable."
   },
   {
-    "company_id": "rollbar",
-    "name": "Rollbar",
-    "embedded_story": "Rollbar: Infrastructure moved from 72% to 76% of baseline. Last meaningful CSM touch occurred 11 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "errorly",
+    "name": "Errorly",
+    "embedded_story": "Errorly: Infrastructure moved from 72% to 76% of baseline. Last meaningful CSM touch occurred 11 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": "New executive sponsor engagement introduced within the last 30 days.",
     "csm_gap_days": 11,
     "champion_active": true,
@@ -622,9 +622,9 @@
     "support_ticket_trend": "Ticket volume routine and operationally stable."
   },
   {
-    "company_id": "sentry",
-    "name": "Sentry",
-    "embedded_story": "Sentry: Infrastructure moved from 72% to 74% of baseline; Logs moved from 74% to 73% of baseline; RUM moved from 72% to 76% of baseline. Last meaningful CSM touch occurred 15 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "traceon",
+    "name": "Traceon",
+    "embedded_story": "Traceon: Infrastructure moved from 72% to 74% of baseline; Logs moved from 74% to 73% of baseline; RUM moved from 72% to 76% of baseline. Last meaningful CSM touch occurred 15 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": null,
     "csm_gap_days": 15,
     "champion_active": true,
@@ -647,9 +647,9 @@
     "support_ticket_trend": "Ticket volume routine and operationally stable."
   },
   {
-    "company_id": "netlify",
-    "name": "Netlify",
-    "embedded_story": "Netlify: Infrastructure moved from 75% to 75% of baseline; Logs moved from 74% to 75% of baseline; CI Visibility moved from 76% to 74% of baseline. Last meaningful CSM touch occurred 27 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "siteglow",
+    "name": "Siteglow",
+    "embedded_story": "Siteglow: Infrastructure moved from 75% to 75% of baseline; Logs moved from 74% to 75% of baseline; CI Visibility moved from 76% to 74% of baseline. Last meaningful CSM touch occurred 27 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": null,
     "csm_gap_days": 27,
     "champion_active": true,
@@ -668,9 +668,9 @@
     "support_ticket_trend": "Ticket volume routine and operationally stable."
   },
   {
-    "company_id": "fastly",
-    "name": "Fastly",
-    "embedded_story": "Fastly: Infrastructure moved from 74% to 76% of baseline. Last meaningful CSM touch occurred 26 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "edgewave",
+    "name": "Edgewave",
+    "embedded_story": "Edgewave: Infrastructure moved from 74% to 76% of baseline. Last meaningful CSM touch occurred 26 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": null,
     "csm_gap_days": 26,
     "champion_active": true,
@@ -685,9 +685,9 @@
     "support_ticket_trend": "Ticket volume routine and operationally stable."
   },
   {
-    "company_id": "replit",
-    "name": "Replit",
-    "embedded_story": "Replit: Infrastructure moved from 69% to 82% of baseline. Last meaningful CSM touch occurred 5 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "codenest",
+    "name": "Codenest",
+    "embedded_story": "Codenest: Infrastructure moved from 69% to 82% of baseline. Last meaningful CSM touch occurred 5 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": null,
     "csm_gap_days": 5,
     "champion_active": true,
@@ -702,9 +702,9 @@
     "support_ticket_trend": "Ticket volume fluctuating in line with usage volatility."
   },
   {
-    "company_id": "hugging-face",
-    "name": "Hugging Face",
-    "embedded_story": "Hugging Face: Infrastructure moved from 110% to 99% of baseline. Last meaningful CSM touch occurred 30 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "modelyard",
+    "name": "Modelyard",
+    "embedded_story": "Modelyard: Infrastructure moved from 110% to 99% of baseline. Last meaningful CSM touch occurred 30 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": "New executive sponsor engagement introduced within the last 30 days.",
     "csm_gap_days": 30,
     "champion_active": true,
@@ -719,9 +719,9 @@
     "support_ticket_trend": "Ticket volume fluctuating in line with usage volatility."
   },
   {
-    "company_id": "weights-biases",
-    "name": "Weights & Biases",
-    "embedded_story": "Weights & Biases: Infrastructure moved from 75% to 59% of baseline; Logs moved from 104% to 76% of baseline. Last meaningful CSM touch occurred 15 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "metricforge",
+    "name": "Metricforge",
+    "embedded_story": "Metricforge: Infrastructure moved from 75% to 59% of baseline; Logs moved from 104% to 76% of baseline. Last meaningful CSM touch occurred 15 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": null,
     "csm_gap_days": 15,
     "champion_active": true,
@@ -738,9 +738,9 @@
     "support_ticket_trend": "Ticket volume fluctuating in line with usage volatility."
   },
   {
-    "company_id": "runway-ml",
-    "name": "Runway ML",
-    "embedded_story": "Runway ML: Infrastructure moved from 62% to 98% of baseline; Logs moved from 86% to 91% of baseline. Last meaningful CSM touch occurred 24 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "framecraft",
+    "name": "Framecraft",
+    "embedded_story": "Framecraft: Infrastructure moved from 62% to 98% of baseline; Logs moved from 86% to 91% of baseline. Last meaningful CSM touch occurred 24 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": null,
     "csm_gap_days": 24,
     "champion_active": true,
@@ -757,9 +757,9 @@
     "support_ticket_trend": "Ticket volume fluctuating in line with usage volatility."
   },
   {
-    "company_id": "cohere",
-    "name": "Cohere",
-    "embedded_story": "Cohere: Infrastructure moved from 76% to 66% of baseline; Logs moved from 94% to 94% of baseline. Last meaningful CSM touch occurred 23 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "lexira",
+    "name": "Lexira",
+    "embedded_story": "Lexira: Infrastructure moved from 76% to 66% of baseline; Logs moved from 94% to 94% of baseline. Last meaningful CSM touch occurred 23 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": null,
     "csm_gap_days": 23,
     "champion_active": true,
@@ -776,9 +776,9 @@
     "support_ticket_trend": "Ticket volume fluctuating in line with usage volatility."
   },
   {
-    "company_id": "mistral",
-    "name": "Mistral",
-    "embedded_story": "Mistral: Infrastructure moved from 69% to 85% of baseline. Last meaningful CSM touch occurred 14 days ago. Champion currently active. Executive sponsor currently active.",
+    "company_id": "novalm",
+    "name": "Novalm",
+    "embedded_story": "Novalm: Infrastructure moved from 69% to 85% of baseline. Last meaningful CSM touch occurred 14 days ago. Champion currently active. Executive sponsor currently active.",
     "signal_contradiction": null,
     "csm_gap_days": 14,
     "champion_active": true,
@@ -793,9 +793,9 @@
     "support_ticket_trend": "Ticket volume fluctuating in line with usage volatility."
   },
   {
-    "company_id": "together-ai",
-    "name": "Together AI",
-    "embedded_story": "Together AI: Infrastructure moved from 85% to 68% of baseline. Last meaningful CSM touch occurred 11 days ago. Champion currently inactive. Executive sponsor currently active.",
+    "company_id": "clustira",
+    "name": "Clustira",
+    "embedded_story": "Clustira: Infrastructure moved from 85% to 68% of baseline. Last meaningful CSM touch occurred 11 days ago. Champion currently inactive. Executive sponsor currently active.",
     "signal_contradiction": "Champion marked inactive despite otherwise positive usage indicators.",
     "csm_gap_days": 11,
     "champion_active": false,

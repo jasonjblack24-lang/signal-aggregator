@@ -3,65 +3,122 @@
   "as_of_date": "2026-05-01",
   "playbook": "expansion-ready",
   "counts": {
-    "TP": 8,
-    "FN": 0,
+    "TP": 6,
+    "FN": 2,
     "FP": 0,
     "TN": 25,
-    "UF": 2,
-    "TN_ambig": 5
+    "UF": 0,
+    "TN_ambig": 7
   },
   "metrics": {
-    "recall": 1.0,
-    "precision_strict": 0.8,
+    "recall": 0.75,
+    "precision_strict": 1.0,
     "precision_lenient": 1.0,
-    "f1_strict": 0.8889,
-    "f1_lenient": 1.0
+    "f1_strict": 0.8571,
+    "f1_lenient": 0.8571
   },
   "pattern_breakdown": {
-    "C": {
-      "label": "Stalled Adoption",
-      "total": 8,
+    "D": {
+      "label": "Healthy and Stable",
+      "total": 10,
       "fired": 0,
       "accounts": [
         {
-          "company_id": "apiary",
+          "company_id": "alertcrest",
           "verdict": "no_hypothesis",
           "outcome": "TN"
         },
         {
-          "company_id": "inngest",
+          "company_id": "edgewave",
           "verdict": "no_hypothesis",
           "outcome": "TN"
         },
         {
-          "company_id": "novu",
+          "company_id": "errorly",
           "verdict": "no_hypothesis",
           "outcome": "TN"
         },
         {
-          "company_id": "permitio",
+          "company_id": "flagpost",
           "verdict": "no_hypothesis",
           "outcome": "TN"
         },
         {
-          "company_id": "resend",
+          "company_id": "panelith",
           "verdict": "no_hypothesis",
           "outcome": "TN"
         },
         {
-          "company_id": "stytch",
+          "company_id": "provisor",
           "verdict": "no_hypothesis",
           "outcome": "TN"
         },
         {
-          "company_id": "triggerdev",
+          "company_id": "siteglow",
           "verdict": "no_hypothesis",
           "outcome": "TN"
         },
         {
-          "company_id": "zuplo",
+          "company_id": "statusly",
           "verdict": "no_hypothesis",
           "outcome": "TN"
+        },
+        {
+          "company_id": "traceon",
+          "verdict": "no_hypothesis",
+          "outcome": "TN"
+        },
+        {
+          "company_id": "vulnara",
+          "verdict": "no_hypothesis",
+          "outcome": "TN"
+        }
+      ]
+    },
+    "A": {
+      "label": "Expansion Ready",
+      "total": 8,
+      "fired": 6,
+      "accounts": [
+        {
+          "company_id": "authara",
+          "verdict": "fire",
+          "outcome": "TP"
+        },
+        {
+          "company_id": "baseriver",
+          "verdict": "fire",
+          "outcome": "TP"
+        },
+        {
+          "company_id": "cavora",
+          "verdict": "fire",
+          "outcome": "TP"
+        },
+        {
+          "company_id": "craftbench",
+          "verdict": "fire",
+          "outcome": "TP"
+        },
+        {
+          "company_id": "deploova",
+          "verdict": "recheck",
+          "outcome": "FN"
+        },
+        {
+          "company_id": "mediark",
+          "verdict": "fire",
+          "outcome": "TP"
+        },
+        {
+          "company_id": "peoplora",
+          "verdict": "fire",
+          "outcome": "TP"
+        },
+        {
+          "company_id": "trackwell",
+          "verdict": "recheck",
+          "outcome": "FN"
         }
       ]
     },
@@ -71,227 +128,190 @@
       "fired": 0,
       "accounts": [
         {
-          "company_id": "bereal",
+          "company_id": "buildveo",
           "verdict": "no_hypothesis",
           "outcome": "TN"
         },
         {
-          "company_id": "carta",
+          "company_id": "equira",
           "verdict": "no_hypothesis",
           "outcome": "TN"
         },
         {
-          "company_id": "convoy",
+          "company_id": "haulcrest",
           "verdict": "no_hypothesis",
           "outcome": "TN"
         },
         {
-          "company_id": "fast",
+          "company_id": "medolia",
           "verdict": "no_hypothesis",
           "outcome": "TN"
         },
         {
-          "company_id": "olive-ai",
+          "company_id": "payglint",
           "verdict": "no_hypothesis",
           "outcome": "TN"
         },
         {
-          "company_id": "plastiq",
+          "company_id": "plendo",
           "verdict": "no_hypothesis",
           "outcome": "TN"
         },
         {
-          "company_id": "veev",
+          "company_id": "realmly",
           "verdict": "no_hypothesis",
           "outcome": "TN"
-        }
-      ]
-    },
-    "A": {
-      "label": "Expansion Ready",
-      "total": 8,
-      "fired": 8,
-      "accounts": [
-        {
-          "company_id": "clerk",
-          "verdict": "fire",
-          "outcome": "TP"
-        },
-        {
-          "company_id": "descript",
-          "verdict": "fire",
-          "outcome": "TP"
-        },
-        {
-          "company_id": "linear",
-          "verdict": "fire",
-          "outcome": "TP"
-        },
-        {
-          "company_id": "retool",
-          "verdict": "fire",
-          "outcome": "TP"
-        },
-        {
-          "company_id": "rippling",
-          "verdict": "fire",
-          "outcome": "TP"
-        },
-        {
-          "company_id": "supabase",
-          "verdict": "fire",
-          "outcome": "TP"
-        },
-        {
-          "company_id": "turso",
-          "verdict": "fire",
-          "outcome": "TP"
-        },
-        {
-          "company_id": "vercel",
-          "verdict": "fire",
-          "outcome": "TP"
         }
       ]
     },
     "E": {
       "label": "Volatile / Ambiguous",
       "total": 7,
-      "fired": 2,
+      "fired": 0,
       "accounts": [
         {
-          "company_id": "cohere",
+          "company_id": "clustira",
           "verdict": "no_hypothesis",
           "outcome": "TN_ambig"
         },
         {
-          "company_id": "hugging-face",
-          "verdict": "fire",
-          "outcome": "UF"
-        },
-        {
-          "company_id": "mistral",
+          "company_id": "codenest",
           "verdict": "no_hypothesis",
           "outcome": "TN_ambig"
         },
         {
-          "company_id": "replit",
+          "company_id": "framecraft",
+          "verdict": "recheck",
+          "outcome": "TN_ambig"
+        },
+        {
+          "company_id": "lexira",
           "verdict": "no_hypothesis",
           "outcome": "TN_ambig"
         },
         {
-          "company_id": "runway-ml",
-          "verdict": "fire",
-          "outcome": "UF"
-        },
-        {
-          "company_id": "together-ai",
+          "company_id": "metricforge",
           "verdict": "no_hypothesis",
           "outcome": "TN_ambig"
         },
         {
-          "company_id": "weights-biases",
+          "company_id": "modelyard",
+          "verdict": "recheck",
+          "outcome": "TN_ambig"
+        },
+        {
+          "company_id": "novalm",
           "verdict": "no_hypothesis",
           "outcome": "TN_ambig"
         }
       ]
     },
-    "D": {
-      "label": "Healthy and Stable",
-      "total": 10,
+    "C": {
+      "label": "Stalled Adoption",
+      "total": 8,
       "fired": 0,
       "accounts": [
         {
-          "company_id": "fastly",
+          "company_id": "endpointly",
           "verdict": "no_hypothesis",
           "outcome": "TN"
         },
         {
-          "company_id": "grafana-labs",
+          "company_id": "gatewly",
           "verdict": "no_hypothesis",
           "outcome": "TN"
         },
         {
-          "company_id": "hashicorp",
+          "company_id": "grantly",
           "verdict": "no_hypothesis",
           "outcome": "TN"
         },
         {
-          "company_id": "launchdarkly",
+          "company_id": "identara",
           "verdict": "no_hypothesis",
           "outcome": "TN"
         },
         {
-          "company_id": "netlify",
+          "company_id": "jobwright",
           "verdict": "no_hypothesis",
           "outcome": "TN"
         },
         {
-          "company_id": "pagerduty",
+          "company_id": "notifera",
           "verdict": "no_hypothesis",
           "outcome": "TN"
         },
         {
-          "company_id": "rollbar",
+          "company_id": "postglow",
           "verdict": "no_hypothesis",
           "outcome": "TN"
         },
         {
-          "company_id": "sentry",
-          "verdict": "no_hypothesis",
-          "outcome": "TN"
-        },
-        {
-          "company_id": "snyk",
-          "verdict": "no_hypothesis",
-          "outcome": "TN"
-        },
-        {
-          "company_id": "statuspage",
-          "verdict": "no_hypothesis",
+          "company_id": "queuely",
+          "verdict": "recheck",
           "outcome": "TN"
         }
       ]
     }
   },
-  "false_negatives": [],
-  "false_positives": [],
-  "unexpected_fires": [
+  "false_negatives": [
     {
-      "company_id": "hugging-face",
-      "name": "Hugging Face",
-      "pattern": "E",
-      "pattern_label": "Volatile / Ambiguous",
-      "verdict": "fire",
-      "confidence": "medium",
-      "outcome": "UF",
-      "signal_contradiction": "New executive sponsor engagement introduced within the last 30 days."
+      "company_id": "deploova",
+      "name": "Deploova",
+      "pattern": "A",
+      "pattern_label": "Expansion Ready",
+      "verdict": "recheck",
+      "confidence": null,
+      "outcome": "FN",
+      "signal_contradiction": null
     },
     {
-      "company_id": "runway-ml",
-      "name": "Runway ML",
-      "pattern": "E",
-      "pattern_label": "Volatile / Ambiguous",
-      "verdict": "fire",
-      "confidence": "medium",
-      "outcome": "UF",
+      "company_id": "trackwell",
+      "name": "Trackwell",
+      "pattern": "A",
+      "pattern_label": "Expansion Ready",
+      "verdict": "recheck",
+      "confidence": null,
+      "outcome": "FN",
       "signal_contradiction": null
     }
   ],
+  "false_positives": [],
+  "unexpected_fires": [],
   "all_results": [
     {
-      "company_id": "apiary",
-      "name": "Apiary",
-      "pattern": "C",
-      "pattern_label": "Stalled Adoption",
+      "company_id": "alertcrest",
+      "name": "Alertcrest",
+      "pattern": "D",
+      "pattern_label": "Healthy and Stable",
       "verdict": "no_hypothesis",
       "confidence": null,
       "outcome": "TN",
-      "signal_contradiction": "New executive sponsor engagement introduced within the last 30 days."
+      "signal_contradiction": null
     },
     {
-      "company_id": "bereal",
-      "name": "BeReal",
+      "company_id": "authara",
+      "name": "Authara",
+      "pattern": "A",
+      "pattern_label": "Expansion Ready",
+      "verdict": "fire",
+      "confidence": "medium",
+      "outcome": "TP",
+      "signal_contradiction": "One product exhibits unusually stable utilization despite overall volatility."
+    },
+    {
+      "company_id": "baseriver",
+      "name": "Baseriver",
+      "pattern": "A",
+      "pattern_label": "Expansion Ready",
+      "verdict": "fire",
+      "confidence": "medium",
+      "outcome": "TP",
+      "signal_contradiction": null
+    },
+    {
+      "company_id": "buildveo",
+      "name": "Buildveo",
       "pattern": "B",
       "pattern_label": "Silent Churn Risk",
       "verdict": "no_hypothesis",
@@ -300,28 +320,28 @@
       "signal_contradiction": null
     },
     {
-      "company_id": "carta",
-      "name": "Carta",
-      "pattern": "B",
-      "pattern_label": "Silent Churn Risk",
-      "verdict": "no_hypothesis",
-      "confidence": null,
-      "outcome": "TN",
-      "signal_contradiction": null
-    },
-    {
-      "company_id": "clerk",
-      "name": "Clerk",
+      "company_id": "cavora",
+      "name": "Cavora",
       "pattern": "A",
       "pattern_label": "Expansion Ready",
       "verdict": "fire",
       "confidence": "high",
       "outcome": "TP",
-      "signal_contradiction": "One product exhibits unusually stable utilization despite overall volatility."
+      "signal_contradiction": null
     },
     {
-      "company_id": "cohere",
-      "name": "Cohere",
+      "company_id": "clustira",
+      "name": "Clustira",
+      "pattern": "E",
+      "pattern_label": "Volatile / Ambiguous",
+      "verdict": "no_hypothesis",
+      "confidence": null,
+      "outcome": "TN_ambig",
+      "signal_contradiction": "Champion marked inactive despite otherwise positive usage indicators."
+    },
+    {
+      "company_id": "codenest",
+      "name": "Codenest",
       "pattern": "E",
       "pattern_label": "Volatile / Ambiguous",
       "verdict": "no_hypothesis",
@@ -330,8 +350,48 @@
       "signal_contradiction": null
     },
     {
-      "company_id": "convoy",
-      "name": "Convoy",
+      "company_id": "craftbench",
+      "name": "Craftbench",
+      "pattern": "A",
+      "pattern_label": "Expansion Ready",
+      "verdict": "fire",
+      "confidence": "high",
+      "outcome": "TP",
+      "signal_contradiction": null
+    },
+    {
+      "company_id": "deploova",
+      "name": "Deploova",
+      "pattern": "A",
+      "pattern_label": "Expansion Ready",
+      "verdict": "recheck",
+      "confidence": null,
+      "outcome": "FN",
+      "signal_contradiction": null
+    },
+    {
+      "company_id": "edgewave",
+      "name": "Edgewave",
+      "pattern": "D",
+      "pattern_label": "Healthy and Stable",
+      "verdict": "no_hypothesis",
+      "confidence": null,
+      "outcome": "TN",
+      "signal_contradiction": null
+    },
+    {
+      "company_id": "endpointly",
+      "name": "Endpointly",
+      "pattern": "C",
+      "pattern_label": "Stalled Adoption",
+      "verdict": "no_hypothesis",
+      "confidence": null,
+      "outcome": "TN",
+      "signal_contradiction": "New executive sponsor engagement introduced within the last 30 days."
+    },
+    {
+      "company_id": "equira",
+      "name": "Equira",
       "pattern": "B",
       "pattern_label": "Silent Churn Risk",
       "verdict": "no_hypothesis",
@@ -340,8 +400,98 @@
       "signal_contradiction": null
     },
     {
-      "company_id": "descript",
-      "name": "Descript",
+      "company_id": "errorly",
+      "name": "Errorly",
+      "pattern": "D",
+      "pattern_label": "Healthy and Stable",
+      "verdict": "no_hypothesis",
+      "confidence": null,
+      "outcome": "TN",
+      "signal_contradiction": "New executive sponsor engagement introduced within the last 30 days."
+    },
+    {
+      "company_id": "flagpost",
+      "name": "Flagpost",
+      "pattern": "D",
+      "pattern_label": "Healthy and Stable",
+      "verdict": "no_hypothesis",
+      "confidence": null,
+      "outcome": "TN",
+      "signal_contradiction": "One product exhibits unusually stable utilization despite overall volatility."
+    },
+    {
+      "company_id": "framecraft",
+      "name": "Framecraft",
+      "pattern": "E",
+      "pattern_label": "Volatile / Ambiguous",
+      "verdict": "recheck",
+      "confidence": null,
+      "outcome": "TN_ambig",
+      "signal_contradiction": null
+    },
+    {
+      "company_id": "gatewly",
+      "name": "Gatewly",
+      "pattern": "C",
+      "pattern_label": "Stalled Adoption",
+      "verdict": "no_hypothesis",
+      "confidence": null,
+      "outcome": "TN",
+      "signal_contradiction": "Champion marked inactive despite otherwise positive usage indicators."
+    },
+    {
+      "company_id": "grantly",
+      "name": "Grantly",
+      "pattern": "C",
+      "pattern_label": "Stalled Adoption",
+      "verdict": "no_hypothesis",
+      "confidence": null,
+      "outcome": "TN",
+      "signal_contradiction": "One product shows unusually high feature breadth for the account profile."
+    },
+    {
+      "company_id": "haulcrest",
+      "name": "Haulcrest",
+      "pattern": "B",
+      "pattern_label": "Silent Churn Risk",
+      "verdict": "no_hypothesis",
+      "confidence": null,
+      "outcome": "TN",
+      "signal_contradiction": null
+    },
+    {
+      "company_id": "identara",
+      "name": "Identara",
+      "pattern": "C",
+      "pattern_label": "Stalled Adoption",
+      "verdict": "no_hypothesis",
+      "confidence": null,
+      "outcome": "TN",
+      "signal_contradiction": null
+    },
+    {
+      "company_id": "jobwright",
+      "name": "Jobwright",
+      "pattern": "C",
+      "pattern_label": "Stalled Adoption",
+      "verdict": "no_hypothesis",
+      "confidence": null,
+      "outcome": "TN",
+      "signal_contradiction": "One product exhibits unusually stable utilization despite overall volatility."
+    },
+    {
+      "company_id": "lexira",
+      "name": "Lexira",
+      "pattern": "E",
+      "pattern_label": "Volatile / Ambiguous",
+      "verdict": "no_hypothesis",
+      "confidence": null,
+      "outcome": "TN_ambig",
+      "signal_contradiction": null
+    },
+    {
+      "company_id": "mediark",
+      "name": "Mediark",
       "pattern": "A",
       "pattern_label": "Expansion Ready",
       "verdict": "fire",
@@ -350,8 +500,68 @@
       "signal_contradiction": "One product exhibits unusually stable utilization despite overall volatility."
     },
     {
-      "company_id": "fast",
-      "name": "Fast",
+      "company_id": "medolia",
+      "name": "Medolia",
+      "pattern": "B",
+      "pattern_label": "Silent Churn Risk",
+      "verdict": "no_hypothesis",
+      "confidence": null,
+      "outcome": "TN",
+      "signal_contradiction": null
+    },
+    {
+      "company_id": "metricforge",
+      "name": "Metricforge",
+      "pattern": "E",
+      "pattern_label": "Volatile / Ambiguous",
+      "verdict": "no_hypothesis",
+      "confidence": null,
+      "outcome": "TN_ambig",
+      "signal_contradiction": null
+    },
+    {
+      "company_id": "modelyard",
+      "name": "Modelyard",
+      "pattern": "E",
+      "pattern_label": "Volatile / Ambiguous",
+      "verdict": "recheck",
+      "confidence": null,
+      "outcome": "TN_ambig",
+      "signal_contradiction": "New executive sponsor engagement introduced within the last 30 days."
+    },
+    {
+      "company_id": "notifera",
+      "name": "Notifera",
+      "pattern": "C",
+      "pattern_label": "Stalled Adoption",
+      "verdict": "no_hypothesis",
+      "confidence": null,
+      "outcome": "TN",
+      "signal_contradiction": null
+    },
+    {
+      "company_id": "novalm",
+      "name": "Novalm",
+      "pattern": "E",
+      "pattern_label": "Volatile / Ambiguous",
+      "verdict": "no_hypothesis",
+      "confidence": null,
+      "outcome": "TN_ambig",
+      "signal_contradiction": null
+    },
+    {
+      "company_id": "panelith",
+      "name": "Panelith",
+      "pattern": "D",
+      "pattern_label": "Healthy and Stable",
+      "verdict": "no_hypothesis",
+      "confidence": null,
+      "outcome": "TN",
+      "signal_contradiction": null
+    },
+    {
+      "company_id": "payglint",
+      "name": "Payglint",
       "pattern": "B",
       "pattern_label": "Silent Churn Risk",
       "verdict": "no_hypothesis",
@@ -360,28 +570,38 @@
       "signal_contradiction": "One product shows unusually high feature breadth for the account profile."
     },
     {
-      "company_id": "fastly",
-      "name": "Fastly",
-      "pattern": "D",
-      "pattern_label": "Healthy and Stable",
+      "company_id": "peoplora",
+      "name": "Peoplora",
+      "pattern": "A",
+      "pattern_label": "Expansion Ready",
+      "verdict": "fire",
+      "confidence": "high",
+      "outcome": "TP",
+      "signal_contradiction": "New executive sponsor engagement introduced within the last 30 days."
+    },
+    {
+      "company_id": "plendo",
+      "name": "Plendo",
+      "pattern": "B",
+      "pattern_label": "Silent Churn Risk",
       "verdict": "no_hypothesis",
       "confidence": null,
       "outcome": "TN",
       "signal_contradiction": null
     },
     {
-      "company_id": "grafana-labs",
-      "name": "Grafana Labs",
-      "pattern": "D",
-      "pattern_label": "Healthy and Stable",
+      "company_id": "postglow",
+      "name": "Postglow",
+      "pattern": "C",
+      "pattern_label": "Stalled Adoption",
       "verdict": "no_hypothesis",
       "confidence": null,
       "outcome": "TN",
       "signal_contradiction": null
     },
     {
-      "company_id": "hashicorp",
-      "name": "Hashicorp",
+      "company_id": "provisor",
+      "name": "Provisor",
       "pattern": "D",
       "pattern_label": "Healthy and Stable",
       "verdict": "no_hypothesis",
@@ -390,78 +610,18 @@
       "signal_contradiction": "Champion marked inactive despite otherwise positive usage indicators."
     },
     {
-      "company_id": "hugging-face",
-      "name": "Hugging Face",
-      "pattern": "E",
-      "pattern_label": "Volatile / Ambiguous",
-      "verdict": "fire",
-      "confidence": "medium",
-      "outcome": "UF",
-      "signal_contradiction": "New executive sponsor engagement introduced within the last 30 days."
-    },
-    {
-      "company_id": "inngest",
-      "name": "Inngest",
+      "company_id": "queuely",
+      "name": "Queuely",
       "pattern": "C",
       "pattern_label": "Stalled Adoption",
-      "verdict": "no_hypothesis",
+      "verdict": "recheck",
       "confidence": null,
       "outcome": "TN",
       "signal_contradiction": "Anomalous usage spike that does not align with the account baseline."
     },
     {
-      "company_id": "launchdarkly",
-      "name": "LaunchDarkly",
-      "pattern": "D",
-      "pattern_label": "Healthy and Stable",
-      "verdict": "no_hypothesis",
-      "confidence": null,
-      "outcome": "TN",
-      "signal_contradiction": "One product exhibits unusually stable utilization despite overall volatility."
-    },
-    {
-      "company_id": "linear",
-      "name": "Linear",
-      "pattern": "A",
-      "pattern_label": "Expansion Ready",
-      "verdict": "fire",
-      "confidence": "high",
-      "outcome": "TP",
-      "signal_contradiction": null
-    },
-    {
-      "company_id": "mistral",
-      "name": "Mistral",
-      "pattern": "E",
-      "pattern_label": "Volatile / Ambiguous",
-      "verdict": "no_hypothesis",
-      "confidence": null,
-      "outcome": "TN_ambig",
-      "signal_contradiction": null
-    },
-    {
-      "company_id": "netlify",
-      "name": "Netlify",
-      "pattern": "D",
-      "pattern_label": "Healthy and Stable",
-      "verdict": "no_hypothesis",
-      "confidence": null,
-      "outcome": "TN",
-      "signal_contradiction": null
-    },
-    {
-      "company_id": "novu",
-      "name": "Novu",
-      "pattern": "C",
-      "pattern_label": "Stalled Adoption",
-      "verdict": "no_hypothesis",
-      "confidence": null,
-      "outcome": "TN",
-      "signal_contradiction": null
-    },
-    {
-      "company_id": "olive-ai",
-      "name": "Olive AI",
+      "company_id": "realmly",
+      "name": "Realmly",
       "pattern": "B",
       "pattern_label": "Silent Churn Risk",
       "verdict": "no_hypothesis",
@@ -470,8 +630,8 @@
       "signal_contradiction": null
     },
     {
-      "company_id": "pagerduty",
-      "name": "PagerDuty",
+      "company_id": "siteglow",
+      "name": "Siteglow",
       "pattern": "D",
       "pattern_label": "Healthy and Stable",
       "verdict": "no_hypothesis",
@@ -480,88 +640,8 @@
       "signal_contradiction": null
     },
     {
-      "company_id": "permitio",
-      "name": "Permit.io",
-      "pattern": "C",
-      "pattern_label": "Stalled Adoption",
-      "verdict": "no_hypothesis",
-      "confidence": null,
-      "outcome": "TN",
-      "signal_contradiction": "One product shows unusually high feature breadth for the account profile."
-    },
-    {
-      "company_id": "plastiq",
-      "name": "Plastiq",
-      "pattern": "B",
-      "pattern_label": "Silent Churn Risk",
-      "verdict": "no_hypothesis",
-      "confidence": null,
-      "outcome": "TN",
-      "signal_contradiction": null
-    },
-    {
-      "company_id": "replit",
-      "name": "Replit",
-      "pattern": "E",
-      "pattern_label": "Volatile / Ambiguous",
-      "verdict": "no_hypothesis",
-      "confidence": null,
-      "outcome": "TN_ambig",
-      "signal_contradiction": null
-    },
-    {
-      "company_id": "resend",
-      "name": "Resend",
-      "pattern": "C",
-      "pattern_label": "Stalled Adoption",
-      "verdict": "no_hypothesis",
-      "confidence": null,
-      "outcome": "TN",
-      "signal_contradiction": null
-    },
-    {
-      "company_id": "retool",
-      "name": "Retool",
-      "pattern": "A",
-      "pattern_label": "Expansion Ready",
-      "verdict": "fire",
-      "confidence": "high",
-      "outcome": "TP",
-      "signal_contradiction": null
-    },
-    {
-      "company_id": "rippling",
-      "name": "Rippling",
-      "pattern": "A",
-      "pattern_label": "Expansion Ready",
-      "verdict": "fire",
-      "confidence": "medium",
-      "outcome": "TP",
-      "signal_contradiction": "New executive sponsor engagement introduced within the last 30 days."
-    },
-    {
-      "company_id": "rollbar",
-      "name": "Rollbar",
-      "pattern": "D",
-      "pattern_label": "Healthy and Stable",
-      "verdict": "no_hypothesis",
-      "confidence": null,
-      "outcome": "TN",
-      "signal_contradiction": "New executive sponsor engagement introduced within the last 30 days."
-    },
-    {
-      "company_id": "runway-ml",
-      "name": "Runway ML",
-      "pattern": "E",
-      "pattern_label": "Volatile / Ambiguous",
-      "verdict": "fire",
-      "confidence": "medium",
-      "outcome": "UF",
-      "signal_contradiction": null
-    },
-    {
-      "company_id": "sentry",
-      "name": "Sentry",
+      "company_id": "statusly",
+      "name": "Statusly",
       "pattern": "D",
       "pattern_label": "Healthy and Stable",
       "verdict": "no_hypothesis",
@@ -570,8 +650,8 @@
       "signal_contradiction": null
     },
     {
-      "company_id": "snyk",
-      "name": "Snyk",
+      "company_id": "traceon",
+      "name": "Traceon",
       "pattern": "D",
       "pattern_label": "Healthy and Stable",
       "verdict": "no_hypothesis",
@@ -580,104 +660,24 @@
       "signal_contradiction": null
     },
     {
-      "company_id": "statuspage",
-      "name": "Statuspage",
+      "company_id": "trackwell",
+      "name": "Trackwell",
+      "pattern": "A",
+      "pattern_label": "Expansion Ready",
+      "verdict": "recheck",
+      "confidence": null,
+      "outcome": "FN",
+      "signal_contradiction": null
+    },
+    {
+      "company_id": "vulnara",
+      "name": "Vulnara",
       "pattern": "D",
       "pattern_label": "Healthy and Stable",
       "verdict": "no_hypothesis",
       "confidence": null,
       "outcome": "TN",
       "signal_contradiction": null
-    },
-    {
-      "company_id": "stytch",
-      "name": "Stytch",
-      "pattern": "C",
-      "pattern_label": "Stalled Adoption",
-      "verdict": "no_hypothesis",
-      "confidence": null,
-      "outcome": "TN",
-      "signal_contradiction": null
-    },
-    {
-      "company_id": "supabase",
-      "name": "Supabase",
-      "pattern": "A",
-      "pattern_label": "Expansion Ready",
-      "verdict": "fire",
-      "confidence": "high",
-      "outcome": "TP",
-      "signal_contradiction": null
-    },
-    {
-      "company_id": "together-ai",
-      "name": "Together AI",
-      "pattern": "E",
-      "pattern_label": "Volatile / Ambiguous",
-      "verdict": "no_hypothesis",
-      "confidence": null,
-      "outcome": "TN_ambig",
-      "signal_contradiction": "Champion marked inactive despite otherwise positive usage indicators."
-    },
-    {
-      "company_id": "triggerdev",
-      "name": "Trigger.dev",
-      "pattern": "C",
-      "pattern_label": "Stalled Adoption",
-      "verdict": "no_hypothesis",
-      "confidence": null,
-      "outcome": "TN",
-      "signal_contradiction": "One product exhibits unusually stable utilization despite overall volatility."
-    },
-    {
-      "company_id": "turso",
-      "name": "Turso",
-      "pattern": "A",
-      "pattern_label": "Expansion Ready",
-      "verdict": "fire",
-      "confidence": "high",
-      "outcome": "TP",
-      "signal_contradiction": null
-    },
-    {
-      "company_id": "veev",
-      "name": "Veev",
-      "pattern": "B",
-      "pattern_label": "Silent Churn Risk",
-      "verdict": "no_hypothesis",
-      "confidence": null,
-      "outcome": "TN",
-      "signal_contradiction": null
-    },
-    {
-      "company_id": "vercel",
-      "name": "Vercel",
-      "pattern": "A",
-      "pattern_label": "Expansion Ready",
-      "verdict": "fire",
-      "confidence": "medium",
-      "outcome": "TP",
-      "signal_contradiction": null
-    },
-    {
-      "company_id": "weights-biases",
-      "name": "Weights & Biases",
-      "pattern": "E",
-      "pattern_label": "Volatile / Ambiguous",
-      "verdict": "no_hypothesis",
-      "confidence": null,
-      "outcome": "TN_ambig",
-      "signal_contradiction": null
-    },
-    {
-      "company_id": "zuplo",
-      "name": "Zuplo",
-      "pattern": "C",
-      "pattern_label": "Stalled Adoption",
-      "verdict": "no_hypothesis",
-      "confidence": null,
-      "outcome": "TN",
-      "signal_contradiction": "Champion marked inactive despite otherwise positive usage indicators."
     }
   ]
 }

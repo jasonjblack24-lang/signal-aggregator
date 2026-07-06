@@ -21,7 +21,7 @@ If the user provides a date (e.g. `/compose-message 2026-05-01`), use `output/hy
 Write like a thoughtful colleague leaving a note, not a marketing email or a corporate dashboard. The CSM is technical and experienced — don't over-explain, don't pad, don't editorialize.
 
 - Direct without being terse
-- Specific over generic ("Vercel Infrastructure is at 1.19x with a 45-day CSM gap" not "Vercel shows expansion signals")
+- Specific over generic ("Deploova Infrastructure is at 1.19x with a 45-day CSM gap" not "Deploova shows expansion signals")
 - Acknowledge nuance where the hypothesis_former noted it
 - No fake urgency. No "exciting opportunities."
 

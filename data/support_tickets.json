@@ -1,375 +1,78 @@
 [
   {
-    "company_id": "apiary",
-    "date": "2025-11-03",
-    "severity": "medium",
-    "product": "RUM",
-    "category": "configuration",
-    "status": "open",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "apiary",
-    "date": "2025-11-11",
-    "severity": "low",
-    "product": "Logs",
-    "category": "configuration",
-    "status": "open",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "apiary",
-    "date": "2025-11-13",
-    "severity": "medium",
-    "product": "RUM",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "apiary",
-    "date": "2025-12-24",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "bug",
-    "status": "open",
-    "summary": "Unexpected behavior observed within RUM monitoring workflows."
-  },
-  {
-    "company_id": "apiary",
-    "date": "2026-02-18",
-    "severity": "low",
-    "product": "Logs",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "apiary",
-    "date": "2026-03-05",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring RUM instrumentation."
-  },
-  {
-    "company_id": "apiary",
-    "date": "2026-03-16",
-    "severity": "medium",
-    "product": "RUM",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Logs monitoring workflows."
-  },
-  {
-    "company_id": "apiary",
-    "date": "2026-03-23",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for Logs."
-  },
-  {
-    "company_id": "bereal",
-    "date": "2025-11-02",
-    "severity": "critical",
-    "product": "Infrastructure",
-    "category": "performance",
-    "status": "open",
-    "summary": "Customer reported degraded Infrastructure dashboard response times."
-  },
-  {
-    "company_id": "bereal",
-    "date": "2025-11-05",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Logs visibility."
-  },
-  {
-    "company_id": "bereal",
+    "company_id": "alertcrest",
     "date": "2025-12-03",
-    "severity": "high",
-    "product": "Logs",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "bereal",
-    "date": "2026-01-24",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
-  },
-  {
-    "company_id": "bereal",
-    "date": "2026-01-29",
     "severity": "medium",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Logs monitoring workflows."
-  },
-  {
-    "company_id": "bereal",
-    "date": "2026-03-08",
-    "severity": "critical",
-    "product": "Logs",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "bereal",
-    "date": "2026-03-12",
-    "severity": "critical",
-    "product": "Logs",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded Logs dashboard response times."
-  },
-  {
-    "company_id": "bereal",
-    "date": "2026-03-14",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "bereal",
-    "date": "2026-03-30",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded Logs dashboard response times."
-  },
-  {
-    "company_id": "bereal",
-    "date": "2026-03-31",
-    "severity": "critical",
-    "product": "Logs",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "bereal",
-    "date": "2026-04-01",
-    "severity": "critical",
-    "product": "Infrastructure",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in Logs."
-  },
-  {
-    "company_id": "bereal",
-    "date": "2026-04-01",
-    "severity": "critical",
-    "product": "Logs",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
-  },
-  {
-    "company_id": "bereal",
-    "date": "2026-04-02",
-    "severity": "critical",
     "product": "Logs",
     "category": "outage",
     "status": "resolved",
     "summary": "Temporary service disruption impacted Logs visibility."
   },
   {
-    "company_id": "bereal",
-    "date": "2026-04-03",
-    "severity": "high",
+    "company_id": "alertcrest",
+    "date": "2025-12-19",
+    "severity": "medium",
+    "product": "RUM",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within CI Visibility monitoring workflows."
+  },
+  {
+    "company_id": "alertcrest",
+    "date": "2025-12-19",
+    "severity": "low",
     "product": "Infrastructure",
     "category": "data_quality",
-    "status": "open",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
+  },
+  {
+    "company_id": "alertcrest",
+    "date": "2025-12-22",
+    "severity": "low",
+    "product": "CI Visibility",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "alertcrest",
+    "date": "2025-12-29",
+    "severity": "medium",
+    "product": "RUM",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "alertcrest",
+    "date": "2026-01-02",
+    "severity": "low",
+    "product": "CI Visibility",
+    "category": "data_quality",
+    "status": "resolved",
     "summary": "Customer identified missing or delayed telemetry data in Logs."
   },
   {
-    "company_id": "bereal",
-    "date": "2026-04-08",
-    "severity": "high",
+    "company_id": "alertcrest",
+    "date": "2026-01-21",
+    "severity": "low",
     "product": "Logs",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Logs monitoring workflows."
-  },
-  {
-    "company_id": "bereal",
-    "date": "2026-04-11",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "data_quality",
-    "status": "open",
-    "summary": "Customer identified missing or delayed telemetry data in Logs."
-  },
-  {
-    "company_id": "bereal",
-    "date": "2026-04-20",
-    "severity": "high",
-    "product": "Logs",
-    "category": "bug",
-    "status": "open",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "bereal",
-    "date": "2026-04-27",
-    "severity": "high",
-    "product": "Logs",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "carta",
-    "date": "2025-11-13",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "open",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "carta",
-    "date": "2025-11-19",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
-  },
-  {
-    "company_id": "carta",
-    "date": "2025-11-28",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "carta",
-    "date": "2026-02-01",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "carta",
-    "date": "2026-02-09",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "carta",
-    "date": "2026-02-19",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "carta",
-    "date": "2026-03-04",
-    "severity": "critical",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "carta",
-    "date": "2026-03-08",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "carta",
-    "date": "2026-03-15",
-    "severity": "critical",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "carta",
-    "date": "2026-03-19",
-    "severity": "critical",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "carta",
-    "date": "2026-03-20",
-    "severity": "critical",
-    "product": "Infrastructure",
-    "category": "data_quality",
-    "status": "open",
-    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
-  },
-  {
-    "company_id": "carta",
-    "date": "2026-03-22",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
-  },
-  {
-    "company_id": "carta",
-    "date": "2026-03-27",
-    "severity": "critical",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "carta",
-    "date": "2026-04-08",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "data_quality",
-    "status": "open",
-    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
-  },
-  {
-    "company_id": "carta",
-    "date": "2026-04-28",
-    "severity": "medium",
-    "product": "Infrastructure",
     "category": "performance",
     "status": "resolved",
-    "summary": "Customer reported degraded Infrastructure dashboard response times."
+    "summary": "Customer reported degraded RUM dashboard response times."
   },
   {
-    "company_id": "clerk",
+    "company_id": "alertcrest",
+    "date": "2026-03-28",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "bug",
+    "status": "open",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "authara",
     "date": "2025-12-02",
     "severity": "medium",
     "product": "RUM",
@@ -378,7 +81,7 @@
     "summary": "Temporary service disruption impacted Infrastructure visibility."
   },
   {
-    "company_id": "clerk",
+    "company_id": "authara",
     "date": "2025-12-18",
     "severity": "medium",
     "product": "Infrastructure",
@@ -387,7 +90,7 @@
     "summary": "Customer identified missing or delayed telemetry data in RUM."
   },
   {
-    "company_id": "clerk",
+    "company_id": "authara",
     "date": "2026-01-12",
     "severity": "low",
     "product": "Logs",
@@ -396,7 +99,7 @@
     "summary": "Customer requested expanded reporting functionality for RUM."
   },
   {
-    "company_id": "clerk",
+    "company_id": "authara",
     "date": "2026-02-02",
     "severity": "low",
     "product": "Infrastructure",
@@ -405,2194 +108,7 @@
     "summary": "Temporary service disruption impacted RUM visibility."
   },
   {
-    "company_id": "cohere",
-    "date": "2025-11-26",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Logs visibility."
-  },
-  {
-    "company_id": "cohere",
-    "date": "2025-12-06",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
-  },
-  {
-    "company_id": "cohere",
-    "date": "2025-12-12",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "outage",
-    "status": "open",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "cohere",
-    "date": "2026-01-27",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "configuration",
-    "status": "open",
-    "summary": "Customer requested help configuring Logs instrumentation."
-  },
-  {
-    "company_id": "cohere",
-    "date": "2026-01-28",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Logs instrumentation."
-  },
-  {
-    "company_id": "cohere",
-    "date": "2026-01-31",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "performance",
-    "status": "open",
-    "summary": "Customer reported degraded Logs dashboard response times."
-  },
-  {
-    "company_id": "cohere",
-    "date": "2026-02-13",
-    "severity": "high",
-    "product": "Logs",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Logs monitoring workflows."
-  },
-  {
-    "company_id": "cohere",
-    "date": "2026-03-12",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "cohere",
-    "date": "2026-03-14",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in Logs."
-  },
-  {
-    "company_id": "cohere",
-    "date": "2026-03-21",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded Infrastructure dashboard response times."
-  },
-  {
-    "company_id": "cohere",
-    "date": "2026-03-30",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in Logs."
-  },
-  {
-    "company_id": "cohere",
-    "date": "2026-04-03",
-    "severity": "high",
-    "product": "Logs",
-    "category": "outage",
-    "status": "open",
-    "summary": "Temporary service disruption impacted Logs visibility."
-  },
-  {
-    "company_id": "convoy",
-    "date": "2025-11-05",
-    "severity": "high",
-    "product": "Logs",
-    "category": "bug",
-    "status": "open",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "convoy",
-    "date": "2025-12-26",
-    "severity": "high",
-    "product": "RUM",
-    "category": "data_quality",
-    "status": "open",
-    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
-  },
-  {
-    "company_id": "convoy",
-    "date": "2026-01-20",
-    "severity": "critical",
-    "product": "Logs",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "convoy",
-    "date": "2026-01-20",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within RUM monitoring workflows."
-  },
-  {
-    "company_id": "convoy",
-    "date": "2026-01-29",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in RUM."
-  },
-  {
-    "company_id": "convoy",
-    "date": "2026-03-06",
-    "severity": "critical",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within RUM monitoring workflows."
-  },
-  {
-    "company_id": "convoy",
-    "date": "2026-03-07",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted RUM visibility."
-  },
-  {
-    "company_id": "convoy",
-    "date": "2026-03-09",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "convoy",
-    "date": "2026-03-09",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "open",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "convoy",
-    "date": "2026-03-23",
-    "severity": "high",
-    "product": "Logs",
-    "category": "bug",
-    "status": "open",
-    "summary": "Unexpected behavior observed within Logs monitoring workflows."
-  },
-  {
-    "company_id": "convoy",
-    "date": "2026-04-08",
-    "severity": "high",
-    "product": "RUM",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within RUM monitoring workflows."
-  },
-  {
-    "company_id": "convoy",
-    "date": "2026-04-10",
-    "severity": "high",
-    "product": "RUM",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted RUM visibility."
-  },
-  {
-    "company_id": "convoy",
-    "date": "2026-04-10",
-    "severity": "medium",
-    "product": "RUM",
-    "category": "performance",
-    "status": "open",
-    "summary": "Customer reported degraded Logs dashboard response times."
-  },
-  {
-    "company_id": "convoy",
-    "date": "2026-04-15",
-    "severity": "medium",
-    "product": "RUM",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded Infrastructure dashboard response times."
-  },
-  {
-    "company_id": "convoy",
-    "date": "2026-04-16",
-    "severity": "high",
-    "product": "RUM",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded RUM dashboard response times."
-  },
-  {
-    "company_id": "convoy",
-    "date": "2026-04-22",
-    "severity": "medium",
-    "product": "RUM",
-    "category": "performance",
-    "status": "open",
-    "summary": "Customer reported degraded Infrastructure dashboard response times."
-  },
-  {
-    "company_id": "descript",
-    "date": "2025-11-07",
-    "severity": "low",
-    "product": "Logs",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "descript",
-    "date": "2025-12-17",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "descript",
-    "date": "2026-01-11",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
-  },
-  {
-    "company_id": "descript",
-    "date": "2026-03-01",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Logs visibility."
-  },
-  {
-    "company_id": "descript",
-    "date": "2026-03-03",
-    "severity": "low",
-    "product": "Logs",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded Infrastructure dashboard response times."
-  },
-  {
-    "company_id": "fast",
-    "date": "2025-11-20",
-    "severity": "critical",
-    "product": "CI Visibility",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded RUM dashboard response times."
-  },
-  {
-    "company_id": "fast",
-    "date": "2026-01-18",
-    "severity": "critical",
-    "product": "CI Visibility",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in Logs."
-  },
-  {
-    "company_id": "fast",
-    "date": "2026-01-27",
-    "severity": "high",
-    "product": "RUM",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded Infrastructure dashboard response times."
-  },
-  {
-    "company_id": "fast",
-    "date": "2026-02-11",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Logs visibility."
-  },
-  {
-    "company_id": "fast",
-    "date": "2026-03-03",
-    "severity": "medium",
-    "product": "CI Visibility",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded RUM dashboard response times."
-  },
-  {
-    "company_id": "fast",
-    "date": "2026-03-03",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within CI Visibility monitoring workflows."
-  },
-  {
-    "company_id": "fast",
-    "date": "2026-03-09",
-    "severity": "high",
-    "product": "CI Visibility",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within CI Visibility monitoring workflows."
-  },
-  {
-    "company_id": "fast",
-    "date": "2026-03-11",
-    "severity": "critical",
-    "product": "RUM",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded Infrastructure dashboard response times."
-  },
-  {
-    "company_id": "fast",
-    "date": "2026-03-14",
-    "severity": "high",
-    "product": "Logs",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted CI Visibility visibility."
-  },
-  {
-    "company_id": "fast",
-    "date": "2026-03-28",
-    "severity": "high",
-    "product": "Logs",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "fast",
-    "date": "2026-04-10",
-    "severity": "medium",
-    "product": "CI Visibility",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted RUM visibility."
-  },
-  {
-    "company_id": "fast",
-    "date": "2026-04-23",
-    "severity": "medium",
-    "product": "CI Visibility",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within RUM monitoring workflows."
-  },
-  {
-    "company_id": "fastly",
-    "date": "2025-11-02",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "fastly",
-    "date": "2025-11-21",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "feature_request",
-    "status": "open",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "fastly",
-    "date": "2025-12-15",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
-  },
-  {
-    "company_id": "fastly",
-    "date": "2026-02-22",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded Infrastructure dashboard response times."
-  },
-  {
-    "company_id": "fastly",
-    "date": "2026-03-04",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "fastly",
-    "date": "2026-03-05",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "open",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "fastly",
-    "date": "2026-03-16",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "fastly",
-    "date": "2026-04-18",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "grafana-labs",
-    "date": "2025-11-24",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "grafana-labs",
-    "date": "2025-12-19",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Logs monitoring workflows."
-  },
-  {
-    "company_id": "grafana-labs",
-    "date": "2025-12-30",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "open",
-    "summary": "Temporary service disruption impacted Logs visibility."
-  },
-  {
-    "company_id": "grafana-labs",
-    "date": "2025-12-30",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Logs instrumentation."
-  },
-  {
-    "company_id": "grafana-labs",
-    "date": "2026-01-04",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Logs instrumentation."
-  },
-  {
-    "company_id": "grafana-labs",
-    "date": "2026-01-24",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Logs monitoring workflows."
-  },
-  {
-    "company_id": "grafana-labs",
-    "date": "2026-02-22",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "performance",
-    "status": "open",
-    "summary": "Customer reported degraded Logs dashboard response times."
-  },
-  {
-    "company_id": "grafana-labs",
-    "date": "2026-03-17",
-    "severity": "low",
-    "product": "Logs",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Logs monitoring workflows."
-  },
-  {
-    "company_id": "grafana-labs",
-    "date": "2026-04-26",
-    "severity": "low",
-    "product": "Logs",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "hashicorp",
-    "date": "2025-11-05",
-    "severity": "low",
-    "product": "RUM",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded RUM dashboard response times."
-  },
-  {
-    "company_id": "hashicorp",
-    "date": "2025-11-05",
-    "severity": "medium",
-    "product": "RUM",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Security visibility."
-  },
-  {
-    "company_id": "hashicorp",
-    "date": "2025-11-29",
-    "severity": "low",
-    "product": "RUM",
-    "category": "performance",
-    "status": "open",
-    "summary": "Customer reported degraded Logs dashboard response times."
-  },
-  {
-    "company_id": "hashicorp",
-    "date": "2025-12-04",
-    "severity": "low",
-    "product": "CI Visibility",
-    "category": "performance",
-    "status": "open",
-    "summary": "Customer reported degraded Security dashboard response times."
-  },
-  {
-    "company_id": "hashicorp",
-    "date": "2025-12-15",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within CI Visibility monitoring workflows."
-  },
-  {
-    "company_id": "hashicorp",
-    "date": "2026-02-21",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Logs monitoring workflows."
-  },
-  {
-    "company_id": "hashicorp",
-    "date": "2026-03-18",
-    "severity": "medium",
-    "product": "CI Visibility",
-    "category": "feature_request",
-    "status": "open",
-    "summary": "Customer requested expanded reporting functionality for CI Visibility."
-  },
-  {
-    "company_id": "hugging-face",
-    "date": "2025-11-21",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "hugging-face",
-    "date": "2025-11-24",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "hugging-face",
-    "date": "2025-12-01",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "feature_request",
-    "status": "open",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "hugging-face",
-    "date": "2025-12-01",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "hugging-face",
-    "date": "2026-01-21",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "hugging-face",
-    "date": "2026-01-27",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "feature_request",
-    "status": "open",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "hugging-face",
-    "date": "2026-02-03",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "hugging-face",
-    "date": "2026-02-04",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "hugging-face",
-    "date": "2026-02-07",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "hugging-face",
-    "date": "2026-03-11",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "performance",
-    "status": "open",
-    "summary": "Customer reported degraded Infrastructure dashboard response times."
-  },
-  {
-    "company_id": "hugging-face",
-    "date": "2026-03-21",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "hugging-face",
-    "date": "2026-03-22",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "hugging-face",
-    "date": "2026-04-04",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "performance",
-    "status": "open",
-    "summary": "Customer reported degraded Infrastructure dashboard response times."
-  },
-  {
-    "company_id": "hugging-face",
-    "date": "2026-04-05",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "open",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "inngest",
-    "date": "2025-11-03",
-    "severity": "low",
-    "product": "CI Visibility",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within CI Visibility monitoring workflows."
-  },
-  {
-    "company_id": "inngest",
-    "date": "2025-11-09",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "inngest",
-    "date": "2025-12-15",
-    "severity": "medium",
-    "product": "CI Visibility",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Logs instrumentation."
-  },
-  {
-    "company_id": "inngest",
-    "date": "2025-12-28",
-    "severity": "low",
-    "product": "Logs",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within CI Visibility monitoring workflows."
-  },
-  {
-    "company_id": "inngest",
-    "date": "2026-01-08",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Logs instrumentation."
-  },
-  {
-    "company_id": "inngest",
-    "date": "2026-02-08",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "launchdarkly",
-    "date": "2025-11-22",
-    "severity": "low",
-    "product": "RUM",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in RUM."
-  },
-  {
-    "company_id": "launchdarkly",
-    "date": "2025-12-07",
-    "severity": "low",
-    "product": "Logs",
-    "category": "configuration",
-    "status": "open",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "launchdarkly",
-    "date": "2025-12-09",
-    "severity": "low",
-    "product": "RUM",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded Logs dashboard response times."
-  },
-  {
-    "company_id": "launchdarkly",
-    "date": "2025-12-16",
-    "severity": "low",
-    "product": "Logs",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted RUM visibility."
-  },
-  {
-    "company_id": "launchdarkly",
-    "date": "2026-02-03",
-    "severity": "low",
-    "product": "RUM",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "launchdarkly",
-    "date": "2026-02-03",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded RUM dashboard response times."
-  },
-  {
-    "company_id": "launchdarkly",
-    "date": "2026-04-02",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "launchdarkly",
-    "date": "2026-04-03",
-    "severity": "low",
-    "product": "Logs",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for Logs."
-  },
-  {
-    "company_id": "launchdarkly",
-    "date": "2026-04-03",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in Logs."
-  },
-  {
-    "company_id": "launchdarkly",
-    "date": "2026-04-08",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted RUM visibility."
-  },
-  {
-    "company_id": "linear",
-    "date": "2025-12-30",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "linear",
-    "date": "2026-02-02",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "feature_request",
-    "status": "open",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "linear",
-    "date": "2026-02-21",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "performance",
-    "status": "open",
-    "summary": "Customer reported degraded Infrastructure dashboard response times."
-  },
-  {
-    "company_id": "linear",
-    "date": "2026-03-23",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "configuration",
-    "status": "open",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "linear",
-    "date": "2026-03-25",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "mistral",
-    "date": "2025-11-30",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "open",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "mistral",
-    "date": "2025-11-30",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "open",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "mistral",
-    "date": "2025-12-04",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "mistral",
-    "date": "2025-12-18",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "mistral",
-    "date": "2025-12-20",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "mistral",
-    "date": "2026-01-18",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "mistral",
-    "date": "2026-03-17",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "mistral",
-    "date": "2026-03-18",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "mistral",
-    "date": "2026-03-28",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
-  },
-  {
-    "company_id": "mistral",
-    "date": "2026-03-28",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "mistral",
-    "date": "2026-03-28",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded Infrastructure dashboard response times."
-  },
-  {
-    "company_id": "mistral",
-    "date": "2026-03-30",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "feature_request",
-    "status": "open",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "mistral",
-    "date": "2026-04-04",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "configuration",
-    "status": "open",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "netlify",
-    "date": "2025-11-09",
-    "severity": "medium",
-    "product": "CI Visibility",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Logs visibility."
-  },
-  {
-    "company_id": "netlify",
-    "date": "2025-11-09",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "performance",
-    "status": "open",
-    "summary": "Customer reported degraded CI Visibility dashboard response times."
-  },
-  {
-    "company_id": "netlify",
-    "date": "2026-01-06",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted CI Visibility visibility."
-  },
-  {
-    "company_id": "netlify",
-    "date": "2026-01-13",
-    "severity": "low",
-    "product": "Logs",
-    "category": "data_quality",
-    "status": "open",
-    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
-  },
-  {
-    "company_id": "netlify",
-    "date": "2026-01-23",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in Logs."
-  },
-  {
-    "company_id": "netlify",
-    "date": "2026-02-26",
-    "severity": "low",
-    "product": "CI Visibility",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Logs instrumentation."
-  },
-  {
-    "company_id": "netlify",
-    "date": "2026-03-04",
-    "severity": "low",
-    "product": "CI Visibility",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
-  },
-  {
-    "company_id": "netlify",
-    "date": "2026-03-04",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "feature_request",
-    "status": "open",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "netlify",
-    "date": "2026-04-11",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Logs instrumentation."
-  },
-  {
-    "company_id": "netlify",
-    "date": "2026-04-22",
-    "severity": "medium",
-    "product": "CI Visibility",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "novu",
-    "date": "2025-11-06",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "novu",
-    "date": "2025-11-12",
-    "severity": "low",
-    "product": "Logs",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "novu",
-    "date": "2025-11-24",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Logs monitoring workflows."
-  },
-  {
-    "company_id": "novu",
-    "date": "2025-11-28",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "novu",
-    "date": "2025-12-12",
-    "severity": "low",
-    "product": "Logs",
-    "category": "configuration",
-    "status": "open",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "novu",
-    "date": "2025-12-26",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Logs instrumentation."
-  },
-  {
-    "company_id": "novu",
-    "date": "2026-02-07",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Logs monitoring workflows."
-  },
-  {
-    "company_id": "novu",
-    "date": "2026-02-22",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Logs monitoring workflows."
-  },
-  {
-    "company_id": "novu",
-    "date": "2026-02-28",
-    "severity": "low",
-    "product": "Logs",
-    "category": "feature_request",
-    "status": "open",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "olive-ai",
-    "date": "2025-11-10",
-    "severity": "high",
-    "product": "CI Visibility",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded Logs dashboard response times."
-  },
-  {
-    "company_id": "olive-ai",
-    "date": "2025-11-15",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in CI Visibility."
-  },
-  {
-    "company_id": "olive-ai",
-    "date": "2025-12-31",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted CI Visibility visibility."
-  },
-  {
-    "company_id": "olive-ai",
-    "date": "2026-01-06",
-    "severity": "critical",
-    "product": "Logs",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "olive-ai",
-    "date": "2026-02-02",
-    "severity": "critical",
-    "product": "Logs",
-    "category": "data_quality",
-    "status": "open",
-    "summary": "Customer identified missing or delayed telemetry data in CI Visibility."
-  },
-  {
-    "company_id": "olive-ai",
-    "date": "2026-03-06",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Logs monitoring workflows."
-  },
-  {
-    "company_id": "olive-ai",
-    "date": "2026-03-08",
-    "severity": "high",
-    "product": "Logs",
-    "category": "bug",
-    "status": "open",
-    "summary": "Unexpected behavior observed within CI Visibility monitoring workflows."
-  },
-  {
-    "company_id": "olive-ai",
-    "date": "2026-03-15",
-    "severity": "high",
-    "product": "Logs",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
-  },
-  {
-    "company_id": "olive-ai",
-    "date": "2026-03-19",
-    "severity": "critical",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "olive-ai",
-    "date": "2026-03-25",
-    "severity": "medium",
-    "product": "CI Visibility",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in CI Visibility."
-  },
-  {
-    "company_id": "olive-ai",
-    "date": "2026-03-30",
-    "severity": "high",
-    "product": "Logs",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in Logs."
-  },
-  {
-    "company_id": "olive-ai",
-    "date": "2026-03-31",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded CI Visibility dashboard response times."
-  },
-  {
-    "company_id": "olive-ai",
-    "date": "2026-04-07",
-    "severity": "high",
-    "product": "CI Visibility",
-    "category": "bug",
-    "status": "open",
-    "summary": "Unexpected behavior observed within CI Visibility monitoring workflows."
-  },
-  {
-    "company_id": "olive-ai",
-    "date": "2026-04-27",
-    "severity": "high",
-    "product": "Logs",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "olive-ai",
-    "date": "2026-04-27",
-    "severity": "high",
-    "product": "Logs",
-    "category": "bug",
-    "status": "open",
-    "summary": "Unexpected behavior observed within CI Visibility monitoring workflows."
-  },
-  {
-    "company_id": "olive-ai",
-    "date": "2026-04-30",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in Logs."
-  },
-  {
-    "company_id": "olive-ai",
-    "date": "2026-04-30",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded Infrastructure dashboard response times."
-  },
-  {
-    "company_id": "pagerduty",
-    "date": "2025-12-03",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Logs visibility."
-  },
-  {
-    "company_id": "pagerduty",
-    "date": "2025-12-19",
-    "severity": "medium",
-    "product": "RUM",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within CI Visibility monitoring workflows."
-  },
-  {
-    "company_id": "pagerduty",
-    "date": "2025-12-19",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
-  },
-  {
-    "company_id": "pagerduty",
-    "date": "2025-12-22",
-    "severity": "low",
-    "product": "CI Visibility",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "pagerduty",
-    "date": "2025-12-29",
-    "severity": "medium",
-    "product": "RUM",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "pagerduty",
-    "date": "2026-01-02",
-    "severity": "low",
-    "product": "CI Visibility",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in Logs."
-  },
-  {
-    "company_id": "pagerduty",
-    "date": "2026-01-21",
-    "severity": "low",
-    "product": "Logs",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded RUM dashboard response times."
-  },
-  {
-    "company_id": "pagerduty",
-    "date": "2026-03-28",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "open",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "permitio",
-    "date": "2025-11-08",
-    "severity": "medium",
-    "product": "Security",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring RUM instrumentation."
-  },
-  {
-    "company_id": "permitio",
-    "date": "2025-11-18",
-    "severity": "medium",
-    "product": "CI Visibility",
-    "category": "configuration",
-    "status": "open",
-    "summary": "Customer requested help configuring Logs instrumentation."
-  },
-  {
-    "company_id": "permitio",
-    "date": "2025-12-05",
-    "severity": "low",
-    "product": "Logs",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within CI Visibility monitoring workflows."
-  },
-  {
-    "company_id": "permitio",
-    "date": "2025-12-17",
-    "severity": "medium",
-    "product": "CI Visibility",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Logs instrumentation."
-  },
-  {
-    "company_id": "permitio",
-    "date": "2025-12-21",
-    "severity": "low",
-    "product": "CI Visibility",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Logs instrumentation."
-  },
-  {
-    "company_id": "plastiq",
-    "date": "2026-01-04",
-    "severity": "high",
-    "product": "Logs",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Logs monitoring workflows."
-  },
-  {
-    "company_id": "plastiq",
-    "date": "2026-01-24",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded Infrastructure dashboard response times."
-  },
-  {
-    "company_id": "plastiq",
-    "date": "2026-02-17",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded Infrastructure dashboard response times."
-  },
-  {
-    "company_id": "plastiq",
-    "date": "2026-03-03",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "open",
-    "summary": "Temporary service disruption impacted Logs visibility."
-  },
-  {
-    "company_id": "plastiq",
-    "date": "2026-03-08",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted RUM visibility."
-  },
-  {
-    "company_id": "plastiq",
-    "date": "2026-03-09",
-    "severity": "critical",
-    "product": "RUM",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "plastiq",
-    "date": "2026-03-19",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within RUM monitoring workflows."
-  },
-  {
-    "company_id": "plastiq",
-    "date": "2026-03-25",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "plastiq",
-    "date": "2026-04-06",
-    "severity": "high",
-    "product": "Logs",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded RUM dashboard response times."
-  },
-  {
-    "company_id": "plastiq",
-    "date": "2026-04-18",
-    "severity": "high",
-    "product": "Logs",
-    "category": "data_quality",
-    "status": "open",
-    "summary": "Customer identified missing or delayed telemetry data in Logs."
-  },
-  {
-    "company_id": "plastiq",
-    "date": "2026-04-22",
-    "severity": "critical",
-    "product": "RUM",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded Infrastructure dashboard response times."
-  },
-  {
-    "company_id": "plastiq",
-    "date": "2026-04-30",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Logs visibility."
-  },
-  {
-    "company_id": "replit",
-    "date": "2025-12-02",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded Infrastructure dashboard response times."
-  },
-  {
-    "company_id": "replit",
-    "date": "2025-12-06",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
-  },
-  {
-    "company_id": "replit",
-    "date": "2025-12-31",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
-  },
-  {
-    "company_id": "replit",
-    "date": "2026-01-19",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "replit",
-    "date": "2026-01-28",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "replit",
-    "date": "2026-01-29",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "replit",
-    "date": "2026-01-30",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "configuration",
-    "status": "open",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "replit",
-    "date": "2026-03-18",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "replit",
-    "date": "2026-03-26",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "replit",
-    "date": "2026-04-15",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "resend",
-    "date": "2025-11-01",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Logs instrumentation."
-  },
-  {
-    "company_id": "resend",
-    "date": "2025-12-22",
-    "severity": "medium",
-    "product": "CI Visibility",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Logs instrumentation."
-  },
-  {
-    "company_id": "resend",
-    "date": "2026-01-02",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for CI Visibility."
-  },
-  {
-    "company_id": "resend",
-    "date": "2026-02-07",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "configuration",
-    "status": "open",
-    "summary": "Customer requested help configuring Logs instrumentation."
-  },
-  {
-    "company_id": "resend",
-    "date": "2026-03-10",
-    "severity": "medium",
-    "product": "CI Visibility",
-    "category": "feature_request",
-    "status": "open",
-    "summary": "Customer requested expanded reporting functionality for Logs."
-  },
-  {
-    "company_id": "resend",
-    "date": "2026-04-28",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for Logs."
-  },
-  {
-    "company_id": "retool",
-    "date": "2025-12-20",
-    "severity": "low",
-    "product": "Security",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "retool",
-    "date": "2025-12-20",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "retool",
-    "date": "2026-01-17",
-    "severity": "low",
-    "product": "Security",
-    "category": "feature_request",
-    "status": "open",
-    "summary": "Customer requested expanded reporting functionality for Logs."
-  },
-  {
-    "company_id": "retool",
-    "date": "2026-02-19",
-    "severity": "low",
-    "product": "Security",
-    "category": "outage",
-    "status": "open",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "retool",
-    "date": "2026-02-26",
-    "severity": "low",
-    "product": "Logs",
-    "category": "data_quality",
-    "status": "open",
-    "summary": "Customer identified missing or delayed telemetry data in Security."
-  },
-  {
-    "company_id": "retool",
-    "date": "2026-04-30",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded RUM dashboard response times."
-  },
-  {
-    "company_id": "rippling",
-    "date": "2025-11-18",
-    "severity": "low",
-    "product": "Logs",
-    "category": "outage",
-    "status": "open",
-    "summary": "Temporary service disruption impacted Logs visibility."
-  },
-  {
-    "company_id": "rippling",
-    "date": "2025-12-16",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded Logs dashboard response times."
-  },
-  {
-    "company_id": "rippling",
-    "date": "2026-02-01",
-    "severity": "low",
-    "product": "Logs",
-    "category": "outage",
-    "status": "open",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "rippling",
-    "date": "2026-02-28",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Logs visibility."
-  },
-  {
-    "company_id": "rippling",
-    "date": "2026-03-01",
-    "severity": "low",
-    "product": "Logs",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "rippling",
-    "date": "2026-04-15",
-    "severity": "low",
-    "product": "Logs",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded Infrastructure dashboard response times."
-  },
-  {
-    "company_id": "rollbar",
-    "date": "2025-12-12",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "rollbar",
-    "date": "2025-12-31",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
-  },
-  {
-    "company_id": "rollbar",
-    "date": "2026-01-19",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
-  },
-  {
-    "company_id": "rollbar",
-    "date": "2026-02-02",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "rollbar",
-    "date": "2026-04-08",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "rollbar",
-    "date": "2026-04-18",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "runway-ml",
-    "date": "2025-11-20",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Logs instrumentation."
-  },
-  {
-    "company_id": "runway-ml",
-    "date": "2025-11-23",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Logs monitoring workflows."
-  },
-  {
-    "company_id": "runway-ml",
-    "date": "2025-11-25",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "runway-ml",
-    "date": "2025-11-27",
-    "severity": "low",
-    "product": "Logs",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "runway-ml",
-    "date": "2025-11-28",
-    "severity": "low",
-    "product": "Logs",
-    "category": "bug",
-    "status": "open",
-    "summary": "Unexpected behavior observed within Logs monitoring workflows."
-  },
-  {
-    "company_id": "runway-ml",
-    "date": "2025-12-03",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
-  },
-  {
-    "company_id": "runway-ml",
-    "date": "2026-01-24",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for Logs."
-  },
-  {
-    "company_id": "runway-ml",
-    "date": "2026-03-19",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "runway-ml",
-    "date": "2026-03-24",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
-  },
-  {
-    "company_id": "sentry",
-    "date": "2025-11-02",
-    "severity": "low",
-    "product": "Security",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for Security."
-  },
-  {
-    "company_id": "sentry",
-    "date": "2026-01-17",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Logs visibility."
-  },
-  {
-    "company_id": "sentry",
-    "date": "2026-04-09",
-    "severity": "low",
-    "product": "Security",
-    "category": "data_quality",
-    "status": "open",
-    "summary": "Customer identified missing or delayed telemetry data in Logs."
-  },
-  {
-    "company_id": "sentry",
-    "date": "2026-04-13",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded Infrastructure dashboard response times."
-  },
-  {
-    "company_id": "sentry",
-    "date": "2026-04-19",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Security visibility."
-  },
-  {
-    "company_id": "snyk",
-    "date": "2025-11-19",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for CI Visibility."
-  },
-  {
-    "company_id": "snyk",
-    "date": "2025-12-05",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Logs monitoring workflows."
-  },
-  {
-    "company_id": "snyk",
-    "date": "2026-02-17",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "snyk",
-    "date": "2026-04-11",
-    "severity": "low",
-    "product": "CI Visibility",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "snyk",
-    "date": "2026-04-14",
-    "severity": "low",
-    "product": "Logs",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "snyk",
-    "date": "2026-04-16",
-    "severity": "low",
-    "product": "Logs",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring CI Visibility instrumentation."
-  },
-  {
-    "company_id": "statuspage",
-    "date": "2025-11-19",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "statuspage",
-    "date": "2026-02-14",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "statuspage",
-    "date": "2026-03-15",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded Infrastructure dashboard response times."
-  },
-  {
-    "company_id": "statuspage",
-    "date": "2026-04-02",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "statuspage",
-    "date": "2026-04-19",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "stytch",
-    "date": "2025-11-02",
-    "severity": "medium",
-    "product": "RUM",
-    "category": "configuration",
-    "status": "open",
-    "summary": "Customer requested help configuring CI Visibility instrumentation."
-  },
-  {
-    "company_id": "stytch",
-    "date": "2025-11-09",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Logs instrumentation."
-  },
-  {
-    "company_id": "stytch",
-    "date": "2025-12-01",
-    "severity": "low",
-    "product": "RUM",
-    "category": "bug",
-    "status": "open",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "stytch",
-    "date": "2026-02-06",
-    "severity": "medium",
-    "product": "RUM",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "stytch",
-    "date": "2026-02-16",
-    "severity": "low",
-    "product": "RUM",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Logs monitoring workflows."
-  },
-  {
-    "company_id": "stytch",
-    "date": "2026-03-12",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "configuration",
-    "status": "open",
-    "summary": "Customer requested help configuring CI Visibility instrumentation."
-  },
-  {
-    "company_id": "supabase",
+    "company_id": "baseriver",
     "date": "2025-12-01",
     "severity": "medium",
     "product": "CI Visibility",
@@ -2601,7 +117,7 @@
     "summary": "Temporary service disruption impacted Logs visibility."
   },
   {
-    "company_id": "supabase",
+    "company_id": "baseriver",
     "date": "2025-12-11",
     "severity": "low",
     "product": "Logs",
@@ -2610,7 +126,7 @@
     "summary": "Temporary service disruption impacted Infrastructure visibility."
   },
   {
-    "company_id": "supabase",
+    "company_id": "baseriver",
     "date": "2025-12-30",
     "severity": "low",
     "product": "Infrastructure",
@@ -2619,7 +135,7 @@
     "summary": "Customer requested expanded reporting functionality for Infrastructure."
   },
   {
-    "company_id": "supabase",
+    "company_id": "baseriver",
     "date": "2026-01-10",
     "severity": "low",
     "product": "Infrastructure",
@@ -2628,7 +144,7 @@
     "summary": "Customer requested expanded reporting functionality for Logs."
   },
   {
-    "company_id": "supabase",
+    "company_id": "baseriver",
     "date": "2026-01-14",
     "severity": "low",
     "product": "Logs",
@@ -2637,7 +153,7 @@
     "summary": "Unexpected behavior observed within Logs monitoring workflows."
   },
   {
-    "company_id": "supabase",
+    "company_id": "baseriver",
     "date": "2026-02-09",
     "severity": "low",
     "product": "Infrastructure",
@@ -2646,7 +162,7 @@
     "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
   },
   {
-    "company_id": "supabase",
+    "company_id": "baseriver",
     "date": "2026-02-20",
     "severity": "low",
     "product": "Infrastructure",
@@ -2655,7 +171,7 @@
     "summary": "Unexpected behavior observed within CI Visibility monitoring workflows."
   },
   {
-    "company_id": "supabase",
+    "company_id": "baseriver",
     "date": "2026-04-25",
     "severity": "low",
     "product": "Logs",
@@ -2664,187 +180,7 @@
     "summary": "Customer reported degraded CI Visibility dashboard response times."
   },
   {
-    "company_id": "together-ai",
-    "date": "2025-11-15",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "open",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "together-ai",
-    "date": "2025-11-28",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
-  },
-  {
-    "company_id": "together-ai",
-    "date": "2025-12-03",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "configuration",
-    "status": "resolved",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "together-ai",
-    "date": "2025-12-03",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded Infrastructure dashboard response times."
-  },
-  {
-    "company_id": "together-ai",
-    "date": "2025-12-04",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
-  },
-  {
-    "company_id": "together-ai",
-    "date": "2025-12-19",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded Infrastructure dashboard response times."
-  },
-  {
-    "company_id": "together-ai",
-    "date": "2026-01-25",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded Infrastructure dashboard response times."
-  },
-  {
-    "company_id": "together-ai",
-    "date": "2026-02-10",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "together-ai",
-    "date": "2026-03-18",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "together-ai",
-    "date": "2026-03-20",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "feature_request",
-    "status": "open",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "together-ai",
-    "date": "2026-03-27",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
-  },
-  {
-    "company_id": "together-ai",
-    "date": "2026-03-27",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "performance",
-    "status": "resolved",
-    "summary": "Customer reported degraded Infrastructure dashboard response times."
-  },
-  {
-    "company_id": "triggerdev",
-    "date": "2025-11-17",
-    "severity": "medium",
-    "product": "CI Visibility",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for CI Visibility."
-  },
-  {
-    "company_id": "triggerdev",
-    "date": "2025-11-22",
-    "severity": "low",
-    "product": "CI Visibility",
-    "category": "configuration",
-    "status": "open",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "triggerdev",
-    "date": "2025-12-29",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "bug",
-    "status": "resolved",
-    "summary": "Unexpected behavior observed within Logs monitoring workflows."
-  },
-  {
-    "company_id": "triggerdev",
-    "date": "2026-03-21",
-    "severity": "low",
-    "product": "RUM",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "turso",
-    "date": "2025-12-17",
-    "severity": "medium",
-    "product": "Logs",
-    "category": "data_quality",
-    "status": "resolved",
-    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
-  },
-  {
-    "company_id": "turso",
-    "date": "2026-03-16",
-    "severity": "low",
-    "product": "Logs",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for Logs."
-  },
-  {
-    "company_id": "turso",
-    "date": "2026-03-22",
-    "severity": "low",
-    "product": "CI Visibility",
-    "category": "outage",
-    "status": "resolved",
-    "summary": "Temporary service disruption impacted CI Visibility visibility."
-  },
-  {
-    "company_id": "turso",
-    "date": "2026-03-26",
-    "severity": "medium",
-    "product": "Infrastructure",
-    "category": "performance",
-    "status": "open",
-    "summary": "Customer reported degraded Infrastructure dashboard response times."
-  },
-  {
-    "company_id": "veev",
+    "company_id": "buildveo",
     "date": "2025-11-11",
     "severity": "medium",
     "product": "Infrastructure",
@@ -2853,7 +189,7 @@
     "summary": "Temporary service disruption impacted RUM visibility."
   },
   {
-    "company_id": "veev",
+    "company_id": "buildveo",
     "date": "2025-12-27",
     "severity": "medium",
     "product": "Logs",
@@ -2862,7 +198,7 @@
     "summary": "Customer identified missing or delayed telemetry data in Logs."
   },
   {
-    "company_id": "veev",
+    "company_id": "buildveo",
     "date": "2026-01-15",
     "severity": "high",
     "product": "Logs",
@@ -2871,7 +207,7 @@
     "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
   },
   {
-    "company_id": "veev",
+    "company_id": "buildveo",
     "date": "2026-02-26",
     "severity": "medium",
     "product": "Logs",
@@ -2880,7 +216,7 @@
     "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
   },
   {
-    "company_id": "veev",
+    "company_id": "buildveo",
     "date": "2026-03-05",
     "severity": "critical",
     "product": "RUM",
@@ -2889,7 +225,7 @@
     "summary": "Customer identified missing or delayed telemetry data in RUM."
   },
   {
-    "company_id": "veev",
+    "company_id": "buildveo",
     "date": "2026-03-10",
     "severity": "high",
     "product": "Infrastructure",
@@ -2898,7 +234,7 @@
     "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
   },
   {
-    "company_id": "veev",
+    "company_id": "buildveo",
     "date": "2026-03-12",
     "severity": "high",
     "product": "RUM",
@@ -2907,7 +243,7 @@
     "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
   },
   {
-    "company_id": "veev",
+    "company_id": "buildveo",
     "date": "2026-03-13",
     "severity": "critical",
     "product": "Infrastructure",
@@ -2916,7 +252,7 @@
     "summary": "Customer identified missing or delayed telemetry data in Logs."
   },
   {
-    "company_id": "veev",
+    "company_id": "buildveo",
     "date": "2026-03-21",
     "severity": "high",
     "product": "RUM",
@@ -2925,7 +261,7 @@
     "summary": "Temporary service disruption impacted Logs visibility."
   },
   {
-    "company_id": "veev",
+    "company_id": "buildveo",
     "date": "2026-04-02",
     "severity": "medium",
     "product": "RUM",
@@ -2934,7 +270,7 @@
     "summary": "Unexpected behavior observed within RUM monitoring workflows."
   },
   {
-    "company_id": "veev",
+    "company_id": "buildveo",
     "date": "2026-04-12",
     "severity": "high",
     "product": "Infrastructure",
@@ -2943,7 +279,7 @@
     "summary": "Temporary service disruption impacted Logs visibility."
   },
   {
-    "company_id": "veev",
+    "company_id": "buildveo",
     "date": "2026-04-14",
     "severity": "high",
     "product": "RUM",
@@ -2952,7 +288,7 @@
     "summary": "Customer reported degraded Infrastructure dashboard response times."
   },
   {
-    "company_id": "veev",
+    "company_id": "buildveo",
     "date": "2026-04-24",
     "severity": "critical",
     "product": "Logs",
@@ -2961,7 +297,7 @@
     "summary": "Temporary service disruption impacted RUM visibility."
   },
   {
-    "company_id": "veev",
+    "company_id": "buildveo",
     "date": "2026-04-25",
     "severity": "medium",
     "product": "Logs",
@@ -2970,7 +306,295 @@
     "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
   },
   {
-    "company_id": "vercel",
+    "company_id": "cavora",
+    "date": "2025-12-17",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "data_quality",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
+  },
+  {
+    "company_id": "cavora",
+    "date": "2026-03-16",
+    "severity": "low",
+    "product": "Logs",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for Logs."
+  },
+  {
+    "company_id": "cavora",
+    "date": "2026-03-22",
+    "severity": "low",
+    "product": "CI Visibility",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted CI Visibility visibility."
+  },
+  {
+    "company_id": "cavora",
+    "date": "2026-03-26",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "performance",
+    "status": "open",
+    "summary": "Customer reported degraded Infrastructure dashboard response times."
+  },
+  {
+    "company_id": "clustira",
+    "date": "2025-11-15",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "open",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "clustira",
+    "date": "2025-11-28",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "clustira",
+    "date": "2025-12-03",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "clustira",
+    "date": "2025-12-03",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded Infrastructure dashboard response times."
+  },
+  {
+    "company_id": "clustira",
+    "date": "2025-12-04",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "clustira",
+    "date": "2025-12-19",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded Infrastructure dashboard response times."
+  },
+  {
+    "company_id": "clustira",
+    "date": "2026-01-25",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded Infrastructure dashboard response times."
+  },
+  {
+    "company_id": "clustira",
+    "date": "2026-02-10",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "clustira",
+    "date": "2026-03-18",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "clustira",
+    "date": "2026-03-20",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "feature_request",
+    "status": "open",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "clustira",
+    "date": "2026-03-27",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "data_quality",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
+  },
+  {
+    "company_id": "clustira",
+    "date": "2026-03-27",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded Infrastructure dashboard response times."
+  },
+  {
+    "company_id": "codenest",
+    "date": "2025-12-02",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded Infrastructure dashboard response times."
+  },
+  {
+    "company_id": "codenest",
+    "date": "2025-12-06",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "data_quality",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
+  },
+  {
+    "company_id": "codenest",
+    "date": "2025-12-31",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "data_quality",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
+  },
+  {
+    "company_id": "codenest",
+    "date": "2026-01-19",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "codenest",
+    "date": "2026-01-28",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "codenest",
+    "date": "2026-01-29",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "codenest",
+    "date": "2026-01-30",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "configuration",
+    "status": "open",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "codenest",
+    "date": "2026-03-18",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "codenest",
+    "date": "2026-03-26",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "codenest",
+    "date": "2026-04-15",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "craftbench",
+    "date": "2025-12-20",
+    "severity": "low",
+    "product": "Security",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "craftbench",
+    "date": "2025-12-20",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "craftbench",
+    "date": "2026-01-17",
+    "severity": "low",
+    "product": "Security",
+    "category": "feature_request",
+    "status": "open",
+    "summary": "Customer requested expanded reporting functionality for Logs."
+  },
+  {
+    "company_id": "craftbench",
+    "date": "2026-02-19",
+    "severity": "low",
+    "product": "Security",
+    "category": "outage",
+    "status": "open",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "craftbench",
+    "date": "2026-02-26",
+    "severity": "low",
+    "product": "Logs",
+    "category": "data_quality",
+    "status": "open",
+    "summary": "Customer identified missing or delayed telemetry data in Security."
+  },
+  {
+    "company_id": "craftbench",
+    "date": "2026-04-30",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded RUM dashboard response times."
+  },
+  {
+    "company_id": "deploova",
     "date": "2025-12-08",
     "severity": "medium",
     "product": "Infrastructure",
@@ -2979,7 +603,7 @@
     "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
   },
   {
-    "company_id": "vercel",
+    "company_id": "deploova",
     "date": "2025-12-09",
     "severity": "low",
     "product": "Infrastructure",
@@ -2988,7 +612,7 @@
     "summary": "Customer reported degraded Infrastructure dashboard response times."
   },
   {
-    "company_id": "vercel",
+    "company_id": "deploova",
     "date": "2026-01-04",
     "severity": "low",
     "product": "Infrastructure",
@@ -2997,7 +621,7 @@
     "summary": "Customer requested help configuring Infrastructure instrumentation."
   },
   {
-    "company_id": "vercel",
+    "company_id": "deploova",
     "date": "2026-02-05",
     "severity": "low",
     "product": "Infrastructure",
@@ -3006,7 +630,7 @@
     "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
   },
   {
-    "company_id": "vercel",
+    "company_id": "deploova",
     "date": "2026-04-06",
     "severity": "low",
     "product": "Infrastructure",
@@ -3015,133 +639,511 @@
     "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
   },
   {
-    "company_id": "weights-biases",
-    "date": "2025-11-20",
+    "company_id": "edgewave",
+    "date": "2025-11-02",
     "severity": "medium",
     "product": "Infrastructure",
-    "category": "outage",
+    "category": "bug",
     "status": "resolved",
-    "summary": "Temporary service disruption impacted Infrastructure visibility."
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
   },
   {
-    "company_id": "weights-biases",
-    "date": "2025-11-22",
+    "company_id": "edgewave",
+    "date": "2025-11-21",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "feature_request",
+    "status": "open",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "edgewave",
+    "date": "2025-12-15",
     "severity": "low",
-    "product": "Logs",
+    "product": "Infrastructure",
+    "category": "data_quality",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
+  },
+  {
+    "company_id": "edgewave",
+    "date": "2026-02-22",
+    "severity": "low",
+    "product": "Infrastructure",
     "category": "performance",
     "status": "resolved",
     "summary": "Customer reported degraded Infrastructure dashboard response times."
   },
   {
-    "company_id": "weights-biases",
-    "date": "2025-11-29",
-    "severity": "low",
-    "product": "Logs",
-    "category": "feature_request",
-    "status": "open",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "weights-biases",
-    "date": "2025-12-07",
+    "company_id": "edgewave",
+    "date": "2026-03-04",
     "severity": "medium",
     "product": "Infrastructure",
     "category": "configuration",
     "status": "resolved",
-    "summary": "Customer requested help configuring Logs instrumentation."
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
   },
   {
-    "company_id": "weights-biases",
-    "date": "2025-12-08",
+    "company_id": "edgewave",
+    "date": "2026-03-05",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "bug",
+    "status": "open",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "edgewave",
+    "date": "2026-03-16",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "edgewave",
+    "date": "2026-04-18",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "endpointly",
+    "date": "2025-11-03",
+    "severity": "medium",
+    "product": "RUM",
+    "category": "configuration",
+    "status": "open",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "endpointly",
+    "date": "2025-11-11",
     "severity": "low",
     "product": "Logs",
-    "category": "data_quality",
+    "category": "configuration",
     "status": "open",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "endpointly",
+    "date": "2025-11-13",
+    "severity": "medium",
+    "product": "RUM",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "endpointly",
+    "date": "2025-12-24",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "bug",
+    "status": "open",
+    "summary": "Unexpected behavior observed within RUM monitoring workflows."
+  },
+  {
+    "company_id": "endpointly",
+    "date": "2026-02-18",
+    "severity": "low",
+    "product": "Logs",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "endpointly",
+    "date": "2026-03-05",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring RUM instrumentation."
+  },
+  {
+    "company_id": "endpointly",
+    "date": "2026-03-16",
+    "severity": "medium",
+    "product": "RUM",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Logs monitoring workflows."
+  },
+  {
+    "company_id": "endpointly",
+    "date": "2026-03-23",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for Logs."
+  },
+  {
+    "company_id": "equira",
+    "date": "2025-11-13",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "open",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "equira",
+    "date": "2025-11-19",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "data_quality",
+    "status": "resolved",
     "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
   },
   {
-    "company_id": "weights-biases",
-    "date": "2026-01-14",
+    "company_id": "equira",
+    "date": "2025-11-28",
     "severity": "high",
-    "product": "Logs",
-    "category": "configuration",
-    "status": "open",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
-  },
-  {
-    "company_id": "weights-biases",
-    "date": "2026-01-25",
-    "severity": "high",
-    "product": "Logs",
-    "category": "configuration",
+    "product": "Infrastructure",
+    "category": "bug",
     "status": "resolved",
-    "summary": "Customer requested help configuring Infrastructure instrumentation."
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
   },
   {
-    "company_id": "weights-biases",
-    "date": "2026-01-27",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "feature_request",
-    "status": "open",
-    "summary": "Customer requested expanded reporting functionality for Logs."
-  },
-  {
-    "company_id": "weights-biases",
-    "date": "2026-02-21",
-    "severity": "low",
-    "product": "Logs",
-    "category": "data_quality",
-    "status": "open",
-    "summary": "Customer identified missing or delayed telemetry data in Logs."
-  },
-  {
-    "company_id": "weights-biases",
-    "date": "2026-03-22",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for Infrastructure."
-  },
-  {
-    "company_id": "weights-biases",
-    "date": "2026-03-24",
-    "severity": "high",
-    "product": "Infrastructure",
-    "category": "feature_request",
-    "status": "resolved",
-    "summary": "Customer requested expanded reporting functionality for Logs."
-  },
-  {
-    "company_id": "weights-biases",
-    "date": "2026-03-25",
-    "severity": "low",
-    "product": "Infrastructure",
-    "category": "data_quality",
-    "status": "open",
-    "summary": "Customer identified missing or delayed telemetry data in Logs."
-  },
-  {
-    "company_id": "weights-biases",
-    "date": "2026-03-27",
+    "company_id": "equira",
+    "date": "2026-02-01",
     "severity": "medium",
-    "product": "Logs",
+    "product": "Infrastructure",
     "category": "outage",
     "status": "resolved",
     "summary": "Temporary service disruption impacted Infrastructure visibility."
   },
   {
-    "company_id": "weights-biases",
-    "date": "2026-04-05",
+    "company_id": "equira",
+    "date": "2026-02-09",
     "severity": "medium",
-    "product": "Logs",
+    "product": "Infrastructure",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "equira",
+    "date": "2026-02-19",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "equira",
+    "date": "2026-03-04",
+    "severity": "critical",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "equira",
+    "date": "2026-03-08",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "equira",
+    "date": "2026-03-15",
+    "severity": "critical",
+    "product": "Infrastructure",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "equira",
+    "date": "2026-03-19",
+    "severity": "critical",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "equira",
+    "date": "2026-03-20",
+    "severity": "critical",
+    "product": "Infrastructure",
     "category": "data_quality",
     "status": "open",
+    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
+  },
+  {
+    "company_id": "equira",
+    "date": "2026-03-22",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "data_quality",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
+  },
+  {
+    "company_id": "equira",
+    "date": "2026-03-27",
+    "severity": "critical",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "equira",
+    "date": "2026-04-08",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "data_quality",
+    "status": "open",
+    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
+  },
+  {
+    "company_id": "equira",
+    "date": "2026-04-28",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded Infrastructure dashboard response times."
+  },
+  {
+    "company_id": "errorly",
+    "date": "2025-12-12",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "errorly",
+    "date": "2025-12-31",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "data_quality",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
+  },
+  {
+    "company_id": "errorly",
+    "date": "2026-01-19",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "data_quality",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
+  },
+  {
+    "company_id": "errorly",
+    "date": "2026-02-02",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "errorly",
+    "date": "2026-04-08",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "errorly",
+    "date": "2026-04-18",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "flagpost",
+    "date": "2025-11-22",
+    "severity": "low",
+    "product": "RUM",
+    "category": "data_quality",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in RUM."
+  },
+  {
+    "company_id": "flagpost",
+    "date": "2025-12-07",
+    "severity": "low",
+    "product": "Logs",
+    "category": "configuration",
+    "status": "open",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "flagpost",
+    "date": "2025-12-09",
+    "severity": "low",
+    "product": "RUM",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded Logs dashboard response times."
+  },
+  {
+    "company_id": "flagpost",
+    "date": "2025-12-16",
+    "severity": "low",
+    "product": "Logs",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted RUM visibility."
+  },
+  {
+    "company_id": "flagpost",
+    "date": "2026-02-03",
+    "severity": "low",
+    "product": "RUM",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "flagpost",
+    "date": "2026-02-03",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded RUM dashboard response times."
+  },
+  {
+    "company_id": "flagpost",
+    "date": "2026-04-02",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "flagpost",
+    "date": "2026-04-03",
+    "severity": "low",
+    "product": "Logs",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for Logs."
+  },
+  {
+    "company_id": "flagpost",
+    "date": "2026-04-03",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "data_quality",
+    "status": "resolved",
     "summary": "Customer identified missing or delayed telemetry data in Logs."
   },
   {
-    "company_id": "zuplo",
+    "company_id": "flagpost",
+    "date": "2026-04-08",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted RUM visibility."
+  },
+  {
+    "company_id": "framecraft",
+    "date": "2025-11-20",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Logs instrumentation."
+  },
+  {
+    "company_id": "framecraft",
+    "date": "2025-11-23",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Logs monitoring workflows."
+  },
+  {
+    "company_id": "framecraft",
+    "date": "2025-11-25",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "framecraft",
+    "date": "2025-11-27",
+    "severity": "low",
+    "product": "Logs",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "framecraft",
+    "date": "2025-11-28",
+    "severity": "low",
+    "product": "Logs",
+    "category": "bug",
+    "status": "open",
+    "summary": "Unexpected behavior observed within Logs monitoring workflows."
+  },
+  {
+    "company_id": "framecraft",
+    "date": "2025-12-03",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "data_quality",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
+  },
+  {
+    "company_id": "framecraft",
+    "date": "2026-01-24",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for Logs."
+  },
+  {
+    "company_id": "framecraft",
+    "date": "2026-03-19",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "framecraft",
+    "date": "2026-03-24",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "data_quality",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
+  },
+  {
+    "company_id": "gatewly",
     "date": "2025-11-18",
     "severity": "medium",
     "product": "RUM",
@@ -3150,7 +1152,7 @@
     "summary": "Customer requested expanded reporting functionality for Infrastructure."
   },
   {
-    "company_id": "zuplo",
+    "company_id": "gatewly",
     "date": "2025-12-02",
     "severity": "medium",
     "product": "Infrastructure",
@@ -3159,7 +1161,7 @@
     "summary": "Customer requested help configuring RUM instrumentation."
   },
   {
-    "company_id": "zuplo",
+    "company_id": "gatewly",
     "date": "2025-12-02",
     "severity": "medium",
     "product": "Logs",
@@ -3168,7 +1170,7 @@
     "summary": "Customer requested help configuring RUM instrumentation."
   },
   {
-    "company_id": "zuplo",
+    "company_id": "gatewly",
     "date": "2025-12-06",
     "severity": "low",
     "product": "Logs",
@@ -3177,7 +1179,7 @@
     "summary": "Customer requested help configuring Infrastructure instrumentation."
   },
   {
-    "company_id": "zuplo",
+    "company_id": "gatewly",
     "date": "2025-12-31",
     "severity": "medium",
     "product": "RUM",
@@ -3186,7 +1188,7 @@
     "summary": "Customer requested help configuring Logs instrumentation."
   },
   {
-    "company_id": "zuplo",
+    "company_id": "gatewly",
     "date": "2026-01-03",
     "severity": "low",
     "product": "Logs",
@@ -3195,7 +1197,7 @@
     "summary": "Customer requested expanded reporting functionality for RUM."
   },
   {
-    "company_id": "zuplo",
+    "company_id": "gatewly",
     "date": "2026-03-03",
     "severity": "medium",
     "product": "RUM",
@@ -3204,12 +1206,2010 @@
     "summary": "Unexpected behavior observed within RUM monitoring workflows."
   },
   {
-    "company_id": "zuplo",
+    "company_id": "gatewly",
     "date": "2026-03-09",
     "severity": "low",
     "product": "RUM",
     "category": "configuration",
     "status": "resolved",
     "summary": "Customer requested help configuring Logs instrumentation."
+  },
+  {
+    "company_id": "grantly",
+    "date": "2025-11-08",
+    "severity": "medium",
+    "product": "Security",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring RUM instrumentation."
+  },
+  {
+    "company_id": "grantly",
+    "date": "2025-11-18",
+    "severity": "medium",
+    "product": "CI Visibility",
+    "category": "configuration",
+    "status": "open",
+    "summary": "Customer requested help configuring Logs instrumentation."
+  },
+  {
+    "company_id": "grantly",
+    "date": "2025-12-05",
+    "severity": "low",
+    "product": "Logs",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within CI Visibility monitoring workflows."
+  },
+  {
+    "company_id": "grantly",
+    "date": "2025-12-17",
+    "severity": "medium",
+    "product": "CI Visibility",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Logs instrumentation."
+  },
+  {
+    "company_id": "grantly",
+    "date": "2025-12-21",
+    "severity": "low",
+    "product": "CI Visibility",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Logs instrumentation."
+  },
+  {
+    "company_id": "haulcrest",
+    "date": "2025-11-05",
+    "severity": "high",
+    "product": "Logs",
+    "category": "bug",
+    "status": "open",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "haulcrest",
+    "date": "2025-12-26",
+    "severity": "high",
+    "product": "RUM",
+    "category": "data_quality",
+    "status": "open",
+    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
+  },
+  {
+    "company_id": "haulcrest",
+    "date": "2026-01-20",
+    "severity": "critical",
+    "product": "Logs",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "haulcrest",
+    "date": "2026-01-20",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within RUM monitoring workflows."
+  },
+  {
+    "company_id": "haulcrest",
+    "date": "2026-01-29",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "data_quality",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in RUM."
+  },
+  {
+    "company_id": "haulcrest",
+    "date": "2026-03-06",
+    "severity": "critical",
+    "product": "Infrastructure",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within RUM monitoring workflows."
+  },
+  {
+    "company_id": "haulcrest",
+    "date": "2026-03-07",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted RUM visibility."
+  },
+  {
+    "company_id": "haulcrest",
+    "date": "2026-03-09",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "haulcrest",
+    "date": "2026-03-09",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "bug",
+    "status": "open",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "haulcrest",
+    "date": "2026-03-23",
+    "severity": "high",
+    "product": "Logs",
+    "category": "bug",
+    "status": "open",
+    "summary": "Unexpected behavior observed within Logs monitoring workflows."
+  },
+  {
+    "company_id": "haulcrest",
+    "date": "2026-04-08",
+    "severity": "high",
+    "product": "RUM",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within RUM monitoring workflows."
+  },
+  {
+    "company_id": "haulcrest",
+    "date": "2026-04-10",
+    "severity": "high",
+    "product": "RUM",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted RUM visibility."
+  },
+  {
+    "company_id": "haulcrest",
+    "date": "2026-04-10",
+    "severity": "medium",
+    "product": "RUM",
+    "category": "performance",
+    "status": "open",
+    "summary": "Customer reported degraded Logs dashboard response times."
+  },
+  {
+    "company_id": "haulcrest",
+    "date": "2026-04-15",
+    "severity": "medium",
+    "product": "RUM",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded Infrastructure dashboard response times."
+  },
+  {
+    "company_id": "haulcrest",
+    "date": "2026-04-16",
+    "severity": "high",
+    "product": "RUM",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded RUM dashboard response times."
+  },
+  {
+    "company_id": "haulcrest",
+    "date": "2026-04-22",
+    "severity": "medium",
+    "product": "RUM",
+    "category": "performance",
+    "status": "open",
+    "summary": "Customer reported degraded Infrastructure dashboard response times."
+  },
+  {
+    "company_id": "identara",
+    "date": "2025-11-02",
+    "severity": "medium",
+    "product": "RUM",
+    "category": "configuration",
+    "status": "open",
+    "summary": "Customer requested help configuring CI Visibility instrumentation."
+  },
+  {
+    "company_id": "identara",
+    "date": "2025-11-09",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Logs instrumentation."
+  },
+  {
+    "company_id": "identara",
+    "date": "2025-12-01",
+    "severity": "low",
+    "product": "RUM",
+    "category": "bug",
+    "status": "open",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "identara",
+    "date": "2026-02-06",
+    "severity": "medium",
+    "product": "RUM",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "identara",
+    "date": "2026-02-16",
+    "severity": "low",
+    "product": "RUM",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Logs monitoring workflows."
+  },
+  {
+    "company_id": "identara",
+    "date": "2026-03-12",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "configuration",
+    "status": "open",
+    "summary": "Customer requested help configuring CI Visibility instrumentation."
+  },
+  {
+    "company_id": "jobwright",
+    "date": "2025-11-17",
+    "severity": "medium",
+    "product": "CI Visibility",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for CI Visibility."
+  },
+  {
+    "company_id": "jobwright",
+    "date": "2025-11-22",
+    "severity": "low",
+    "product": "CI Visibility",
+    "category": "configuration",
+    "status": "open",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "jobwright",
+    "date": "2025-12-29",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Logs monitoring workflows."
+  },
+  {
+    "company_id": "jobwright",
+    "date": "2026-03-21",
+    "severity": "low",
+    "product": "RUM",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "lexira",
+    "date": "2025-11-26",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Logs visibility."
+  },
+  {
+    "company_id": "lexira",
+    "date": "2025-12-06",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "data_quality",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
+  },
+  {
+    "company_id": "lexira",
+    "date": "2025-12-12",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "outage",
+    "status": "open",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "lexira",
+    "date": "2026-01-27",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "configuration",
+    "status": "open",
+    "summary": "Customer requested help configuring Logs instrumentation."
+  },
+  {
+    "company_id": "lexira",
+    "date": "2026-01-28",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Logs instrumentation."
+  },
+  {
+    "company_id": "lexira",
+    "date": "2026-01-31",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "performance",
+    "status": "open",
+    "summary": "Customer reported degraded Logs dashboard response times."
+  },
+  {
+    "company_id": "lexira",
+    "date": "2026-02-13",
+    "severity": "high",
+    "product": "Logs",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Logs monitoring workflows."
+  },
+  {
+    "company_id": "lexira",
+    "date": "2026-03-12",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "lexira",
+    "date": "2026-03-14",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "data_quality",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in Logs."
+  },
+  {
+    "company_id": "lexira",
+    "date": "2026-03-21",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded Infrastructure dashboard response times."
+  },
+  {
+    "company_id": "lexira",
+    "date": "2026-03-30",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "data_quality",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in Logs."
+  },
+  {
+    "company_id": "lexira",
+    "date": "2026-04-03",
+    "severity": "high",
+    "product": "Logs",
+    "category": "outage",
+    "status": "open",
+    "summary": "Temporary service disruption impacted Logs visibility."
+  },
+  {
+    "company_id": "mediark",
+    "date": "2025-11-07",
+    "severity": "low",
+    "product": "Logs",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "mediark",
+    "date": "2025-12-17",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "mediark",
+    "date": "2026-01-11",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "data_quality",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
+  },
+  {
+    "company_id": "mediark",
+    "date": "2026-03-01",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Logs visibility."
+  },
+  {
+    "company_id": "mediark",
+    "date": "2026-03-03",
+    "severity": "low",
+    "product": "Logs",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded Infrastructure dashboard response times."
+  },
+  {
+    "company_id": "medolia",
+    "date": "2025-11-10",
+    "severity": "high",
+    "product": "CI Visibility",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded Logs dashboard response times."
+  },
+  {
+    "company_id": "medolia",
+    "date": "2025-11-15",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "data_quality",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in CI Visibility."
+  },
+  {
+    "company_id": "medolia",
+    "date": "2025-12-31",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted CI Visibility visibility."
+  },
+  {
+    "company_id": "medolia",
+    "date": "2026-01-06",
+    "severity": "critical",
+    "product": "Logs",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "medolia",
+    "date": "2026-02-02",
+    "severity": "critical",
+    "product": "Logs",
+    "category": "data_quality",
+    "status": "open",
+    "summary": "Customer identified missing or delayed telemetry data in CI Visibility."
+  },
+  {
+    "company_id": "medolia",
+    "date": "2026-03-06",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Logs monitoring workflows."
+  },
+  {
+    "company_id": "medolia",
+    "date": "2026-03-08",
+    "severity": "high",
+    "product": "Logs",
+    "category": "bug",
+    "status": "open",
+    "summary": "Unexpected behavior observed within CI Visibility monitoring workflows."
+  },
+  {
+    "company_id": "medolia",
+    "date": "2026-03-15",
+    "severity": "high",
+    "product": "Logs",
+    "category": "data_quality",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
+  },
+  {
+    "company_id": "medolia",
+    "date": "2026-03-19",
+    "severity": "critical",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "medolia",
+    "date": "2026-03-25",
+    "severity": "medium",
+    "product": "CI Visibility",
+    "category": "data_quality",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in CI Visibility."
+  },
+  {
+    "company_id": "medolia",
+    "date": "2026-03-30",
+    "severity": "high",
+    "product": "Logs",
+    "category": "data_quality",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in Logs."
+  },
+  {
+    "company_id": "medolia",
+    "date": "2026-03-31",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded CI Visibility dashboard response times."
+  },
+  {
+    "company_id": "medolia",
+    "date": "2026-04-07",
+    "severity": "high",
+    "product": "CI Visibility",
+    "category": "bug",
+    "status": "open",
+    "summary": "Unexpected behavior observed within CI Visibility monitoring workflows."
+  },
+  {
+    "company_id": "medolia",
+    "date": "2026-04-27",
+    "severity": "high",
+    "product": "Logs",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "medolia",
+    "date": "2026-04-27",
+    "severity": "high",
+    "product": "Logs",
+    "category": "bug",
+    "status": "open",
+    "summary": "Unexpected behavior observed within CI Visibility monitoring workflows."
+  },
+  {
+    "company_id": "medolia",
+    "date": "2026-04-30",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "data_quality",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in Logs."
+  },
+  {
+    "company_id": "medolia",
+    "date": "2026-04-30",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded Infrastructure dashboard response times."
+  },
+  {
+    "company_id": "metricforge",
+    "date": "2025-11-20",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "metricforge",
+    "date": "2025-11-22",
+    "severity": "low",
+    "product": "Logs",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded Infrastructure dashboard response times."
+  },
+  {
+    "company_id": "metricforge",
+    "date": "2025-11-29",
+    "severity": "low",
+    "product": "Logs",
+    "category": "feature_request",
+    "status": "open",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "metricforge",
+    "date": "2025-12-07",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Logs instrumentation."
+  },
+  {
+    "company_id": "metricforge",
+    "date": "2025-12-08",
+    "severity": "low",
+    "product": "Logs",
+    "category": "data_quality",
+    "status": "open",
+    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
+  },
+  {
+    "company_id": "metricforge",
+    "date": "2026-01-14",
+    "severity": "high",
+    "product": "Logs",
+    "category": "configuration",
+    "status": "open",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "metricforge",
+    "date": "2026-01-25",
+    "severity": "high",
+    "product": "Logs",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "metricforge",
+    "date": "2026-01-27",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "feature_request",
+    "status": "open",
+    "summary": "Customer requested expanded reporting functionality for Logs."
+  },
+  {
+    "company_id": "metricforge",
+    "date": "2026-02-21",
+    "severity": "low",
+    "product": "Logs",
+    "category": "data_quality",
+    "status": "open",
+    "summary": "Customer identified missing or delayed telemetry data in Logs."
+  },
+  {
+    "company_id": "metricforge",
+    "date": "2026-03-22",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "metricforge",
+    "date": "2026-03-24",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for Logs."
+  },
+  {
+    "company_id": "metricforge",
+    "date": "2026-03-25",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "data_quality",
+    "status": "open",
+    "summary": "Customer identified missing or delayed telemetry data in Logs."
+  },
+  {
+    "company_id": "metricforge",
+    "date": "2026-03-27",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "metricforge",
+    "date": "2026-04-05",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "data_quality",
+    "status": "open",
+    "summary": "Customer identified missing or delayed telemetry data in Logs."
+  },
+  {
+    "company_id": "modelyard",
+    "date": "2025-11-21",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "modelyard",
+    "date": "2025-11-24",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "modelyard",
+    "date": "2025-12-01",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "feature_request",
+    "status": "open",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "modelyard",
+    "date": "2025-12-01",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "modelyard",
+    "date": "2026-01-21",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "modelyard",
+    "date": "2026-01-27",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "feature_request",
+    "status": "open",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "modelyard",
+    "date": "2026-02-03",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "modelyard",
+    "date": "2026-02-04",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "modelyard",
+    "date": "2026-02-07",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "modelyard",
+    "date": "2026-03-11",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "performance",
+    "status": "open",
+    "summary": "Customer reported degraded Infrastructure dashboard response times."
+  },
+  {
+    "company_id": "modelyard",
+    "date": "2026-03-21",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "modelyard",
+    "date": "2026-03-22",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "modelyard",
+    "date": "2026-04-04",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "performance",
+    "status": "open",
+    "summary": "Customer reported degraded Infrastructure dashboard response times."
+  },
+  {
+    "company_id": "modelyard",
+    "date": "2026-04-05",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "open",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "notifera",
+    "date": "2025-11-06",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "notifera",
+    "date": "2025-11-12",
+    "severity": "low",
+    "product": "Logs",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "notifera",
+    "date": "2025-11-24",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Logs monitoring workflows."
+  },
+  {
+    "company_id": "notifera",
+    "date": "2025-11-28",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "notifera",
+    "date": "2025-12-12",
+    "severity": "low",
+    "product": "Logs",
+    "category": "configuration",
+    "status": "open",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "notifera",
+    "date": "2025-12-26",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Logs instrumentation."
+  },
+  {
+    "company_id": "notifera",
+    "date": "2026-02-07",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Logs monitoring workflows."
+  },
+  {
+    "company_id": "notifera",
+    "date": "2026-02-22",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Logs monitoring workflows."
+  },
+  {
+    "company_id": "notifera",
+    "date": "2026-02-28",
+    "severity": "low",
+    "product": "Logs",
+    "category": "feature_request",
+    "status": "open",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "novalm",
+    "date": "2025-11-30",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "open",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "novalm",
+    "date": "2025-11-30",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "bug",
+    "status": "open",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "novalm",
+    "date": "2025-12-04",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "novalm",
+    "date": "2025-12-18",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "novalm",
+    "date": "2025-12-20",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "novalm",
+    "date": "2026-01-18",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "novalm",
+    "date": "2026-03-17",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "novalm",
+    "date": "2026-03-18",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "novalm",
+    "date": "2026-03-28",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "data_quality",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
+  },
+  {
+    "company_id": "novalm",
+    "date": "2026-03-28",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "novalm",
+    "date": "2026-03-28",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded Infrastructure dashboard response times."
+  },
+  {
+    "company_id": "novalm",
+    "date": "2026-03-30",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "feature_request",
+    "status": "open",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "novalm",
+    "date": "2026-04-04",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "configuration",
+    "status": "open",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "panelith",
+    "date": "2025-11-24",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "panelith",
+    "date": "2025-12-19",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Logs monitoring workflows."
+  },
+  {
+    "company_id": "panelith",
+    "date": "2025-12-30",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "open",
+    "summary": "Temporary service disruption impacted Logs visibility."
+  },
+  {
+    "company_id": "panelith",
+    "date": "2025-12-30",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Logs instrumentation."
+  },
+  {
+    "company_id": "panelith",
+    "date": "2026-01-04",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Logs instrumentation."
+  },
+  {
+    "company_id": "panelith",
+    "date": "2026-01-24",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Logs monitoring workflows."
+  },
+  {
+    "company_id": "panelith",
+    "date": "2026-02-22",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "performance",
+    "status": "open",
+    "summary": "Customer reported degraded Logs dashboard response times."
+  },
+  {
+    "company_id": "panelith",
+    "date": "2026-03-17",
+    "severity": "low",
+    "product": "Logs",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Logs monitoring workflows."
+  },
+  {
+    "company_id": "panelith",
+    "date": "2026-04-26",
+    "severity": "low",
+    "product": "Logs",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "payglint",
+    "date": "2025-11-20",
+    "severity": "critical",
+    "product": "CI Visibility",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded RUM dashboard response times."
+  },
+  {
+    "company_id": "payglint",
+    "date": "2026-01-18",
+    "severity": "critical",
+    "product": "CI Visibility",
+    "category": "data_quality",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in Logs."
+  },
+  {
+    "company_id": "payglint",
+    "date": "2026-01-27",
+    "severity": "high",
+    "product": "RUM",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded Infrastructure dashboard response times."
+  },
+  {
+    "company_id": "payglint",
+    "date": "2026-02-11",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Logs visibility."
+  },
+  {
+    "company_id": "payglint",
+    "date": "2026-03-03",
+    "severity": "medium",
+    "product": "CI Visibility",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded RUM dashboard response times."
+  },
+  {
+    "company_id": "payglint",
+    "date": "2026-03-03",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within CI Visibility monitoring workflows."
+  },
+  {
+    "company_id": "payglint",
+    "date": "2026-03-09",
+    "severity": "high",
+    "product": "CI Visibility",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within CI Visibility monitoring workflows."
+  },
+  {
+    "company_id": "payglint",
+    "date": "2026-03-11",
+    "severity": "critical",
+    "product": "RUM",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded Infrastructure dashboard response times."
+  },
+  {
+    "company_id": "payglint",
+    "date": "2026-03-14",
+    "severity": "high",
+    "product": "Logs",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted CI Visibility visibility."
+  },
+  {
+    "company_id": "payglint",
+    "date": "2026-03-28",
+    "severity": "high",
+    "product": "Logs",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "payglint",
+    "date": "2026-04-10",
+    "severity": "medium",
+    "product": "CI Visibility",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted RUM visibility."
+  },
+  {
+    "company_id": "payglint",
+    "date": "2026-04-23",
+    "severity": "medium",
+    "product": "CI Visibility",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within RUM monitoring workflows."
+  },
+  {
+    "company_id": "peoplora",
+    "date": "2025-11-18",
+    "severity": "low",
+    "product": "Logs",
+    "category": "outage",
+    "status": "open",
+    "summary": "Temporary service disruption impacted Logs visibility."
+  },
+  {
+    "company_id": "peoplora",
+    "date": "2025-12-16",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded Logs dashboard response times."
+  },
+  {
+    "company_id": "peoplora",
+    "date": "2026-02-01",
+    "severity": "low",
+    "product": "Logs",
+    "category": "outage",
+    "status": "open",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "peoplora",
+    "date": "2026-02-28",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Logs visibility."
+  },
+  {
+    "company_id": "peoplora",
+    "date": "2026-03-01",
+    "severity": "low",
+    "product": "Logs",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "peoplora",
+    "date": "2026-04-15",
+    "severity": "low",
+    "product": "Logs",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded Infrastructure dashboard response times."
+  },
+  {
+    "company_id": "plendo",
+    "date": "2026-01-04",
+    "severity": "high",
+    "product": "Logs",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Logs monitoring workflows."
+  },
+  {
+    "company_id": "plendo",
+    "date": "2026-01-24",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded Infrastructure dashboard response times."
+  },
+  {
+    "company_id": "plendo",
+    "date": "2026-02-17",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded Infrastructure dashboard response times."
+  },
+  {
+    "company_id": "plendo",
+    "date": "2026-03-03",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "open",
+    "summary": "Temporary service disruption impacted Logs visibility."
+  },
+  {
+    "company_id": "plendo",
+    "date": "2026-03-08",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted RUM visibility."
+  },
+  {
+    "company_id": "plendo",
+    "date": "2026-03-09",
+    "severity": "critical",
+    "product": "RUM",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "plendo",
+    "date": "2026-03-19",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within RUM monitoring workflows."
+  },
+  {
+    "company_id": "plendo",
+    "date": "2026-03-25",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "plendo",
+    "date": "2026-04-06",
+    "severity": "high",
+    "product": "Logs",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded RUM dashboard response times."
+  },
+  {
+    "company_id": "plendo",
+    "date": "2026-04-18",
+    "severity": "high",
+    "product": "Logs",
+    "category": "data_quality",
+    "status": "open",
+    "summary": "Customer identified missing or delayed telemetry data in Logs."
+  },
+  {
+    "company_id": "plendo",
+    "date": "2026-04-22",
+    "severity": "critical",
+    "product": "RUM",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded Infrastructure dashboard response times."
+  },
+  {
+    "company_id": "plendo",
+    "date": "2026-04-30",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Logs visibility."
+  },
+  {
+    "company_id": "postglow",
+    "date": "2025-11-01",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Logs instrumentation."
+  },
+  {
+    "company_id": "postglow",
+    "date": "2025-12-22",
+    "severity": "medium",
+    "product": "CI Visibility",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Logs instrumentation."
+  },
+  {
+    "company_id": "postglow",
+    "date": "2026-01-02",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for CI Visibility."
+  },
+  {
+    "company_id": "postglow",
+    "date": "2026-02-07",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "configuration",
+    "status": "open",
+    "summary": "Customer requested help configuring Logs instrumentation."
+  },
+  {
+    "company_id": "postglow",
+    "date": "2026-03-10",
+    "severity": "medium",
+    "product": "CI Visibility",
+    "category": "feature_request",
+    "status": "open",
+    "summary": "Customer requested expanded reporting functionality for Logs."
+  },
+  {
+    "company_id": "postglow",
+    "date": "2026-04-28",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for Logs."
+  },
+  {
+    "company_id": "provisor",
+    "date": "2025-11-05",
+    "severity": "low",
+    "product": "RUM",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded RUM dashboard response times."
+  },
+  {
+    "company_id": "provisor",
+    "date": "2025-11-05",
+    "severity": "medium",
+    "product": "RUM",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Security visibility."
+  },
+  {
+    "company_id": "provisor",
+    "date": "2025-11-29",
+    "severity": "low",
+    "product": "RUM",
+    "category": "performance",
+    "status": "open",
+    "summary": "Customer reported degraded Logs dashboard response times."
+  },
+  {
+    "company_id": "provisor",
+    "date": "2025-12-04",
+    "severity": "low",
+    "product": "CI Visibility",
+    "category": "performance",
+    "status": "open",
+    "summary": "Customer reported degraded Security dashboard response times."
+  },
+  {
+    "company_id": "provisor",
+    "date": "2025-12-15",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within CI Visibility monitoring workflows."
+  },
+  {
+    "company_id": "provisor",
+    "date": "2026-02-21",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Logs monitoring workflows."
+  },
+  {
+    "company_id": "provisor",
+    "date": "2026-03-18",
+    "severity": "medium",
+    "product": "CI Visibility",
+    "category": "feature_request",
+    "status": "open",
+    "summary": "Customer requested expanded reporting functionality for CI Visibility."
+  },
+  {
+    "company_id": "queuely",
+    "date": "2025-11-03",
+    "severity": "low",
+    "product": "CI Visibility",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within CI Visibility monitoring workflows."
+  },
+  {
+    "company_id": "queuely",
+    "date": "2025-11-09",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "queuely",
+    "date": "2025-12-15",
+    "severity": "medium",
+    "product": "CI Visibility",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Logs instrumentation."
+  },
+  {
+    "company_id": "queuely",
+    "date": "2025-12-28",
+    "severity": "low",
+    "product": "Logs",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within CI Visibility monitoring workflows."
+  },
+  {
+    "company_id": "queuely",
+    "date": "2026-01-08",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Logs instrumentation."
+  },
+  {
+    "company_id": "queuely",
+    "date": "2026-02-08",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "realmly",
+    "date": "2025-11-02",
+    "severity": "critical",
+    "product": "Infrastructure",
+    "category": "performance",
+    "status": "open",
+    "summary": "Customer reported degraded Infrastructure dashboard response times."
+  },
+  {
+    "company_id": "realmly",
+    "date": "2025-11-05",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Logs visibility."
+  },
+  {
+    "company_id": "realmly",
+    "date": "2025-12-03",
+    "severity": "high",
+    "product": "Logs",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "realmly",
+    "date": "2026-01-24",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "data_quality",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
+  },
+  {
+    "company_id": "realmly",
+    "date": "2026-01-29",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Logs monitoring workflows."
+  },
+  {
+    "company_id": "realmly",
+    "date": "2026-03-08",
+    "severity": "critical",
+    "product": "Logs",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "realmly",
+    "date": "2026-03-12",
+    "severity": "critical",
+    "product": "Logs",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded Logs dashboard response times."
+  },
+  {
+    "company_id": "realmly",
+    "date": "2026-03-14",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "realmly",
+    "date": "2026-03-30",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded Logs dashboard response times."
+  },
+  {
+    "company_id": "realmly",
+    "date": "2026-03-31",
+    "severity": "critical",
+    "product": "Logs",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "realmly",
+    "date": "2026-04-01",
+    "severity": "critical",
+    "product": "Infrastructure",
+    "category": "data_quality",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in Logs."
+  },
+  {
+    "company_id": "realmly",
+    "date": "2026-04-01",
+    "severity": "critical",
+    "product": "Logs",
+    "category": "data_quality",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
+  },
+  {
+    "company_id": "realmly",
+    "date": "2026-04-02",
+    "severity": "critical",
+    "product": "Logs",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Logs visibility."
+  },
+  {
+    "company_id": "realmly",
+    "date": "2026-04-03",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "data_quality",
+    "status": "open",
+    "summary": "Customer identified missing or delayed telemetry data in Logs."
+  },
+  {
+    "company_id": "realmly",
+    "date": "2026-04-08",
+    "severity": "high",
+    "product": "Logs",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Logs monitoring workflows."
+  },
+  {
+    "company_id": "realmly",
+    "date": "2026-04-11",
+    "severity": "high",
+    "product": "Infrastructure",
+    "category": "data_quality",
+    "status": "open",
+    "summary": "Customer identified missing or delayed telemetry data in Logs."
+  },
+  {
+    "company_id": "realmly",
+    "date": "2026-04-20",
+    "severity": "high",
+    "product": "Logs",
+    "category": "bug",
+    "status": "open",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "realmly",
+    "date": "2026-04-27",
+    "severity": "high",
+    "product": "Logs",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "siteglow",
+    "date": "2025-11-09",
+    "severity": "medium",
+    "product": "CI Visibility",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Logs visibility."
+  },
+  {
+    "company_id": "siteglow",
+    "date": "2025-11-09",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "performance",
+    "status": "open",
+    "summary": "Customer reported degraded CI Visibility dashboard response times."
+  },
+  {
+    "company_id": "siteglow",
+    "date": "2026-01-06",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted CI Visibility visibility."
+  },
+  {
+    "company_id": "siteglow",
+    "date": "2026-01-13",
+    "severity": "low",
+    "product": "Logs",
+    "category": "data_quality",
+    "status": "open",
+    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
+  },
+  {
+    "company_id": "siteglow",
+    "date": "2026-01-23",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "data_quality",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in Logs."
+  },
+  {
+    "company_id": "siteglow",
+    "date": "2026-02-26",
+    "severity": "low",
+    "product": "CI Visibility",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Logs instrumentation."
+  },
+  {
+    "company_id": "siteglow",
+    "date": "2026-03-04",
+    "severity": "low",
+    "product": "CI Visibility",
+    "category": "data_quality",
+    "status": "resolved",
+    "summary": "Customer identified missing or delayed telemetry data in Infrastructure."
+  },
+  {
+    "company_id": "siteglow",
+    "date": "2026-03-04",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "feature_request",
+    "status": "open",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "siteglow",
+    "date": "2026-04-11",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Logs instrumentation."
+  },
+  {
+    "company_id": "siteglow",
+    "date": "2026-04-22",
+    "severity": "medium",
+    "product": "CI Visibility",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "statusly",
+    "date": "2025-11-19",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "statusly",
+    "date": "2026-02-14",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "statusly",
+    "date": "2026-03-15",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded Infrastructure dashboard response times."
+  },
+  {
+    "company_id": "statusly",
+    "date": "2026-04-02",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "statusly",
+    "date": "2026-04-19",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "traceon",
+    "date": "2025-11-02",
+    "severity": "low",
+    "product": "Security",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for Security."
+  },
+  {
+    "company_id": "traceon",
+    "date": "2026-01-17",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Logs visibility."
+  },
+  {
+    "company_id": "traceon",
+    "date": "2026-04-09",
+    "severity": "low",
+    "product": "Security",
+    "category": "data_quality",
+    "status": "open",
+    "summary": "Customer identified missing or delayed telemetry data in Logs."
+  },
+  {
+    "company_id": "traceon",
+    "date": "2026-04-13",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "performance",
+    "status": "resolved",
+    "summary": "Customer reported degraded Infrastructure dashboard response times."
+  },
+  {
+    "company_id": "traceon",
+    "date": "2026-04-19",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Security visibility."
+  },
+  {
+    "company_id": "trackwell",
+    "date": "2025-12-30",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "outage",
+    "status": "resolved",
+    "summary": "Temporary service disruption impacted Infrastructure visibility."
+  },
+  {
+    "company_id": "trackwell",
+    "date": "2026-02-02",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "feature_request",
+    "status": "open",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "trackwell",
+    "date": "2026-02-21",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "performance",
+    "status": "open",
+    "summary": "Customer reported degraded Infrastructure dashboard response times."
+  },
+  {
+    "company_id": "trackwell",
+    "date": "2026-03-23",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "configuration",
+    "status": "open",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "trackwell",
+    "date": "2026-03-25",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "vulnara",
+    "date": "2025-11-19",
+    "severity": "low",
+    "product": "Infrastructure",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for CI Visibility."
+  },
+  {
+    "company_id": "vulnara",
+    "date": "2025-12-05",
+    "severity": "medium",
+    "product": "Logs",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Logs monitoring workflows."
+  },
+  {
+    "company_id": "vulnara",
+    "date": "2026-02-17",
+    "severity": "medium",
+    "product": "Infrastructure",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring Infrastructure instrumentation."
+  },
+  {
+    "company_id": "vulnara",
+    "date": "2026-04-11",
+    "severity": "low",
+    "product": "CI Visibility",
+    "category": "feature_request",
+    "status": "resolved",
+    "summary": "Customer requested expanded reporting functionality for Infrastructure."
+  },
+  {
+    "company_id": "vulnara",
+    "date": "2026-04-14",
+    "severity": "low",
+    "product": "Logs",
+    "category": "bug",
+    "status": "resolved",
+    "summary": "Unexpected behavior observed within Infrastructure monitoring workflows."
+  },
+  {
+    "company_id": "vulnara",
+    "date": "2026-04-16",
+    "severity": "low",
+    "product": "Logs",
+    "category": "configuration",
+    "status": "resolved",
+    "summary": "Customer requested help configuring CI Visibility instrumentation."
   }
 ]

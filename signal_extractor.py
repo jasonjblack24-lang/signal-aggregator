@@ -490,12 +490,8 @@ def main():
     support_tickets = load_json(os.path.join(data_dir, "support_tickets.json"))
     data_manifest = load_json(os.path.join(data_dir, "data_manifest.json"))
 
-    # account_context.json is optional (RSS-fetched signals may not be present)
-    account_context_path = os.path.join(data_dir, "account_context.json")
-    if os.path.exists(account_context_path):
-        account_context = load_json(account_context_path)
-    else:
-        account_context = []
+    # External per-account signals are not part of this dataset.
+    account_context: list = []
 
     # Index by company_id
     usage_by_company: dict[str, list] = {}

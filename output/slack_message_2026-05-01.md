@@ -1,46 +1,31 @@
 *Daily CS Briefing — May 1, 2026*
 
-10 fires across 40 accounts — 6 high-confidence, 4 medium. Top four have renewal inside 90 days; start there.
+Six fires today — four high-confidence, two medium — and every one is broad usage overage, not a single spiking product. Five more are one signal short and recheck in 3 days.
 
 *High-confidence opportunities*
 
-- *Turso* — All 3 products at 1.30x, 71-day gap, renewal in 74 days. Expansion happening without you.
-   Champion. Lead with the usage observation; renewal is the forcing function. Probe RUM/Security fit.
-
-- *Clerk* — Same: 1.30x across all 3, 67-day gap, renewal in 80 days. Last touch yellow, mixed trajectory.
-   Champion. Open with discovery — what drove the growth — before any commercial frame.
-
-- *Linear* — Infrastructure 1.28x, single-product, 52-day gap, renewal in 80 days. Stable_green.
-   Champion. Renewal-prep framing; feature breadth 8 makes a new-product intro natural alongside the true-up.
-
-- *Descript* — Infrastructure 1.20x, Logs 1.19x, 45-day gap, renewal in 81 days. Cleanest engagement today.
-   Champion. Straightforward true-up; only two products — probe RUM or CI Visibility for renewal.
-
-- *Retool* — All 5 products up 20-27%, 74-day gap, renewal 143 days out. Uniform lift across the suite.
-   Champion. Open with: "usage is up across all five products at once — what's changed?"
-
-- *Supabase* — All 3 products at 1.20x, 66-day gap, renewal 161 days out. Feature breadth 9 — deepest in the book.
-   Champion. Yellow last touch; lead with discovery. Champion and sponsor both active.
+- *Craftbench* — All 5 products at 1.20-1.23 and climbing, uniform overage across the whole portfolio; renewal 143d, champion quiet 74d.
+   Reconnect the champion; frame a whole-contract right-size as partnership, not a true-up bill.
+- *Peoplora* — Both products ~1.29 over and a new exec sponsor just engaged; renewal 178d but the timing to start is now.
+   Enter via the new exec, surface the growth story, build the renewal case together.
+- *Cavora* — Both products ~1.30, sentiment green, customer initiated the last touch; renewal 74d.
+   Reach the champion and tie the growth to a right-sized renewal while they're leaning in.
+- *Mediark* — Both products ~1.20 and rising, warm relationship, 45d gap; renewal 81d.
+   Clean expansion-at-renewal — go to the champion and anchor on right-sizing.
 
 *Medium-confidence opportunities*
 
-- *Vercel* — Infrastructure 1.19x, 45-day gap, 150 days to renewal. 3 of 5 recent contacts exec-sponsor-initiated — confirm champion is still load-bearing.
-
-- *Hugging Face* — Infrastructure 0.99x, +44% delta, both trends climbing. New exec sponsor introduced last 30 days; crossing contract soon.
-   Exec sponsor entry — get ahead of it before the overage is the topic.
-
-- *Rippling* — Infrastructure and Logs 1.29x, new exec sponsor, renewal 178 days out.
-   Use the new exec relationship to open. Discovery, not a close.
-
-- *Runway ML* — Infrastructure +84%, Logs +45%. Largest growth signal in the book; team already warm (5 touches, 24-day gap).
-   Raise it at the next touch — don't force it.
+- *Authara* — All 3 products ~1.30 with renewal 80d, but a 67-day gap, mixed sentiment, and a yellow last touch.
+   Re-warm the champion and read the room before leading with an expansion ask.
+- *Baseriver* — All 3 products ~1.20 with champion and exec both active, but stable-yellow sentiment and a 66-day gap; renewal 161d.
+   Reconnect the champion and confirm the driver — there's room to do this properly.
 
 *Worth knowing about*
 
-- BeReal, Carta, Convoy, Fast, Olive AI, Plastiq, Together AI, Veev — sentiment drift or escalations; churn-risk play, not this one.
-- Cohere — Logs ticking up on 30d but drifting_red, renewal in 68 days; relationship-repair first.
-- Apiary, Novu, Resend, Permit.io — ~35-40% of contract with healthy engagement; adoption play if in scope.
+- Four rechecks are near-fires: Framecraft (multi-product climbing toward 1.15, strong relationship) and Trackwell/Deploova (single-product overage, no corroborator yet) all revisit in 3 days.
+- Every fire shares one shape — broad overage that grew during a CSM silence gap; usage climbed while the account went quiet.
+- Buildveo, Medolia, Realmly and Payglint are steep multi-product declines with drifting-red sentiment — route to retention, not expansion.
 
 *Skipped today*
 
-17 healthy accounts at 70-76% of contract, no activating signals — leave them alone.
+29 accounts produced no hypothesis — mostly flat mid- or low-range utilization with no trigger, plus a cluster of drifting-red churn-risk accounts for retention.

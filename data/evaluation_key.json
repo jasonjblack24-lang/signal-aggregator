@@ -1,280 +1,280 @@
 [
   {
-    "company_id": "vercel",
-    "name": "Vercel",
+    "company_id": "deploova",
+    "name": "Deploova",
     "pattern": "A",
     "pattern_label": "Expansion Ready",
     "signal_contradiction": null
   },
   {
-    "company_id": "linear",
-    "name": "Linear",
+    "company_id": "trackwell",
+    "name": "Trackwell",
     "pattern": "A",
     "pattern_label": "Expansion Ready",
     "signal_contradiction": null
   },
   {
-    "company_id": "rippling",
-    "name": "Rippling",
+    "company_id": "peoplora",
+    "name": "Peoplora",
     "pattern": "A",
     "pattern_label": "Expansion Ready",
     "signal_contradiction": "New executive sponsor engagement introduced within the last 30 days."
   },
   {
-    "company_id": "retool",
-    "name": "Retool",
+    "company_id": "craftbench",
+    "name": "Craftbench",
     "pattern": "A",
     "pattern_label": "Expansion Ready",
     "signal_contradiction": null
   },
   {
-    "company_id": "supabase",
-    "name": "Supabase",
+    "company_id": "baseriver",
+    "name": "Baseriver",
     "pattern": "A",
     "pattern_label": "Expansion Ready",
     "signal_contradiction": null
   },
   {
-    "company_id": "clerk",
-    "name": "Clerk",
+    "company_id": "authara",
+    "name": "Authara",
     "pattern": "A",
     "pattern_label": "Expansion Ready",
     "signal_contradiction": "One product exhibits unusually stable utilization despite overall volatility."
   },
   {
-    "company_id": "turso",
-    "name": "Turso",
+    "company_id": "cavora",
+    "name": "Cavora",
     "pattern": "A",
     "pattern_label": "Expansion Ready",
     "signal_contradiction": null
   },
   {
-    "company_id": "descript",
-    "name": "Descript",
+    "company_id": "mediark",
+    "name": "Mediark",
     "pattern": "A",
     "pattern_label": "Expansion Ready",
     "signal_contradiction": "One product exhibits unusually stable utilization despite overall volatility."
   },
   {
-    "company_id": "carta",
-    "name": "Carta",
+    "company_id": "equira",
+    "name": "Equira",
     "pattern": "B",
     "pattern_label": "Silent Churn Risk",
     "signal_contradiction": null
   },
   {
-    "company_id": "fast",
-    "name": "Fast",
+    "company_id": "payglint",
+    "name": "Payglint",
     "pattern": "B",
     "pattern_label": "Silent Churn Risk",
     "signal_contradiction": "One product shows unusually high feature breadth for the account profile."
   },
   {
-    "company_id": "convoy",
-    "name": "Convoy",
+    "company_id": "haulcrest",
+    "name": "Haulcrest",
     "pattern": "B",
     "pattern_label": "Silent Churn Risk",
     "signal_contradiction": null
   },
   {
-    "company_id": "olive-ai",
-    "name": "Olive AI",
+    "company_id": "medolia",
+    "name": "Medolia",
     "pattern": "B",
     "pattern_label": "Silent Churn Risk",
     "signal_contradiction": null
   },
   {
-    "company_id": "veev",
-    "name": "Veev",
+    "company_id": "buildveo",
+    "name": "Buildveo",
     "pattern": "B",
     "pattern_label": "Silent Churn Risk",
     "signal_contradiction": null
   },
   {
-    "company_id": "plastiq",
-    "name": "Plastiq",
+    "company_id": "plendo",
+    "name": "Plendo",
     "pattern": "B",
     "pattern_label": "Silent Churn Risk",
     "signal_contradiction": null
   },
   {
-    "company_id": "bereal",
-    "name": "BeReal",
+    "company_id": "realmly",
+    "name": "Realmly",
     "pattern": "B",
     "pattern_label": "Silent Churn Risk",
     "signal_contradiction": null
   },
   {
-    "company_id": "resend",
-    "name": "Resend",
+    "company_id": "postglow",
+    "name": "Postglow",
     "pattern": "C",
     "pattern_label": "Stalled Adoption",
     "signal_contradiction": null
   },
   {
-    "company_id": "triggerdev",
-    "name": "Trigger.dev",
+    "company_id": "jobwright",
+    "name": "Jobwright",
     "pattern": "C",
     "pattern_label": "Stalled Adoption",
     "signal_contradiction": "One product exhibits unusually stable utilization despite overall volatility."
   },
   {
-    "company_id": "inngest",
-    "name": "Inngest",
+    "company_id": "queuely",
+    "name": "Queuely",
     "pattern": "C",
     "pattern_label": "Stalled Adoption",
     "signal_contradiction": "Anomalous usage spike that does not align with the account baseline."
   },
   {
-    "company_id": "novu",
-    "name": "Novu",
+    "company_id": "notifera",
+    "name": "Notifera",
     "pattern": "C",
     "pattern_label": "Stalled Adoption",
     "signal_contradiction": null
   },
   {
-    "company_id": "apiary",
-    "name": "Apiary",
+    "company_id": "endpointly",
+    "name": "Endpointly",
     "pattern": "C",
     "pattern_label": "Stalled Adoption",
     "signal_contradiction": "New executive sponsor engagement introduced within the last 30 days."
   },
   {
-    "company_id": "zuplo",
-    "name": "Zuplo",
+    "company_id": "gatewly",
+    "name": "Gatewly",
     "pattern": "C",
     "pattern_label": "Stalled Adoption",
     "signal_contradiction": "Champion marked inactive despite otherwise positive usage indicators."
   },
   {
-    "company_id": "stytch",
-    "name": "Stytch",
+    "company_id": "identara",
+    "name": "Identara",
     "pattern": "C",
     "pattern_label": "Stalled Adoption",
     "signal_contradiction": null
   },
   {
-    "company_id": "permitio",
-    "name": "Permit.io",
+    "company_id": "grantly",
+    "name": "Grantly",
     "pattern": "C",
     "pattern_label": "Stalled Adoption",
     "signal_contradiction": "One product shows unusually high feature breadth for the account profile."
   },
   {
-    "company_id": "snyk",
-    "name": "Snyk",
+    "company_id": "vulnara",
+    "name": "Vulnara",
     "pattern": "D",
     "pattern_label": "Healthy and Stable",
     "signal_contradiction": null
   },
   {
-    "company_id": "launchdarkly",
-    "name": "LaunchDarkly",
+    "company_id": "flagpost",
+    "name": "Flagpost",
     "pattern": "D",
     "pattern_label": "Healthy and Stable",
     "signal_contradiction": "One product exhibits unusually stable utilization despite overall volatility."
   },
   {
-    "company_id": "grafana-labs",
-    "name": "Grafana Labs",
+    "company_id": "panelith",
+    "name": "Panelith",
     "pattern": "D",
     "pattern_label": "Healthy and Stable",
     "signal_contradiction": null
   },
   {
-    "company_id": "hashicorp",
-    "name": "Hashicorp",
+    "company_id": "provisor",
+    "name": "Provisor",
     "pattern": "D",
     "pattern_label": "Healthy and Stable",
     "signal_contradiction": "Champion marked inactive despite otherwise positive usage indicators."
   },
   {
-    "company_id": "pagerduty",
-    "name": "PagerDuty",
+    "company_id": "alertcrest",
+    "name": "Alertcrest",
     "pattern": "D",
     "pattern_label": "Healthy and Stable",
     "signal_contradiction": null
   },
   {
-    "company_id": "statuspage",
-    "name": "Statuspage",
+    "company_id": "statusly",
+    "name": "Statusly",
     "pattern": "D",
     "pattern_label": "Healthy and Stable",
     "signal_contradiction": null
   },
   {
-    "company_id": "rollbar",
-    "name": "Rollbar",
+    "company_id": "errorly",
+    "name": "Errorly",
     "pattern": "D",
     "pattern_label": "Healthy and Stable",
     "signal_contradiction": "New executive sponsor engagement introduced within the last 30 days."
   },
   {
-    "company_id": "sentry",
-    "name": "Sentry",
+    "company_id": "traceon",
+    "name": "Traceon",
     "pattern": "D",
     "pattern_label": "Healthy and Stable",
     "signal_contradiction": null
   },
   {
-    "company_id": "netlify",
-    "name": "Netlify",
+    "company_id": "siteglow",
+    "name": "Siteglow",
     "pattern": "D",
     "pattern_label": "Healthy and Stable",
     "signal_contradiction": null
   },
   {
-    "company_id": "fastly",
-    "name": "Fastly",
+    "company_id": "edgewave",
+    "name": "Edgewave",
     "pattern": "D",
     "pattern_label": "Healthy and Stable",
     "signal_contradiction": null
   },
   {
-    "company_id": "replit",
-    "name": "Replit",
+    "company_id": "codenest",
+    "name": "Codenest",
     "pattern": "E",
     "pattern_label": "Volatile / Ambiguous",
     "signal_contradiction": null
   },
   {
-    "company_id": "hugging-face",
-    "name": "Hugging Face",
+    "company_id": "modelyard",
+    "name": "Modelyard",
     "pattern": "E",
     "pattern_label": "Volatile / Ambiguous",
     "signal_contradiction": "New executive sponsor engagement introduced within the last 30 days."
   },
   {
-    "company_id": "weights-biases",
-    "name": "Weights & Biases",
+    "company_id": "metricforge",
+    "name": "Metricforge",
     "pattern": "E",
     "pattern_label": "Volatile / Ambiguous",
     "signal_contradiction": null
   },
   {
-    "company_id": "runway-ml",
-    "name": "Runway ML",
+    "company_id": "framecraft",
+    "name": "Framecraft",
     "pattern": "E",
     "pattern_label": "Volatile / Ambiguous",
     "signal_contradiction": null
   },
   {
-    "company_id": "cohere",
-    "name": "Cohere",
+    "company_id": "lexira",
+    "name": "Lexira",
     "pattern": "E",
     "pattern_label": "Volatile / Ambiguous",
     "signal_contradiction": null
   },
   {
-    "company_id": "mistral",
-    "name": "Mistral",
+    "company_id": "novalm",
+    "name": "Novalm",
     "pattern": "E",
     "pattern_label": "Volatile / Ambiguous",
     "signal_contradiction": null
   },
   {
-    "company_id": "together-ai",
-    "name": "Together AI",
+    "company_id": "clustira",
+    "name": "Clustira",
     "pattern": "E",
     "pattern_label": "Volatile / Ambiguous",
     "signal_contradiction": "Champion marked inactive despite otherwise positive usage indicators."
