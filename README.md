@@ -3,7 +3,9 @@
 A multi-agent account intelligence pipeline that reads account data, catches early signals, forms hypotheses about which accounts need attention, and delivers a ranked morning briefing to Slack. It then scores its own accuracy against a labeled key.
 
 The design goal is to mimic how a strong account owner operates: a single signal wakes the system, it pulls threads across every available data source, and it either surfaces a hypothesis worth acting on or stays quiet until the picture clarifies.
+## Walkthrough
 
+[![Watch the walkthrough](https://cdn.loom.com/sessions/thumbnails/6dd30b1970e443fbab602778bcedee38-c20399cdd202b8a6-full-play.gif)](https://www.loom.com/share/6dd30b1970e443fbab602778bcedee38)
 ## Pipeline
 
 ```
