@@ -22,7 +22,7 @@ slack_deliver.py      → posts the briefing to a Slack webhook
 eval_harness.py       → scores verdicts vs. a labeled key (precision / recall / F1)
 ```
 
-The reasoning steps (hypothesis former, message composer) run as Claude Code subagents rather than hardcoded API calls, see `.claude/agents/message-composer.md` for one of the agent definitions. The Python scripts handle deterministic work (data, metrics, delivery, scoring); the agents handle judgment.
+The reasoning steps (hypothesis former, message composer) run as Claude Code subagents rather than hardcoded API calls, see `.claude/agents/` for the agent definitions. The Python scripts handle deterministic work (data, metrics, delivery, scoring); the agents handle judgment.
 
 ## What's interesting here
 
